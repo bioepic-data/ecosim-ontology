@@ -1,0 +1,8 @@
+ID,label,definition,parent
+ID,A rdfs:label,A IAO:0000115,SC %
+ECOSIMCONCEPT:Maximum,Maximum,"The highest possible amount or value",ECOSIMCONCEPT:Attribute
+ECOSIMCONCEPT:Average,Average,"A number expressing the central or typical value in a set of data" ,ECOSIMCONCEPT:Attribute
+ECOSIMCONCEPT:Fraction,Fraction,"A part of a whole",ECOSIMCONCEPT:Attribute
+ECOSIMCONCEPT:Total,Total,"",ECOSIMCONCEPT:Attribute
+ECOSIMCONCEPT:Threshold,Threshold,"",ECOSIMCONCEPT:Attribute
+ECOSIMCONCEPT:Primary,Primary,"",ECOSIMCONCEPT:Attribute

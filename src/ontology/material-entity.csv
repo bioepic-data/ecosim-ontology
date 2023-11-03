@@ -1,0 +1,354 @@
+ID,label,definition,parent
+ID,A rdfs:label,A IAO:0000115,SC %
+ECOSIMCONCEPT:Air,Air,"The mixture of gases comprising the Earth's atmosphere,",ECOSIMCONCEPT:PhysicalEntity
+ECOSIMCONCEPT:Al,Aluminum,"A metallic chemical element with symbol Al and atomic number 13,",ECOSIMCONCEPT:ChemicalEntity
+ECOSIMCONCEPT:AlOH,Aluminum hydroxide,"An inorganic compound with the formula Al(OH)3,",ECOSIMCONCEPT:ChemicalEntity
+ECOSIMCONCEPT:AlOH2,Aluminum dihydroxide,"A chemical compound with formula Al(OH)2, ",ECOSIMCONCEPT:MaterialEntity
+ECOSIMCONCEPT:AlOH3,Aluminum trihydroxide,"A chemical compound with formula Al(OH)3,",ECOSIMCONCEPT:ChemicalEntity
+ECOSIMCONCEPT:AlOH4,Aluminum tetrahydroxide,"A chemical compound with formula Al(OH)4,",ECOSIMCONCEPT:ChemicalEntity
+ECOSIMCONCEPT:AlSO4,Aluminum sulfate,"A chemical compound with the formula Al2(SO4)3,",ECOSIMCONCEPT:ChemicalEntity
+ECOSIMCONCEPT:Ammonium,Ammonium,"A positively charged polyatomic ion with the chemical formula NH4+,",ECOSIMCONCEPT:ChemicalEntity
+ECOSIMCONCEPT:AmmoniumUptake,Ammonium uptake,"The process by which ammonium ions are absorbed from the soil by plant roots,",ECOSIMCONCEPT:Process
+ECOSIMCONCEPT:AmmoniumUptakeRate,Ammonium uptake rate,"The rate at which ammonium ions are absorbed from the soil by plant roots,",ECOSIMCONCEPT:Process
+ECOSIMCONCEPT:Aqueous,Aqueous,"Of, relating to, or resembling water,",ECOSIMCONCEPT:PhysicalEntity
+ECOSIMCONCEPT:Atmosphere,Atmosphere,"The envelope of gases surrounding the earth or another planet,",ECOSIMCONCEPT:PhysicalEntity
+ECOSIMCONCEPT:Bacteria,Bacteria,"Microscopic unicellular organisms, typically having cell walls but lacking organelles and an organized nucleus,",ECOSIMCONCEPT:Organismal
+ECOSIMCONCEPT:Branch,Branch,"A woody part of a tree arising from the trunk and dividing into limbs and smaller branches,",ECOSIMCONCEPT:Organismal
+ECOSIMCONCEPT:BranchElement,Branch element,"A modeled branch component in a plant or tree,",ECOSIMCONCEPT:Organismal
+ECOSIMCONCEPT:BranchHusk,Branch husk,"The outer protective layer of a branch,",ECOSIMCONCEPT:Organismal
+ECOSIMCONCEPT:BranchLeafElement,Branch leaf element,"The modeled leaf component attached to a branch element,",ECOSIMCONCEPT:Organismal
+ECOSIMCONCEPT:BranchPlusStalk,Branch plus stalk,"The modeled branch and stalk biomass in crops,",ECOSIMCONCEPT:Organismal
+ECOSIMCONCEPT:BranchShoot,Branch shoot,"The above-ground woody portion of a branch with leaves and reproductive structures,",ECOSIMCONCEPT:Organismal
+ECOSIMCONCEPT:C4Carboxylation,C4 carboxylation,"The enzymatic addition of carbon dioxide to a C4 organic compound,",ECOSIMCONCEPT:Process
+ECOSIMCONCEPT:C4CarboxylationRate,C4 carboxylation rate,"The rate at which carbon dioxide is enzymatically added to C4 organic compounds,",ECOSIMCONCEPT:Process
+ECOSIMCONCEPT:CH4,Methane,"A colorless, odorless gas with chemical formula CH4, the main component of natural gas,",ECOSIMCONCEPT:ChemicalEntity
+ECOSIMCONCEPT:CHPO4,Calcium hydrogen phosphate,"A calcium phosphate mineral with formula CaHPO4,",ECOSIMCONCEPT:ChemicalEntity
+ECOSIMCONCEPT:CO2,Carbon dioxide,"A colorless, odorless gas with chemical formula CO2,",ECOSIMCONCEPT:ChemicalEntity
+ECOSIMCONCEPT:CO2CarboxylationRate,Carbon dioxide carboxylation rate,"The rate at which carbon dioxide is enzymatically added to organic compounds by rubisco,",ECOSIMCONCEPT:Process
+ECOSIMCONCEPT:CO3,Carbonate,"A carbon oxoanion with chemical formula CO3(2-),",ECOSIMCONCEPT:ChemicalEntity
+ECOSIMCONCEPT:Ca,Calcium,"A chemical element with symbol Ca and atomic number 20,",ECOSIMCONCEPT:ChemicalEntity
+ECOSIMCONCEPT:CaCO3,Calcium carbonate,"A chemical compound with formula CaCO3,",ECOSIMCONCEPT:ChemicalEntity
+ECOSIMCONCEPT:CaH2PO4,Calcium dihydrogen phosphate,"An inorganic compound with the formula Ca(H2PO4)2, ",ECOSIMCONCEPT:ChemicalEntity
+ECOSIMCONCEPT:CaHCO3,Calcium bicarbonate,"A chemical compound with formula Ca(HCO3)2,",ECOSIMCONCEPT:MaterialEntity
+ECOSIMCONCEPT:CaOH,Calcium hydroxide,"An inorganic compound with the chemical formula Ca(OH)2,",ECOSIMCONCEPT:ChemicalEntity
+ECOSIMCONCEPT:CaPO4,Calcium phosphate,"An umbrella term for a group of minerals containing calcium and phosphate,",ECOSIMCONCEPT:ChemicalEntity
+ECOSIMCONCEPT:CaSO4,Calcium sulfate,"A chemical compound with the formula CaSO4,",ECOSIMCONCEPT:ChemicalEntity
+ECOSIMCONCEPT:Canopy,Canopy,"The uppermost layer of vegetation in a forest or crop,",ECOSIMCONCEPT:Organismal
+ECOSIMCONCEPT:CanopyShootCarbon,Canopy shoot carbon,"The carbon in the above-ground portion of the plant canopy,",ECOSIMCONCEPT:PhysicalEntity
+ECOSIMCONCEPT:Carbon,Carbon,"A chemical element with symbol C and atomic number 6,",ECOSIMCONCEPT:ChemicalEntity
+ECOSIMCONCEPT:CarboxylaseActivity,Carboxylase activity,"The catalytic activity of enzymes that add carbon dioxide to organic substrates,",ECOSIMCONCEPT:Process
+ECOSIMCONCEPT:Ch4Emission,Methane emission,"The release of methane gas into the atmosphere,",ECOSIMCONCEPT:Process
+ECOSIMCONCEPT:Cl,Chlorine,"A chemical element with symbol Cl and atomic number 17, ",ECOSIMCONCEPT:ChemicalEntity
+ECOSIMCONCEPT:Clay,Clay,"A stiff, sticky fine-grained earth,",ECOSIMCONCEPT:PhysicalEntity
+ECOSIMCONCEPT:DIC,Dissolved inorganic carbon,"Carbon dioxide and bicarbonate and carbonate ions dissolved in water,",ECOSIMCONCEPT:PhysicalEntity
+ECOSIMCONCEPT:DIP,Dissolved inorganic phosphorus,"Orthophosphate ions dissolved in water,",ECOSIMCONCEPT:PhysicalEntity
+ECOSIMCONCEPT:DOP,Dissolved organic phosphorus,"Phosphorus bound in dissolved organic matter in water,",ECOSIMCONCEPT:PhysicalEntity
+ECOSIMCONCEPT:DeadTree,Dead tree,"A non-living tree,",ECOSIMCONCEPT:Organismal
+ECOSIMCONCEPT:DissolvedInorganicNitrogen,Dissolved inorganic nitrogen,"Nitrogen species such as nitrate, nitrite and ammonium ions dissolved in water,",ECOSIMCONCEPT:PhysicalEntity
+ECOSIMCONCEPT:DissolvedOrganicCarbon,Dissolved organic carbon,"Organic carbon dissolved in water, ",ECOSIMCONCEPT:PhysicalEntity
+ECOSIMCONCEPT:DissolvedOrganicNitrogen,Dissolved organic nitrogen,"Organically bound nitrogen dissolved in water,",ECOSIMCONCEPT:PhysicalEntity
+ECOSIMCONCEPT:Ear,Ear,"The seed-bearing spike of a cereal plant,",ECOSIMCONCEPT:Organismal
+ECOSIMCONCEPT:Ecosystem,Ecosystem,"A biological community of interacting living organisms and their physical environment,",ECOSIMCONCEPT:MaterialEntity
+ECOSIMCONCEPT:Element,Element,"An Environment Template building block representing a modeled component,",ECOSIMCONCEPT:PhysicalEntity
+ECOSIMCONCEPT:Enzyme,Enzyme,"A protein that catalyzes chemical reactions,",ECOSIMCONCEPT:ChemicalEntity
+ECOSIMCONCEPT:Fe,Iron,"A metallic chemical element with symbol Fe and atomic number 26,",ECOSIMCONCEPT:ChemicalEntity
+ECOSIMCONCEPT:FeH2PO4,Iron dihydrogen phosphate,"An inorganic compound with the formula Fe(H2PO4)2,",ECOSIMCONCEPT:ChemicalEntity
+ECOSIMCONCEPT:FeHPO4,Iron hydrogen phosphate,"An inorganic compound with the formula FeHPO4,",ECOSIMCONCEPT:MaterialEntity
+ECOSIMCONCEPT:FeOH,Iron hydroxide,"An inorganic compound with the formula FeOH,",ECOSIMCONCEPT:ChemicalEntity
+ECOSIMCONCEPT:FeOH2,Iron dihydroxide,"An inorganic compound with the formula Fe(OH)2,  ",ECOSIMCONCEPT:ChemicalEntity
+ECOSIMCONCEPT:FeOH3,Iron trihydroxide,"An inorganic compound with the formula Fe(OH)3,",ECOSIMCONCEPT:ChemicalEntity
+ECOSIMCONCEPT:FeOH4,Iron tetrahydroxide,"An inorganic compound with the formula Fe(OH)4,",ECOSIMCONCEPT:ChemicalEntity
+ECOSIMCONCEPT:FeSO4,Iron sulfate,"A chemical compound with formula FeSO4,",ECOSIMCONCEPT:ChemicalEntity
+ECOSIMCONCEPT:Fire,Fire,"The rapid oxidation of combustible material releasing heat, light and various reaction products,",ECOSIMCONCEPT:Process
+ECOSIMCONCEPT:Grain,Grain,"The edible seed of a cereal grass,",ECOSIMCONCEPT:Organismal
+ECOSIMCONCEPT:GroundSurface,Ground surface,"The uppermost layer of the land surface,",ECOSIMCONCEPT:PhysicalEntity
+ECOSIMCONCEPT:H,Hydrogen,"A chemical element with symbol H and atomic number 1,",ECOSIMCONCEPT:ChemicalEntity
+ECOSIMCONCEPT:H2,Dihydrogen,"A gas with the formula H2,",ECOSIMCONCEPT:ChemicalEntity
+ECOSIMCONCEPT:H2PO4,Dihydrogen phosphate,"An oxoanion with the chemical formula H2PO4-,",ECOSIMCONCEPT:ChemicalEntity
+ECOSIMCONCEPT:H3PO4,Phosphoric acid,"An inorganic compound with the chemical formula H3PO4,",ECOSIMCONCEPT:ChemicalEntity
+ECOSIMCONCEPT:HCO3,Bicarbonate,"An oxoanion with the chemical formula HCO3-,",ECOSIMCONCEPT:ChemicalEntity
+ECOSIMCONCEPT:HPO4,Hydrogen phosphate,"An oxoanion with the chemical formula HPO42-,",ECOSIMCONCEPT:ChemicalEntity
+ECOSIMCONCEPT:Humus,Humus,"The organic component of soil, formed by the decomposition of leaves and other plant material by soil microorganisms,",ECOSIMCONCEPT:PhysicalEntity
+ECOSIMCONCEPT:Husk,Husk,"The dry external covering of certain fruits or seeds,",ECOSIMCONCEPT:Organismal
+ECOSIMCONCEPT:Ice,Ice,"Frozen water,",ECOSIMCONCEPT:PhysicalEntity
+ECOSIMCONCEPT:Ion,Ion,"An atom or molecule with a net electric charge,",ECOSIMCONCEPT:PhysicalEntity
+ECOSIMCONCEPT:K,Potassium,"A chemical element with symbol K and atomic number 19,",ECOSIMCONCEPT:ChemicalEntity
+ECOSIMCONCEPT:KSO4,Potassium sulfate,"An inorganic compound with formula K2SO4,",ECOSIMCONCEPT:ChemicalEntity
+ECOSIMCONCEPT:Leaf,Leaf,"The flattened blade of a plant leaf,",ECOSIMCONCEPT:Organismal
+ECOSIMCONCEPT:LeafElement,Leaf element,"A modeled leaf component in a plant,",ECOSIMCONCEPT:Organismal
+ECOSIMCONCEPT:Leafout,Leaf out,"The emergence and expansion of new leaves on plants in spring,",ECOSIMCONCEPT:Process
+ECOSIMCONCEPT:Litter,Litter,"Dead plant material such as leaves on the ground in a forest or woodland,",ECOSIMCONCEPT:PhysicalEntity
+ECOSIMCONCEPT:Litterfall,Litterfall,"The falling of dead plant material such as leaves from trees to the forest floor,",ECOSIMCONCEPT:Process
+ECOSIMCONCEPT:Macropore,Macropore,"A large pore space between soil particles that facilitates water drainage and aeration,",ECOSIMCONCEPT:PhysicalEntity
+ECOSIMCONCEPT:Meltwater,Meltwater,"Water from melting snow or ice,",ECOSIMCONCEPT:PhysicalEntity
+ECOSIMCONCEPT:Mg,Magnesium,"A chemical element with symbol Mg and atomic number 12,",ECOSIMCONCEPT:MaterialEntity
+ECOSIMCONCEPT:MgCO3,Magnesium carbonate,"A chemical compound with the formula MgCO3,",ECOSIMCONCEPT:ChemicalEntity
+ECOSIMCONCEPT:MgHCO3,Magnesium bicarbonate,"A chemical compound with the formula Mg(HCO3)2,",ECOSIMCONCEPT:ChemicalEntity
+ECOSIMCONCEPT:MgHPO4,Magnesium hydrogen phosphate,"A magnesium phosphate mineral with the formula MgHPO4,",ECOSIMCONCEPT:ChemicalEntity
+ECOSIMCONCEPT:MgOH,Magnesium hydroxide,"An inorganic compound with the formula Mg(OH)2,",ECOSIMCONCEPT:ChemicalEntity
+ECOSIMCONCEPT:MgSO4,Magnesium sulfate,"An inorganic compound with formula MgSO4, ",ECOSIMCONCEPT:ChemicalEntity
+ECOSIMCONCEPT:Micropore,Micropore,"A small pore space between soil particles that holds water by capillary forces,",ECOSIMCONCEPT:PhysicalEntity
+ECOSIMCONCEPT:N2,Dinitrogen,"A colorless, odorless diatomic gas with the formula N2,  ",ECOSIMCONCEPT:ChemicalEntity
+ECOSIMCONCEPT:N2O,Nitrous oxide,"A potent greenhouse gas with formula N2O,",ECOSIMCONCEPT:ChemicalEntity
+ECOSIMCONCEPT:NH3,Ammonia,"A colorless gas with a characteristic pungent smell and formula NH3,",ECOSIMCONCEPT:ChemicalEntity
+ECOSIMCONCEPT:NH4,Ammonium,"A positively charged polyatomic ion with the chemical formula NH4+, ",ECOSIMCONCEPT:ChemicalEntity
+ECOSIMCONCEPT:NH4NH3,Ammonium/Ammonia,"The chemical species pair of ammonium (NH4+) and ammonia (NH3),",ECOSIMCONCEPT:ChemicalEntity
+ECOSIMCONCEPT:NO2,Nitrogen dioxide,"A reddish-brown gas with formula NO2 that is a byproduct of combustion,",ECOSIMCONCEPT:ChemicalEntity
+ECOSIMCONCEPT:NO3,Nitrate,"An oxoanion with the chemical formula NO3-,",ECOSIMCONCEPT:ChemicalEntity
+ECOSIMCONCEPT:Nitrogen,Nitrogen,"A colorless, odorless gaseous element that constitutes about four-fifths of the volume of the atmosphere and is present in combined forms in animal and vegetable tissues, ",ECOSIMCONCEPT:ChemicalEntity
+ECOSIMCONCEPT:NitrogenFixation,Nitrogen fixation,"The conversion of molecular nitrogen (N2) to ammonia by soil bacteria,",ECOSIMCONCEPT:Process
+ECOSIMCONCEPT:NodeElement,Node element,"A modeled internode section on a plant stem,",ECOSIMCONCEPT:Organismal
+ECOSIMCONCEPT:NoduleElement,Nodule element,"Specialized structures on the roots of some plants that house nitrogen-fixing bacteria,",ECOSIMCONCEPT:Organismal
+ECOSIMCONCEPT:NonStructuralC,Non-structural carbohydrate,"Carbohydrates produced by plants that are not part of supporting structures,",ECOSIMCONCEPT:PhysicalEntity
+ECOSIMCONCEPT:NonStructuralElement,Non-structural element,"A modeled pool of non-structural carbohydrate in a plant,",ECOSIMCONCEPT:PhysicalEntity
+ECOSIMCONCEPT:O2,Dioxygen,"A colorless, odorless gas with formula O2 that makes up about 20% of the earth's atmosphere,",ECOSIMCONCEPT:ChemicalEntity
+ECOSIMCONCEPT:Oxygen,Oxygen,"A colorless, odorless reactive gaseous element constituting about one-fifth of the volume of the atmosphere and present in a combined state in nature,",ECOSIMCONCEPT:ChemicalEntity
+ECOSIMCONCEPT:P,Phosphorus,"A highly reactive, non-metallic chemical element with symbol P and atomic number 15,",ECOSIMCONCEPT:ChemicalEntity
+ECOSIMCONCEPT:PEPCarboxylase,Phosphoenolpyruvate carboxylase,"An enzyme that catalyzes the addition of carbon dioxide to phosphoenolpyruvate,",ECOSIMCONCEPT:ChemicalEntity
+ECOSIMCONCEPT:PEPCarboxylaseActivity,Phosphoenolpyruvate carboxylase activity,"The catalytic activity of phosphoenolpyruvate carboxylase,",ECOSIMCONCEPT:Process
+ECOSIMCONCEPT:PO4,Phosphate,"An oxoanion formed of one phosphorus and four oxygen atoms, PO43-,",ECOSIMCONCEPT:ChemicalEntity
+ECOSIMCONCEPT:PO4Band,Phosphate band,"A layer of phosphate bound to soil particles,",ECOSIMCONCEPT:PhysicalEntity
+ECOSIMCONCEPT:PO4band,Phosphate band,"A layer of phosphate bound to soil particles,",ECOSIMCONCEPT:PhysicalEntity
+ECOSIMCONCEPT:Phosphate,Phosphate,"An oxoanion formed of one phosphorus and four oxygen atoms, PO43-,",ECOSIMCONCEPT:ChemicalEntity
+ECOSIMCONCEPT:Phosphates,Phosphates,"Salts or esters of phosphoric acid,",ECOSIMCONCEPT:PhysicalEntity
+ECOSIMCONCEPT:Phosphorus,Phosphorus,"A highly reactive, non-metallic chemical element with symbol P and atomic number 15,",ECOSIMCONCEPT:ChemicalEntity
+ECOSIMCONCEPT:Plant,Plant,"A living organism of the kind exemplified by trees, shrubs, herbs, grasses, ferns, and mosses, typically growing in a permanent site, absorbing water and inorganic substances through its roots, and synthesizing nutrients in its leaves by photosynthesis,",ECOSIMCONCEPT:Organismal
+ECOSIMCONCEPT:Plant,Plant,"A living organism of the kind exemplified by trees, shrubs, herbs, grasses, ferns, and mosses, typically growing in a permanent site, absorbing water and inorganic substances through its roots, and synthesizing nutrients in its leaves by photosynthesis,",ECOSIMCONCEPT:Organismal
+ECOSIMCONCEPT:Precipitation,Precipitation,"Rain, snow, sleet, or hail that falls to the ground,",ECOSIMCONCEPT:Process
+ECOSIMCONCEPT:ReserveElement,Reserve element,"A modeled pool of non-structural carbohydrate reserve in a plant,",ECOSIMCONCEPT:PhysicalEntity
+ECOSIMCONCEPT:Root,Root,"The underground base part of a plant that absorbs water and nutrients,",ECOSIMCONCEPT:Organismal
+ECOSIMCONCEPT:RootCarbon,Root carbon,"The carbon in plant root biomass,",ECOSIMCONCEPT:PhysicalEntity
+ECOSIMCONCEPT:RootLayer,Root layer,"A modeled soil layer containing plant roots,",ECOSIMCONCEPT:PhysicalEntity
+ECOSIMCONCEPT:RootNodule,Root nodule,"A nodular swelling on the root of a legume containing nitrogen-fixing bacteria,",ECOSIMCONCEPT:Organismal
+ECOSIMCONCEPT:RootZone,Root zone,"The region of soil explored and influenced by plant roots,",ECOSIMCONCEPT:PhysicalEntity
+ECOSIMCONCEPT:RubiscoActivity,Rubisco activity,"The catalytic activity of the enzyme rubisco in fixing carbon dioxide,",ECOSIMCONCEPT:Process
+ECOSIMCONCEPT:RubiscoOxygenase,Rubisco oxygenase,"The oxygenase function of rubisco that catalyzes photorespiration,",ECOSIMCONCEPT:ChemicalEntity
+ECOSIMCONCEPT:RubiscoOxygenaseActivity,Rubisco oxygenase activity,"The rate of the oxygenase reaction catalyzed by rubisco that leads to photorespiration,",ECOSIMCONCEPT:Process
+ECOSIMCONCEPT:Runoff,Runoff,"The draining away of water from the surface of an area of land,",ECOSIMCONCEPT:PhysicalEntity
+ECOSIMCONCEPT:RunoffWater,Runoff water,"Water draining away from the land surface,",ECOSIMCONCEPT:PhysicalEntity
+ECOSIMCONCEPT:Sediment,Sediment,"Solid fragments of inorganic or organic material that come from the weathering of rock and are carried and deposited by wind, water, or ice,",ECOSIMCONCEPT:PhysicalEntity
+ECOSIMCONCEPT:Sheath,Sheath,"A protective covering such as the lower part of a leaf clasping the stem,",ECOSIMCONCEPT:Organismal
+ECOSIMCONCEPT:SheathProteinC,Sheath protein carbon,"The carbon in proteins contained in the sheath structure of cereal crops,",ECOSIMCONCEPT:PhysicalEntity
+ECOSIMCONCEPT:Snow,Snow,"Atmospheric water vapor frozen into ice crystals and falling in light white flakes or lying on the ground as a white layer,",ECOSIMCONCEPT:PhysicalEntity
+ECOSIMCONCEPT:Snowpack,Snowpack,"A seasonal accumulation of slow-melting snow,",ECOSIMCONCEPT:PhysicalEntity
+ECOSIMCONCEPT:SnowpackRunoff,Snowpack runoff,"Runoff from melting of the snowpack,",ECOSIMCONCEPT:PhysicalEntity
+ECOSIMCONCEPT:Soil,Soil,"The upper layer of earth in which plants grow,",ECOSIMCONCEPT:PhysicalEntity
+ECOSIMCONCEPT:SoilDetachment,Soil detachment,"The removal of soil particles from the land surface by rainfall, runoff and erosion,",ECOSIMCONCEPT:Process
+ECOSIMCONCEPT:SoilHumus,Soil humus,"The organic component of soil formed by decomposition of plant and animal residues,",ECOSIMCONCEPT:PhysicalEntity
+ECOSIMCONCEPT:SoilMicropore,Soil micropore,"A small pore space between soil particles that holds water by capillary forces,",ECOSIMCONCEPT:PhysicalEntity
+ECOSIMCONCEPT:SoilSurface,Soil surface,The uppermost layer of the land surface,ECOSIMCONCEPT:PhysicalEntity
+ECOSIMCONCEPT:SoilWater,Soil water,Water held in the spaces between soil particles,ECOSIMCONCEPT:PhysicalEntity
+ECOSIMCONCEPT:SpringLeafout,Spring leaf out,The emergence and expansion of new leaves on plants in spring,ECOSIMCONCEPT:Process
+ECOSIMCONCEPT:Stalk,Stalk,The stem or main axis of a plant,ECOSIMCONCEPT:Organismal
+ECOSIMCONCEPT:Subsurface,Subsurface,Below the surface of the ground,ECOSIMCONCEPT:PhysicalEntity
+ECOSIMCONCEPT:Surface,Surface,The outer or topmost layer or area of something,ECOSIMCONCEPT:PhysicalEntity
+ECOSIMCONCEPT:SurfaceAtmosphere,Surface atmosphere,The atmospheric layer immediately above the land or water surface,ECOSIMCONCEPT:PhysicalEntity
+ECOSIMCONCEPT:SurfaceLitter,Surface litter,Dead plant material such as leaves on the ground surface,ECOSIMCONCEPT:PhysicalEntity
+ECOSIMCONCEPT:SurfaceRunoff,Surface runoff,"Water flowing over land from excess rainfall, snowmelt, or irrigation",ECOSIMCONCEPT:PhysicalEntity
+ECOSIMCONCEPT:SurfaceWater,Surface water,"Water on the surface of the land, including lakes, rivers, streams, ponds, flooding and runoff",ECOSIMCONCEPT:PhysicalEntity
+ECOSIMCONCEPT:SurfaceWaterBody,Surface water body,"A natural or artificial lake, pond, reservoir, or other body of water on the land surface",ECOSIMCONCEPT:PhysicalEntity
+ECOSIMCONCEPT:Vapor,Vapor,A substance in the gas phase at a temperature lower than its critical temperature,ECOSIMCONCEPT:PhysicalEntity
+ECOSIMCONCEPT:Water,Water,"A clear, colorless, odorless liquid made up of hydrogen and oxygen that freezes into ice and boils into steam",ECOSIMCONCEPT:PhysicalEntity
+ECOSIMCONCEPT:WaterVapor,Water vapor,Water in its gas phase,ECOSIMCONCEPT:PhysicalEntity
+ECOSIMCONCEPT:Wind,Wind,The natural movement of air at the Earth's surface,ECOSIMCONCEPT:PhysicalEntity
+ECOSIMCONCEPT:ALOH3,ALOH3,,ECOSIMCONCEPT:ChemicalEntity
+ECOSIMCONCEPT:Acetate,Acetate,,ECOSIMCONCEPT:ChemicalEntity
+ECOSIMCONCEPT:AlPO4,AlPO4,,ECOSIMCONCEPT:ChemicalEntity
+ECOSIMCONCEPT:Aluminium,Aluminium,,ECOSIMCONCEPT:ChemicalEntity
+ECOSIMCONCEPT:Aluminum,Aluminum,,ECOSIMCONCEPT:ChemicalEntity
+ECOSIMCONCEPT:Ammonia,Ammonia,,ECOSIMCONCEPT:ChemicalEntity
+ECOSIMCONCEPT:Apatite,Apatite,,ECOSIMCONCEPT:ChemicalEntity
+ECOSIMCONCEPT:AtmosphericPrecipitation,AtmosphericPrecipitation,,ECOSIMCONCEPT:PhysicalEntity
+ECOSIMCONCEPT:Band,Band,,ECOSIMCONCEPT:PhysicalEntity
+ECOSIMCONCEPT:Bicarbonate,Bicarbonate,,ECOSIMCONCEPT:ChemicalEntity
+ECOSIMCONCEPT:BoundaryLayer,BoundaryLayer,,ECOSIMCONCEPT:PhysicalEntity
+ECOSIMCONCEPT:BoundaryLayerOfCanopy,BoundaryLayerOfCanopy,,ECOSIMCONCEPT:PhysicalEntity
+ECOSIMCONCEPT:BranchLeaf,BranchLeaf,,ECOSIMCONCEPT:PlantPart
+ECOSIMCONCEPT:BranchSheath,BranchSheath,,ECOSIMCONCEPT:MaterialEntity
+ECOSIMCONCEPT:BranchStalk,BranchStalk,,ECOSIMCONCEPT:PlantPart
+ECOSIMCONCEPT:BundleSheathCell,BundleSheathCell,,ECOSIMCONCEPT:PlantPart
+ECOSIMCONCEPT:C3Compound,C3Compound,,ECOSIMCONCEPT:MaterialEntity
+ECOSIMCONCEPT:C4,C4,,ECOSIMCONCEPT:MaterialEntity
+ECOSIMCONCEPT:C4Photosynthesis,C4Photosynthesis,,ECOSIMCONCEPT:Process
+ECOSIMCONCEPT:CNRatio,CNRatio,,ECOSIMCONCEPT:PhysicalEntity
+ECOSIMCONCEPT:CO2Concentration,CO2Concentration,,ECOSIMCONCEPT:Attribute
+ECOSIMCONCEPT:CO2Fixation,CO2Fixation,,ECOSIMCONCEPT:Process
+ECOSIMCONCEPT:Ca-NH4_Exchange,Ca-NH4_Exchange,,ECOSIMCONCEPT:Process
+ECOSIMCONCEPT:Ca-NaSelection,Ca-NaSelection,,ECOSIMCONCEPT:Process
+ECOSIMCONCEPT:CaHPO4,CaHPO4,,ECOSIMCONCEPT:ChemicalEntity
+ECOSIMCONCEPT:Ca_Al_Exchange,Ca_Al_Exchange,,ECOSIMCONCEPT:MaterialEntity
+ECOSIMCONCEPT:Calcium,Calcium,,ECOSIMCONCEPT:MaterialEntity
+ECOSIMCONCEPT:CanopyBranch,CanopyBranch,,ECOSIMCONCEPT:PlantPart
+ECOSIMCONCEPT:CanopyLayer,CanopyLayer,,ECOSIMCONCEPT:PhysicalEntity
+ECOSIMCONCEPT:CanopyNodule,CanopyNodule,,ECOSIMCONCEPT:Organismal
+ECOSIMCONCEPT:CanopyPlant,CanopyPlant,,ECOSIMCONCEPT:Organismal
+ECOSIMCONCEPT:CanopyShoot,CanopyShoot,,ECOSIMCONCEPT:Organismal
+ECOSIMCONCEPT:CarbonDioxide,CarbonDioxide,,ECOSIMCONCEPT:ChemicalEntity
+ECOSIMCONCEPT:CarbonDioxideConcentrationInAir,CarbonDioxideConcentrationInAir,,ECOSIMCONCEPT:Attribute
+ECOSIMCONCEPT:CarbonDioxideConcentrationInInterCellularAir,CarbonDioxideConcentrationInInterCellularAir,,ECOSIMCONCEPT:Attribute
+ECOSIMCONCEPT:CarbonNitrogenRatio,CarbonNitrogenRatio,,ECOSIMCONCEPT:PhysicalEntity
+ECOSIMCONCEPT:CarbonPhosphorusRatio,CarbonPhosphorusRatio,,ECOSIMCONCEPT:PhysicalEntity
+ECOSIMCONCEPT:Carboxylation,Carboxylation,,ECOSIMCONCEPT:Process
+ECOSIMCONCEPT:Chloride,Chloride,,ECOSIMCONCEPT:ChemicalEntity
+ECOSIMCONCEPT:Chlorophyll,Chlorophyll,,ECOSIMCONCEPT:ChemicalEntity
+ECOSIMCONCEPT:Clumping,Clumping,,ECOSIMCONCEPT:Attribute
+ECOSIMCONCEPT:Coefficient,Coefficient,,ECOSIMCONCEPT:Attribute
+ECOSIMCONCEPT:ConvectiveHeat,ConvectiveHeat,,ECOSIMCONCEPT:PhysicalEntity
+ECOSIMCONCEPT:Cotyledon,Cotyledon,,ECOSIMCONCEPT:PlantPart
+ECOSIMCONCEPT:DOC,DOC,,ECOSIMCONCEPT:PhysicalEntity
+ECOSIMCONCEPT:DON,DON,,ECOSIMCONCEPT:PhysicalEntity
+ECOSIMCONCEPT:Day,Day,,ECOSIMCONCEPT:Process
+ECOSIMCONCEPT:DeadStandingTree,DeadStandingTree,,ECOSIMCONCEPT:Plant
+ECOSIMCONCEPT:Dehardening,Dehardening,,ECOSIMCONCEPT:Process
+ECOSIMCONCEPT:Depth,Depth,,ECOSIMCONCEPT:Attribute
+ECOSIMCONCEPT:DissolvedOrganicPhosphoros,DissolvedOrganicPhosphoros,,ECOSIMCONCEPT:PhysicalEntity
+ECOSIMCONCEPT:DissolvedOrganicPhosphorus,DissolvedOrganicPhosphorus,,ECOSIMCONCEPT:PhysicalEntity
+ECOSIMCONCEPT:EarthSurface,EarthSurface,,ECOSIMCONCEPT:PhysicalEntity
+ECOSIMCONCEPT:Energy,Energy,,ECOSIMCONCEPT:PhysicalEntity
+ECOSIMCONCEPT:Erosion,Erosion,,ECOSIMCONCEPT:Process
+ECOSIMCONCEPT:ErosionBand,ErosionBand,,ECOSIMCONCEPT:PhysicalEntity
+ECOSIMCONCEPT:Evaporation,Evaporation,,ECOSIMCONCEPT:Process
+ECOSIMCONCEPT:Evapotranspiration,Evapotranspiration,,ECOSIMCONCEPT:Process
+ECOSIMCONCEPT:F1PR,F1PR,,ECOSIMCONCEPT:ChemicalEntity
+ECOSIMCONCEPT:FePO4,FePO4,,ECOSIMCONCEPT:ChemicalEntity
+ECOSIMCONCEPT:Fertilizer,Fertilizer,,ECOSIMCONCEPT:PhysicalEntity
+ECOSIMCONCEPT:FertilizerApplication,FertilizerApplication,,ECOSIMCONCEPT:Process
+ECOSIMCONCEPT:FertilizerNH4,FertilizerNH4,,ECOSIMCONCEPT:PhysicalEntity
+ECOSIMCONCEPT:Field,Field,,ECOSIMCONCEPT:PhysicalEntity
+ECOSIMCONCEPT:FieldCapacityWiltingPoint,FieldCapacityWiltingPoint,,ECOSIMCONCEPT:Attribute
+ECOSIMCONCEPT:Flux,Flux,,ECOSIMCONCEPT:PhysicalEntity
+ECOSIMCONCEPT:Fraction,Fraction,,ECOSIMCONCEPT:Attribute
+ECOSIMCONCEPT:Gas,Gas,,ECOSIMCONCEPT:PhysicalEntity
+ECOSIMCONCEPT:GasFlux,GasFlux,,ECOSIMCONCEPT:PhysicalEntity
+ECOSIMCONCEPT:GaseousN2O,GaseousN2O,,ECOSIMCONCEPT:ChemicalEntity
+ECOSIMCONCEPT:Genome,Genome,,ECOSIMCONCEPT:PhysicalEntity
+ECOSIMCONCEPT:Geometry,Geometry,,ECOSIMCONCEPT:Attribute
+ECOSIMCONCEPT:GrainElement,GrainElement,,ECOSIMCONCEPT:PlantPart
+ECOSIMCONCEPT:GrainGrowth,GrainGrowth,,ECOSIMCONCEPT:Process
+ECOSIMCONCEPT:GrainNumber,GrainNumber,,ECOSIMCONCEPT:Attribute
+ECOSIMCONCEPT:Grid,Grid,,ECOSIMCONCEPT:PhysicalEntity
+ECOSIMCONCEPT:GridCell,GridCell,,ECOSIMCONCEPT:PhysicalEntity
+ECOSIMCONCEPT:GridLayer,GridLayer,,ECOSIMCONCEPT:PhysicalEntity
+ECOSIMCONCEPT:Growth,Growth,,ECOSIMCONCEPT:Process
+ECOSIMCONCEPT:H2O,H2O,,ECOSIMCONCEPT:ChemicalEntity
+ECOSIMCONCEPT:Harvest,Harvest,,ECOSIMCONCEPT:Process
+ECOSIMCONCEPT:Heat,Heat,,ECOSIMCONCEPT:PhysicalEntity
+ECOSIMCONCEPT:HeatRequirement,HeatRequirement,,ECOSIMCONCEPT:Attribute
+ECOSIMCONCEPT:HeatTransfer,HeatTransfer,,ECOSIMCONCEPT:Process
+ECOSIMCONCEPT:HuskElement,HuskElement,,ECOSIMCONCEPT:PlantPart
+ECOSIMCONCEPT:Hydrogen,Hydrogen,,ECOSIMCONCEPT:ChemicalEntity
+ECOSIMCONCEPT:HydrogenGas,HydrogenGas,,ECOSIMCONCEPT:ChemicalEntity
+ECOSIMCONCEPT:Hydroxide,Hydroxide,,ECOSIMCONCEPT:ChemicalEntity
+ECOSIMCONCEPT:Internode,Internode,,ECOSIMCONCEPT:PlantPart
+ECOSIMCONCEPT:IonSelectivity,IonSelectivity,,ECOSIMCONCEPT:MaterialEntity
+ECOSIMCONCEPT:Ions,Ions,,ECOSIMCONCEPT:PhysicalEntity
+ECOSIMCONCEPT:Iron,Iron,,ECOSIMCONCEPT:ChemicalEntity
+ECOSIMCONCEPT:Irrigation,Irrigation,,ECOSIMCONCEPT:Process
+ECOSIMCONCEPT:IrrigationWater,IrrigationWater,,ECOSIMCONCEPT:PhysicalEntity
+ECOSIMCONCEPT:LAI,LAI,,ECOSIMCONCEPT:Attribute
+ECOSIMCONCEPT:LWRad,LWRad,,ECOSIMCONCEPT:PhysicalEntity
+ECOSIMCONCEPT:LandSurface,LandSurface,,ECOSIMCONCEPT:PhysicalEntity
+ECOSIMCONCEPT:Landscape,Landscape,,ECOSIMCONCEPT:PhysicalEntity
+ECOSIMCONCEPT:LatentHeat,LatentHeat,,ECOSIMCONCEPT:PhysicalEntity
+ECOSIMCONCEPT:Layer,Layer,,ECOSIMCONCEPT:PhysicalEntity
+ECOSIMCONCEPT:LeafArea,LeafArea,,ECOSIMCONCEPT:MaterialEntity
+ECOSIMCONCEPT:LeafLength_WidthRatio,LeafLength_WidthRatio,,ECOSIMCONCEPT:Attribute
+ECOSIMCONCEPT:LeafNumber,LeafNumber,,ECOSIMCONCEPT:Attribute
+ECOSIMCONCEPT:LeafPlusSheath,LeafPlusSheath,,ECOSIMCONCEPT:PlantPart
+ECOSIMCONCEPT:LeafStructuralElement,LeafStructuralElement,,ECOSIMCONCEPT:PlantPart
+ECOSIMCONCEPT:LongwaveRadiation,LongwaveRadiation,,ECOSIMCONCEPT:PhysicalEntity
+ECOSIMCONCEPT:Magnesium,Magnesium,,ECOSIMCONCEPT:ChemicalEntity
+ECOSIMCONCEPT:MeltWater,MeltWater,,ECOSIMCONCEPT:PhysicalEntity
+ECOSIMCONCEPT:MetabolicActivity,MetabolicActivity,,ECOSIMCONCEPT:Process
+ECOSIMCONCEPT:MicrobialBiomass,MicrobialBiomass,,ECOSIMCONCEPT:PhysicalEntity
+ECOSIMCONCEPT:MicroporeMacropore,MicroporeMacropore,,ECOSIMCONCEPT:PhysicalEntity
+ECOSIMCONCEPT:Moisture,Moisture,,ECOSIMCONCEPT:Attribute
+ECOSIMCONCEPT:NO3Fertilizer,NO3Fertilizer,,ECOSIMCONCEPT:PhysicalEntity
+ECOSIMCONCEPT:NO3_Band,NO3_Band,,ECOSIMCONCEPT:PhysicalEntity
+ECOSIMCONCEPT:Na,Na,,ECOSIMCONCEPT:ChemicalEntity
+ECOSIMCONCEPT:NaCO3,NaCO3,,ECOSIMCONCEPT:ChemicalEntity
+ECOSIMCONCEPT:NaSO4,NaSO4,,ECOSIMCONCEPT:ChemicalEntity
+ECOSIMCONCEPT:Nitrate,Nitrate,,ECOSIMCONCEPT:ChemicalEntity
+ECOSIMCONCEPT:NitrogenCarbonRatio,NitrogenCarbonRatio,,ECOSIMCONCEPT:PhysicalEntity
+ECOSIMCONCEPT:NitrogenGas,NitrogenGas,,ECOSIMCONCEPT:ChemicalEntity
+ECOSIMCONCEPT:NitrousOxide,NitrousOxide,,ECOSIMCONCEPT:ChemicalEntity
+ECOSIMCONCEPT:Node,Node,,ECOSIMCONCEPT:PlantPart
+ECOSIMCONCEPT:NodeInitiation,NodeInitiation,,ECOSIMCONCEPT:Process
+ECOSIMCONCEPT:NodeNumber,NodeNumber,,ECOSIMCONCEPT:Attribute
+ECOSIMCONCEPT:Nodes,Nodes,,ECOSIMCONCEPT:PlantPart
+ECOSIMCONCEPT:Nodule,Nodule,,ECOSIMCONCEPT:PlantPart
+ECOSIMCONCEPT:NonBandRegion,NonBandRegion,,ECOSIMCONCEPT:PhysicalEntity
+ECOSIMCONCEPT:NonSaltSolute,NonSaltSolute,,ECOSIMCONCEPT:PhysicalEntity
+ECOSIMCONCEPT:NonstructuralC3Content,NonstructuralC3Content,,ECOSIMCONCEPT:PhysicalEntity
+ECOSIMCONCEPT:NonstructuralCarbonTransfer,NonstructuralCarbonTransfer,,ECOSIMCONCEPT:Process
+ECOSIMCONCEPT:NonstructuralOrganicCompounds,NonstructuralOrganicCompounds,,ECOSIMCONCEPT:PhysicalEntity
+ECOSIMCONCEPT:Nutrient,Nutrient,,ECOSIMCONCEPT:PhysicalEntity
+ECOSIMCONCEPT:OH,OH,,ECOSIMCONCEPT:ChemicalEntity
+ECOSIMCONCEPT:OH_Minus,OH_Minus,,ECOSIMCONCEPT:ChemicalEntity
+ECOSIMCONCEPT:OrganicCarbon,OrganicCarbon,,ECOSIMCONCEPT:PhysicalEntity
+ECOSIMCONCEPT:OverlandFlow,OverlandFlow,,ECOSIMCONCEPT:PhysicalEntity
+ECOSIMCONCEPT:PCRatio,PCRatio,,ECOSIMCONCEPT:PhysicalEntity
+ECOSIMCONCEPT:Partitioning,Partitioning,,ECOSIMCONCEPT:Process
+ECOSIMCONCEPT:Percipitation,Percipitation,,ECOSIMCONCEPT:Process
+ECOSIMCONCEPT:Permafrost,Permafrost,,ECOSIMCONCEPT:PhysicalEntity
+ECOSIMCONCEPT:PhenologicalProgress,PhenologicalProgress,,ECOSIMCONCEPT:Attribute
+ECOSIMCONCEPT:PhosphorosCarbonRatio,PhosphorosCarbonRatio,,ECOSIMCONCEPT:PhysicalEntity
+ECOSIMCONCEPT:PhosphorousCarbonRatio,PhosphorousCarbonRatio,,ECOSIMCONCEPT:PhysicalEntity
+ECOSIMCONCEPT:PhotosyntheticallyActiveRadiation,PhotosyntheticallyActiveRadiation,,ECOSIMCONCEPT:PhysicalEntity
+ECOSIMCONCEPT:PhysiologicalMaturity,PhysiologicalMaturity,,ECOSIMCONCEPT:Attribute
+ECOSIMCONCEPT:PlantBranch,PlantBranch,,ECOSIMCONCEPT:Organismal
+ECOSIMCONCEPT:PlantElement,PlantElement,,ECOSIMCONCEPT:PhysicalEntity
+ECOSIMCONCEPT:PlantLitterfall,PlantLitterfall,,ECOSIMCONCEPT:Process
+ECOSIMCONCEPT:PlantMaturity,PlantMaturity,,ECOSIMCONCEPT:Attribute
+ECOSIMCONCEPT:PlantWaterStress,PlantWaterStress,,ECOSIMCONCEPT:MaterialEntity
+ECOSIMCONCEPT:Plants,Plants,,ECOSIMCONCEPT:MaterialEntity
+ECOSIMCONCEPT:Potassium,Potassium,,ECOSIMCONCEPT:MaterialEntity
+ECOSIMCONCEPT:ProteinCarbon,ProteinCarbon,,ECOSIMCONCEPT:MaterialEntity
+ECOSIMCONCEPT:Radiation,Radiation,,ECOSIMCONCEPT:MaterialEntity
+ECOSIMCONCEPT:RootGrowthYield,RootGrowthYield,,ECOSIMCONCEPT:MaterialEntity
+ECOSIMCONCEPT:RubiscoCarboxylaseActivity,RubiscoCarboxylaseActivity,,ECOSIMCONCEPT:MaterialEntity
+ECOSIMCONCEPT:RunoffSurface,RunoffSurface,,ECOSIMCONCEPT:MaterialEntity
+ECOSIMCONCEPT:SO4,SO4,,ECOSIMCONCEPT:MaterialEntity
+ECOSIMCONCEPT:Salt,Salt,,ECOSIMCONCEPT:MaterialEntity
+ECOSIMCONCEPT:Sand,Sand,,ECOSIMCONCEPT:MaterialEntity
+ECOSIMCONCEPT:SecondaryAxes,SecondaryAxes,,ECOSIMCONCEPT:MaterialEntity
+ECOSIMCONCEPT:Seed,Seed,,ECOSIMCONCEPT:MaterialEntity
+ECOSIMCONCEPT:SeedSet,SeedSet,,ECOSIMCONCEPT:MaterialEntity
+ECOSIMCONCEPT:SelfShading,SelfShading,,ECOSIMCONCEPT:MaterialEntity
+ECOSIMCONCEPT:Shoot,Shoot,,ECOSIMCONCEPT:MaterialEntity
+ECOSIMCONCEPT:ShortwaveRadiation,ShortwaveRadiation,,ECOSIMCONCEPT:MaterialEntity
+ECOSIMCONCEPT:Silt,Silt,,ECOSIMCONCEPT:MaterialEntity
+ECOSIMCONCEPT:Slope,Slope,,ECOSIMCONCEPT:MaterialEntity
+ECOSIMCONCEPT:SnowPack,SnowPack,,ECOSIMCONCEPT:MaterialEntity
+ECOSIMCONCEPT:Sodium,Sodium,,ECOSIMCONCEPT:MaterialEntity
+ECOSIMCONCEPT:SoilBand,SoilBand,,ECOSIMCONCEPT:MaterialEntity
+ECOSIMCONCEPT:SoilMacropore,SoilMacropore,,ECOSIMCONCEPT:MaterialEntity
+ECOSIMCONCEPT:Solute,Solute,,ECOSIMCONCEPT:MaterialEntity
+ECOSIMCONCEPT:Solution,Solution,,ECOSIMCONCEPT:MaterialEntity
+ECOSIMCONCEPT:SpecificChemicalElement,SpecificChemicalElement,,ECOSIMCONCEPT:MaterialEntity
+ECOSIMCONCEPT:StandingDead,StandingDead,,ECOSIMCONCEPT:MaterialEntity
+ECOSIMCONCEPT:Stem,Stem,,ECOSIMCONCEPT:MaterialEntity
+ECOSIMCONCEPT:Stoma,Stoma,,ECOSIMCONCEPT:MaterialEntity
+ECOSIMCONCEPT:StructuralCarbon,StructuralCarbon,,ECOSIMCONCEPT:MaterialEntity
+ECOSIMCONCEPT:SubsurfaceIrrigation,SubsurfaceIrrigation,,ECOSIMCONCEPT:MaterialEntity
+ECOSIMCONCEPT:Sun,Sun,,ECOSIMCONCEPT:MaterialEntity
+ECOSIMCONCEPT:SurfaceIrrigation,SurfaceIrrigation,,ECOSIMCONCEPT:MaterialEntity
+ECOSIMCONCEPT:Temperature,Temperature,,ECOSIMCONCEPT:MaterialEntity
+ECOSIMCONCEPT:ThermalAdaptation,ThermalAdaptation,,ECOSIMCONCEPT:MaterialEntity
+ECOSIMCONCEPT:TopSoil,TopSoil,,ECOSIMCONCEPT:MaterialEntity
+ECOSIMCONCEPT:TotalEvaporation,TotalEvaporation,,ECOSIMCONCEPT:MaterialEntity
+ECOSIMCONCEPT:Tracers,Tracers,,ECOSIMCONCEPT:MaterialEntity
+ECOSIMCONCEPT:UndergroundIrrigation,UndergroundIrrigation,,ECOSIMCONCEPT:MaterialEntity
+ECOSIMCONCEPT:UndergroundIrrigationSystem,UndergroundIrrigationSystem,,ECOSIMCONCEPT:MaterialEntity
+ECOSIMCONCEPT:UnitArea,UnitArea,,ECOSIMCONCEPT:MaterialEntity
+ECOSIMCONCEPT:UptakeRate,UptakeRate,,ECOSIMCONCEPT:MaterialEntity
+ECOSIMCONCEPT:Urea,Urea,,ECOSIMCONCEPT:MaterialEntity
+ECOSIMCONCEPT:UreaFertilizer,UreaFertilizer,,ECOSIMCONCEPT:MaterialEntity
+ECOSIMCONCEPT:VHeatCap,VHeatCap,,ECOSIMCONCEPT:MaterialEntity
+ECOSIMCONCEPT:Volume,Volume,,ECOSIMCONCEPT:MaterialEntity
+ECOSIMCONCEPT:WDPTHD,WDPTHD,,ECOSIMCONCEPT:MaterialEntity
+ECOSIMCONCEPT:WaterFlow,WaterFlow,,ECOSIMCONCEPT:MaterialEntity
+ECOSIMCONCEPT:WaterFlux,WaterFlux,,ECOSIMCONCEPT:MaterialEntity
+ECOSIMCONCEPT:WaterTable,WaterTable,,ECOSIMCONCEPT:MaterialEntity
+ECOSIMCONCEPT:WindSpeed,WindSpeed,,ECOSIMCONCEPT:MaterialEntity
+ECOSIMCONCEPT:Zone,Zone,,ECOSIMCONCEPT:MaterialEntity

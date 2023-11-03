@@ -1,0 +1,66 @@
+ID,label,definition,parent
+ID,A rdfs:label,A IAO:0000115,SC %
+ECOSIMCONCEPT:Activity,Activity,"The rate of a process or action",ECOSIMCONCEPT:Attribute
+ECOSIMCONCEPT:Carbon,Carbon,"A non-metallic chemical element with symbol C and atomic number 6",ECOSIMCONCEPT:Attribute
+ECOSIMCONCEPT:ColdRequirement,Cold requirement,"The amount of cold temperature exposure needed for a plant process",ECOSIMCONCEPT:Attribute
+ECOSIMCONCEPT:Concentration,Concentration,"The relative amount of a substance mixed with another substance",ECOSIMCONCEPT:Attribute
+ECOSIMCONCEPT:Constraint,Constraint,"A limitation or restriction",ECOSIMCONCEPT:Attribute
+ECOSIMCONCEPT:Content,Content,"The amount contained",ECOSIMCONCEPT:Attribute
+ECOSIMCONCEPT:Critical,Critical,"Of the highest importance",ECOSIMCONCEPT:Attribute
+ECOSIMCONCEPT:Deposition,Deposition,"The accumulation of material on a surface",ECOSIMCONCEPT:Attribute
+ECOSIMCONCEPT:Depth,Depth,"Vertical distance below a surface",ECOSIMCONCEPT:Attribute
+ECOSIMCONCEPT:Diffusivity,Diffusivity,"The rate at which particles spread through a medium",ECOSIMCONCEPT:Attribute
+ECOSIMCONCEPT:Dissolution,Dissolution,"The process of dissolving a solid into a liquid",ECOSIMCONCEPT:Attribute
+ECOSIMCONCEPT:DissolutionVolatilization,Dissolution volatilization,"The dissolution and volatilization transfer processes" ,ECOSIMCONCEPT:Attribute
+ECOSIMCONCEPT:Drainage,Drainage,"The outflow of water from an area",ECOSIMCONCEPT:Attribute
+ECOSIMCONCEPT:Duration,Duration,"The time period over which something continues",ECOSIMCONCEPT:Attribute
+ECOSIMCONCEPT:Element,Element,"A component or constituent of a whole",ECOSIMCONCEPT:Attribute
+ECOSIMCONCEPT:Emission,Emission,"The release of something, such as gas or radiation",ECOSIMCONCEPT:Attribute
+ECOSIMCONCEPT:ErosionRate,Erosion rate,"The speed at which erosion is occurring",ECOSIMCONCEPT:Attribute
+ECOSIMCONCEPT:Evaporation,Evaporation,"The conversion of liquid water to water vapor",ECOSIMCONCEPT:Attribute
+ECOSIMCONCEPT:Exchange,Exchange,"The act of giving or taking one thing in return for another",ECOSIMCONCEPT:Attribute
+ECOSIMCONCEPT:Flux,Flux,"The rate of flow of a quantity",ECOSIMCONCEPT:Attribute
+ECOSIMCONCEPT:HalfSaturationConstant,Half saturation constant,"The concentration at which a reaction rate is half its maximum",ECOSIMCONCEPT:Attribute
+ECOSIMCONCEPT:Harvest,Harvest,"The process of gathering a crop" ,ECOSIMCONCEPT:Attribute
+ECOSIMCONCEPT:HeatCapacity,Heat capacity,"The amount of heat energy required to change the temperature of an object",ECOSIMCONCEPT:Attribute
+ECOSIMCONCEPT:Height,Height,"Vertical distance from bottom to top",ECOSIMCONCEPT:Attribute
+ECOSIMCONCEPT:KMValue,Km value,"The half saturation constant in Michaelis-Menten enzyme kinetics",ECOSIMCONCEPT:Attribute
+ECOSIMCONCEPT:Mass,Mass,"A measure of the amount of matter in an object",ECOSIMCONCEPT:Attribute
+ECOSIMCONCEPT:MetabolicRate,Metabolic rate,"The rate of energy conversion and use in an organism's cells" ,ECOSIMCONCEPT:Attribute
+ECOSIMCONCEPT:MichaelisConstant,Michaelis constant,"The substrate concentration at which enzyme reaction rate is half its maximum",ECOSIMCONCEPT:Attribute
+ECOSIMCONCEPT:Micropore,Micropore,"A small soil pore that holds water by capillary forces" ,ECOSIMCONCEPT:Attribute
+ECOSIMCONCEPT:NetExchange,Net exchange,"The total exchange between two regions accounting for transfers in both directions",ECOSIMCONCEPT:Attribute
+ECOSIMCONCEPT:Nitrogen,Nitrogen,"A colorless, odorless gaseous element constituting about four-fifths of the volume of the atmosphere",ECOSIMCONCEPT:Attribute
+ECOSIMCONCEPT:Number,Number,"An arithmetical value",ECOSIMCONCEPT:Attribute
+ECOSIMCONCEPT:NumericType,Numeric type,"A data type representing numbers",ECOSIMCONCEPT:Attribute
+ECOSIMCONCEPT:Permeability,Permeability,"The degree to which a material allows fluids to pass through it" ,ECOSIMCONCEPT:Attribute
+ECOSIMCONCEPT:PowerFluxDensity,Power flux density,"The rate of flow of radiant energy per unit area",ECOSIMCONCEPT:Attribute
+ECOSIMCONCEPT:Pressure,Pressure,"Force per unit area applied to an object",ECOSIMCONCEPT:Attribute
+ECOSIMCONCEPT:Rate,Rate,"A measure of change over time" ,ECOSIMCONCEPT:Attribute
+ECOSIMCONCEPT:Reserve,Reserve,"Something kept back or set aside for future use",ECOSIMCONCEPT:Attribute
+ECOSIMCONCEPT:Runoff,Runoff,"The draining away of water from the surface of an area of land",ECOSIMCONCEPT:Attribute
+ECOSIMCONCEPT:SecondaryAxes,Secondary axes,"Additional axes in a multidimensional array besides the primary axis",ECOSIMCONCEPT:Attribute
+ECOSIMCONCEPT:Speed,Speed,"Rate of motion",ECOSIMCONCEPT:Attribute
+ECOSIMCONCEPT:StandingDead,Standing dead,"Dead vegetation remaining upright",ECOSIMCONCEPT:Attribute
+ECOSIMCONCEPT:StorageCapacity,Storage capacity,"The maximum amount that can be contained"  ,ECOSIMCONCEPT:Attribute
+ECOSIMCONCEPT:Stored,Stored,"Kept in a location for later use" ,ECOSIMCONCEPT:Attribute
+ECOSIMCONCEPT:StressIndicator,Stress indicator,"A variable indicating the level of stress",ECOSIMCONCEPT:Attribute
+ECOSIMCONCEPT:Structure,Structure,"Something made up of interconnected elements",ECOSIMCONCEPT:Attribute
+ECOSIMCONCEPT:Temperature,temperature,"thermal energy in a system",ECOSIMCONCEPT:Attribute
+ECOSIMCONCEPT:Uptake,Uptake,"The absorption or intake of a substance",ECOSIMCONCEPT:Attribute
+ECOSIMCONCEPT:UptakeExudation,Uptake exudation,"The combined processes of uptake and exudation",ECOSIMCONCEPT:Attribute
+ECOSIMCONCEPT:UptakeKinetics,Uptake kinetics,"The dynamics of how a substance is absorbed",ECOSIMCONCEPT:Attribute
+ECOSIMCONCEPT:UptakeRate,Uptake rate,"The rate at which a substance is absorbed",ECOSIMCONCEPT:Attribute
+ECOSIMCONCEPT:UptakeVelocity,Uptake velocity,"The speed at which a substance is absorbed",ECOSIMCONCEPT:Attribute
+ECOSIMCONCEPT:Volatilization,Volatilization,"Transition of a substance from liquid to gas",ECOSIMCONCEPT:Attribute
+ECOSIMCONCEPT:Volume,Volume,"Amount of space occupied in three dimensions",ECOSIMCONCEPT:Attribute
+ECOSIMCONCEPT:VolumeFraction,Volume fraction,"Fraction of the total volume occupied" ,ECOSIMCONCEPT:Attribute
+ECOSIMCONCEPT:WaterContent,Water content,"Amount of water present" ,ECOSIMCONCEPT:Attribute
+ECOSIMCONCEPT:WaterDistribution,Water distribution,"The way water is spread over an area",ECOSIMCONCEPT:Attribute
+ECOSIMCONCEPT:WaterFlux,Water flux,"The rate of flow of water",ECOSIMCONCEPT:Attribute
+ECOSIMCONCEPT:WaterHoldingCapacity,Water holding capacity,"The maximum amount of water that can be held",ECOSIMCONCEPT:Attribute
+ECOSIMCONCEPT:WaterTransfer,Water transfer,"The movement of water from one place to another",ECOSIMCONCEPT:Attribute
+ECOSIMCONCEPT:Width,Width,"The measurement or extent from side to side",ECOSIMCONCEPT:Attribute
+ECOSIMCONCEPT:Altitude,Altitude,,ECOSIMCONCEPT:Attribute
+ECOSIMCONCEPT:Area,Area,,ECOSIMCONCEPT:Attribute
+
