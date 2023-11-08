@@ -8,7 +8,7 @@
 
 chatgpt ADA was used to create a program to iterate through the ecosim fortran codebase and generate an obo format file of all parameter codes plus their names.
 
-IDs of the form ECOSIM:<CODE> were created
+IDs of the form `ECOSIM:<CODE>` were created
 
 Note: in future these may be translated to numeric IDs but for now the codes are convenient
 
