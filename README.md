@@ -4,6 +4,8 @@
 
 ## Methods
 
+See also [this slide deck](https://docs.google.com/presentation/d/1W6FHsfv1p4Ko_RVKFgrVg2ruJnZwBW3M9dKoz4HR7n8/edit#slide=id.p)
+
 ### Seeding of initial parameter list
 
 chatgpt ADA was used to create a program to iterate through the ecosim fortran codebase and generate an obo format file of all parameter codes plus their names.
