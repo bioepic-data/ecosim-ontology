@@ -3733,6 +3733,7 @@ relationship: measurement_of ECOSIMCONCEPT:Fraction ! Fraction
 [Term]
 id: ECOSIM:FWatDischarge
 name: water discharge
+def: "Water discharge is the volume of water flowing past a specific point in a waterway per unit of time."
 is_a: ECOSIM:CATEGORYHydrology ! category - Hydrology
 relationship: has_unit ECOSIM:m3d-2h-1 ! m3 d-2 h-1
 
