@@ -86,7 +86,7 @@ relationship: qualifier ECOSIMCONCEPT:Aqueous ! Aqueous
 [Term]
 id: ECOSIM:ARLF
 name: leaf area
-def: "Leaf area refers to the total surface area of leaves within a defined ecological system. It is a critical parameter in Earth systems modeling as it directly influences various processes such as photosynthesis, transpiration, and energy exchange between the vegetation and the atmosphere. Leaf area is typically measured in square meters per unit land area and is an important factor for characterizing ecosystem productivity, biodiversity, and carbon cycling." []
+def: "Leaf area refers to the total surface area of leaves within a defined ecological system. It is a critical parameter in Earth systems modeling as it directly influences various plant-related processes such as photosynthesis, transpiration, and energy exchange between the vegetation and the atmosphere. Leaf area is typically measured in square meters per unit land area and is an important factor for characterizing ecosystem productivity, biodiversity, and carbon cycling." []
 is_a: ECOSIM:CATEGORYCanopyStructure ! category - canopy structure
 is_a: ECOSIM:CATEGORYPlantPhysiology ! category - plant physiology
 relationship: attribute ECOSIMCONCEPT:Area ! Area
