@@ -6007,7 +6007,6 @@ is_a: ECOSIM:CATEGORYRootPhysiology ! category - root physiology
 id: ECOSIM:RootPorosity
 name: root porosity
 def: "Root porosity refers to the percentage of the total root volume that is not occupied by plant cells or materials. This includes air spaces and intercellular spaces within the root structure. Root porosity is an important factor in determining a plant's ability to uptake water and nutrients from the soil, and can be influenced by factors such as root architecture, soil conditions, and water availability." []
-def: "Root porosity refers to the proportion of the root volume that is not occupied by solid materials. This is a measurement of the open space within the root system that can be filled with air or water. Root porosity can have an impact on plant health as it influences the root’s ability to draw up water and nutrients. It can also facilitate the exchange of gases between the root system and the soil environment." []
 is_a: ECOSIM:CATEGORYPlantPhysiology ! category - plant physiology
 is_a: ECOSIM:CATEGORYRootPhysiology ! category - root physiology
 relationship: has_unit ECOSIM:m3m-3 ! m3 m-3
@@ -6036,7 +6035,6 @@ relationship: has_unit ECOSIM:mt-1 ! m t-1
 id: ECOSIM:SCO2
 name: leaf CO2 solubility
 def: "Leaf CO2 solubility refers to the degree to which carbon dioxide (CO2) is dissolvable or soluble in the leaves of a plant. It is an important parameter in plant physiology and earth system modeling, as it directly affects the rate of photosynthesis, plant growth, and carbon cycling." []
-def: "Leaf CO2 solubility refers to the measure of carbon dioxide (CO2) that can be dissolved in the leaf's cellular water at a given temperature and pressure. It is an important parameter in understanding the gas exchange processes in plants and its influence on photosynthesis." []
 is_a: ECOSIM:CATEGORYCanopyPhysiology ! category - Canopy Physiology
 is_a: ECOSIM:CATEGORYPlantPhysiology ! category - plant physiology
 relationship: has_unit ECOSIM:uM/umolmol-1 ! uM /umol mol-1
@@ -6069,7 +6067,6 @@ relationship: has_unit ECOSIM:o ! o
 id: ECOSIM:SLA1
 name: leaf area:mass during growth
 def: "Leaf area:mass during growth refers to the ratio of the surface area of a leaf to its mass during the plant's growth phase. It is often used as an indicator of plant growth and health, as well as a measure of the plant's photosynthetic capacity." []
-def: "The ratio of leaf area to leaf mass during the growth stage of a plant. This is a crucial parameter in plant physiology as it directly influences photosynthetic capacity and nutrient uptake ability of the plant." []
 is_a: ECOSIM:CATEGORYCanopyPhysiology ! category - Canopy Physiology
 is_a: ECOSIM:CATEGORYCanopyStructure ! category - canopy structure
 is_a: ECOSIM:CATEGORYPlantPhysiology ! category - plant physiology
@@ -6136,7 +6133,6 @@ relationship: measured_in ECOSIMCONCEPT:Branch ! Branch
 id: ECOSIM:SWRadByCanP
 name: canopy absorbed shortwave radiation
 def: "Canopy absorbed shortwave radiation generally refers to the amount of incoming shortwave solar radiation that is absorbed by the leaves of the plant canopy. It is a key component of the overall energy balance of terrestrial ecosystems, influencing processes such as temperature regulation, photosynthesis, and evapotranspiration. Measurement of this factor is essential for understanding and modeling ecosystem energy dynamics." []
-def: "Canopy absorbed shortwave radiation refers to the amount of incoming shortwave radiation (visible and near-visible light) that is absorbed by the canopy of a vegetation type in earth system modeling. This parameter is crucial for many terrestrial processes, such as photosynthesis and evapotranspiration. The amount of radiation absorbed by the canopy is influenced by various factors, including canopy structure, leaf optical properties, and atmospheric conditions." []
 is_a: ECOSIM:CATEGORYPlantPhysiology ! category - plant physiology
 is_a: ECOSIM:CATEGORYSurfaceEnergyBalance ! category - Surface Energy Balance
 relationship: has_unit ECOSIM:MJd-2h-1 ! MJ d-2 h-1
@@ -6159,7 +6155,6 @@ relationship: has_unit ECOSIM:mmh-1 ! mm h-1
 id: ECOSIM:SecndRootLen
 name: root layer length secondary axes
 def: "Secondary root length refers to the length of the secondary, or lateral, roots in a plant's root system. Secondary roots develop from the primary root and enhance the root system's ability to anchor the plant and absorb water and nutrients from the soil. This measure can vary greatly depending on plant species, age, and environmental conditions." []
-def: "Secondary root length refers to the total length of all secondary roots in the root system of a plant. Secondary roots, also known as lateral roots, branch off from the primary root or taproot in root layer. Secondary roots improve the efficiency of water and nutrient absorption from the soil and contribute to the stability of the plant. Measuring secondary root length is important in studies of plant growth, development, and adaptation to various environmental conditions." []
 is_a: ECOSIM:CATEGORYRootPhysiology ! category - root physiology
 relationship: has_unit ECOSIM:md-2 ! m d-2
 relationship: measured_in ECOSIMCONCEPT:Root ! Root
@@ -6193,7 +6188,6 @@ relationship: has_unit ECOSIM:m2 ! m2
 id: ECOSIM:SeedArea
 name: seed surface area
 def: "Seed surface area refers to the measurement of the total exterior surface of a given seed. This measurement can provide insights into seed physiology, dispersal potential, and growth rate, among other things. It is an important parameter in ecology and plant biology research." []
-def: "Seed surface area refers to the total area of the outer surface of a seed. This parameter can be crucial for understanding aspects of plant physiology and ecology, such as seed dispersal mechanisms, seed-soil interactions, and plant establishment strategies." []
 is_a: ECOSIM:CATEGORYCanopyStructure ! category - canopy structure
 is_a: ECOSIM:CATEGORYPlantPhysiology ! category - plant physiology
 relationship: attribute ECOSIMCONCEPT:Area ! Area
@@ -6211,7 +6205,6 @@ relationship: has_unit ECOSIM:g ! g
 id: ECOSIM:SeedLength
 name: seed length
 def: "Seed length is the measurement of the longest dimension of a seed. This measurement can be important for classification and identification of plant species, as well as determining the maturity and viability of seeds for sowing." []
-def: "Seed length refers to the measurement of a seed dimension from one end to the other following the longest axis. This parameter is an important descriptor in plant phenotypic studies for both wild and cultivated species." []
 is_a: ECOSIM:CATEGORYCanopyStructure ! category - canopy structure
 relationship: has_unit ECOSIM:m ! m
 relationship: measurement_of ECOSIMCONCEPT:Seed ! Seed
@@ -6311,7 +6304,6 @@ relationship: has_unit ECOSIM:m2d-2 ! m2 d-2
 id: ECOSIM:TAMN
 name: daily minimum air temperature
 def: "Daily minimum air temperature refers to the lowest temperature recorded at a specific location in a 24-hour period. It is an important variable in climate studies, agriculture, and weather forecasting. Measuring daily temperatures, including the minimum, can help to understand the local climate and its variability, as well as provide data for climate modeling and weather forecasting." []
-def: "TAMN refers to the lowest air temperature recorded on a 24-hour day, typically measured a few meters above the ground. Understanding the daily minimum air temperature is critical in weather forecasting and climate studies, as it can influence many environmental and agricultural processes, such as plant growth, insect activity, and soil moisture evaporation." []
 is_a: ECOSIM:CATEGORYAtmosphericConditions ! category - Atmospheric Conditions
 relationship: attribute ECOSIMCONCEPT:Temperature ! temperature
 relationship: has_unit ECOSIM:oC ! oC
@@ -6343,7 +6335,6 @@ relationship: qualifier ECOSIMCONCEPT:Fraction ! Fraction
 id: ECOSIM:TAUP
 name: canopy PAR transmissivity
 def: "Canopy PAR transmissivity (TAUP) refers to the fraction of incident Photosynthetic Active Radiation (PAR) that is transmitted through the canopy without being absorbed or reflected. It depends on factors such as leaf area, leaf angle distribution, and radiation conditions. TAUP is a key parameter in modeling light distribution and photosynthetic activity in plant canopies." []
-def: "Canopy PAR transmissivity (TAUP) refers to the proportion of Photosynthetically Active Radiation (PAR) that is transmitted through the vegetation canopy. This parameter plays a critical role in plant physiology and energy balance of ecosystems, affecting processes such as photosynthesis and evapotranspiration." []
 is_a: ECOSIM:CATEGORYPlantPhysiology ! category - plant physiology
 relationship: measured_in ECOSIMCONCEPT:Canopy ! Canopy
 relationship: measurement_of ECOSIMCONCEPT:PhotosyntheticallyActiveRadiation ! PhotosyntheticallyActiveRadiation
@@ -6357,7 +6348,6 @@ is_a: ECOSIMCONCEPT:UnclassifiedVariable ! unclassified variable
 id: ECOSIM:TAUS
 name: fraction of radiation intercepted by canopy layer
 def: "Fraction of radiation intercepted by canopy layer (TAUS) refers to the proportion of the incident solar radiation that is intercepted or absorbed by a specified canopy layer in an ecosystem. TAUS is an important parameter in biophysical and ecological modeling because it influences processes such as photosynthesis, energy balance, and microclimate conditions within the canopy. It is determined by factors including leaf area index (LAI), leaf angle distribution, canopy architecture, and optical properties of leaves." []
-def: "The fraction of photosynthetically active radiation intercepted by a particular layer of the canopy. This is important as it impacts the photosynthetic capability of the plants." []
 is_a: ECOSIM:CATEGORYPlantPhysiology ! category - plant physiology
 is_a: ECOSIM:CATEGORYSurfaceEnergyBalance ! category - Surface Energy Balance
 relationship: attribute ECOSIMCONCEPT:Fraction ! Fraction
@@ -6391,7 +6381,6 @@ relationship: has_unit ECOSIM:oC ! oC
 id: ECOSIM:TCG
 name: canopy growth temperature
 def: "Canopy growth temperature refers to the temperature conditions under which plant canopy grows. It can refer to both the actual temperature experienced by the plants and the optimal temperature for the growth of the canopy. Canopy growth temperature influences photosynthesis, respiration, and several other physiological processes. It is crucial for modeling and predicting plant growth and development in response to changing climate conditions." []
-def: "Canopy growth temperature refers to the temperature within the vegetation canopy that is beneficial for its development and productivity. Canopy growth temperature is an important parameter in plant physiology and earth system modeling, as it helps modulate plant growth dynamics, bioenergy production, and carbon sequestration potential." []
 is_a: ECOSIM:CATEGORYCanopyStructure ! category - canopy structure
 is_a: ECOSIM:CATEGORYPlantPhysiology ! category - plant physiology
 is_a: ECOSIM:CATEGORYPlantPopulation ! category - Plant Population
@@ -6435,7 +6424,6 @@ relationship: has_unit ECOSIM:gd-2 ! g d-2
 id: ECOSIM:TCSnow
 name: snow temperature
 def: "Snow temperature (TCSnow) refers to the temperature of the snowpack. This parameter is typically expressed in degrees Celsius and can vary significantly within the snowpack, affecting various processes such as snow melting, sublimation, compaction, and metamorphosis. Snow temperature is crucial for understanding and predicting various snow-related phenomena and has important implications for ecosystem dynamics, climate change studies, and water resource management." []
-def: "Snow temperature refers to the measurement of the thermal state of the snow on the ground. It is an important factor affecting a variety of hydrological, climatological and environmental processes including snow metamorphism, snow melt, ice formation, gas exchange, and microbial activity in snow-covered ecosystems." []
 is_a: ECOSIM:CATEGORYSnowpack ! category - Snowpack
 relationship: attribute ECOSIMCONCEPT:Temperature ! temperature
 relationship: has_unit ECOSIM:oC ! oC
@@ -6445,7 +6433,6 @@ relationship: measured_in ECOSIMCONCEPT:Snow ! Snow
 id: ECOSIM:TCX
 name: threshold temperature for autumn leafoff/hardening
 def: "The threshold temperature for autumn leafoff/hardening is the estimated temperature at which plants begin to prepare for winter. This involves processes such as leaf drop (leafoff) in deciduous trees and hardening (development of resistance to freezing) in many types of plants." []
-def: "Threshold temperature for autumn leafoff/hardening is a parameter used in ecology and biology to represent the critical ambient temperature at which deciduous plants start to shed their leaves (leafoff) and/or undergo hardening - a process that helps them to tolerate winter conditions. The timing of these processes is dictated by a combination of signals, including changes in light levels and temperature variations, each of which can affect both the survival and productivity of the plants." []
 is_a: ECOSIM:CATEGORYCanopyPhysiology ! category - Canopy Physiology
 is_a: ECOSIM:CATEGORYCanopyStructure ! category - canopy structure
 is_a: ECOSIM:CATEGORYPlantPhysiology ! category - plant physiology
@@ -6457,7 +6444,6 @@ relationship: measurement_of ECOSIMCONCEPT:Temperature ! temperature
 id: ECOSIM:TCZ
 name: threshold temperature for spring leafout/dehardening
 def: "The threshold temperature for spring leafout/dehardening, often abbreviated as TCZ, refers to the specific temperature at which plants begin to deharden or soften their tissue and produce new leaves in spring. It is a critical parameter in plant phenology and earth systems modeling, indicating the response of plants to changing seasonal temperatures." []
-def: "Threshold temperature for spring leafout/dehardening refers to the specific temperature at which deciduous trees or plants start to produce and show their leaves (leafout) or lose their frost tolerance (dehardening) during the spring season. It is an important parameter for understanding phenological events and climate change impacts on vegetation." []
 is_a: ECOSIM:CATEGORYCanopyPhysiology ! category - Canopy Physiology
 is_a: ECOSIM:CATEGORYCanopyStructure ! category - canopy structure
 is_a: ECOSIM:CATEGORYPlantPhysiology ! category - plant physiology
@@ -6559,7 +6545,6 @@ relationship: has_unit ECOSIM:MJd-2t-1 ! MJ d-2 t-1
 id: ECOSIM:TFNQ
 name: constraints of temperature and water potential on microbial activity
 def: "Constraints of temperature and water potential on microbial activity refers to how factors such as temperature and water potential can limit the activity of microorganisms in an environmental setting. In particular, temperature can affect microbial metabolism while water potential affects the availability of water for microbial processes." []
-def: "TFNQ constraints refer to the inhibitory influences of temperature and water potential on microbial activity in the soil ecosystem. Soil temperature and water potential may affect the metabolic activities of microorganisms and, as a result, soil nutrient transformations, organic matter decomposition, and soil gas emissions. The study of these biotic-abiotic interactions is key for understanding the functioning of soil microbial pools and predicting soil responses to environmental changes." []
 is_a: ECOSIM:CATEGORYNTransformation ! category - N transformation
 relationship: attribute ECOSIMCONCEPT:Constraint ! Constraint
 relationship: attribute ECOSIMCONCEPT:Temperature ! temperature
@@ -6581,7 +6566,6 @@ relationship: has_unit ECOSIM:gd-2h-1 ! g d-2 h-1
 id: ECOSIM:TGSTGF
 name: normalized node number during reproductive growth stages
 def: "Normalized node number during reproductive growth stages refers to the average number of nodes (junction points from where leaves, branches or flowers grow) a plant produces during its reproductive growth phase, normalized under some standard conditions. It helps plant physiologists to understand plant architecture and growth dynamics during reproductive phase." []
-def: "Normalized node number during reproductive growth stages refers to the number of nodes presented on the stem of a plant during its reproductive growth stages. It is normalized for comparative or scaling purposes. This is an important measure in plant science as it provides insights into the growth and development of plants." []
 is_a: ECOSIM:CATEGORYCanopyStructure ! category - canopy structure
 is_a: ECOSIM:CATEGORYPlantPhysiology ! category - plant physiology
 relationship: attribute ECOSIMCONCEPT:Number ! Number
@@ -6592,7 +6576,6 @@ relationship: measurement_of ECOSIMCONCEPT:NodeNumber ! NodeNumber
 id: ECOSIM:TGSTGI
 name: normalized node number during vegetative growth stages
 def: "Normalized node number during vegetative growth stages is a measure used to describe the progress of a plant through its developmental stages. It is calculated by dividing the current node number by the total node number at maturity, giving a relative measure of growth progress." []
-def: "Normalized node number during vegetative growth stages refers to the ratio or proportion of total nodes that a plant produces during its vegetative growth phase. This is a key parameter in determining the growth rate and developmental stage of the plant." []
 is_a: ECOSIM:CATEGORYCanopyStructure ! category - canopy structure
 is_a: ECOSIM:CATEGORYPlantPhysiology ! category - plant physiology
 relationship: attribute ECOSIMCONCEPT:NodeNumber ! NodeNumber
@@ -6639,7 +6622,6 @@ relationship: has_unit ECOSIM:gd-2h-1 ! g d-2 h-1
 id: ECOSIM:THSX
 name: sky longwave radiation
 def: "Sky longwave radiation refers to the energy emitted by the Earth's atmosphere in the form of longwave (also known as infrared) radiation. This type of radiation is primarily due to the greenhouse effect, where greenhouse gases in the atmosphere absorb radiation from the Earth's surface and re-emit it back to the surface and space. Longwave radiation plays a crucial role in the Earth's energy balance and in determining the temperature of the Earth's surface and atmosphere." []
-def: "Sky longwave radiation represents the amount of longwave radiation emitted by the atmosphere that reaches the earth's surface. This measurement is critical in determining the overall energy balance of the earth as it contributes to heating of the earth's surface, and plays a role in atmospheric and oceanic circulation patterns." []
 is_a: ECOSIM:CATEGORYAtmosphericConditions ! category - Atmospheric Conditions
 relationship: attribute ECOSIMCONCEPT:Radiation ! Radiation
 relationship: has_unit ECOSIM:MJm-2h-1 ! MJ m-2 h-1
@@ -6674,7 +6656,6 @@ relationship: has_unit ECOSIM:K ! K
 id: ECOSIM:TKG
 name: canopy growth temperature
 def: "Canopy growth temperature or TKG refers to the temperature at which the growth of a plant canopy is optimal. It can also refer to the average or mean temperature recorded at the canopy level of a plant or in a forested area. The measurement of TKG is important as it impacts various physiological processes of plants including photosynthesis, respiration, and transpiration." []
-def: "Canopy growth temperature refers to the temperature at which the growth of a plant's canopy is optimal. This temperature can vary by plant species and is essential for plant photosynthesis and overall growth and health. Understanding this parameter can help in predicting plant responses to climate change and managing crop production." []
 is_a: ECOSIM:CATEGORYCanopyStructure ! category - canopy structure
 is_a: ECOSIM:CATEGORYPlantPhysiology ! category - plant physiology
 relationship: attribute ECOSIMCONCEPT:Temperature ! temperature
@@ -6692,7 +6673,6 @@ relationship: has_unit ECOSIM:oC ! oC
 id: ECOSIM:TKSnow
 name: snow temperature
 def: "Snow temperature, also referred to as TKSnow, refers to the average temperature of a snowpack. Monitoring snow temperature is important for various reasons. It can help predict avalanches, determine the speed of snowmelt, and understand the insulation value of snowpack. Data regarding snow temperature can be used in climate models to accurately simulate snow-covered regions." []
-def: "Snow temperature, often represented as 'TKSnow', refers to the average temperature of the snow in an area. It is a critical aspect of the snow's physical properties and melting dynamics, impacting various other environmental factors like the availability of water from snow melt. It can vary based on factors like weather conditions, geographical location, time of day, and the characteristics of the snow itself." []
 is_a: ECOSIM:CATEGORYSnowpack ! category - Snowpack
 relationship: attribute ECOSIMCONCEPT:Temperature ! temperature
 relationship: has_unit ECOSIM:K ! K
@@ -6751,7 +6731,6 @@ relationship: has_unit ECOSIM:gd-2h-1 ! g d-2 h-1
 id: ECOSIM:TOMT
 name: total micriobial C
 def: "Total microbial C refers to the sum of all carbon stored in microbial biomass in a given soil sample. Microbial biomass plays a key role in the cycling of nutrients, including carbon, in soil ecosystems. It is an important component of soil organic matter and contributes to soil fertility. Measurements of total microbial C can be useful in assessing soil health and productivity." []
-def: "Total microbial C refers to the total amount of carbon that is contained within or is part of microbial biomass in a particular environment such as soil or water. It is an essential part of the global carbon cycle." []
 is_a: ECOSIM:CATEGORYMicrobialActivity ! category - microbial activity
 relationship: has_unit ECOSIM:gd-2 ! g d-2
 relationship: measured_in ECOSIMCONCEPT:MicrobialBiomass ! MicrobialBiomass
@@ -7978,7 +7957,6 @@ relationship: measured_in ECOSIMCONCEPT:Snow ! Snow
 [Term]
 id: ECOSIM:VLWatMacPM
 name: macropore water flux
-name: soil macropore water content
 def: "Macropore water flux refers to the rate at which water moves through the large pores within the soil structure. Macropores, typically greater than 0.05mm in diameter, play a crucial role in soil hydrology, influencing water infiltration, storage, and redistribution within the soil. The macropore water flux can be influenced by factors such as soil type, texture, structure, and organic matter content, as well as external conditions such as precipitation, temperature, and evaporation rates." []
 is_a: ECOSIM:CATEGORYHydrology ! category - Hydrology
 is_a: ECOSIMCONCEPT:UnclassifiedVariable ! unclassified variable
@@ -7990,7 +7968,6 @@ relationship: measurement_of ECOSIMCONCEPT:Water ! Water
 [Term]
 id: ECOSIM:VLWatMicPM
 name: micropore water flux
-name: soil micropore water content
 def: "The micropore water flux is the volume of water moving through the micropores in the soil per unit time. This can be influenced by various factors, including soil type, texture, precipitation, and evaporation rates among others." []
 is_a: ECOSIM:CATEGORYHydrology ! category - Hydrology
 is_a: ECOSIMCONCEPT:UnclassifiedVariable ! unclassified variable
@@ -11165,7 +11142,6 @@ is_a: ECOSIMCONCEPT:PhysicalEntity ! physical entity
 id: ECOSIMCONCEPT:Carbon
 name: Carbon
 def: "A chemical element with symbol C and atomic number 6," []
-def: "A non-metallic chemical element with symbol C and atomic number 6" []
 is_a: ECOSIMCONCEPT:Attribute ! attribute
 is_a: ECOSIMCONCEPT:ChemicalEntity ! chemical entity
 
@@ -11434,7 +11410,6 @@ is_a: ECOSIMCONCEPT:MaterialEntity ! material entity
 id: ECOSIMCONCEPT:Element
 name: Element
 def: "A component or constituent of a whole" []
-def: "An Environment Template building block representing a modeled component," []
 is_a: ECOSIMCONCEPT:Attribute ! attribute
 is_a: ECOSIMCONCEPT:PhysicalEntity ! physical entity
 
@@ -12021,7 +11996,6 @@ is_a: ECOSIMCONCEPT:PhysicalEntity ! physical entity
 id: ECOSIMCONCEPT:Micropore
 name: Micropore
 def: "A small pore space between soil particles that holds water by capillary forces," []
-def: "A small soil pore that holds water by capillary forces\" " []
 is_a: ECOSIMCONCEPT:Attribute ! attribute
 is_a: ECOSIMCONCEPT:PhysicalEntity ! physical entity
 
@@ -12112,7 +12086,6 @@ is_a: ECOSIMCONCEPT:ChemicalEntity ! chemical entity
 id: ECOSIMCONCEPT:Nitrogen
 name: Nitrogen
 def: "A colorless, odorless gaseous element constituting about four-fifths of the volume of the atmosphere" []
-def: "A colorless, odorless gaseous element that constitutes about four-fifths of the volume of the atmosphere and is present in combined forms in animal and vegetable tissues, " []
 is_a: ECOSIMCONCEPT:Attribute ! attribute
 is_a: ECOSIMCONCEPT:ChemicalEntity ! chemical entity
 
@@ -12537,7 +12510,6 @@ is_a: ECOSIMCONCEPT:Process ! process
 id: ECOSIMCONCEPT:Runoff
 name: Runoff
 def: "The draining away of water from the surface of an area of land" []
-def: "The draining away of water from the surface of an area of land," []
 is_a: ECOSIMCONCEPT:Attribute ! attribute
 is_a: ECOSIMCONCEPT:PhysicalEntity ! physical entity
 
@@ -12570,7 +12542,6 @@ is_a: ECOSIMCONCEPT:MaterialEntity ! material entity
 [Term]
 id: ECOSIMCONCEPT:SecondaryAxes
 name: Secondary axes
-name: SecondaryAxes
 def: "Additional axes in a multidimensional array besides the primary axis" []
 is_a: ECOSIMCONCEPT:Attribute ! attribute
 is_a: ECOSIMCONCEPT:MaterialEntity ! material entity
@@ -12738,7 +12709,6 @@ is_a: ECOSIMCONCEPT:Organismal ! organismal
 [Term]
 id: ECOSIMCONCEPT:StandingDead
 name: Standing dead
-name: StandingDead
 def: "Dead vegetation remaining upright" []
 is_a: ECOSIMCONCEPT:Attribute ! attribute
 is_a: ECOSIMCONCEPT:MaterialEntity ! material entity
@@ -12842,7 +12812,6 @@ is_a: ECOSIMCONCEPT:PhysicalEntity ! physical entity
 [Term]
 id: ECOSIMCONCEPT:Temperature
 name: Temperature
-name: temperature
 def: "thermal energy in a system" []
 is_a: ECOSIMCONCEPT:Attribute ! attribute
 is_a: ECOSIMCONCEPT:MaterialEntity ! material entity
@@ -12913,7 +12882,6 @@ is_a: ECOSIMCONCEPT:Attribute ! attribute
 [Term]
 id: ECOSIMCONCEPT:UptakeRate
 name: Uptake rate
-name: UptakeRate
 def: "The rate at which a substance is absorbed" []
 is_a: ECOSIMCONCEPT:Attribute ! attribute
 is_a: ECOSIMCONCEPT:MaterialEntity ! material entity
@@ -13000,7 +12968,6 @@ is_a: ECOSIMCONCEPT:MaterialEntity ! material entity
 [Term]
 id: ECOSIMCONCEPT:WaterFlux
 name: Water flux
-name: WaterFlux
 def: "The rate of flow of water" []
 is_a: ECOSIMCONCEPT:Attribute ! attribute
 is_a: ECOSIMCONCEPT:MaterialEntity ! material entity

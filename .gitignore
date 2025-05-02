@@ -1,3 +1,5 @@
 tmp
 *.old
 *.db
+
+**/.claude/settings.local.json
