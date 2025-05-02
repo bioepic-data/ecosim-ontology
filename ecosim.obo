@@ -448,7 +448,7 @@ relationship: measurement_of ECOSIMCONCEPT:AlSO4 ! Aluminum sulfate
 [Term]
 id: ECOSIM:CALSR
 name: precipitation AlSO4 concentration
-def: "Precipitation AlSO4 concentration refers to the amount of aluminum sulfate (AlSO4) present in precipitation. It is a parameter used in earth system models to represent the concentration of aluminum sulfate in rainwater or snowfall. Aluminum sulfate is often used as a coagulating agent in water treatment processes and can enter the environment through industrial emissions or natural sources. Monitoring and simulating the precipitation AlSO4 concentration is important for understanding the impact of aluminum contamination on ecosystems and water quality." []
+def: "Precipitation AlSO4 concentration refers to the amount of aluminum sulfate AlSO4 present in precipitation. It is a parameter used in earth system models to represent the concentration of aluminum sulfate in rainwater or snowfall. Aluminum sulfate is often used as a coagulating agent in water treatment processes and can enter the environment through industrial emissions or natural sources. Monitoring and simulating the precipitation AlSO4 concentration is important for understanding the impact of aluminum contamination on ecosystems and water quality." []
 is_a: ECOSIM:CATEGORYAtmosphericConditions ! category - Atmospheric Conditions
 is_a: ECOSIM:CATEGORYDepositionFlux ! category - deposition flux
 relationship: attribute ECOSIMCONCEPT:Concentration ! Concentration
