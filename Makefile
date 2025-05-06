@@ -63,4 +63,4 @@ src/ontology/attribute.obo: src/ontology/attribute.csv
 src/ontology/imports.owl: src/ontology/attribute.obo src/ontology/material-entity.obo
 	robot merge $(patsubst %,-i %,$^) annotate -O $(OBO)/ecosim/imports.owl -o $@
 
-include aio.Makefile
+include ecosim.Makefile
