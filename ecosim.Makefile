@@ -2,4 +2,4 @@
 
 # starting with the ecosim.owl, export to csv
 ecosim.csv: ecosim.owl
-	robot export --input $< --format csv --export $@ --header "oboInOwl:id|LABEL|SYNONYMS|SubClass Of|Type|obo:IAO_0000115"
+	robot export --input $< --format csv --export $@ --header "oboInOwl:id|oboInOwl:inSubset|LABEL|oboInOwl:hasExactSynonym|oboInOwl:hasRelatedSynonym|rdfs:comment|SubClass Of|Type|oboInOwl:hasDbXref|obo:IAO_0000115"
