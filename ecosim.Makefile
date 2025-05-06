@@ -14,5 +14,5 @@ ecosim_direct.csv: ecosim.owl
 
 # This will retrieve the latest version of the ontology
 # from the Google Sheet
-ecosim.csv:
+ecosim-src.csv:
 	curl -L -s $(SRC_URL) > $@
