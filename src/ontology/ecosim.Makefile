@@ -20,7 +20,8 @@ ecosim_for_sheet.csv: ecosim_temp.owl
 	# Merge the classes.csv and sc.csv files
 	python ../scripts/merge_csv.py classes.csv sc.csv $@ --remove-first-column
 	# Modify header to include names and ROBOT template commands we will use later
-	sed '1i ID,Category,Label,Exact Synonyms,Related Synonyms,Comment,Type,DbXrefs,Description,has_units,qualifiers,attributes,measured_ins,measurement_ofs,contexts' $@ > $@.temp && mv $@.temp $@
+	sed '1s/.*/ID,Category,Label,Exact Synonyms,Related Synonyms,Comment,Type,DbXrefs,Description,has_units,qualifiers,attributes,measured_ins,measurement_ofs,contexts/' $@ | \
+	sed '2s/.*/ID,AI oio:inSubset SPLIT=|,LABEL,A oio:hasExactSynonym SPLIT=|,A oio:hasRelatedSynonym SPLIT=|,A rdfs:comment,TYPE,>AI oio:hasDbXref SPLIT=|,A IAO:0000115,EC %,EC %,EC %,EC %,EC %,EC %/' > $@.temp && mv $@.temp $@
 	# Clean up
 	rm classes.csv sc.csv
 
