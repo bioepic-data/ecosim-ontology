@@ -16932,7 +16932,7 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115>The flux of a gas between the Earth&apos;s surface and the atmosphere. This can include both emission (gas moving from the surface to the atmosphere) and deposition (gas moving from the atmosphere to the surface).</obo:IAO_0000115>
         <oboInOwl:id>ECOSIM:GasSfAtmFlx</oboInOwl:id>
-        <rdfs:label>surface-atmosphere gas exchange flux</rdfs:label>
+        <rdfs:label>surface - atmosphere gas exchange flux</rdfs:label>
     </owl:Class>
     
 
@@ -37319,7 +37319,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIM#_trcg_TFLA">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_UnclassifiedVariable"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Variable"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIM_CATEGORYGasFlux"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ECOSIM_attribute"/>

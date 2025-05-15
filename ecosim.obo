@@ -175,7 +175,7 @@ relationship: measurement_of ECOSIMCONCEPT:Soil ! Soil
 [Term]
 id: ECOSIM:ActiveLayDepth
 name: active layer depth
-def: "Active layer depth is the thickness of the uppermost layer of soil or permafrost that undergoes seasonal freezing and thawing. It is defined as the vertical distance from the ground surface to the base of the active layer, which is the depth at which freezing and thawing processes no longer occur. The active layer depth is an important parameter in Earth Systems Modeling as it plays a key role in regulating the exchange of heat and moisture between the atmosphere and the underlying soil or permafrost. It is influenced by factors such as air temperature, soil properties, vegetation cover, and snow accumulation." []
+def: "Active layer depth is the thickness of the uppermost layer of soil or permafrost that undergoes seasonal freezing and thawing; it is defined as the vertical distance from the ground surface to the base of the active layer, which is the depth at which freezing and thawing processes no longer occur. The active layer depth is an important parameter in Earth Systems Modeling as it plays a key role in regulating the exchange of heat and moisture between the atmosphere and the underlying soil or permafrost. It is influenced by factors such as air temperature, soil properties, vegetation cover, and snow accumulation." []
 is_a: ECOSIMCONCEPT:UnclassifiedVariable ! unclassified variable
 relationship: has_unit ECOSIM:m ! m
 
@@ -3733,6 +3733,7 @@ relationship: measurement_of ECOSIMCONCEPT:Fraction ! Fraction
 [Term]
 id: ECOSIM:FWatDischarge
 name: water discharge
+def: "Water discharge is the volume of water flowing past a specific point in a waterway per unit of time."
 is_a: ECOSIM:CATEGORYHydrology ! category - Hydrology
 relationship: has_unit ECOSIM:m3d-2h-1 ! m3 d-2 h-1
 
