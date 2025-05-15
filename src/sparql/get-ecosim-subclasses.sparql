@@ -1,0 +1,80 @@
+# SPARQL query to get all subclasses of ECOSIM classes
+# and their associated properties
+# Thanks to Mark Miller for this
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT ?class
+(GROUP_CONCAT(DISTINCT ?has_unit_label;
+        separator="|") AS ?has_units)
+(GROUP_CONCAT(DISTINCT ?qualifier_label;
+        separator="|") AS ?qualifiers)
+(GROUP_CONCAT(DISTINCT ?attribute_label;
+        separator="|") AS ?attributes)
+(GROUP_CONCAT(DISTINCT ?measured_in_label;
+        separator="|") AS ?measured_ins)
+(GROUP_CONCAT(DISTINCT ?measurement_of_label;
+        separator="|") AS ?measurement_ofs)
+(GROUP_CONCAT(DISTINCT ?context_label;
+        separator="|") AS ?contexts)
+WHERE {
+    ?class a owl:Class .
+    OPTIONAL {
+        ?class rdfs:label ?class_label 
+    }
+    OPTIONAL {
+        ?class rdfs:subClassOf ?r1 .
+        ?r1 a owl:Restriction ;
+        owl:onProperty <http://purl.obolibrary.org/obo/ECOSIM#_has_unit> ;
+        owl:someValuesFrom ?has_unit .
+        OPTIONAL {
+            ?has_unit rdfs:label ?has_unit_label 
+        }
+    }
+    OPTIONAL {
+        ?class rdfs:subClassOf ?r2 .
+        ?r2 a owl:Restriction ;
+        owl:onProperty <http://purl.obolibrary.org/obo/ECOSIM_qualifier> ;
+        owl:someValuesFrom ?qualifier .
+        OPTIONAL {
+            ?qualifier rdfs:label ?qualifier_label 
+        }
+    }
+    OPTIONAL {
+        ?class rdfs:subClassOf ?r3 .
+        ?r3 a owl:Restriction ;
+        owl:onProperty <http://purl.obolibrary.org/obo/ECOSIM_attribute> ;
+        owl:someValuesFrom ?attribute .
+        OPTIONAL {
+            ?attribute rdfs:label ?attribute_label 
+        }
+    }
+    OPTIONAL {
+        ?class rdfs:subClassOf ?r4 .
+        ?r4 a owl:Restriction ;
+        owl:onProperty <http://purl.obolibrary.org/obo/ECOSIM#_measured_in> ;
+        owl:someValuesFrom ?measured_in .
+        OPTIONAL {
+            ?measured_in rdfs:label ?measured_in_label 
+        }
+    }
+    OPTIONAL {
+        ?class rdfs:subClassOf ?r5 .
+        ?r5 a owl:Restriction ;
+        owl:onProperty <http://purl.obolibrary.org/obo/ECOSIM#_measurement_of> ;
+        owl:someValuesFrom ?measurement_of .
+        OPTIONAL {
+            ?measurement_of rdfs:label ?measurement_of_label 
+        }
+    }
+    OPTIONAL {
+        ?class rdfs:subClassOf ?r6 .
+        ?r6 a owl:Restriction ;
+        owl:onProperty <http://purl.obolibrary.org/obo/ECOSIM_context> ;
+        owl:someValuesFrom ?context .
+        OPTIONAL {
+            ?context rdfs:label ?context_label 
+        }
+    }
+}
+GROUP BY ?class ?class_label
+ORDER BY ?class_label

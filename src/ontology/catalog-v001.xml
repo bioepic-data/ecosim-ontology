@@ -1,4 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
-    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ecosim/imports.owl" uri="imports.owl"/>
+<group id="Folder Repository, directory=, recursive=false, Auto-Update=false, version=2" prefer="public" xml:base="">
+
+  
+  
+  
+
+
+  
+  <uri name="http://purl.obolibrary.org/obo/ecosim/components/ecosim-src.owl" uri="components/ecosim-src.owl"/>
+  
+
+</group>
 </catalog>
