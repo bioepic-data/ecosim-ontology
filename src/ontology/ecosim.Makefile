@@ -31,18 +31,21 @@ ecosim_for_sheet.csv: ecosim_temp.owl
 	robot query --input $< --query ../sparql/ecosim_concepts.sparql ecosim_concepts.txt
     # Extract the ECOSIMCONCEPT classes into a separate file
 	robot extract --method STAR --input $< --term-file ecosim_concepts.txt --output ecosim_concepts.owl
-	# This makes the class list first, without subclasses
+    # This makes the class list first, without subclasses
 	robot export --input $< --format csv --export classes.csv --header "IRI|oboInOwl:id|oboInOwl:inSubset|LABEL|oboInOwl:hasExactSynonym|oboInOwl:hasRelatedSynonym|rdfs:comment|Type|oboInOwl:hasDbXref|obo:IAO_0000115"
-	# Then we get the specific subclasses by type
+    # Then we get the specific subclasses by type
 	robot query --input $< --query ../sparql/get-ecosim-subclasses.sparql sc.csv
-	# Merge the classes.csv and sc.csv files
+    # Merge the classes.csv and sc.csv files
 	python ../scripts/merge_csv.py classes.csv sc.csv $@ --remove-first-column
-	# Modify header to include names and ROBOT template commands we will use later
-	sed '1s/.*/ID,Category,Label,Exact Synonyms,Related Synonyms,Comment,Type,DbXrefs,Description,has_units,qualifiers,attributes,measured_ins,measurement_ofs,contexts/' $@ | \
-	sed '2s/.*/ID,AI oio:inSubset SPLIT=|,LABEL,A oio:hasExactSynonym SPLIT=|,A oio:hasRelatedSynonym SPLIT=|,A rdfs:comment,TYPE,>AI oio:hasDbXref SPLIT=|,A IAO:0000115,EC %,EC %,EC %,EC %,EC %,EC %/' > $@.temp && mv $@.temp $@
-	# Remove all lines with ECOSIMCONCEPT classes
+    # Create a file with the two header lines we need
+	echo "ID,Category,Label,Exact Synonyms,Related Synonyms,Comment,Type,DbXrefs,Description,has_units,qualifiers,attributes,measured_ins,measurement_ofs,contexts" > header.csv
+	echo "ID,AI oio:inSubset SPLIT=|,LABEL,A oio:hasExactSynonym SPLIT=|,A oio:hasRelatedSynonym SPLIT=|,A rdfs:comment,TYPE,>AI oio:hasDbXref SPLIT=|,A IAO:0000115,A ECOSIM:has_unit SPLIT=|,A ECOSIMCONCEPT:Qualifier SPLIT=|,A ECOSIMCONCEPT:Attribute SPLIT=|,A ECOSIM:measured_in SPLIT=|,A ECOSIM:measurement_of SPLIT=|,A ECOSIMCONCEPT:Context SPLIT=|" >> header.csv
+    # Combine header with data, skipping the first line of $@ (which will be replaced)
+	tail -n +2 $@ > $@.data && cat header.csv $@.data > $@.temp && mv $@.temp $@ && rm $@.data
+	rm header.csv
+    # Remove all lines with ECOSIMCONCEPT classes
 	grep -v 'ECOSIMCONCEPT' $@ > $@.temp && mv $@.temp $@
-	# Clean up
+    # Clean up
 	rm classes.csv sc.csv
 
 # This will retrieve the latest version of the ontology
