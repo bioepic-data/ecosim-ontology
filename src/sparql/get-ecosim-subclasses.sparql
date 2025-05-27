@@ -16,6 +16,8 @@ SELECT ?class
         separator="|") AS ?measurement_ofs)
 (GROUP_CONCAT(DISTINCT ?context_label;
         separator="|") AS ?contexts)
+(GROUP_CONCAT(DISTINCT ?parent_label;
+        separator="|") AS ?parents)
 WHERE {
     ?class a owl:Class .
     OPTIONAL {
@@ -73,6 +75,15 @@ WHERE {
         owl:someValuesFrom ?context .
         OPTIONAL {
             ?context rdfs:label ?context_label 
+        }
+    }
+    OPTIONAL {
+        ?class rdfs:subClassOf ?parent .
+        FILTER NOT EXISTS {
+            ?parent a owl:Restriction .
+        }
+        OPTIONAL {
+            ?parent rdfs:label ?parent_label
         }
     }
 }

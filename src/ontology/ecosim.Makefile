@@ -38,8 +38,8 @@ ecosim_for_sheet.csv: ecosim_temp.owl
     # Merge the classes.csv and sc.csv files
 	python ../scripts/merge_csv.py classes.csv sc.csv $@ --remove-first-column
     # Create a file with the two header lines we need
-	echo "ID,Category,Label,Exact Synonyms,Related Synonyms,Comment,Type,DbXrefs,Description,has_units,qualifiers,attributes,measured_ins,measurement_ofs,contexts" > header.csv
-	echo "ID,AI oio:inSubset SPLIT=|,LABEL,A oio:hasExactSynonym SPLIT=|,A oio:hasRelatedSynonym SPLIT=|,A rdfs:comment,TYPE,>AI oio:hasDbXref SPLIT=|,A IAO:0000115,A ECOSIM:has_unit SPLIT=|,A ECOSIMCONCEPT:Qualifier SPLIT=|,A ECOSIMCONCEPT:Attribute SPLIT=|,A ECOSIM:measured_in SPLIT=|,A ECOSIM:measurement_of SPLIT=|,A ECOSIMCONCEPT:Context SPLIT=|" >> header.csv
+	echo "ID,Category,Label,Exact Synonyms,Related Synonyms,Comment,Type,DbXrefs,Description,has_units,qualifiers,attributes,measured_ins,measurement_ofs,contexts,Parents" > header.csv
+	echo "ID,AI oio:inSubset SPLIT=|,LABEL,A oio:hasExactSynonym SPLIT=|,A oio:hasRelatedSynonym SPLIT=|,A rdfs:comment,TYPE,>AI oio:hasDbXref SPLIT=|,A IAO:0000115,A ECOSIM:has_unit SPLIT=|,A ECOSIMCONCEPT:Qualifier SPLIT=|,A ECOSIMCONCEPT:Attribute SPLIT=|,A ECOSIM:measured_in SPLIT=|,A ECOSIM:measurement_of SPLIT=|,A ECOSIMCONCEPT:Context SPLIT=|,SC % SPLIT=|" >> header.csv
     # Combine header with data, skipping the first line of $@ (which will be replaced)
 	tail -n +2 $@ > $@.data && cat header.csv $@.data > $@.temp && mv $@.temp $@ && rm $@.data
 	rm header.csv
