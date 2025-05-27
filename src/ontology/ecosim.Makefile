@@ -57,7 +57,7 @@ ecosim-src.csv:
 # Merge the concepts back in here too
 components/ecosim-src.owl: ecosim-src.csv ecosim_concepts.owl
 	robot template \
-	  --add-prefix 'ECOSIM: https://w3id.org/ecosim/' \
+	  --add-prefix 'ECOSIM: http://purl.obolibrary.org/obo/ECOSIM_' \
 	  --add-prefix 'ECOSIMCONCEPT: http://purl.obolibrary.org/obo/ECOSIMCONCEPT_' \
 	  --add-prefix 'oboInOwl: http://www.geneontology.org/formats/oboInOwl#' \
 	  -t $< \
