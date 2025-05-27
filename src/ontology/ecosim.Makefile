@@ -7,6 +7,18 @@
 # This is a ROBOT template.
 SRC_URL = 'https://docs.google.com/spreadsheets/d/1mS8VVtr-m24vZ7nQUtUbQrN8r-UBy3AwRzTfQsmwVL8/export?exportFormat=csv'
 
+# Source of truth for ecosim.owl.
+# This is the BioPortal version of the ontology.
+ECOSIM_BP_URL = 'https://data.bioontology.org/ontologies/ECOSIM/submissions/3/download?apikey=8b5b7825-538d-40e0-9e9e-5ab9274a9aeb'
+
+# Retrieve the latest version of the ontology from BioPortal.
+# This should not need to be done when using the sheet as the source of truth.
+ecosim_temp.owl:
+	curl -L -s $(ECOSIM_BP_URL) > $@
+
+# This produces the spreadsheet-ready CSV version of the ontology.
+# Here, ecosim_temp.owl is a copy of the ecosim.owl file,
+# retrieved from BioPortal (see above).
 # starting with the ecosim.owl, export to csv
 # This should not need to be done when using the sheet as the source of truth
 # This makes two products first, then combines them
