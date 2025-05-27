@@ -57,6 +57,7 @@ ecosim-src.csv:
 components/ecosim-src.owl: ecosim-src.csv
 	robot template \
 	  --add-prefix 'ECOSIM: https://w3id.org/ecosim/' \
+	  --add-prefix 'ECOSIMCONCEPT: http://purl.obolibrary.org/obo/ECOSIMCONCEPT_' \
 	  --add-prefix 'oboInOwl: http://www.geneontology.org/formats/oboInOwl#' \
 	  -t $< \
 	  annotate --annotation-file ecosim-annotations.ttl \
