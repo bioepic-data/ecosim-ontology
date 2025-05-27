@@ -44,7 +44,7 @@ ecosim_for_sheet.csv: ecosim_temp.owl
 	tail -n +2 $@ > $@.data && cat header.csv $@.data > $@.temp && mv $@.temp $@ && rm $@.data
 	rm header.csv
     # Remove all lines with ECOSIMCONCEPT classes
-	grep -v 'ECOSIMCONCEPT' $@ > $@.temp && mv $@.temp $@
+	grep -v '^ECOSIMCONCEPT' $@ > $@.temp && mv $@.temp $@
     # Clean up
 	rm classes.csv sc.csv
 
