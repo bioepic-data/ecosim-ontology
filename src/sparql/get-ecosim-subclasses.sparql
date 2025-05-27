@@ -82,9 +82,17 @@ WHERE {
         FILTER NOT EXISTS {
             ?parent a owl:Restriction .
         }
-        OPTIONAL {
-            ?parent rdfs:label ?parent_label
-        }
+        BIND(
+            IF(
+                STRSTARTS(STR(?parent), "http://purl.obolibrary.org/obo/ECOSIMCONCEPT_"),
+                CONCAT("ECOSIMCONCEPT:", REPLACE(STR(?parent), "^.*ECOSIMCONCEPT_", "")),
+                IF(
+                    STRSTARTS(STR(?parent), "http://purl.obolibrary.org/obo/ECOSIM_"),
+                    CONCAT("ECOSIM:", REPLACE(STR(?parent), "^.*ECOSIM_", "")),
+                    STR(?parent)
+                )
+            ) AS ?parent_label
+        )
     }
 }
 GROUP BY ?class ?class_label
