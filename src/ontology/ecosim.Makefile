@@ -4,7 +4,7 @@
 # https://robot.obolibrary.org/
 
 # Source of truth for EcoSIM.
-# This is a ROBOT template.
+# This is a ROBOT template in a Google Sheet.
 SRC_URL = 'https://docs.google.com/spreadsheets/d/1mS8VVtr-m24vZ7nQUtUbQrN8r-UBy3AwRzTfQsmwVL8/export?exportFormat=csv'
 
 # Source of truth for ecosim.owl.
@@ -21,10 +21,16 @@ ecosim_temp.owl:
 # retrieved from BioPortal (see above).
 # starting with the ecosim.owl, export to csv
 # This should not need to be done when using the sheet as the source of truth
-# This makes two products first, then combines them
+# This makes two products first, then combines them.
+# It also places all ECOSIMCONCEPT classes in their own file,
+# as we want them to be more static and will merge them later.
 # The product, ecosim_for_sheet.csv, is what should be placed in the
 # sheet at the above URL.
 ecosim_for_sheet.csv: ecosim_temp.owl
+    # Get the set of all ECOSIMCONCEPT classes
+	robot query --input $< --query ../sparql/ecosim_concepts.sparql ecosim_concepts.txt
+    # Extract the ECOSIMCONCEPT classes into a separate file
+	robot extract --method STAR --input $< --term-file ecosim_concepts.txt --output ecosim_concepts.owl
 	# This makes the class list first, without subclasses
 	robot export --input $< --format csv --export classes.csv --header "IRI|oboInOwl:id|oboInOwl:inSubset|LABEL|oboInOwl:hasExactSynonym|oboInOwl:hasRelatedSynonym|rdfs:comment|Type|oboInOwl:hasDbXref|obo:IAO_0000115"
 	# Then we get the specific subclasses by type
@@ -34,6 +40,8 @@ ecosim_for_sheet.csv: ecosim_temp.owl
 	# Modify header to include names and ROBOT template commands we will use later
 	sed '1s/.*/ID,Category,Label,Exact Synonyms,Related Synonyms,Comment,Type,DbXrefs,Description,has_units,qualifiers,attributes,measured_ins,measurement_ofs,contexts/' $@ | \
 	sed '2s/.*/ID,AI oio:inSubset SPLIT=|,LABEL,A oio:hasExactSynonym SPLIT=|,A oio:hasRelatedSynonym SPLIT=|,A rdfs:comment,TYPE,>AI oio:hasDbXref SPLIT=|,A IAO:0000115,EC %,EC %,EC %,EC %,EC %,EC %/' > $@.temp && mv $@.temp $@
+	# Remove all lines with ECOSIMCONCEPT classes
+	grep -v 'ECOSIMCONCEPT' $@ > $@.temp && mv $@.temp $@
 	# Clean up
 	rm classes.csv sc.csv
 
