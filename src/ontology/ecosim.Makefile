@@ -44,7 +44,7 @@ ecosim_for_sheet.csv: ecosim_temp.owl
 	tail -n +2 $@ > $@.data && cat header.csv $@.data > $@.temp && mv $@.temp $@ && rm $@.data
 	rm header.csv
     # Remove all lines with ECOSIMCONCEPT classes
-	grep -v '^ECOSIMCONCEPT' $@ > $@.temp && mv $@.temp $@
+	grep -v -E '^(ECOSIMCONCEPT|http://purl\.obolibrary\.org/obo/ECOSIMCONCEPT_)' $@ > $@.temp && mv $@.temp $@
     # Clean up
 	rm classes.csv sc.csv
 
@@ -54,7 +54,8 @@ ecosim-src.csv:
 	curl -L -s $(SRC_URL) > $@
 
 # Make a merge-ready OWL file from the CSV
-components/ecosim-src.owl: ecosim-src.csv
+# Merge the concepts back in here too
+components/ecosim-src.owl: ecosim-src.csv ecosim_concepts.owl
 	robot template \
 	  --add-prefix 'ECOSIM: https://w3id.org/ecosim/' \
 	  --add-prefix 'ECOSIMCONCEPT: http://purl.obolibrary.org/obo/ECOSIMCONCEPT_' \
@@ -62,3 +63,8 @@ components/ecosim-src.owl: ecosim-src.csv
 	  -t $< \
 	  annotate --annotation-file ecosim-annotations.ttl \
 	  -o $@
+	robot merge \
+	  --input $@ \
+	  --input ecosim_concepts.owl \
+	  --output $@_temp.owl
+	mv $@_temp.owl $@
