@@ -1,8 +1,9 @@
 format-version: 1.2
-data-version: releases/2025-05-29
+data-version: ecosim/releases/2025-05-29/ecosim-base.owl
 idspace: dce http://purl.org/dc/elements/1.1/ 
 idspace: dcterms http://purl.org/dc/terms/ 
-ontology: ecosim
+ontology: ecosim/ecosim-base
+property_value: dce:type IAO:8000001
 property_value: dcterms:description "None" xsd:string
 property_value: dcterms:license https://creativecommons.org/licenses/unspecified
 property_value: dcterms:title "EcoSIM Ontology" xsd:string
