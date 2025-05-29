@@ -55,7 +55,7 @@ ecosim-src.csv:
 
 # Make a merge-ready OWL file from the CSV
 # Merge the concepts back in here too
-components/ecosim-src.owl: ecosim-src.csv ecosim_concepts.owl
+components/ecosim-src.owl: ecosim-src.csv ecosim_concepts.owl 
 	robot template \
 	  --add-prefix 'ECOSIM: https://w3id.org/ecosim/ECOSIM_' \
 	  --add-prefix 'ECOSIMCONCEPT: https://w3id.org/ecosim/ECOSIMCONCEPT_' \
@@ -68,3 +68,7 @@ components/ecosim-src.owl: ecosim-src.csv ecosim_concepts.owl
 	  --input ecosim_concepts.owl \
 	  --output $@_temp.owl
 	mv $@_temp.owl $@
+
+remove-old-input:
+	rm -rf ecosim-src.csv
+	rm -rf components/ecosim-src.owl
