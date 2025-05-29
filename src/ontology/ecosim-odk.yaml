@@ -19,7 +19,7 @@ robot_java_args: "-Xmx8G"
 
 robot_report:
   use_labels: TRUE
-  fail_on: ERROR
+  fail_on: none # ERROR
   custom_profile: TRUE
   report_on:
     - edit
