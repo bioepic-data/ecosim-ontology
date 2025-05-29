@@ -1,0 +1,4412 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/ecosim.owl#"
+     xml:base="http://purl.obolibrary.org/obo/ecosim.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/ecosim.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#id -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#inSubset -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_ALOH3 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_ALOH3">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_ChemicalEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:ALOH3</oboInOwl:id>
+        <rdfs:label>ALOH3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Acetate -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Acetate">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_ChemicalEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:Acetate</oboInOwl:id>
+        <rdfs:label>Acetate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Activity -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Activity">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Attribute"/>
+        <obo:IAO_0000115>The rate of a process or action</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:Activity</oboInOwl:id>
+        <rdfs:label>Activity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Air -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Air">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhysicalEntity"/>
+        <obo:IAO_0000115>The mixture of gases comprising the Earth&apos;s atmosphere,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:Air</oboInOwl:id>
+        <rdfs:label>Air</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Al -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Al">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_ChemicalEntity"/>
+        <obo:IAO_0000115>A metallic chemical element with symbol Al and atomic number 13,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:Al</oboInOwl:id>
+        <rdfs:label>Aluminum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_AlOH -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_AlOH">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_ChemicalEntity"/>
+        <obo:IAO_0000115>An inorganic compound with the formula Al(OH)3,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:AlOH</oboInOwl:id>
+        <rdfs:label>Aluminum hydroxide</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_AlOH2 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_AlOH2">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_MaterialEntity"/>
+        <obo:IAO_0000115>A chemical compound with formula Al(OH)2, </obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:AlOH2</oboInOwl:id>
+        <rdfs:label>Aluminum dihydroxide</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_AlOH3 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_AlOH3">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_ChemicalEntity"/>
+        <obo:IAO_0000115>A chemical compound with formula Al(OH)3,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:AlOH3</oboInOwl:id>
+        <rdfs:label>Aluminum trihydroxide</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_AlOH4 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_AlOH4">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_ChemicalEntity"/>
+        <obo:IAO_0000115>A chemical compound with formula Al(OH)4,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:AlOH4</oboInOwl:id>
+        <rdfs:label>Aluminum tetrahydroxide</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_AlPO4 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_AlPO4">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_ChemicalEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:AlPO4</oboInOwl:id>
+        <rdfs:label>AlPO4</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_AlSO4 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_AlSO4">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_ChemicalEntity"/>
+        <obo:IAO_0000115>A chemical compound with the formula Al2(SO4)3,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:AlSO4</oboInOwl:id>
+        <rdfs:label>Aluminum sulfate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Altitude -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Altitude">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Attribute"/>
+        <oboInOwl:id>ECOSIMCONCEPT:Altitude</oboInOwl:id>
+        <rdfs:label>Altitude</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Aluminium -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Aluminium">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_ChemicalEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:Aluminium</oboInOwl:id>
+        <rdfs:label>Aluminium</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Aluminum -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Aluminum">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_ChemicalEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:Aluminum</oboInOwl:id>
+        <rdfs:label>Aluminum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Ammonia -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Ammonia">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_ChemicalEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:Ammonia</oboInOwl:id>
+        <rdfs:label>Ammonia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Ammonium -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Ammonium">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_ChemicalEntity"/>
+        <obo:IAO_0000115>A positively charged polyatomic ion with the chemical formula NH4+,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:Ammonium</oboInOwl:id>
+        <rdfs:label>Ammonium</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_AmmoniumUptake -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_AmmoniumUptake">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Process"/>
+        <obo:IAO_0000115>The process by which ammonium ions are absorbed from the soil by plant roots,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:AmmoniumUptake</oboInOwl:id>
+        <rdfs:label>Ammonium uptake</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_AmmoniumUptakeRate -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_AmmoniumUptakeRate">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Process"/>
+        <obo:IAO_0000115>The rate at which ammonium ions are absorbed from the soil by plant roots,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:AmmoniumUptakeRate</oboInOwl:id>
+        <rdfs:label>Ammonium uptake rate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Apatite -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Apatite">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_ChemicalEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:Apatite</oboInOwl:id>
+        <rdfs:label>Apatite</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Aqueous -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Aqueous">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhysicalEntity"/>
+        <obo:IAO_0000115>Of, relating to, or resembling water,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:Aqueous</oboInOwl:id>
+        <rdfs:label>Aqueous</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Area -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Area">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Attribute"/>
+        <oboInOwl:id>ECOSIMCONCEPT:Area</oboInOwl:id>
+        <rdfs:label>Area</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Atmosphere -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Atmosphere">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhysicalEntity"/>
+        <obo:IAO_0000115>The envelope of gases surrounding the earth or another planet,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:Atmosphere</oboInOwl:id>
+        <rdfs:label>Atmosphere</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_AtmosphericPrecipitation -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_AtmosphericPrecipitation">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhysicalEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:AtmosphericPrecipitation</oboInOwl:id>
+        <rdfs:label>AtmosphericPrecipitation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Attribute -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Attribute">
+        <oboInOwl:id>ECOSIMCONCEPT:Attribute</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ecosim#upper_level"/>
+        <rdfs:label>attribute</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Bacteria -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Bacteria">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Organismal"/>
+        <obo:IAO_0000115>Microscopic unicellular organisms, typically having cell walls but lacking organelles and an organized nucleus,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:Bacteria</oboInOwl:id>
+        <rdfs:label>Bacteria</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Band -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Band">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhysicalEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:Band</oboInOwl:id>
+        <rdfs:label>Band</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Bicarbonate -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Bicarbonate">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_ChemicalEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:Bicarbonate</oboInOwl:id>
+        <rdfs:label>Bicarbonate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_BoundaryLayer -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_BoundaryLayer">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhysicalEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:BoundaryLayer</oboInOwl:id>
+        <rdfs:label>BoundaryLayer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_BoundaryLayerOfCanopy -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_BoundaryLayerOfCanopy">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhysicalEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:BoundaryLayerOfCanopy</oboInOwl:id>
+        <rdfs:label>BoundaryLayerOfCanopy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Branch -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Branch">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Organismal"/>
+        <obo:IAO_0000115>A woody part of a tree arising from the trunk and dividing into limbs and smaller branches,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:Branch</oboInOwl:id>
+        <rdfs:label>Branch</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_BranchElement -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_BranchElement">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Organismal"/>
+        <obo:IAO_0000115>A modeled branch component in a plant or tree,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:BranchElement</oboInOwl:id>
+        <rdfs:label>Branch element</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_BranchHusk -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_BranchHusk">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Organismal"/>
+        <obo:IAO_0000115>The outer protective layer of a branch,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:BranchHusk</oboInOwl:id>
+        <rdfs:label>Branch husk</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_BranchLeaf -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_BranchLeaf">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PlantPart"/>
+        <oboInOwl:id>ECOSIMCONCEPT:BranchLeaf</oboInOwl:id>
+        <rdfs:label>BranchLeaf</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_BranchLeafElement -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_BranchLeafElement">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Organismal"/>
+        <obo:IAO_0000115>The modeled leaf component attached to a branch element,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:BranchLeafElement</oboInOwl:id>
+        <rdfs:label>Branch leaf element</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_BranchPlusStalk -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_BranchPlusStalk">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Organismal"/>
+        <obo:IAO_0000115>The modeled branch and stalk biomass in crops,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:BranchPlusStalk</oboInOwl:id>
+        <rdfs:label>Branch plus stalk</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_BranchSheath -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_BranchSheath">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_MaterialEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:BranchSheath</oboInOwl:id>
+        <rdfs:label>BranchSheath</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_BranchShoot -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_BranchShoot">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Organismal"/>
+        <obo:IAO_0000115>The above-ground woody portion of a branch with leaves and reproductive structures,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:BranchShoot</oboInOwl:id>
+        <rdfs:label>Branch shoot</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_BranchStalk -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_BranchStalk">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PlantPart"/>
+        <oboInOwl:id>ECOSIMCONCEPT:BranchStalk</oboInOwl:id>
+        <rdfs:label>BranchStalk</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_BundleSheathCell -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_BundleSheathCell">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PlantPart"/>
+        <oboInOwl:id>ECOSIMCONCEPT:BundleSheathCell</oboInOwl:id>
+        <rdfs:label>BundleSheathCell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_C3Compound -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_C3Compound">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_MaterialEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:C3Compound</oboInOwl:id>
+        <rdfs:label>C3Compound</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_C4 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_C4">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_MaterialEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:C4</oboInOwl:id>
+        <rdfs:label>C4</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_C4Carboxylation -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_C4Carboxylation">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Process"/>
+        <obo:IAO_0000115>The enzymatic addition of carbon dioxide to a C4 organic compound,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:C4Carboxylation</oboInOwl:id>
+        <rdfs:label>C4 carboxylation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_C4CarboxylationRate -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_C4CarboxylationRate">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Process"/>
+        <obo:IAO_0000115>The rate at which carbon dioxide is enzymatically added to C4 organic compounds,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:C4CarboxylationRate</oboInOwl:id>
+        <rdfs:label>C4 carboxylation rate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_C4Photosynthesis -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_C4Photosynthesis">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Process"/>
+        <oboInOwl:id>ECOSIMCONCEPT:C4Photosynthesis</oboInOwl:id>
+        <rdfs:label>C4Photosynthesis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_CH4 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_CH4">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_ChemicalEntity"/>
+        <obo:IAO_0000115>A colorless, odorless gas with chemical formula CH4, the main component of natural gas,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:CH4</oboInOwl:id>
+        <rdfs:label>Methane</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_CHPO4 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_CHPO4">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_ChemicalEntity"/>
+        <obo:IAO_0000115>A calcium phosphate mineral with formula CaHPO4,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:CHPO4</oboInOwl:id>
+        <rdfs:label>Calcium hydrogen phosphate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_CNRatio -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_CNRatio">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhysicalEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:CNRatio</oboInOwl:id>
+        <rdfs:label>CNRatio</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_CO2 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_CO2">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_ChemicalEntity"/>
+        <obo:IAO_0000115>A colorless, odorless gas with chemical formula CO2,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:CO2</oboInOwl:id>
+        <rdfs:label>Carbon dioxide</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_CO2CarboxylationRate -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_CO2CarboxylationRate">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Process"/>
+        <obo:IAO_0000115>The rate at which carbon dioxide is enzymatically added to organic compounds by rubisco,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:CO2CarboxylationRate</oboInOwl:id>
+        <rdfs:label>Carbon dioxide carboxylation rate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_CO2Concentration -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_CO2Concentration">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Attribute"/>
+        <oboInOwl:id>ECOSIMCONCEPT:CO2Concentration</oboInOwl:id>
+        <rdfs:label>CO2Concentration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_CO2Fixation -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_CO2Fixation">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Process"/>
+        <oboInOwl:id>ECOSIMCONCEPT:CO2Fixation</oboInOwl:id>
+        <rdfs:label>CO2Fixation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_CO3 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_CO3">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_ChemicalEntity"/>
+        <obo:IAO_0000115>A carbon oxoanion with chemical formula CO3(2-),</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:CO3</oboInOwl:id>
+        <rdfs:label>Carbonate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Ca -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Ca">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_ChemicalEntity"/>
+        <obo:IAO_0000115>A chemical element with symbol Ca and atomic number 20,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:Ca</oboInOwl:id>
+        <rdfs:label>Calcium</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Ca-NH4_Exchange -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Ca-NH4_Exchange">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Process"/>
+        <oboInOwl:id>http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Ca-NH4_Exchange</oboInOwl:id>
+        <rdfs:label>Ca-NH4_Exchange</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Ca-NaSelection -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Ca-NaSelection">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Process"/>
+        <oboInOwl:id>ECOSIMCONCEPT:Ca-NaSelection</oboInOwl:id>
+        <rdfs:label>Ca-NaSelection</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_CaCO3 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_CaCO3">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_ChemicalEntity"/>
+        <obo:IAO_0000115>A chemical compound with formula CaCO3,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:CaCO3</oboInOwl:id>
+        <rdfs:label>Calcium carbonate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_CaH2PO4 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_CaH2PO4">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_ChemicalEntity"/>
+        <obo:IAO_0000115>An inorganic compound with the formula Ca(H2PO4)2, </obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:CaH2PO4</oboInOwl:id>
+        <rdfs:label>Calcium dihydrogen phosphate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_CaHCO3 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_CaHCO3">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_MaterialEntity"/>
+        <obo:IAO_0000115>A chemical compound with formula Ca(HCO3)2,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:CaHCO3</oboInOwl:id>
+        <rdfs:label>Calcium bicarbonate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_CaHPO4 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_CaHPO4">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_ChemicalEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:CaHPO4</oboInOwl:id>
+        <rdfs:label>CaHPO4</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_CaOH -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_CaOH">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_ChemicalEntity"/>
+        <obo:IAO_0000115>An inorganic compound with the chemical formula Ca(OH)2,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:CaOH</oboInOwl:id>
+        <rdfs:label>Calcium hydroxide</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_CaPO4 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_CaPO4">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_ChemicalEntity"/>
+        <obo:IAO_0000115>An umbrella term for a group of minerals containing calcium and phosphate,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:CaPO4</oboInOwl:id>
+        <rdfs:label>Calcium phosphate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_CaSO4 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_CaSO4">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_ChemicalEntity"/>
+        <obo:IAO_0000115>A chemical compound with the formula CaSO4,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:CaSO4</oboInOwl:id>
+        <rdfs:label>Calcium sulfate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Ca_Al_Exchange -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Ca_Al_Exchange">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_MaterialEntity"/>
+        <oboInOwl:id>http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Ca_Al_Exchange</oboInOwl:id>
+        <rdfs:label>Ca_Al_Exchange</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Calcium -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Calcium">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_MaterialEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:Calcium</oboInOwl:id>
+        <rdfs:label>Calcium</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Canopy -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Canopy">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Organismal"/>
+        <obo:IAO_0000115>The uppermost layer of vegetation in a forest or crop,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:Canopy</oboInOwl:id>
+        <rdfs:label>Canopy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_CanopyBranch -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_CanopyBranch">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PlantPart"/>
+        <oboInOwl:id>ECOSIMCONCEPT:CanopyBranch</oboInOwl:id>
+        <rdfs:label>CanopyBranch</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_CanopyLayer -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_CanopyLayer">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhysicalEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:CanopyLayer</oboInOwl:id>
+        <rdfs:label>CanopyLayer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_CanopyNodule -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_CanopyNodule">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Organismal"/>
+        <oboInOwl:id>ECOSIMCONCEPT:CanopyNodule</oboInOwl:id>
+        <rdfs:label>CanopyNodule</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_CanopyPlant -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_CanopyPlant">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Organismal"/>
+        <oboInOwl:id>ECOSIMCONCEPT:CanopyPlant</oboInOwl:id>
+        <rdfs:label>CanopyPlant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_CanopyShoot -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_CanopyShoot">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Organismal"/>
+        <oboInOwl:id>ECOSIMCONCEPT:CanopyShoot</oboInOwl:id>
+        <rdfs:label>CanopyShoot</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_CanopyShootCarbon -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_CanopyShootCarbon">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhysicalEntity"/>
+        <obo:IAO_0000115>The carbon in the above-ground portion of the plant canopy,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:CanopyShootCarbon</oboInOwl:id>
+        <rdfs:label>Canopy shoot carbon</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Carbon -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Carbon">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Attribute"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_ChemicalEntity"/>
+        <obo:IAO_0000115>A chemical element with symbol C and atomic number 6,</obo:IAO_0000115>
+        <obo:IAO_0000115>A non-metallic chemical element with symbol C and atomic number 6</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:Carbon</oboInOwl:id>
+        <rdfs:label>Carbon</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_CarbonDioxide -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_CarbonDioxide">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_ChemicalEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:CarbonDioxide</oboInOwl:id>
+        <rdfs:label>CarbonDioxide</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_CarbonDioxideConcentrationInAir -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_CarbonDioxideConcentrationInAir">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Attribute"/>
+        <oboInOwl:id>ECOSIMCONCEPT:CarbonDioxideConcentrationInAir</oboInOwl:id>
+        <rdfs:label>CarbonDioxideConcentrationInAir</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_CarbonDioxideConcentrationInInterCellularAir -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_CarbonDioxideConcentrationInInterCellularAir">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Attribute"/>
+        <oboInOwl:id>ECOSIMCONCEPT:CarbonDioxideConcentrationInInterCellularAir</oboInOwl:id>
+        <rdfs:label>CarbonDioxideConcentrationInInterCellularAir</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_CarbonNitrogenRatio -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_CarbonNitrogenRatio">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhysicalEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:CarbonNitrogenRatio</oboInOwl:id>
+        <rdfs:label>CarbonNitrogenRatio</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_CarbonPhosphorusRatio -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_CarbonPhosphorusRatio">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhysicalEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:CarbonPhosphorusRatio</oboInOwl:id>
+        <rdfs:label>CarbonPhosphorusRatio</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_CarboxylaseActivity -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_CarboxylaseActivity">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Process"/>
+        <obo:IAO_0000115>The catalytic activity of enzymes that add carbon dioxide to organic substrates,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:CarboxylaseActivity</oboInOwl:id>
+        <rdfs:label>Carboxylase activity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Carboxylation -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Carboxylation">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Process"/>
+        <oboInOwl:id>ECOSIMCONCEPT:Carboxylation</oboInOwl:id>
+        <rdfs:label>Carboxylation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Ch4Emission -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Ch4Emission">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Process"/>
+        <obo:IAO_0000115>The release of methane gas into the atmosphere,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:Ch4Emission</oboInOwl:id>
+        <rdfs:label>Methane emission</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_ChemicalEntity -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_ChemicalEntity">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_MaterialEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:ChemicalEntity</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ecosim#upper_level"/>
+        <rdfs:label>chemical entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Chloride -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Chloride">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_ChemicalEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:Chloride</oboInOwl:id>
+        <rdfs:label>Chloride</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Chlorophyll -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Chlorophyll">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_ChemicalEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:Chlorophyll</oboInOwl:id>
+        <rdfs:label>Chlorophyll</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Cl -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Cl">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_ChemicalEntity"/>
+        <obo:IAO_0000115>A chemical element with symbol Cl and atomic number 17, </obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:Cl</oboInOwl:id>
+        <rdfs:label>Chlorine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Clay -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Clay">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhysicalEntity"/>
+        <obo:IAO_0000115>A stiff, sticky fine-grained earth,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:Clay</oboInOwl:id>
+        <rdfs:label>Clay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Clumping -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Clumping">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Attribute"/>
+        <oboInOwl:id>ECOSIMCONCEPT:Clumping</oboInOwl:id>
+        <rdfs:label>Clumping</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Coefficient -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Coefficient">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Attribute"/>
+        <oboInOwl:id>ECOSIMCONCEPT:Coefficient</oboInOwl:id>
+        <rdfs:label>Coefficient</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_ColdRequirement -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_ColdRequirement">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Attribute"/>
+        <obo:IAO_0000115>The amount of cold temperature exposure needed for a plant process</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:ColdRequirement</oboInOwl:id>
+        <rdfs:label>Cold requirement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Concentration -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Concentration">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Attribute"/>
+        <obo:IAO_0000115>The relative amount of a substance mixed with another substance</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:Concentration</oboInOwl:id>
+        <rdfs:label>Concentration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Constraint -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Constraint">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Attribute"/>
+        <obo:IAO_0000115>A limitation or restriction</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:Constraint</oboInOwl:id>
+        <rdfs:label>Constraint</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Content -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Content">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Attribute"/>
+        <obo:IAO_0000115>The amount contained</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:Content</oboInOwl:id>
+        <rdfs:label>Content</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Context -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Context">
+        <oboInOwl:id>ECOSIMCONCEPT:Context</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ecosim#upper_level"/>
+        <rdfs:label>context</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_ConvectiveHeat -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_ConvectiveHeat">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhysicalEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:ConvectiveHeat</oboInOwl:id>
+        <rdfs:label>ConvectiveHeat</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Cotyledon -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Cotyledon">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PlantPart"/>
+        <oboInOwl:id>ECOSIMCONCEPT:Cotyledon</oboInOwl:id>
+        <rdfs:label>Cotyledon</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Critical -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Critical">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Attribute"/>
+        <obo:IAO_0000115>Of the highest importance</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:Critical</oboInOwl:id>
+        <rdfs:label>Critical</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_DIC -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_DIC">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhysicalEntity"/>
+        <obo:IAO_0000115>Carbon dioxide and bicarbonate and carbonate ions dissolved in water,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:DIC</oboInOwl:id>
+        <rdfs:label>Dissolved inorganic carbon</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_DIP -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_DIP">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhysicalEntity"/>
+        <obo:IAO_0000115>Orthophosphate ions dissolved in water,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:DIP</oboInOwl:id>
+        <rdfs:label>Dissolved inorganic phosphorus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_DOC -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_DOC">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhysicalEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:DOC</oboInOwl:id>
+        <rdfs:label>DOC</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_DON -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_DON">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhysicalEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:DON</oboInOwl:id>
+        <rdfs:label>DON</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_DOP -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_DOP">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhysicalEntity"/>
+        <obo:IAO_0000115>Phosphorus bound in dissolved organic matter in water,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:DOP</oboInOwl:id>
+        <rdfs:label>Dissolved organic phosphorus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Day -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Day">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Process"/>
+        <oboInOwl:id>ECOSIMCONCEPT:Day</oboInOwl:id>
+        <rdfs:label>Day</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_DeadStandingTree -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_DeadStandingTree">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Plant"/>
+        <oboInOwl:id>ECOSIMCONCEPT:DeadStandingTree</oboInOwl:id>
+        <rdfs:label>DeadStandingTree</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_DeadTree -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_DeadTree">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Organismal"/>
+        <obo:IAO_0000115>A non-living tree,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:DeadTree</oboInOwl:id>
+        <rdfs:label>Dead tree</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Dehardening -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Dehardening">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Process"/>
+        <oboInOwl:id>ECOSIMCONCEPT:Dehardening</oboInOwl:id>
+        <rdfs:label>Dehardening</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Deposition -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Deposition">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Attribute"/>
+        <obo:IAO_0000115>The accumulation of material on a surface</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:Deposition</oboInOwl:id>
+        <rdfs:label>Deposition</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Depth -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Depth">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Attribute"/>
+        <obo:IAO_0000115>Vertical distance below a surface</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:Depth</oboInOwl:id>
+        <rdfs:label>Depth</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Diffusivity -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Diffusivity">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Attribute"/>
+        <obo:IAO_0000115>The rate at which particles spread through a medium</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:Diffusivity</oboInOwl:id>
+        <rdfs:label>Diffusivity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Dissolution -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Dissolution">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Attribute"/>
+        <obo:IAO_0000115>The process of dissolving a solid into a liquid</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:Dissolution</oboInOwl:id>
+        <rdfs:label>Dissolution</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_DissolutionVolatilization -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_DissolutionVolatilization">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Attribute"/>
+        <obo:IAO_0000115>The dissolution and volatilization transfer processes&quot; </obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:DissolutionVolatilization</oboInOwl:id>
+        <rdfs:label>Dissolution volatilization</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_DissolvedInorganicNitrogen -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_DissolvedInorganicNitrogen">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhysicalEntity"/>
+        <obo:IAO_0000115>Nitrogen species such as nitrate, nitrite and ammonium ions dissolved in water,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:DissolvedInorganicNitrogen</oboInOwl:id>
+        <rdfs:label>Dissolved inorganic nitrogen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_DissolvedOrganicCarbon -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_DissolvedOrganicCarbon">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhysicalEntity"/>
+        <obo:IAO_0000115>Organic carbon dissolved in water, </obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:DissolvedOrganicCarbon</oboInOwl:id>
+        <rdfs:label>Dissolved organic carbon</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_DissolvedOrganicNitrogen -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_DissolvedOrganicNitrogen">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhysicalEntity"/>
+        <obo:IAO_0000115>Organically bound nitrogen dissolved in water,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:DissolvedOrganicNitrogen</oboInOwl:id>
+        <rdfs:label>Dissolved organic nitrogen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_DissolvedOrganicPhosphoros -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_DissolvedOrganicPhosphoros">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhysicalEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:DissolvedOrganicPhosphoros</oboInOwl:id>
+        <rdfs:label>DissolvedOrganicPhosphoros</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_DissolvedOrganicPhosphorus -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_DissolvedOrganicPhosphorus">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhysicalEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:DissolvedOrganicPhosphorus</oboInOwl:id>
+        <rdfs:label>DissolvedOrganicPhosphorus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Drainage -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Drainage">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Attribute"/>
+        <obo:IAO_0000115>The outflow of water from an area</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:Drainage</oboInOwl:id>
+        <rdfs:label>Drainage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Duration -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Duration">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Attribute"/>
+        <obo:IAO_0000115>The time period over which something continues</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:Duration</oboInOwl:id>
+        <rdfs:label>Duration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Ear -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Ear">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Organismal"/>
+        <obo:IAO_0000115>The seed-bearing spike of a cereal plant,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:Ear</oboInOwl:id>
+        <rdfs:label>Ear</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_EarthSurface -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_EarthSurface">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhysicalEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:EarthSurface</oboInOwl:id>
+        <rdfs:label>EarthSurface</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Ecosystem -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Ecosystem">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_MaterialEntity"/>
+        <obo:IAO_0000115>A biological community of interacting living organisms and their physical environment,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:Ecosystem</oboInOwl:id>
+        <rdfs:label>Ecosystem</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Element -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Element">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Attribute"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhysicalEntity"/>
+        <obo:IAO_0000115>A component or constituent of a whole</obo:IAO_0000115>
+        <obo:IAO_0000115>An Environment Template building block representing a modeled component,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:Element</oboInOwl:id>
+        <rdfs:label>Element</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Emission -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Emission">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Attribute"/>
+        <obo:IAO_0000115>The release of something, such as gas or radiation</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:Emission</oboInOwl:id>
+        <rdfs:label>Emission</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Energy -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Energy">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhysicalEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:Energy</oboInOwl:id>
+        <rdfs:label>Energy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_EnvironmentalEntity -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_EnvironmentalEntity">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_MaterialEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:EnvironmentalEntity</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ecosim#upper_level"/>
+        <rdfs:label>environmental entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Enzyme -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Enzyme">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_ChemicalEntity"/>
+        <obo:IAO_0000115>A protein that catalyzes chemical reactions,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:Enzyme</oboInOwl:id>
+        <rdfs:label>Enzyme</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Erosion -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Erosion">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Process"/>
+        <oboInOwl:id>ECOSIMCONCEPT:Erosion</oboInOwl:id>
+        <rdfs:label>Erosion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_ErosionBand -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_ErosionBand">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhysicalEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:ErosionBand</oboInOwl:id>
+        <rdfs:label>ErosionBand</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_ErosionRate -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_ErosionRate">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Attribute"/>
+        <obo:IAO_0000115>The speed at which erosion is occurring</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:ErosionRate</oboInOwl:id>
+        <rdfs:label>Erosion rate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Evaporation -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Evaporation">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Attribute"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Process"/>
+        <obo:IAO_0000115>The conversion of liquid water to water vapor</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:Evaporation</oboInOwl:id>
+        <rdfs:label>Evaporation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Evapotranspiration -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Evapotranspiration">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Process"/>
+        <oboInOwl:id>ECOSIMCONCEPT:Evapotranspiration</oboInOwl:id>
+        <rdfs:label>Evapotranspiration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Exchange -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Exchange">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Attribute"/>
+        <obo:IAO_0000115>The act of giving or taking one thing in return for another</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:Exchange</oboInOwl:id>
+        <rdfs:label>Exchange</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_F1PR -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_F1PR">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_ChemicalEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:F1PR</oboInOwl:id>
+        <rdfs:label>F1PR</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Fe -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Fe">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_ChemicalEntity"/>
+        <obo:IAO_0000115>A metallic chemical element with symbol Fe and atomic number 26,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:Fe</oboInOwl:id>
+        <rdfs:label>Iron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_FeH2PO4 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_FeH2PO4">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_ChemicalEntity"/>
+        <obo:IAO_0000115>An inorganic compound with the formula Fe(H2PO4)2,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:FeH2PO4</oboInOwl:id>
+        <rdfs:label>Iron dihydrogen phosphate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_FeHPO4 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_FeHPO4">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_MaterialEntity"/>
+        <obo:IAO_0000115>An inorganic compound with the formula FeHPO4,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:FeHPO4</oboInOwl:id>
+        <rdfs:label>Iron hydrogen phosphate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_FeOH -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_FeOH">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_ChemicalEntity"/>
+        <obo:IAO_0000115>An inorganic compound with the formula FeOH,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:FeOH</oboInOwl:id>
+        <rdfs:label>Iron hydroxide</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_FeOH2 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_FeOH2">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_ChemicalEntity"/>
+        <obo:IAO_0000115>An inorganic compound with the formula Fe(OH)2,  </obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:FeOH2</oboInOwl:id>
+        <rdfs:label>Iron dihydroxide</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_FeOH3 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_FeOH3">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_ChemicalEntity"/>
+        <obo:IAO_0000115>An inorganic compound with the formula Fe(OH)3,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:FeOH3</oboInOwl:id>
+        <rdfs:label>Iron trihydroxide</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_FeOH4 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_FeOH4">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_ChemicalEntity"/>
+        <obo:IAO_0000115>An inorganic compound with the formula Fe(OH)4,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:FeOH4</oboInOwl:id>
+        <rdfs:label>Iron tetrahydroxide</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_FePO4 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_FePO4">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_ChemicalEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:FePO4</oboInOwl:id>
+        <rdfs:label>FePO4</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_FeSO4 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_FeSO4">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_ChemicalEntity"/>
+        <obo:IAO_0000115>A chemical compound with formula FeSO4,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:FeSO4</oboInOwl:id>
+        <rdfs:label>Iron sulfate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Fertilizer -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Fertilizer">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhysicalEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:Fertilizer</oboInOwl:id>
+        <rdfs:label>Fertilizer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_FertilizerApplication -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_FertilizerApplication">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Process"/>
+        <oboInOwl:id>ECOSIMCONCEPT:FertilizerApplication</oboInOwl:id>
+        <rdfs:label>FertilizerApplication</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_FertilizerNH4 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_FertilizerNH4">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhysicalEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:FertilizerNH4</oboInOwl:id>
+        <rdfs:label>FertilizerNH4</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Field -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Field">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhysicalEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:Field</oboInOwl:id>
+        <rdfs:label>Field</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_FieldCapacityWiltingPoint -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_FieldCapacityWiltingPoint">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Attribute"/>
+        <oboInOwl:id>ECOSIMCONCEPT:FieldCapacityWiltingPoint</oboInOwl:id>
+        <rdfs:label>FieldCapacityWiltingPoint</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Fire -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Fire">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Process"/>
+        <obo:IAO_0000115>The rapid oxidation of combustible material releasing heat, light and various reaction products,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:Fire</oboInOwl:id>
+        <rdfs:label>Fire</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Flux -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Flux">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Attribute"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhysicalEntity"/>
+        <obo:IAO_0000115>The rate of flow of a quantity</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:Flux</oboInOwl:id>
+        <rdfs:label>Flux</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Fraction -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Fraction">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Attribute"/>
+        <oboInOwl:id>ECOSIMCONCEPT:Fraction</oboInOwl:id>
+        <rdfs:label>Fraction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Gas -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Gas">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhysicalEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:Gas</oboInOwl:id>
+        <rdfs:label>Gas</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_GasFlux -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_GasFlux">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhysicalEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:GasFlux</oboInOwl:id>
+        <rdfs:label>GasFlux</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_GaseousN2O -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_GaseousN2O">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_ChemicalEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:GaseousN2O</oboInOwl:id>
+        <rdfs:label>GaseousN2O</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Genome -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Genome">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhysicalEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:Genome</oboInOwl:id>
+        <rdfs:label>Genome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Geometry -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Geometry">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Attribute"/>
+        <oboInOwl:id>ECOSIMCONCEPT:Geometry</oboInOwl:id>
+        <rdfs:label>Geometry</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Grain -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Grain">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Organismal"/>
+        <obo:IAO_0000115>The edible seed of a cereal grass,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:Grain</oboInOwl:id>
+        <rdfs:label>Grain</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_GrainElement -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_GrainElement">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PlantPart"/>
+        <oboInOwl:id>ECOSIMCONCEPT:GrainElement</oboInOwl:id>
+        <rdfs:label>GrainElement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_GrainGrowth -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_GrainGrowth">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Process"/>
+        <oboInOwl:id>ECOSIMCONCEPT:GrainGrowth</oboInOwl:id>
+        <rdfs:label>GrainGrowth</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_GrainNumber -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_GrainNumber">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Attribute"/>
+        <oboInOwl:id>ECOSIMCONCEPT:GrainNumber</oboInOwl:id>
+        <rdfs:label>GrainNumber</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Grid -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Grid">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhysicalEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:Grid</oboInOwl:id>
+        <rdfs:label>Grid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_GridCell -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_GridCell">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhysicalEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:GridCell</oboInOwl:id>
+        <rdfs:label>GridCell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_GridLayer -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_GridLayer">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhysicalEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:GridLayer</oboInOwl:id>
+        <rdfs:label>GridLayer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_GroundSurface -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_GroundSurface">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhysicalEntity"/>
+        <obo:IAO_0000115>The uppermost layer of the land surface,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:GroundSurface</oboInOwl:id>
+        <rdfs:label>Ground surface</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Growth -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Growth">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Process"/>
+        <oboInOwl:id>ECOSIMCONCEPT:Growth</oboInOwl:id>
+        <rdfs:label>Growth</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_H -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_H">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_ChemicalEntity"/>
+        <obo:IAO_0000115>A chemical element with symbol H and atomic number 1,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:H</oboInOwl:id>
+        <rdfs:label>Hydrogen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_H2 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_H2">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_ChemicalEntity"/>
+        <obo:IAO_0000115>A gas with the formula H2,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:H2</oboInOwl:id>
+        <rdfs:label>Dihydrogen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_H2O -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_H2O">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_ChemicalEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:H2O</oboInOwl:id>
+        <rdfs:label>H2O</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_H2PO4 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_H2PO4">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_ChemicalEntity"/>
+        <obo:IAO_0000115>An oxoanion with the chemical formula H2PO4-,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:H2PO4</oboInOwl:id>
+        <rdfs:label>Dihydrogen phosphate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_H3PO4 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_H3PO4">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_ChemicalEntity"/>
+        <obo:IAO_0000115>An inorganic compound with the chemical formula H3PO4,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:H3PO4</oboInOwl:id>
+        <rdfs:label>Phosphoric acid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_HCO3 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_HCO3">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_ChemicalEntity"/>
+        <obo:IAO_0000115>An oxoanion with the chemical formula HCO3-,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:HCO3</oboInOwl:id>
+        <rdfs:label>Bicarbonate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_HPO4 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_HPO4">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_ChemicalEntity"/>
+        <obo:IAO_0000115>An oxoanion with the chemical formula HPO42-,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:HPO4</oboInOwl:id>
+        <rdfs:label>Hydrogen phosphate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_HalfSaturationConstant -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_HalfSaturationConstant">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Attribute"/>
+        <obo:IAO_0000115>The concentration at which a reaction rate is half its maximum</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:HalfSaturationConstant</oboInOwl:id>
+        <rdfs:label>Half saturation constant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Harvest -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Harvest">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Attribute"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Process"/>
+        <obo:IAO_0000115>The process of gathering a crop&quot; </obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:Harvest</oboInOwl:id>
+        <rdfs:label>Harvest</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Heat -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Heat">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhysicalEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:Heat</oboInOwl:id>
+        <rdfs:label>Heat</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_HeatCapacity -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_HeatCapacity">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Attribute"/>
+        <obo:IAO_0000115>The amount of heat energy required to change the temperature of an object</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:HeatCapacity</oboInOwl:id>
+        <rdfs:label>Heat capacity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_HeatRequirement -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_HeatRequirement">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Attribute"/>
+        <oboInOwl:id>ECOSIMCONCEPT:HeatRequirement</oboInOwl:id>
+        <rdfs:label>HeatRequirement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_HeatTransfer -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_HeatTransfer">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Process"/>
+        <oboInOwl:id>ECOSIMCONCEPT:HeatTransfer</oboInOwl:id>
+        <rdfs:label>HeatTransfer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Height -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Height">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Attribute"/>
+        <obo:IAO_0000115>Vertical distance from bottom to top</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:Height</oboInOwl:id>
+        <rdfs:label>Height</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Humus -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Humus">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhysicalEntity"/>
+        <obo:IAO_0000115>The organic component of soil, formed by the decomposition of leaves and other plant material by soil microorganisms,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:Humus</oboInOwl:id>
+        <rdfs:label>Humus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Husk -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Husk">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Organismal"/>
+        <obo:IAO_0000115>The dry external covering of certain fruits or seeds,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:Husk</oboInOwl:id>
+        <rdfs:label>Husk</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_HuskElement -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_HuskElement">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PlantPart"/>
+        <oboInOwl:id>ECOSIMCONCEPT:HuskElement</oboInOwl:id>
+        <rdfs:label>HuskElement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Hydrogen -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Hydrogen">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_ChemicalEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:Hydrogen</oboInOwl:id>
+        <rdfs:label>Hydrogen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_HydrogenGas -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_HydrogenGas">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_ChemicalEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:HydrogenGas</oboInOwl:id>
+        <rdfs:label>HydrogenGas</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Hydroxide -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Hydroxide">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_ChemicalEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:Hydroxide</oboInOwl:id>
+        <rdfs:label>Hydroxide</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Ice -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Ice">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhysicalEntity"/>
+        <obo:IAO_0000115>Frozen water,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:Ice</oboInOwl:id>
+        <rdfs:label>Ice</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Internode -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Internode">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PlantPart"/>
+        <oboInOwl:id>ECOSIMCONCEPT:Internode</oboInOwl:id>
+        <rdfs:label>Internode</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Ion -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Ion">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhysicalEntity"/>
+        <obo:IAO_0000115>An atom or molecule with a net electric charge,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:Ion</oboInOwl:id>
+        <rdfs:label>Ion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_IonSelectivity -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_IonSelectivity">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_MaterialEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:IonSelectivity</oboInOwl:id>
+        <rdfs:label>IonSelectivity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Ions -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Ions">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhysicalEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:Ions</oboInOwl:id>
+        <rdfs:label>Ions</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Iron -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Iron">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_ChemicalEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:Iron</oboInOwl:id>
+        <rdfs:label>Iron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Irrigation -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Irrigation">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Process"/>
+        <oboInOwl:id>ECOSIMCONCEPT:Irrigation</oboInOwl:id>
+        <rdfs:label>Irrigation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_IrrigationWater -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_IrrigationWater">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhysicalEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:IrrigationWater</oboInOwl:id>
+        <rdfs:label>IrrigationWater</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_K -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_K">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_ChemicalEntity"/>
+        <obo:IAO_0000115>A chemical element with symbol K and atomic number 19,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:K</oboInOwl:id>
+        <rdfs:label>Potassium</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_KMValue -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_KMValue">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Attribute"/>
+        <obo:IAO_0000115>The half saturation constant in Michaelis-Menten enzyme kinetics</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:KMValue</oboInOwl:id>
+        <rdfs:label>Km value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_KSO4 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_KSO4">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_ChemicalEntity"/>
+        <obo:IAO_0000115>An inorganic compound with formula K2SO4,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:KSO4</oboInOwl:id>
+        <rdfs:label>Potassium sulfate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_LAI -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_LAI">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Attribute"/>
+        <oboInOwl:id>ECOSIMCONCEPT:LAI</oboInOwl:id>
+        <rdfs:label>LAI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_LWRad -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_LWRad">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhysicalEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:LWRad</oboInOwl:id>
+        <rdfs:label>LWRad</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_LandSurface -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_LandSurface">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhysicalEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:LandSurface</oboInOwl:id>
+        <rdfs:label>LandSurface</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Landscape -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Landscape">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhysicalEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:Landscape</oboInOwl:id>
+        <rdfs:label>Landscape</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_LatentHeat -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_LatentHeat">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhysicalEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:LatentHeat</oboInOwl:id>
+        <rdfs:label>LatentHeat</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Layer -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Layer">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhysicalEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:Layer</oboInOwl:id>
+        <rdfs:label>Layer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Leaf -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Leaf">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Organismal"/>
+        <obo:IAO_0000115>The flattened blade of a plant leaf,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:Leaf</oboInOwl:id>
+        <rdfs:label>Leaf</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_LeafArea -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_LeafArea">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_MaterialEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:LeafArea</oboInOwl:id>
+        <rdfs:label>LeafArea</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_LeafElement -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_LeafElement">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Organismal"/>
+        <obo:IAO_0000115>A modeled leaf component in a plant,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:LeafElement</oboInOwl:id>
+        <rdfs:label>Leaf element</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_LeafLength_WidthRatio -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_LeafLength_WidthRatio">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Attribute"/>
+        <oboInOwl:id>http://purl.obolibrary.org/obo/ECOSIMCONCEPT_LeafLength_WidthRatio</oboInOwl:id>
+        <rdfs:label>LeafLength_WidthRatio</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_LeafNumber -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_LeafNumber">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Attribute"/>
+        <oboInOwl:id>ECOSIMCONCEPT:LeafNumber</oboInOwl:id>
+        <rdfs:label>LeafNumber</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_LeafPlusSheath -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_LeafPlusSheath">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PlantPart"/>
+        <oboInOwl:id>ECOSIMCONCEPT:LeafPlusSheath</oboInOwl:id>
+        <rdfs:label>LeafPlusSheath</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_LeafStructuralElement -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_LeafStructuralElement">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PlantPart"/>
+        <oboInOwl:id>ECOSIMCONCEPT:LeafStructuralElement</oboInOwl:id>
+        <rdfs:label>LeafStructuralElement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Leafout -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Leafout">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Process"/>
+        <obo:IAO_0000115>The emergence and expansion of new leaves on plants in spring,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:Leafout</oboInOwl:id>
+        <rdfs:label>Leaf out</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Litter -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Litter">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhysicalEntity"/>
+        <obo:IAO_0000115>Dead plant material such as leaves on the ground in a forest or woodland,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:Litter</oboInOwl:id>
+        <rdfs:label>Litter</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Litterfall -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Litterfall">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Process"/>
+        <obo:IAO_0000115>The falling of dead plant material such as leaves from trees to the forest floor,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:Litterfall</oboInOwl:id>
+        <rdfs:label>Litterfall</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_LongwaveRadiation -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_LongwaveRadiation">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhysicalEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:LongwaveRadiation</oboInOwl:id>
+        <rdfs:label>LongwaveRadiation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Macropore -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Macropore">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhysicalEntity"/>
+        <obo:IAO_0000115>A large pore space between soil particles that facilitates water drainage and aeration,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:Macropore</oboInOwl:id>
+        <rdfs:label>Macropore</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Magnesium -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Magnesium">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_ChemicalEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:Magnesium</oboInOwl:id>
+        <rdfs:label>Magnesium</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Mass -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Mass">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Attribute"/>
+        <obo:IAO_0000115>A measure of the amount of matter in an object</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:Mass</oboInOwl:id>
+        <rdfs:label>Mass</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_MaterialEntity -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_MaterialEntity">
+        <oboInOwl:id>ECOSIMCONCEPT:MaterialEntity</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ecosim#upper_level"/>
+        <rdfs:label>material entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_MeltWater -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_MeltWater">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhysicalEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:MeltWater</oboInOwl:id>
+        <rdfs:label>MeltWater</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Meltwater -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Meltwater">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhysicalEntity"/>
+        <obo:IAO_0000115>Water from melting snow or ice,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:Meltwater</oboInOwl:id>
+        <rdfs:label>Meltwater</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_MetabolicActivity -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_MetabolicActivity">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Process"/>
+        <oboInOwl:id>ECOSIMCONCEPT:MetabolicActivity</oboInOwl:id>
+        <rdfs:label>MetabolicActivity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_MetabolicRate -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_MetabolicRate">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Attribute"/>
+        <obo:IAO_0000115>The rate of energy conversion and use in an organism&apos;s cells&quot; </obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:MetabolicRate</oboInOwl:id>
+        <rdfs:label>Metabolic rate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Mg -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Mg">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_MaterialEntity"/>
+        <obo:IAO_0000115>A chemical element with symbol Mg and atomic number 12,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:Mg</oboInOwl:id>
+        <rdfs:label>Magnesium</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_MgCO3 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_MgCO3">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_ChemicalEntity"/>
+        <obo:IAO_0000115>A chemical compound with the formula MgCO3,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:MgCO3</oboInOwl:id>
+        <rdfs:label>Magnesium carbonate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_MgHCO3 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_MgHCO3">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_ChemicalEntity"/>
+        <obo:IAO_0000115>A chemical compound with the formula Mg(HCO3)2,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:MgHCO3</oboInOwl:id>
+        <rdfs:label>Magnesium bicarbonate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_MgHPO4 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_MgHPO4">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_ChemicalEntity"/>
+        <obo:IAO_0000115>A magnesium phosphate mineral with the formula MgHPO4,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:MgHPO4</oboInOwl:id>
+        <rdfs:label>Magnesium hydrogen phosphate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_MgOH -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_MgOH">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_ChemicalEntity"/>
+        <obo:IAO_0000115>An inorganic compound with the formula Mg(OH)2,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:MgOH</oboInOwl:id>
+        <rdfs:label>Magnesium hydroxide</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_MgSO4 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_MgSO4">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_ChemicalEntity"/>
+        <obo:IAO_0000115>An inorganic compound with formula MgSO4, </obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:MgSO4</oboInOwl:id>
+        <rdfs:label>Magnesium sulfate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_MichaelisConstant -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_MichaelisConstant">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Attribute"/>
+        <obo:IAO_0000115>The substrate concentration at which enzyme reaction rate is half its maximum</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:MichaelisConstant</oboInOwl:id>
+        <rdfs:label>Michaelis constant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_MicrobialBiomass -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_MicrobialBiomass">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhysicalEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:MicrobialBiomass</oboInOwl:id>
+        <rdfs:label>MicrobialBiomass</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Micropore -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Micropore">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Attribute"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhysicalEntity"/>
+        <obo:IAO_0000115>A small pore space between soil particles that holds water by capillary forces,</obo:IAO_0000115>
+        <obo:IAO_0000115>A small soil pore that holds water by capillary forces&quot; </obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:Micropore</oboInOwl:id>
+        <rdfs:label>Micropore</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_MicroporeMacropore -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_MicroporeMacropore">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhysicalEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:MicroporeMacropore</oboInOwl:id>
+        <rdfs:label>MicroporeMacropore</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Moisture -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Moisture">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Attribute"/>
+        <oboInOwl:id>ECOSIMCONCEPT:Moisture</oboInOwl:id>
+        <rdfs:label>Moisture</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_N2 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_N2">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_ChemicalEntity"/>
+        <obo:IAO_0000115>A colorless, odorless diatomic gas with the formula N2,  </obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:N2</oboInOwl:id>
+        <rdfs:label>Dinitrogen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_N2O -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_N2O">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_ChemicalEntity"/>
+        <obo:IAO_0000115>A potent greenhouse gas with formula N2O,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:N2O</oboInOwl:id>
+        <rdfs:label>Nitrous oxide</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_NH3 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_NH3">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_ChemicalEntity"/>
+        <obo:IAO_0000115>A colorless gas with a characteristic pungent smell and formula NH3,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:NH3</oboInOwl:id>
+        <rdfs:label>Ammonia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_NH4 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_NH4">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_ChemicalEntity"/>
+        <obo:IAO_0000115>A positively charged polyatomic ion with the chemical formula NH4+, </obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:NH4</oboInOwl:id>
+        <rdfs:label>Ammonium</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_NH4NH3 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_NH4NH3">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_ChemicalEntity"/>
+        <obo:IAO_0000115>The chemical species pair of ammonium (NH4+) and ammonia (NH3),</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:NH4NH3</oboInOwl:id>
+        <rdfs:label>Ammonium/Ammonia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_NO2 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_NO2">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_ChemicalEntity"/>
+        <obo:IAO_0000115>A reddish-brown gas with formula NO2 that is a byproduct of combustion,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:NO2</oboInOwl:id>
+        <rdfs:label>Nitrogen dioxide</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_NO3 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_NO3">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_ChemicalEntity"/>
+        <obo:IAO_0000115>An oxoanion with the chemical formula NO3-,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:NO3</oboInOwl:id>
+        <rdfs:label>Nitrate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_NO3Fertilizer -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_NO3Fertilizer">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhysicalEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:NO3Fertilizer</oboInOwl:id>
+        <rdfs:label>NO3Fertilizer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_NO3_Band -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_NO3_Band">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhysicalEntity"/>
+        <oboInOwl:id>http://purl.obolibrary.org/obo/ECOSIMCONCEPT_NO3_Band</oboInOwl:id>
+        <rdfs:label>NO3_Band</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Na -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Na">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_ChemicalEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:Na</oboInOwl:id>
+        <rdfs:label>Na</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_NaCO3 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_NaCO3">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_ChemicalEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:NaCO3</oboInOwl:id>
+        <rdfs:label>NaCO3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_NaSO4 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_NaSO4">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_ChemicalEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:NaSO4</oboInOwl:id>
+        <rdfs:label>NaSO4</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_NetExchange -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_NetExchange">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Attribute"/>
+        <obo:IAO_0000115>The total exchange between two regions accounting for transfers in both directions</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:NetExchange</oboInOwl:id>
+        <rdfs:label>Net exchange</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Nitrate -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Nitrate">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_ChemicalEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:Nitrate</oboInOwl:id>
+        <rdfs:label>Nitrate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Nitrogen -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Nitrogen">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Attribute"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_ChemicalEntity"/>
+        <obo:IAO_0000115>A colorless, odorless gaseous element constituting about four-fifths of the volume of the atmosphere</obo:IAO_0000115>
+        <obo:IAO_0000115>A colorless, odorless gaseous element that constitutes about four-fifths of the volume of the atmosphere and is present in combined forms in animal and vegetable tissues, </obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:Nitrogen</oboInOwl:id>
+        <rdfs:label>Nitrogen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_NitrogenCarbonRatio -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_NitrogenCarbonRatio">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhysicalEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:NitrogenCarbonRatio</oboInOwl:id>
+        <rdfs:label>NitrogenCarbonRatio</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_NitrogenFixation -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_NitrogenFixation">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Process"/>
+        <obo:IAO_0000115>The conversion of molecular nitrogen (N2) to ammonia by soil bacteria,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:NitrogenFixation</oboInOwl:id>
+        <rdfs:label>Nitrogen fixation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_NitrogenGas -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_NitrogenGas">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_ChemicalEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:NitrogenGas</oboInOwl:id>
+        <rdfs:label>NitrogenGas</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_NitrousOxide -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_NitrousOxide">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_ChemicalEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:NitrousOxide</oboInOwl:id>
+        <rdfs:label>NitrousOxide</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Node -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Node">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PlantPart"/>
+        <oboInOwl:id>ECOSIMCONCEPT:Node</oboInOwl:id>
+        <rdfs:label>Node</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_NodeElement -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_NodeElement">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Organismal"/>
+        <obo:IAO_0000115>A modeled internode section on a plant stem,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:NodeElement</oboInOwl:id>
+        <rdfs:label>Node element</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_NodeInitiation -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_NodeInitiation">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Process"/>
+        <oboInOwl:id>ECOSIMCONCEPT:NodeInitiation</oboInOwl:id>
+        <rdfs:label>NodeInitiation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_NodeNumber -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_NodeNumber">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Attribute"/>
+        <oboInOwl:id>ECOSIMCONCEPT:NodeNumber</oboInOwl:id>
+        <rdfs:label>NodeNumber</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Nodes -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Nodes">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PlantPart"/>
+        <oboInOwl:id>ECOSIMCONCEPT:Nodes</oboInOwl:id>
+        <rdfs:label>Nodes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Nodule -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Nodule">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PlantPart"/>
+        <oboInOwl:id>ECOSIMCONCEPT:Nodule</oboInOwl:id>
+        <rdfs:label>Nodule</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_NoduleElement -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_NoduleElement">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Organismal"/>
+        <obo:IAO_0000115>Specialized structures on the roots of some plants that house nitrogen-fixing bacteria,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:NoduleElement</oboInOwl:id>
+        <rdfs:label>Nodule element</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_NonBandRegion -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_NonBandRegion">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhysicalEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:NonBandRegion</oboInOwl:id>
+        <rdfs:label>NonBandRegion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_NonSaltSolute -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_NonSaltSolute">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhysicalEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:NonSaltSolute</oboInOwl:id>
+        <rdfs:label>NonSaltSolute</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_NonStructuralC -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_NonStructuralC">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhysicalEntity"/>
+        <obo:IAO_0000115>Carbohydrates produced by plants that are not part of supporting structures,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:NonStructuralC</oboInOwl:id>
+        <rdfs:label>Non-structural carbohydrate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_NonStructuralElement -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_NonStructuralElement">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhysicalEntity"/>
+        <obo:IAO_0000115>A modeled pool of non-structural carbohydrate in a plant,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:NonStructuralElement</oboInOwl:id>
+        <rdfs:label>Non-structural element</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_NonstructuralC3Content -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_NonstructuralC3Content">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhysicalEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:NonstructuralC3Content</oboInOwl:id>
+        <rdfs:label>NonstructuralC3Content</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_NonstructuralCarbonTransfer -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_NonstructuralCarbonTransfer">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Process"/>
+        <oboInOwl:id>ECOSIMCONCEPT:NonstructuralCarbonTransfer</oboInOwl:id>
+        <rdfs:label>NonstructuralCarbonTransfer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_NonstructuralOrganicCompounds -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_NonstructuralOrganicCompounds">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhysicalEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:NonstructuralOrganicCompounds</oboInOwl:id>
+        <rdfs:label>NonstructuralOrganicCompounds</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Number -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Number">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Attribute"/>
+        <obo:IAO_0000115>An arithmetical value</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:Number</oboInOwl:id>
+        <rdfs:label>Number</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_NumericType -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_NumericType">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Attribute"/>
+        <obo:IAO_0000115>A data type representing numbers</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:NumericType</oboInOwl:id>
+        <rdfs:label>Numeric type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Nutrient -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Nutrient">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhysicalEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:Nutrient</oboInOwl:id>
+        <rdfs:label>Nutrient</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_O2 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_O2">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_ChemicalEntity"/>
+        <obo:IAO_0000115>A colorless, odorless gas with formula O2 that makes up about 20% of the earth&apos;s atmosphere,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:O2</oboInOwl:id>
+        <rdfs:label>Dioxygen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_OH -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_OH">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_ChemicalEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:OH</oboInOwl:id>
+        <rdfs:label>OH</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_OH_Minus -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_OH_Minus">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_ChemicalEntity"/>
+        <oboInOwl:id>http://purl.obolibrary.org/obo/ECOSIMCONCEPT_OH_Minus</oboInOwl:id>
+        <rdfs:label>OH_Minus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_OrganicCarbon -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_OrganicCarbon">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhysicalEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:OrganicCarbon</oboInOwl:id>
+        <rdfs:label>OrganicCarbon</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Organismal -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Organismal">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_MaterialEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:Organismal</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ecosim#upper_level"/>
+        <rdfs:label>organismal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_OverlandFlow -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_OverlandFlow">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhysicalEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:OverlandFlow</oboInOwl:id>
+        <rdfs:label>OverlandFlow</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Oxygen -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Oxygen">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_ChemicalEntity"/>
+        <obo:IAO_0000115>A colorless, odorless reactive gaseous element constituting about one-fifth of the volume of the atmosphere and present in a combined state in nature,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:Oxygen</oboInOwl:id>
+        <rdfs:label>Oxygen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_P -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_P">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_ChemicalEntity"/>
+        <obo:IAO_0000115>A highly reactive, non-metallic chemical element with symbol P and atomic number 15,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:P</oboInOwl:id>
+        <rdfs:label>Phosphorus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PCRatio -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PCRatio">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhysicalEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:PCRatio</oboInOwl:id>
+        <rdfs:label>PCRatio</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PEPCarboxylase -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PEPCarboxylase">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_ChemicalEntity"/>
+        <obo:IAO_0000115>An enzyme that catalyzes the addition of carbon dioxide to phosphoenolpyruvate,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:PEPCarboxylase</oboInOwl:id>
+        <rdfs:label>Phosphoenolpyruvate carboxylase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PEPCarboxylaseActivity -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PEPCarboxylaseActivity">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Process"/>
+        <obo:IAO_0000115>The catalytic activity of phosphoenolpyruvate carboxylase,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:PEPCarboxylaseActivity</oboInOwl:id>
+        <rdfs:label>Phosphoenolpyruvate carboxylase activity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PO4 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PO4">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_ChemicalEntity"/>
+        <obo:IAO_0000115>An oxoanion formed of one phosphorus and four oxygen atoms, PO43-,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:PO4</oboInOwl:id>
+        <rdfs:label>Phosphate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PO4Band -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PO4Band">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhysicalEntity"/>
+        <obo:IAO_0000115>A layer of phosphate bound to soil particles,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:PO4Band</oboInOwl:id>
+        <rdfs:label>Phosphate band</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PO4band -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PO4band">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhysicalEntity"/>
+        <obo:IAO_0000115>A layer of phosphate bound to soil particles,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:PO4band</oboInOwl:id>
+        <rdfs:label>Phosphate band</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Partitioning -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Partitioning">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Process"/>
+        <oboInOwl:id>ECOSIMCONCEPT:Partitioning</oboInOwl:id>
+        <rdfs:label>Partitioning</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Percipitation -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Percipitation">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Process"/>
+        <oboInOwl:id>ECOSIMCONCEPT:Percipitation</oboInOwl:id>
+        <rdfs:label>Percipitation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Permafrost -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Permafrost">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhysicalEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:Permafrost</oboInOwl:id>
+        <rdfs:label>Permafrost</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Permeability -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Permeability">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Attribute"/>
+        <obo:IAO_0000115>The degree to which a material allows fluids to pass through it&quot; </obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:Permeability</oboInOwl:id>
+        <rdfs:label>Permeability</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhenologicalProgress -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhenologicalProgress">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Attribute"/>
+        <oboInOwl:id>ECOSIMCONCEPT:PhenologicalProgress</oboInOwl:id>
+        <rdfs:label>PhenologicalProgress</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Phosphate -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Phosphate">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_ChemicalEntity"/>
+        <obo:IAO_0000115>An oxoanion formed of one phosphorus and four oxygen atoms, PO43-,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:Phosphate</oboInOwl:id>
+        <rdfs:label>Phosphate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Phosphates -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Phosphates">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhysicalEntity"/>
+        <obo:IAO_0000115>Salts or esters of phosphoric acid,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:Phosphates</oboInOwl:id>
+        <rdfs:label>Phosphates</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhosphorosCarbonRatio -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhosphorosCarbonRatio">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhysicalEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:PhosphorosCarbonRatio</oboInOwl:id>
+        <rdfs:label>PhosphorosCarbonRatio</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhosphorousCarbonRatio -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhosphorousCarbonRatio">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhysicalEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:PhosphorousCarbonRatio</oboInOwl:id>
+        <rdfs:label>PhosphorousCarbonRatio</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Phosphorus -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Phosphorus">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_ChemicalEntity"/>
+        <obo:IAO_0000115>A highly reactive, non-metallic chemical element with symbol P and atomic number 15,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:Phosphorus</oboInOwl:id>
+        <rdfs:label>Phosphorus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhotosyntheticallyActiveRadiation -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhotosyntheticallyActiveRadiation">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhysicalEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:PhotosyntheticallyActiveRadiation</oboInOwl:id>
+        <rdfs:label>PhotosyntheticallyActiveRadiation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhysicalEntity -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhysicalEntity">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_MaterialEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:PhysicalEntity</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ecosim#upper_level"/>
+        <rdfs:label>physical entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhysiologicalMaturity -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhysiologicalMaturity">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Attribute"/>
+        <oboInOwl:id>ECOSIMCONCEPT:PhysiologicalMaturity</oboInOwl:id>
+        <rdfs:label>PhysiologicalMaturity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Plant -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Plant">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Organismal"/>
+        <obo:IAO_0000115>A living organism of the kind exemplified by trees, shrubs, herbs, grasses, ferns, and mosses, typically growing in a permanent site, absorbing water and inorganic substances through its roots, and synthesizing nutrients in its leaves by photosynthesis,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:Plant</oboInOwl:id>
+        <rdfs:label>Plant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PlantBranch -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PlantBranch">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Organismal"/>
+        <oboInOwl:id>ECOSIMCONCEPT:PlantBranch</oboInOwl:id>
+        <rdfs:label>PlantBranch</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PlantElement -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PlantElement">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhysicalEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:PlantElement</oboInOwl:id>
+        <rdfs:label>PlantElement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PlantLitterfall -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PlantLitterfall">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Process"/>
+        <oboInOwl:id>ECOSIMCONCEPT:PlantLitterfall</oboInOwl:id>
+        <rdfs:label>PlantLitterfall</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PlantMaturity -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PlantMaturity">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Attribute"/>
+        <oboInOwl:id>ECOSIMCONCEPT:PlantMaturity</oboInOwl:id>
+        <rdfs:label>PlantMaturity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PlantPart -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PlantPart">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Organismal"/>
+        <oboInOwl:id>ECOSIMCONCEPT:PlantPart</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ecosim#upper_level"/>
+        <rdfs:label>plant part</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PlantWaterStress -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PlantWaterStress">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_MaterialEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:PlantWaterStress</oboInOwl:id>
+        <rdfs:label>PlantWaterStress</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Plants -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Plants">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_MaterialEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:Plants</oboInOwl:id>
+        <rdfs:label>Plants</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Potassium -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Potassium">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_MaterialEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:Potassium</oboInOwl:id>
+        <rdfs:label>Potassium</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PowerFluxDensity -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PowerFluxDensity">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Attribute"/>
+        <obo:IAO_0000115>The rate of flow of radiant energy per unit area</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:PowerFluxDensity</oboInOwl:id>
+        <rdfs:label>Power flux density</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Precipitation -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Precipitation">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Process"/>
+        <obo:IAO_0000115>Rain, snow, sleet, or hail that falls to the ground,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:Precipitation</oboInOwl:id>
+        <rdfs:label>Precipitation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Pressure -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Pressure">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Attribute"/>
+        <obo:IAO_0000115>Force per unit area applied to an object</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:Pressure</oboInOwl:id>
+        <rdfs:label>Pressure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Process -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Process">
+        <oboInOwl:id>ECOSIMCONCEPT:Process</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ecosim#upper_level"/>
+        <rdfs:label>process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_ProteinCarbon -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_ProteinCarbon">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_MaterialEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:ProteinCarbon</oboInOwl:id>
+        <rdfs:label>ProteinCarbon</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Qualifier -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Qualifier">
+        <oboInOwl:id>ECOSIMCONCEPT:Qualifier</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ecosim#upper_level"/>
+        <rdfs:label>qualifier</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Radiation -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Radiation">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_MaterialEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:Radiation</oboInOwl:id>
+        <rdfs:label>Radiation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Rate -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Rate">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Attribute"/>
+        <obo:IAO_0000115>A measure of change over time&quot; </obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:Rate</oboInOwl:id>
+        <rdfs:label>Rate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Reserve -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Reserve">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Attribute"/>
+        <obo:IAO_0000115>Something kept back or set aside for future use</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:Reserve</oboInOwl:id>
+        <rdfs:label>Reserve</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_ReserveElement -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_ReserveElement">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhysicalEntity"/>
+        <obo:IAO_0000115>A modeled pool of non-structural carbohydrate reserve in a plant,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:ReserveElement</oboInOwl:id>
+        <rdfs:label>Reserve element</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Root -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Root">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Organismal"/>
+        <obo:IAO_0000115>The underground base part of a plant that absorbs water and nutrients,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:Root</oboInOwl:id>
+        <rdfs:label>Root</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_RootCarbon -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_RootCarbon">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhysicalEntity"/>
+        <obo:IAO_0000115>The carbon in plant root biomass,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:RootCarbon</oboInOwl:id>
+        <rdfs:label>Root carbon</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_RootGrowthYield -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_RootGrowthYield">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_MaterialEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:RootGrowthYield</oboInOwl:id>
+        <rdfs:label>RootGrowthYield</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_RootLayer -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_RootLayer">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhysicalEntity"/>
+        <obo:IAO_0000115>A modeled soil layer containing plant roots,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:RootLayer</oboInOwl:id>
+        <rdfs:label>Root layer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_RootNodule -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_RootNodule">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Organismal"/>
+        <obo:IAO_0000115>A nodular swelling on the root of a legume containing nitrogen-fixing bacteria,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:RootNodule</oboInOwl:id>
+        <rdfs:label>Root nodule</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_RootZone -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_RootZone">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhysicalEntity"/>
+        <obo:IAO_0000115>The region of soil explored and influenced by plant roots,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:RootZone</oboInOwl:id>
+        <rdfs:label>Root zone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_RubiscoActivity -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_RubiscoActivity">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Process"/>
+        <obo:IAO_0000115>The catalytic activity of the enzyme rubisco in fixing carbon dioxide,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:RubiscoActivity</oboInOwl:id>
+        <rdfs:label>Rubisco activity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_RubiscoCarboxylaseActivity -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_RubiscoCarboxylaseActivity">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_MaterialEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:RubiscoCarboxylaseActivity</oboInOwl:id>
+        <rdfs:label>RubiscoCarboxylaseActivity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_RubiscoOxygenase -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_RubiscoOxygenase">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_ChemicalEntity"/>
+        <obo:IAO_0000115>The oxygenase function of rubisco that catalyzes photorespiration,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:RubiscoOxygenase</oboInOwl:id>
+        <rdfs:label>Rubisco oxygenase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_RubiscoOxygenaseActivity -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_RubiscoOxygenaseActivity">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Process"/>
+        <obo:IAO_0000115>The rate of the oxygenase reaction catalyzed by rubisco that leads to photorespiration,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:RubiscoOxygenaseActivity</oboInOwl:id>
+        <rdfs:label>Rubisco oxygenase activity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Runoff -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Runoff">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Attribute"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhysicalEntity"/>
+        <obo:IAO_0000115>The draining away of water from the surface of an area of land</obo:IAO_0000115>
+        <obo:IAO_0000115>The draining away of water from the surface of an area of land,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:Runoff</oboInOwl:id>
+        <rdfs:label>Runoff</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_RunoffSurface -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_RunoffSurface">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_MaterialEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:RunoffSurface</oboInOwl:id>
+        <rdfs:label>RunoffSurface</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_RunoffWater -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_RunoffWater">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhysicalEntity"/>
+        <obo:IAO_0000115>Water draining away from the land surface,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:RunoffWater</oboInOwl:id>
+        <rdfs:label>Runoff water</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_SO4 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_SO4">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_MaterialEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:SO4</oboInOwl:id>
+        <rdfs:label>SO4</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Salt -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Salt">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_MaterialEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:Salt</oboInOwl:id>
+        <rdfs:label>Salt</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Sand -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Sand">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_MaterialEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:Sand</oboInOwl:id>
+        <rdfs:label>Sand</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_SecondaryAxes -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_SecondaryAxes">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Attribute"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_MaterialEntity"/>
+        <obo:IAO_0000115>Additional axes in a multidimensional array besides the primary axis</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:SecondaryAxes</oboInOwl:id>
+        <rdfs:label>Secondary axes</rdfs:label>
+        <rdfs:label>SecondaryAxes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Sediment -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Sediment">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhysicalEntity"/>
+        <obo:IAO_0000115>Solid fragments of inorganic or organic material that come from the weathering of rock and are carried and deposited by wind, water, or ice,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:Sediment</oboInOwl:id>
+        <rdfs:label>Sediment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Seed -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Seed">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_MaterialEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:Seed</oboInOwl:id>
+        <rdfs:label>Seed</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_SeedSet -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_SeedSet">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_MaterialEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:SeedSet</oboInOwl:id>
+        <rdfs:label>SeedSet</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_SelfShading -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_SelfShading">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_MaterialEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:SelfShading</oboInOwl:id>
+        <rdfs:label>SelfShading</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Sheath -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Sheath">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Organismal"/>
+        <obo:IAO_0000115>A protective covering such as the lower part of a leaf clasping the stem,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:Sheath</oboInOwl:id>
+        <rdfs:label>Sheath</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_SheathProteinC -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_SheathProteinC">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhysicalEntity"/>
+        <obo:IAO_0000115>The carbon in proteins contained in the sheath structure of cereal crops,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:SheathProteinC</oboInOwl:id>
+        <rdfs:label>Sheath protein carbon</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Shoot -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Shoot">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_MaterialEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:Shoot</oboInOwl:id>
+        <rdfs:label>Shoot</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_ShortwaveRadiation -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_ShortwaveRadiation">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_MaterialEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:ShortwaveRadiation</oboInOwl:id>
+        <rdfs:label>ShortwaveRadiation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Silt -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Silt">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_MaterialEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:Silt</oboInOwl:id>
+        <rdfs:label>Silt</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Slope -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Slope">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_MaterialEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:Slope</oboInOwl:id>
+        <rdfs:label>Slope</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Snow -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Snow">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhysicalEntity"/>
+        <obo:IAO_0000115>Atmospheric water vapor frozen into ice crystals and falling in light white flakes or lying on the ground as a white layer,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:Snow</oboInOwl:id>
+        <rdfs:label>Snow</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_SnowPack -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_SnowPack">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_MaterialEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:SnowPack</oboInOwl:id>
+        <rdfs:label>SnowPack</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Snowpack -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Snowpack">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhysicalEntity"/>
+        <obo:IAO_0000115>A seasonal accumulation of slow-melting snow,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:Snowpack</oboInOwl:id>
+        <rdfs:label>Snowpack</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_SnowpackRunoff -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_SnowpackRunoff">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhysicalEntity"/>
+        <obo:IAO_0000115>Runoff from melting of the snowpack,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:SnowpackRunoff</oboInOwl:id>
+        <rdfs:label>Snowpack runoff</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Sodium -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Sodium">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_MaterialEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:Sodium</oboInOwl:id>
+        <rdfs:label>Sodium</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Soil -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Soil">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhysicalEntity"/>
+        <obo:IAO_0000115>The upper layer of earth in which plants grow,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:Soil</oboInOwl:id>
+        <rdfs:label>Soil</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_SoilBand -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_SoilBand">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_MaterialEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:SoilBand</oboInOwl:id>
+        <rdfs:label>SoilBand</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_SoilDetachment -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_SoilDetachment">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Process"/>
+        <obo:IAO_0000115>The removal of soil particles from the land surface by rainfall, runoff and erosion,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:SoilDetachment</oboInOwl:id>
+        <rdfs:label>Soil detachment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_SoilHumus -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_SoilHumus">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhysicalEntity"/>
+        <obo:IAO_0000115>The organic component of soil formed by decomposition of plant and animal residues,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:SoilHumus</oboInOwl:id>
+        <rdfs:label>Soil humus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_SoilMacropore -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_SoilMacropore">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_MaterialEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:SoilMacropore</oboInOwl:id>
+        <rdfs:label>SoilMacropore</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_SoilMicropore -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_SoilMicropore">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhysicalEntity"/>
+        <obo:IAO_0000115>A small pore space between soil particles that holds water by capillary forces,</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:SoilMicropore</oboInOwl:id>
+        <rdfs:label>Soil micropore</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_SoilSurface -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_SoilSurface">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhysicalEntity"/>
+        <obo:IAO_0000115>The uppermost layer of the land surface</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:SoilSurface</oboInOwl:id>
+        <rdfs:label>Soil surface</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_SoilWater -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_SoilWater">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhysicalEntity"/>
+        <obo:IAO_0000115>Water held in the spaces between soil particles</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:SoilWater</oboInOwl:id>
+        <rdfs:label>Soil water</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Solute -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Solute">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_MaterialEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:Solute</oboInOwl:id>
+        <rdfs:label>Solute</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Solution -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Solution">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_MaterialEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:Solution</oboInOwl:id>
+        <rdfs:label>Solution</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_SpecificChemicalElement -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_SpecificChemicalElement">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_MaterialEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:SpecificChemicalElement</oboInOwl:id>
+        <rdfs:label>SpecificChemicalElement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Speed -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Speed">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Attribute"/>
+        <obo:IAO_0000115>Rate of motion</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:Speed</oboInOwl:id>
+        <rdfs:label>Speed</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_SpringLeafout -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_SpringLeafout">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Process"/>
+        <obo:IAO_0000115>The emergence and expansion of new leaves on plants in spring</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:SpringLeafout</oboInOwl:id>
+        <rdfs:label>Spring leaf out</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Stalk -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Stalk">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Organismal"/>
+        <obo:IAO_0000115>The stem or main axis of a plant</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:Stalk</oboInOwl:id>
+        <rdfs:label>Stalk</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_StandingDead -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_StandingDead">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Attribute"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_MaterialEntity"/>
+        <obo:IAO_0000115>Dead vegetation remaining upright</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:StandingDead</oboInOwl:id>
+        <rdfs:label>Standing dead</rdfs:label>
+        <rdfs:label>StandingDead</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Stem -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Stem">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_MaterialEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:Stem</oboInOwl:id>
+        <rdfs:label>Stem</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Stoma -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Stoma">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_MaterialEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:Stoma</oboInOwl:id>
+        <rdfs:label>Stoma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_StorageCapacity -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_StorageCapacity">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Attribute"/>
+        <obo:IAO_0000115>The maximum amount that can be contained&quot;  </obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:StorageCapacity</oboInOwl:id>
+        <rdfs:label>Storage capacity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Stored -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Stored">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Attribute"/>
+        <obo:IAO_0000115>Kept in a location for later use&quot; </obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:Stored</oboInOwl:id>
+        <rdfs:label>Stored</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_StressIndicator -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_StressIndicator">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Attribute"/>
+        <obo:IAO_0000115>A variable indicating the level of stress</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:StressIndicator</oboInOwl:id>
+        <rdfs:label>Stress indicator</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_StructuralCarbon -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_StructuralCarbon">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_MaterialEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:StructuralCarbon</oboInOwl:id>
+        <rdfs:label>StructuralCarbon</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Structure -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Structure">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Attribute"/>
+        <obo:IAO_0000115>Something made up of interconnected elements</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:Structure</oboInOwl:id>
+        <rdfs:label>Structure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Subsurface -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Subsurface">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhysicalEntity"/>
+        <obo:IAO_0000115>Below the surface of the ground</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:Subsurface</oboInOwl:id>
+        <rdfs:label>Subsurface</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_SubsurfaceIrrigation -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_SubsurfaceIrrigation">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_MaterialEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:SubsurfaceIrrigation</oboInOwl:id>
+        <rdfs:label>SubsurfaceIrrigation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Sun -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Sun">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_MaterialEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:Sun</oboInOwl:id>
+        <rdfs:label>Sun</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Surface -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Surface">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhysicalEntity"/>
+        <obo:IAO_0000115>The outer or topmost layer or area of something</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:Surface</oboInOwl:id>
+        <rdfs:label>Surface</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_SurfaceAtmosphere -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_SurfaceAtmosphere">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhysicalEntity"/>
+        <obo:IAO_0000115>The atmospheric layer immediately above the land or water surface</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:SurfaceAtmosphere</oboInOwl:id>
+        <rdfs:label>Surface atmosphere</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_SurfaceIrrigation -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_SurfaceIrrigation">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_MaterialEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:SurfaceIrrigation</oboInOwl:id>
+        <rdfs:label>SurfaceIrrigation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_SurfaceLitter -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_SurfaceLitter">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhysicalEntity"/>
+        <obo:IAO_0000115>Dead plant material such as leaves on the ground surface</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:SurfaceLitter</oboInOwl:id>
+        <rdfs:label>Surface litter</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_SurfaceRunoff -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_SurfaceRunoff">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhysicalEntity"/>
+        <obo:IAO_0000115>Water flowing over land from excess rainfall, snowmelt, or irrigation</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:SurfaceRunoff</oboInOwl:id>
+        <rdfs:label>Surface runoff</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_SurfaceWater -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_SurfaceWater">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhysicalEntity"/>
+        <obo:IAO_0000115>Water on the surface of the land, including lakes, rivers, streams, ponds, flooding and runoff</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:SurfaceWater</oboInOwl:id>
+        <rdfs:label>Surface water</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_SurfaceWaterBody -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_SurfaceWaterBody">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhysicalEntity"/>
+        <obo:IAO_0000115>A natural or artificial lake, pond, reservoir, or other body of water on the land surface</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:SurfaceWaterBody</oboInOwl:id>
+        <rdfs:label>Surface water body</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Temperature -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Temperature">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Attribute"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_MaterialEntity"/>
+        <obo:IAO_0000115>thermal energy in a system</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:Temperature</oboInOwl:id>
+        <rdfs:label>Temperature</rdfs:label>
+        <rdfs:label>temperature</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_ThermalAdaptation -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_ThermalAdaptation">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_MaterialEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:ThermalAdaptation</oboInOwl:id>
+        <rdfs:label>ThermalAdaptation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_TopSoil -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_TopSoil">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_MaterialEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:TopSoil</oboInOwl:id>
+        <rdfs:label>TopSoil</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_TotalEvaporation -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_TotalEvaporation">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_MaterialEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:TotalEvaporation</oboInOwl:id>
+        <rdfs:label>TotalEvaporation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Tracers -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Tracers">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_MaterialEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:Tracers</oboInOwl:id>
+        <rdfs:label>Tracers</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_UnclassifiedVariable -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_UnclassifiedVariable">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Variable"/>
+        <oboInOwl:id>ECOSIMCONCEPT:UnclassifiedVariable</oboInOwl:id>
+        <rdfs:label>unclassified variable</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_UndergroundIrrigation -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_UndergroundIrrigation">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_MaterialEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:UndergroundIrrigation</oboInOwl:id>
+        <rdfs:label>UndergroundIrrigation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_UndergroundIrrigationSystem -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_UndergroundIrrigationSystem">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_MaterialEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:UndergroundIrrigationSystem</oboInOwl:id>
+        <rdfs:label>UndergroundIrrigationSystem</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Unit -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Unit">
+        <oboInOwl:id>ECOSIMCONCEPT:Unit</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ecosim#upper_level"/>
+        <rdfs:label>unit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_UnitArea -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_UnitArea">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_MaterialEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:UnitArea</oboInOwl:id>
+        <rdfs:label>UnitArea</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Uptake -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Uptake">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Attribute"/>
+        <obo:IAO_0000115>The absorption or intake of a substance</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:Uptake</oboInOwl:id>
+        <rdfs:label>Uptake</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_UptakeExudation -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_UptakeExudation">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Attribute"/>
+        <obo:IAO_0000115>The combined processes of uptake and exudation</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:UptakeExudation</oboInOwl:id>
+        <rdfs:label>Uptake exudation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_UptakeKinetics -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_UptakeKinetics">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Attribute"/>
+        <obo:IAO_0000115>The dynamics of how a substance is absorbed</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:UptakeKinetics</oboInOwl:id>
+        <rdfs:label>Uptake kinetics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_UptakeRate -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_UptakeRate">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Attribute"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_MaterialEntity"/>
+        <obo:IAO_0000115>The rate at which a substance is absorbed</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:UptakeRate</oboInOwl:id>
+        <rdfs:label>Uptake rate</rdfs:label>
+        <rdfs:label>UptakeRate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_UptakeVelocity -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_UptakeVelocity">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Attribute"/>
+        <obo:IAO_0000115>The speed at which a substance is absorbed</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:UptakeVelocity</oboInOwl:id>
+        <rdfs:label>Uptake velocity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Urea -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Urea">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_MaterialEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:Urea</oboInOwl:id>
+        <rdfs:label>Urea</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_UreaFertilizer -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_UreaFertilizer">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_MaterialEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:UreaFertilizer</oboInOwl:id>
+        <rdfs:label>UreaFertilizer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_VHeatCap -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_VHeatCap">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_MaterialEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:VHeatCap</oboInOwl:id>
+        <rdfs:label>VHeatCap</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Vapor -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Vapor">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhysicalEntity"/>
+        <obo:IAO_0000115>A substance in the gas phase at a temperature lower than its critical temperature</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:Vapor</oboInOwl:id>
+        <rdfs:label>Vapor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Variable -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Variable">
+        <oboInOwl:id>ECOSIMCONCEPT:Variable</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ecosim#upper_level"/>
+        <rdfs:label>variable</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Volatilization -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Volatilization">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Attribute"/>
+        <obo:IAO_0000115>Transition of a substance from liquid to gas</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:Volatilization</oboInOwl:id>
+        <rdfs:label>Volatilization</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Volume -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Volume">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Attribute"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_MaterialEntity"/>
+        <obo:IAO_0000115>Amount of space occupied in three dimensions</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:Volume</oboInOwl:id>
+        <rdfs:label>Volume</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_VolumeFraction -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_VolumeFraction">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Attribute"/>
+        <obo:IAO_0000115>Fraction of the total volume occupied&quot; </obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:VolumeFraction</oboInOwl:id>
+        <rdfs:label>Volume fraction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_WDPTHD -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_WDPTHD">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_MaterialEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:WDPTHD</oboInOwl:id>
+        <rdfs:label>WDPTHD</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Water -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Water">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhysicalEntity"/>
+        <obo:IAO_0000115>A clear, colorless, odorless liquid made up of hydrogen and oxygen that freezes into ice and boils into steam</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:Water</oboInOwl:id>
+        <rdfs:label>Water</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_WaterContent -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_WaterContent">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Attribute"/>
+        <obo:IAO_0000115>Amount of water present&quot; </obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:WaterContent</oboInOwl:id>
+        <rdfs:label>Water content</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_WaterDistribution -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_WaterDistribution">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Attribute"/>
+        <obo:IAO_0000115>The way water is spread over an area</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:WaterDistribution</oboInOwl:id>
+        <rdfs:label>Water distribution</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_WaterFlow -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_WaterFlow">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_MaterialEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:WaterFlow</oboInOwl:id>
+        <rdfs:label>WaterFlow</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_WaterFlux -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_WaterFlux">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Attribute"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_MaterialEntity"/>
+        <obo:IAO_0000115>The rate of flow of water</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:WaterFlux</oboInOwl:id>
+        <rdfs:label>Water flux</rdfs:label>
+        <rdfs:label>WaterFlux</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_WaterHoldingCapacity -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_WaterHoldingCapacity">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Attribute"/>
+        <obo:IAO_0000115>The maximum amount of water that can be held</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:WaterHoldingCapacity</oboInOwl:id>
+        <rdfs:label>Water holding capacity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_WaterTable -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_WaterTable">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_MaterialEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:WaterTable</oboInOwl:id>
+        <rdfs:label>WaterTable</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_WaterTransfer -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_WaterTransfer">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Attribute"/>
+        <obo:IAO_0000115>The movement of water from one place to another</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:WaterTransfer</oboInOwl:id>
+        <rdfs:label>Water transfer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_WaterVapor -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_WaterVapor">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhysicalEntity"/>
+        <obo:IAO_0000115>Water in its gas phase</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:WaterVapor</oboInOwl:id>
+        <rdfs:label>Water vapor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Width -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Width">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Attribute"/>
+        <obo:IAO_0000115>The measurement or extent from side to side</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:Width</oboInOwl:id>
+        <rdfs:label>Width</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Wind -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Wind">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhysicalEntity"/>
+        <obo:IAO_0000115>The natural movement of air at the Earth&apos;s surface</obo:IAO_0000115>
+        <oboInOwl:id>ECOSIMCONCEPT:Wind</oboInOwl:id>
+        <rdfs:label>Wind</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_WindSpeed -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_WindSpeed">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_MaterialEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:WindSpeed</oboInOwl:id>
+        <rdfs:label>WindSpeed</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Zone -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Zone">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_MaterialEntity"/>
+        <oboInOwl:id>ECOSIMCONCEPT:Zone</oboInOwl:id>
+        <rdfs:label>Zone</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29) https://github.com/owlcs/owlapi -->
+
