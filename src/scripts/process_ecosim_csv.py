@@ -1,7 +1,9 @@
 """
 Script to process the ecosim_for_sheet.csv file:
 1. Fix malformed entries using a full IRI for their ID
-2. Remove ECOSIM: or ECOSIMCONCEPT: prefix from the second and third columns
+2. Remove ECOSIM: or ECOSIMCONCEPT: prefix from:
+   - The second and third columns (EcoSIM Variable Name, EcoSIM Other Names)
+   - Additional columns: has_units, qualifiers, attributes, measured_ins, measurement_ofs, contexts, and Parents
 3. Replace text IDs with unique numerical identifiers using the ECOSIM prefix
 """
 
@@ -60,7 +62,9 @@ def fix_malformed_ids(df: pd.DataFrame) -> pd.DataFrame:
 
 def remove_prefixes_from_columns(df: pd.DataFrame) -> pd.DataFrame:
     """
-    Remove ECOSIM: and ECOSIMCONCEPT: prefixes from the second and third columns.
+    Remove ECOSIM: and ECOSIMCONCEPT: prefixes from the specified columns:
+    - Second and third columns (EcoSIM Variable Name, EcoSIM Other Names)
+    - has_units, qualifiers, attributes, measured_ins, measurement_ofs, contexts, and Parents
 
     Args:
         df: DataFrame containing the CSV data
@@ -68,8 +72,19 @@ def remove_prefixes_from_columns(df: pd.DataFrame) -> pd.DataFrame:
     Returns:
         DataFrame with prefixes removed from specified columns
     """
-    col2_name = df.columns[1]
-    col3_name = df.columns[2]
+    col2_name = df.columns[1]  # EcoSIM Variable Name
+    col3_name = df.columns[2]  # EcoSIM Other Names
+
+    # Additional columns to process
+    additional_columns = [
+        'has_units',        # Column 11
+        'qualifiers',       # Column 12
+        'attributes',       # Column 13
+        'measured_ins',     # Column 14
+        'measurement_ofs',  # Column 15
+        'contexts',         # Column 16
+        'Parents'           # Column 17
+    ]
 
     print(f"Column 2 name: {col2_name}")
     print(f"Column 3 name: {col3_name}")
@@ -104,6 +119,32 @@ def remove_prefixes_from_columns(df: pd.DataFrame) -> pd.DataFrame:
 
     print(
         f"Sample values from column 3 after: {df[col3_name].iloc[2:7].tolist()}")
+
+    # Process additional columns
+    for col_name in additional_columns:
+        if col_name in df.columns:
+            print(f"Processing column: {col_name}")
+            # Replace NaN values with empty strings first
+            df[col_name] = df[col_name].fillna('')
+            # Each column may contain multiple values separated by |
+            df[col_name] = df[col_name].apply(
+                lambda x: '|'.join([
+                    re.sub(r'^ECOSIM:', '', term.strip()) for term in str(x).split('|')
+                ])
+            )
+            df[col_name] = df[col_name].apply(
+                lambda x: '|'.join([
+                    re.sub(r'^ECOSIMCONCEPT:', '', term.strip()) for term in str(x).split('|')
+                ])
+            )
+            # Replace string 'nan' with empty string
+            df[col_name] = df[col_name].apply(
+                lambda x: '' if str(x).lower() == 'nan' else str(x)
+            )
+            # Show sample of changes for first additional column
+            if col_name == additional_columns[0]:
+                print(
+                    f"Sample values from {col_name} after: {df[col_name].iloc[2:7].tolist()}")
 
     return df
 
@@ -182,10 +223,21 @@ def process_csv_file(input_file: str, output_file: str) -> None:
     print("Replacing text IDs with numeric IDs...")
     df = replace_ids_with_numeric(df)
 
+    # Convert NaN values to empty strings
+    print("Converting NaN values to empty strings...")
+    df = df.fillna('')
+
+    # Replace string 'nan' values with empty strings
+    print("Replacing string 'nan' values with empty strings...")
+    for col in df.columns:
+        df[col] = df[col].apply(lambda x: '' if str(
+            x).lower() == 'nan' else str(x))
+
     # Write the processed data to the output file
     try:
         print(f"Writing processed CSV to: {output_file}")
-        df.to_csv(output_file, index=False)
+        # Use na_rep='' to ensure NaN values are represented as empty strings in the CSV
+        df.to_csv(output_file, index=False, na_rep='')
         print(f"Processed CSV saved to {output_file}")
     except Exception as e:
         print(f"Error writing to output file: {e}")
@@ -199,10 +251,10 @@ def main() -> None:
     parser = argparse.ArgumentParser(
         description='Process the ecosim_for_sheet.csv file to fix IDs and apply transformations.'
     )
-    parser.add_argument('--input', default='/home/harry/ecosim-ontology/src/ontology/ecosim_for_sheet.csv',
-                        help='Path to the input CSV file (default: /home/harry/ecosim-ontology/src/ontology/ecosim_for_sheet.csv)')
-    parser.add_argument('--output', default='/home/harry/ecosim-ontology/src/ontology/ecosim_for_sheet_processed.csv',
-                        help='Path for the output processed CSV file (default: /home/harry/ecosim-ontology/src/ontology/ecosim_for_sheet_processed.csv)')
+    parser.add_argument('--input', default='../ontology/ecosim_for_sheet.csv',
+                        help='Path to the input CSV file (default: ../ontology/ecosim_for_sheet.csv)')
+    parser.add_argument('--output', default='../ontology/ecosim_for_sheet_processed.csv',
+                        help='Path for the output processed CSV file (default: ../ontology/ecosim_for_sheet_processed.csv)')
     parser.add_argument('--verbose', action='store_true',
                         help='Enable verbose output')
 
