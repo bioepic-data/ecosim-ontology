@@ -30,7 +30,7 @@ ecosim_for_sheet.csv: ecosim_temp.owl
     # Extract the ECOSIMCONCEPT classes into a separate file
 	robot extract --method STAR --input $< --term-file ecosim_concepts.txt --output ecosim_concepts.owl
     # This makes the class list first, without subclasses
-	robot export --input $< --format csv --export classes.csv --header "IRI|oboInOwl:id|oboInOwl:id|oboInOwl:id|oboInOwl:inSubset|LABEL|obo:IAO_0000115|rdfs:comment|oboInOwl:hasRelatedSynonym|oboInOwl:hasExactSynonym|Type|oboInOwl:hasDbXref"
+	robot export --input $< --format csv --export classes.csv --header "IRI|oboInOwl:id [NAME]|oboInOwl:id|oboInOwl:id|oboInOwl:inSubset|LABEL|obo:IAO_0000115|rdfs:comment|oboInOwl:hasRelatedSynonym|oboInOwl:hasExactSynonym|Type|oboInOwl:hasDbXref"
     # Then we get the specific subclasses by type
 	robot query --input $< --query ../sparql/get-ecosim-subclasses.sparql sc.csv
     # Merge the classes.csv and sc.csv files
@@ -40,9 +40,8 @@ ecosim_for_sheet.csv: ecosim_temp.owl
 	echo "ID,A oio:hasRelatedSynonym,A oio:hasRelatedSynonym SPLIT=|,AI oio:inSubset SPLIT=|,LABEL,A IAO:0000115,A rdfs:comment,A oio:hasRelatedSynonym SPLIT=|,A oio:hasExactSynonym SPLIT=|,TYPE,AI oio:hasDbXref SPLIT=|,AI ECOSIM:has_unit SPLIT=|,AI ECOSIMCONCEPT:Qualifier SPLIT=|,AI ECOSIMCONCEPT:Attribute SPLIT=|,AI ECOSIM:measured_in SPLIT=|,AI ECOSIM:measurement_of SPLIT=|,AI ECOSIMCONCEPT:Context SPLIT=|,SC % SPLIT=|" >> header.csv
     # Combine header with data, skipping the first line of $@ (which will be replaced)
 	tail -n +2 $@ > $@.data && cat header.csv $@.data > $@.temp && mv $@.temp $@ && rm $@.data
-	rm header.csv
     # Clean up
-    rm classes.csv sc.csv
+	rm header.csv classes.csv sc.csv
 
 # This will retrieve the latest version of the ontology
 # from the Google Sheet
