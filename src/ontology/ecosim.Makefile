@@ -19,11 +19,9 @@ ecosim_temp.owl:
 # This produces the spreadsheet-ready CSV version of the ontology.
 # Here, ecosim_temp.owl is a copy of the ecosim.owl file,
 # retrieved from BioPortal (see above).
-# starting with the ecosim.owl, export to csv
-# This should not need to be done when using the sheet as the source of truth
+# Starting with the ecosim.owl, export to csv.
+# This should not need to be done when using the sheet as the source of truth.
 # This makes two products first, then combines them.
-# It also places all ECOSIMCONCEPT classes in their own file,
-# as we want them to be more static and will merge them later.
 # The product, ecosim_for_sheet.csv, is what should be placed in the
 # sheet at the above URL.
 ecosim_for_sheet.csv: ecosim_temp.owl
@@ -32,21 +30,19 @@ ecosim_for_sheet.csv: ecosim_temp.owl
     # Extract the ECOSIMCONCEPT classes into a separate file
 	robot extract --method STAR --input $< --term-file ecosim_concepts.txt --output ecosim_concepts.owl
     # This makes the class list first, without subclasses
-	robot export --input $< --format csv --export classes.csv --header "IRI|oboInOwl:id|oboInOwl:inSubset|LABEL|oboInOwl:hasExactSynonym|oboInOwl:hasRelatedSynonym|rdfs:comment|Type|oboInOwl:hasDbXref|obo:IAO_0000115"
+	robot export --input $< --format csv --export classes.csv --header "IRI|oboInOwl:id|oboInOwl:id|oboInOwl:id|oboInOwl:inSubset|LABEL|obo:IAO_0000115|rdfs:comment|oboInOwl:hasRelatedSynonym|oboInOwl:hasExactSynonym|Type|oboInOwl:hasDbXref"
     # Then we get the specific subclasses by type
 	robot query --input $< --query ../sparql/get-ecosim-subclasses.sparql sc.csv
     # Merge the classes.csv and sc.csv files
 	python ../scripts/merge_csv.py classes.csv sc.csv $@ --remove-first-column
     # Create a file with the two header lines we need
-	echo "ID,Category,Label,Exact Synonyms,Related Synonyms,Comment,Type,DbXrefs,Description,has_units,qualifiers,attributes,measured_ins,measurement_ofs,contexts,Parents" > header.csv
-	echo "ID,AI oio:inSubset SPLIT=|,LABEL,A oio:hasExactSynonym SPLIT=|,A oio:hasRelatedSynonym SPLIT=|,A rdfs:comment,TYPE,AI oio:hasDbXref SPLIT=|,A IAO:0000115,AI ECOSIM:has_unit SPLIT=|,AI ECOSIMCONCEPT:Qualifier SPLIT=|,AI ECOSIMCONCEPT:Attribute SPLIT=|,AI ECOSIM:measured_in SPLIT=|,AI ECOSIM:measurement_of SPLIT=|,AI ECOSIMCONCEPT:Context SPLIT=|,SC % SPLIT=|" >> header.csv
+	echo "ID,EcoSIM Variable Name,EcoSIM Other Names,Category,Label,Description,Comment,Related Synonyms,Exact Synonyms,Type,DbXrefs,has_units,qualifiers,attributes,measured_ins,measurement_ofs,contexts,Parents" > header.csv
+	echo "ID,A oio:hasRelatedSynonym,A oio:hasRelatedSynonym SPLIT=|,AI oio:inSubset SPLIT=|,LABEL,A IAO:0000115,A rdfs:comment,A oio:hasRelatedSynonym SPLIT=|,A oio:hasExactSynonym SPLIT=|,TYPE,AI oio:hasDbXref SPLIT=|,AI ECOSIM:has_unit SPLIT=|,AI ECOSIMCONCEPT:Qualifier SPLIT=|,AI ECOSIMCONCEPT:Attribute SPLIT=|,AI ECOSIM:measured_in SPLIT=|,AI ECOSIM:measurement_of SPLIT=|,AI ECOSIMCONCEPT:Context SPLIT=|,SC % SPLIT=|" >> header.csv
     # Combine header with data, skipping the first line of $@ (which will be replaced)
 	tail -n +2 $@ > $@.data && cat header.csv $@.data > $@.temp && mv $@.temp $@ && rm $@.data
 	rm header.csv
-    # Remove all lines with ECOSIMCONCEPT classes
-	grep -v -E '^(ECOSIMCONCEPT|http://purl\.obolibrary\.org/obo/ECOSIMCONCEPT_)' $@ > $@.temp && mv $@.temp $@
     # Clean up
-	rm classes.csv sc.csv
+    rm classes.csv sc.csv
 
 # This will retrieve the latest version of the ontology
 # from the Google Sheet
