@@ -40,6 +40,8 @@ ecosim_for_sheet.csv: ecosim_temp.owl
 	echo "ID,A oio:hasRelatedSynonym,A oio:hasRelatedSynonym SPLIT=|,AI oio:inSubset SPLIT=|,LABEL,A IAO:0000115,A rdfs:comment,A oio:hasRelatedSynonym SPLIT=|,A oio:hasExactSynonym SPLIT=|,TYPE,AI oio:hasDbXref SPLIT=|,AI ECOSIM:has_unit SPLIT=|,AI ECOSIMCONCEPT:Qualifier SPLIT=|,AI ECOSIMCONCEPT:Attribute SPLIT=|,AI ECOSIM:measured_in SPLIT=|,AI ECOSIM:measurement_of SPLIT=|,AI ECOSIMCONCEPT:Context SPLIT=|,SC % SPLIT=|" >> header.csv
     # Combine header with data, skipping the first line of $@ (which will be replaced)
 	tail -n +2 $@ > $@.data && cat header.csv $@.data > $@.temp && mv $@.temp $@ && rm $@.data
+    # Process the CSV file to fix IDs and make other transformations
+	python ../scripts/process_ecosim_csv.py --input $@ --output $@.processed && mv $@.processed $@
     # Clean up
 	rm header.csv classes.csv sc.csv
 
