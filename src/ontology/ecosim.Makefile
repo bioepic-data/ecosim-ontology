@@ -26,7 +26,7 @@ ecosim_temp.owl:
 # sheet at the above URL.
 ecosim_for_sheet.csv: ecosim_temp.owl
     # This makes the class list first, without subclasses
-	robot export --input $< --format csv --export classes.csv --header "IRI|oboInOwl:id|oboInOwl:id|oboInOwl:id|oboInOwl:inSubset|LABEL|obo:IAO_0000115|rdfs:comment|oboInOwl:hasRelatedSynonym|oboInOwl:hasExactSynonym|Type|oboInOwl:hasDbXref"
+	robot export --input $< --include "classes properties" --format csv --export classes.csv --header "IRI|oboInOwl:id|oboInOwl:id|oboInOwl:id|oboInOwl:inSubset|LABEL|obo:IAO_0000115|rdfs:comment|oboInOwl:hasRelatedSynonym|oboInOwl:hasExactSynonym|Type|oboInOwl:hasDbXref"
     # Then we get the specific subclasses by type
 	robot query --input $< --query ../sparql/get-ecosim-subclasses.sparql sc.csv
     # Merge the classes.csv and sc.csv files
@@ -39,7 +39,7 @@ ecosim_for_sheet.csv: ecosim_temp.owl
     # Process the CSV file to fix IDs and make other transformations
 	python ../scripts/process_ecosim_csv.py --input $@ --output $@.processed && mv $@.processed $@
     # Clean up
-	rm header.csv classes.csv sc.csv
+	# rm header.csv classes.csv sc.csv
 
 # This will retrieve the latest version of the ontology
 # from the Google Sheet
