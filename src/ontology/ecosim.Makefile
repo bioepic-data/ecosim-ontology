@@ -37,7 +37,7 @@ ecosim_for_sheet.csv: ecosim_temp.owl
 	python ../scripts/merge_csv.py classes.csv sc.csv $@ --remove-first-column
     # Create a file with the two header lines we need
 	echo "ID,EcoSIM Variable Name,EcoSIM Other Names,Category,Label,Description,Comment,Related Synonyms,Exact Synonyms,Type,DbXrefs,has_units,qualifiers,attributes,measured_ins,measurement_ofs,contexts,Parents" > header.csv
-	echo "ID,A oio:hasRelatedSynonym,A oio:hasRelatedSynonym SPLIT=|,AI oio:inSubset SPLIT=|,LABEL,A IAO:0000115,A rdfs:comment,A oio:hasRelatedSynonym SPLIT=|,A oio:hasExactSynonym SPLIT=|,TYPE,AI oio:hasDbXref SPLIT=|,AI ECOSIM:has_unit SPLIT=|,AI ECOSIMCONCEPT:Qualifier SPLIT=|,AI ECOSIMCONCEPT:Attribute SPLIT=|,AI ECOSIM:measured_in SPLIT=|,AI ECOSIM:measurement_of SPLIT=|,AI ECOSIMCONCEPT:Context SPLIT=|,SC % SPLIT=|" >> header.csv
+	echo "ID,A oio:hasRelatedSynonym,A oio:hasRelatedSynonym SPLIT=|,AI oio:inSubset SPLIT=|,LABEL,A IAO:0000115,A rdfs:comment,A oio:hasRelatedSynonym SPLIT=|,A oio:hasExactSynonym SPLIT=|,TYPE,AI oio:hasDbXref SPLIT=|,AI ECOSIM:has_unit SPLIT=|,AI ECOSIM:Qualifier SPLIT=|,AI ECOSIM:Attribute SPLIT=|,AI ECOSIM:measured_in SPLIT=|,AI ECOSIM:measurement_of SPLIT=|,AI ECOSIM:Context SPLIT=|,SC % SPLIT=|" >> header.csv
     # Combine header with data, skipping the first line of $@ (which will be replaced)
 	tail -n +2 $@ > $@.data && cat header.csv $@.data > $@.temp && mv $@.temp $@ && rm $@.data
     # Process the CSV file to fix IDs and make other transformations
@@ -52,19 +52,13 @@ ecosim-src.csv:
 
 # Make a merge-ready OWL file from the CSV
 # Merge the concepts back in here too
-components/ecosim-src.owl: ecosim-src.csv ecosim_concepts.owl 
+components/ecosim-src.owl: ecosim-src.csv
 	robot template \
 	  --add-prefix 'ECOSIM: https://w3id.org/ecosim/ECOSIM_' \
-	  --add-prefix 'ECOSIMCONCEPT: https://w3id.org/ecosim/ECOSIMCONCEPT_' \
-	  --add-prefix 'oboInOwl: http://www.geneontology.org/formats/oboInOwl#' \
+	  --add-prefix 'oio: http://www.geneontology.org/formats/oboInOwl#' \
 	  -t $< \
 	  annotate --annotation-file ecosim-annotations.ttl \
 	  -o $@
-	robot merge \
-	  --input $@ \
-	  --input ecosim_concepts.owl \
-	  --output $@_temp.owl
-	mv $@_temp.owl $@
 
 remove-old-input:
 	rm -rf ecosim-src.csv
