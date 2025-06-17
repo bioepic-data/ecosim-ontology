@@ -47,7 +47,6 @@ ecosim-src.csv:
 	curl -L -s $(SRC_URL) > $@
 
 # Make a merge-ready OWL file from the CSV
-# Merge the concepts back in here too
 components/ecosim-src.owl: ecosim-src.csv
 	robot template \
 	  --add-prefix 'ECOSIM: https://w3id.org/ecosim/ECOSIM_' \
