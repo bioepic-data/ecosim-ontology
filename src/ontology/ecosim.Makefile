@@ -25,19 +25,15 @@ ecosim_temp.owl:
 # The product, ecosim_for_sheet.csv, is what should be placed in the
 # sheet at the above URL.
 ecosim_for_sheet.csv: ecosim_temp.owl
-    # Get the set of all ECOSIMCONCEPT classes
-	robot query --input $< --query ../sparql/ecosim_concepts.sparql ecosim_concepts.txt
-    # Extract the ECOSIMCONCEPT classes into a separate file
-	robot extract --method STAR --input $< --term-file ecosim_concepts.txt --output ecosim_concepts.owl
     # This makes the class list first, without subclasses
-	robot export --input $< --format csv --export classes.csv --header "IRI|oboInOwl:id [NAME]|oboInOwl:id|oboInOwl:id|oboInOwl:inSubset|LABEL|obo:IAO_0000115|rdfs:comment|oboInOwl:hasRelatedSynonym|oboInOwl:hasExactSynonym|Type|oboInOwl:hasDbXref"
+	robot export --input $< --format csv --export classes.csv --header "IRI|oboInOwl:id|oboInOwl:id|oboInOwl:id|oboInOwl:inSubset|LABEL|obo:IAO_0000115|rdfs:comment|oboInOwl:hasRelatedSynonym|oboInOwl:hasExactSynonym|Type|oboInOwl:hasDbXref"
     # Then we get the specific subclasses by type
 	robot query --input $< --query ../sparql/get-ecosim-subclasses.sparql sc.csv
     # Merge the classes.csv and sc.csv files
 	python ../scripts/merge_csv.py classes.csv sc.csv $@ --remove-first-column
     # Create a file with the two header lines we need
-	echo "ID,EcoSIM Variable Name,EcoSIM Other Names,Category,Label,Description,Comment,Related Synonyms,Exact Synonyms,Type,DbXrefs,has_units,qualifiers,attributes,measured_ins,measurement_ofs,contexts,Parents" > header.csv
-	echo "ID,A oio:hasRelatedSynonym,A oio:hasRelatedSynonym SPLIT=|,AI oio:inSubset SPLIT=|,LABEL,A IAO:0000115,A rdfs:comment,A oio:hasRelatedSynonym SPLIT=|,A oio:hasExactSynonym SPLIT=|,TYPE,AI oio:hasDbXref SPLIT=|,AI ECOSIM:has_unit SPLIT=|,AI ECOSIM:Qualifier SPLIT=|,AI ECOSIM:Attribute SPLIT=|,AI ECOSIM:measured_in SPLIT=|,AI ECOSIM:measurement_of SPLIT=|,AI ECOSIM:Context SPLIT=|,SC % SPLIT=|" >> header.csv
+	echo "ID,Label,EcoSIM Other Names,Category,EcoSIM Variable Name,Description,Comment,Related Synonyms,Exact Synonyms,Type,DbXrefs,has_units,qualifiers,attributes,measured_ins,measurement_ofs,contexts,Parents" > header.csv
+	echo "ID,LABEL,A oio:hasRelatedSynonym SPLIT=|,AI oio:inSubset SPLIT=|,A oio:hasRelatedSynonym,A IAO:0000115,A rdfs:comment,A oio:hasRelatedSynonym SPLIT=|,A oio:hasExactSynonym SPLIT=|,TYPE,AI oio:hasDbXref SPLIT=|,AI ECOSIM:has_unit SPLIT=|,AI ECOSIM:Qualifier SPLIT=|,AI ECOSIM:Attribute SPLIT=|,AI ECOSIM:measured_in SPLIT=|,AI ECOSIM:measurement_of SPLIT=|,AI ECOSIM:Context SPLIT=|,SC % SPLIT=|" >> header.csv
     # Combine header with data, skipping the first line of $@ (which will be replaced)
 	tail -n +2 $@ > $@.data && cat header.csv $@.data > $@.temp && mv $@.temp $@ && rm $@.data
     # Process the CSV file to fix IDs and make other transformations
