@@ -7,7 +7,7 @@
 # This is a ROBOT template in a Google Sheet.
 SRC_URL = 'https://docs.google.com/spreadsheets/d/1mS8VVtr-m24vZ7nQUtUbQrN8r-UBy3AwRzTfQsmwVL8/export?exportFormat=csv'
 
-# Source of truth for ecosim.owl.
+# Former source of truth for ecosim.owl.
 # This is the BioPortal version of the ontology.
 ECOSIM_BP_URL = 'https://data.bioontology.org/ontologies/ECOSIM/submissions/3/download?apikey=8b5b7825-538d-40e0-9e9e-5ab9274a9aeb'
 
@@ -26,20 +26,21 @@ ecosim_temp.owl:
 # sheet at the above URL.
 ecosim_for_sheet.csv: ecosim_temp.owl
     # This makes the class list first, without subclasses
+    # This includes object properties and annotation properties
 	robot export --input $< --include "classes properties" --format csv --export classes.csv --header "IRI|oboInOwl:id|oboInOwl:id|oboInOwl:id|oboInOwl:inSubset|LABEL|obo:IAO_0000115|rdfs:comment|oboInOwl:hasRelatedSynonym|oboInOwl:hasExactSynonym|Type|oboInOwl:hasDbXref"
     # Then we get the specific subclasses by type
 	robot query --input $< --query ../sparql/get-ecosim-subclasses.sparql sc.csv
     # Merge the classes.csv and sc.csv files
-	python ../scripts/merge_csv.py classes.csv sc.csv $@ --remove-first-column
+	python ../scripts/merge_csv.py classes.csv sc.csv $@
+    # Process the CSV file to fix IDs and make other transformations
+	python ../scripts/process_ecosim_csv.py --input $@ --output $@.processed && mv $@.processed $@
     # Create a file with the two header lines we need
 	echo "ID,Label,EcoSIM Other Names,Category,EcoSIM Variable Name,Description,Comment,Related Synonyms,Exact Synonyms,Type,DbXrefs,has_units,qualifiers,attributes,measured_ins,measurement_ofs,contexts,Parents" > header.csv
 	echo "ID,LABEL,A oio:hasRelatedSynonym SPLIT=|,AI oio:inSubset SPLIT=|,A oio:hasRelatedSynonym,A IAO:0000115,A rdfs:comment,A oio:hasRelatedSynonym SPLIT=|,A oio:hasExactSynonym SPLIT=|,TYPE,AI oio:hasDbXref SPLIT=|,AI ECOSIM:has_unit SPLIT=|,AI ECOSIM:Qualifier SPLIT=|,AI ECOSIM:Attribute SPLIT=|,AI ECOSIM:measured_in SPLIT=|,AI ECOSIM:measurement_of SPLIT=|,AI ECOSIM:Context SPLIT=|,SC % SPLIT=|" >> header.csv
     # Combine header with data, skipping the first line of $@ (which will be replaced)
 	tail -n +2 $@ > $@.data && cat header.csv $@.data > $@.temp && mv $@.temp $@ && rm $@.data
-    # Process the CSV file to fix IDs and make other transformations
-	python ../scripts/process_ecosim_csv.py --input $@ --output $@.processed && mv $@.processed $@
     # Clean up
-	# rm header.csv classes.csv sc.csv
+	rm header.csv classes.csv sc.csv
 
 # This will retrieve the latest version of the ontology
 # from the Google Sheet
