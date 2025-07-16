@@ -15,7 +15,9 @@ components:
   products:
     - filename: ecosim-src.owl
 robot_java_args: "-Xmx8G"
-
+import_group:
+  products:
+    - id: ecosim
 robot_report:
   use_labels: TRUE
   fail_on: none # ERROR
