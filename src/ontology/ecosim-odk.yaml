@@ -4,7 +4,6 @@ git_main_branch: main
 github_org: bioepic-data
 repo: ecosim-ontology
 release_artefacts:
-  - base
   - full
 primary_release: full
 export_formats:
