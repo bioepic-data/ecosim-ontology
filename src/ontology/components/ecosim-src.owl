@@ -222,7 +222,7 @@
         <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000000"/>
         <oboInOwl:hasRelatedSynonym>ECO_HR_CO2_vr</oboInOwl:hasRelatedSynonym>
         <rdfs:comment>EcosimBGCFluxType.txt</rdfs:comment>
-        <rdfs:label>Vertically resolved heterotrophic respiraiton as CO2</rdfs:label>
+        <rdfs:label>vertically resolved heterotrophic respiraiton as CO2</rdfs:label>
         <ecosim:ECOSIM_has_unit rdf:resource="gC/d2/hr"/>
     </Class>
     
@@ -233,18 +233,6 @@
     <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0000011">
         <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000000"/>
         <oboInOwl:hasRelatedSynonym>ECO_HR_CH4_vr</oboInOwl:hasRelatedSynonym>
-        <rdfs:comment>EcosimBGCFluxType.txt</rdfs:comment>
-        <rdfs:label>heterotrophic respiration as CH4</rdfs:label>
-        <ecosim:ECOSIM_has_unit rdf:resource="gC d-2"/>
-    </Class>
-    
-
-
-    <!-- https://w3id.org/ecosim/ECOSIM_0000012 -->
-
-    <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0000012">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000000"/>
-        <oboInOwl:hasRelatedSynonym>ECO_HR_CH4_col</oboInOwl:hasRelatedSynonym>
         <rdfs:comment>EcosimBGCFluxType.txt</rdfs:comment>
         <rdfs:label>heterotrophic respiration as CH4</rdfs:label>
         <ecosim:ECOSIM_has_unit rdf:resource="gC d-2"/>
@@ -2476,17 +2464,6 @@
     
 
 
-    <!-- https://w3id.org/ecosim/ECOSIM_0000201 -->
-
-    <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0000201">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000002"/>
-        <oboInOwl:hasRelatedSynonym>CCNGB</oboInOwl:hasRelatedSynonym>
-        <rdfs:comment>GrosubPars.txt</rdfs:comment>
-        <rdfs:label>parameter to calculate nonstructural C,N,P exchange</rdfs:label>
-    </Class>
-    
-
-
     <!-- https://w3id.org/ecosim/ECOSIM_0000202 -->
 
     <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0000202">
@@ -2958,17 +2935,6 @@
         <oboInOwl:hasRelatedSynonym>iUreaHydInhibitorType_col</oboInOwl:hasRelatedSynonym>
         <rdfs:comment>FlagDataType.txt</rdfs:comment>
         <rdfs:label>urea hydrolysis inhibitor type (1=no,2=yes)</rdfs:label>
-    </Class>
-    
-
-
-    <!-- https://w3id.org/ecosim/ECOSIM_0000244 -->
-
-    <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0000244">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000003"/>
-        <oboInOwl:hasRelatedSynonym>ITILL1_col</oboInOwl:hasRelatedSynonym>
-        <rdfs:comment>FlagDataType.txt</rdfs:comment>
-        <rdfs:label>soil disturbance type</rdfs:label>
     </Class>
     
 
@@ -3620,7 +3586,7 @@
         <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000005"/>
         <oboInOwl:hasRelatedSynonym>TSoilH2G_lnd</oboInOwl:hasRelatedSynonym>
         <rdfs:comment>EcoSimSumDataType.txt</rdfs:comment>
-        <rdfs:label>total soil N2</rdfs:label>
+        <rdfs:label>total soil H2</rdfs:label>
         <ecosim:ECOSIM_has_unit rdf:resource="g d-2"/>
     </Class>
     
@@ -4003,18 +3969,6 @@
     
 
 
-    <!-- https://w3id.org/ecosim/ECOSIM_0000322 -->
-
-    <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0000322">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000005"/>
-        <oboInOwl:hasRelatedSynonym>Litrfall_lnds</oboInOwl:hasRelatedSynonym>
-        <rdfs:comment>EcoSimSumDataType.txt</rdfs:comment>
-        <rdfs:label>total LitrFall C</rdfs:label>
-        <ecosim:ECOSIM_has_unit rdf:resource="g d-2"/>
-    </Class>
-    
-
-
     <!-- https://w3id.org/ecosim/ECOSIM_0000323 -->
 
     <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0000323">
@@ -4170,18 +4124,6 @@
         <oboInOwl:hasRelatedSynonym>RootN2Fix_vr</oboInOwl:hasRelatedSynonym>
         <rdfs:comment>PlantDataRateType.txt</rdfs:comment>
         <rdfs:label>vertical profile of root N2 fixation</rdfs:label>
-        <ecosim:ECOSIM_has_unit rdf:resource="gN d-2 h-1"/>
-    </Class>
-    
-
-
-    <!-- https://w3id.org/ecosim/ECOSIM_0000336 -->
-
-    <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0000336">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000006"/>
-        <oboInOwl:hasRelatedSynonym>RootN2Fix_col</oboInOwl:hasRelatedSynonym>
-        <rdfs:comment>PlantDataRateType.txt</rdfs:comment>
-        <rdfs:label>root N2 fixation</rdfs:label>
         <ecosim:ECOSIM_has_unit rdf:resource="gN d-2 h-1"/>
     </Class>
     
@@ -4998,30 +4940,6 @@
     
 
 
-    <!-- https://w3id.org/ecosim/ECOSIM_0000399 -->
-
-    <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0000399">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000006"/>
-        <oboInOwl:hasRelatedSynonym>trcs_Soil2plant_uptake_col</oboInOwl:hasRelatedSynonym>
-        <rdfs:comment>PlantDataRateType.txt</rdfs:comment>
-        <rdfs:label>total root-soil solute flux</rdfs:label>
-        <ecosim:ECOSIM_has_unit rdf:resource="g d-2 h-1"/>
-    </Class>
-    
-
-
-    <!-- https://w3id.org/ecosim/ECOSIM_0000400 -->
-
-    <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0000400">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000006"/>
-        <oboInOwl:hasRelatedSynonym>trcs_Soil2plant_uptakep_col</oboInOwl:hasRelatedSynonym>
-        <rdfs:comment>PlantDataRateType.txt</rdfs:comment>
-        <rdfs:label>total root-soil solute flux</rdfs:label>
-        <ecosim:ECOSIM_has_unit rdf:resource="g d-2 h-1"/>
-    </Class>
-    
-
-
     <!-- https://w3id.org/ecosim/ECOSIM_0000401 -->
 
     <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0000401">
@@ -5039,18 +4957,6 @@
     <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0000402">
         <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000006"/>
         <oboInOwl:hasRelatedSynonym>RootCO2Emis2Root_vr</oboInOwl:hasRelatedSynonym>
-        <rdfs:comment>PlantDataRateType.txt</rdfs:comment>
-        <rdfs:label>total root CO2 flux into roots</rdfs:label>
-        <ecosim:ECOSIM_has_unit rdf:resource="g d-2 h-1"/>
-    </Class>
-    
-
-
-    <!-- https://w3id.org/ecosim/ECOSIM_0000403 -->
-
-    <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0000403">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000006"/>
-        <oboInOwl:hasRelatedSynonym>RootCO2Emis2Root_col</oboInOwl:hasRelatedSynonym>
         <rdfs:comment>PlantDataRateType.txt</rdfs:comment>
         <rdfs:label>total root CO2 flux into roots</rdfs:label>
         <ecosim:ECOSIM_has_unit rdf:resource="g d-2 h-1"/>
@@ -5130,35 +5036,11 @@
     
 
 
-    <!-- https://w3id.org/ecosim/ECOSIM_0000410 -->
-
-    <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0000410">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000006"/>
-        <oboInOwl:hasRelatedSynonym>RO2EcoDmndPrev_vr</oboInOwl:hasRelatedSynonym>
-        <rdfs:comment>PlantDataRateType.txt</rdfs:comment>
-        <rdfs:label>total root + microbial O2 uptake</rdfs:label>
-        <ecosim:ECOSIM_has_unit rdf:resource="g d-2 h-1"/>
-    </Class>
-    
-
-
     <!-- https://w3id.org/ecosim/ECOSIM_0000411 -->
 
     <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0000411">
         <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000006"/>
         <oboInOwl:hasRelatedSynonym>REcoNH4DmndSoil_vr</oboInOwl:hasRelatedSynonym>
-        <rdfs:comment>PlantDataRateType.txt</rdfs:comment>
-        <rdfs:label>total root + microbial NH4 uptake non-band</rdfs:label>
-        <ecosim:ECOSIM_has_unit rdf:resource="g d-2 h-1"/>
-    </Class>
-    
-
-
-    <!-- https://w3id.org/ecosim/ECOSIM_0000412 -->
-
-    <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0000412">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000006"/>
-        <oboInOwl:hasRelatedSynonym>RNH4EcoDmndSoilPrev_vr</oboInOwl:hasRelatedSynonym>
         <rdfs:comment>PlantDataRateType.txt</rdfs:comment>
         <rdfs:label>total root + microbial NH4 uptake non-band</rdfs:label>
         <ecosim:ECOSIM_has_unit rdf:resource="g d-2 h-1"/>
@@ -5178,35 +5060,11 @@
     
 
 
-    <!-- https://w3id.org/ecosim/ECOSIM_0000414 -->
-
-    <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0000414">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000006"/>
-        <oboInOwl:hasRelatedSynonym>RNO3EcoDmndSoilPrev_vr</oboInOwl:hasRelatedSynonym>
-        <rdfs:comment>PlantDataRateType.txt</rdfs:comment>
-        <rdfs:label>total root + microbial NO3 uptake non-band</rdfs:label>
-        <ecosim:ECOSIM_has_unit rdf:resource="g d-2 h-1"/>
-    </Class>
-    
-
-
     <!-- https://w3id.org/ecosim/ECOSIM_0000415 -->
 
     <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0000415">
         <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000006"/>
         <oboInOwl:hasRelatedSynonym>RNO2EcoUptkSoil_vr</oboInOwl:hasRelatedSynonym>
-        <rdfs:comment>PlantDataRateType.txt</rdfs:comment>
-        <rdfs:label>total root + microbial NO2 uptake non-band</rdfs:label>
-        <ecosim:ECOSIM_has_unit rdf:resource="g d-2 h-1"/>
-    </Class>
-    
-
-
-    <!-- https://w3id.org/ecosim/ECOSIM_0000416 -->
-
-    <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0000416">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000006"/>
-        <oboInOwl:hasRelatedSynonym>RNO2EcoUptkSoilPrev_vr</oboInOwl:hasRelatedSynonym>
         <rdfs:comment>PlantDataRateType.txt</rdfs:comment>
         <rdfs:label>total root + microbial NO2 uptake non-band</rdfs:label>
         <ecosim:ECOSIM_has_unit rdf:resource="g d-2 h-1"/>
@@ -5226,35 +5084,11 @@
     
 
 
-    <!-- https://w3id.org/ecosim/ECOSIM_0000418 -->
-
-    <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0000418">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000006"/>
-        <oboInOwl:hasRelatedSynonym>RH2PO4EcoDmndSoilPrev_vr</oboInOwl:hasRelatedSynonym>
-        <rdfs:comment>PlantDataRateType.txt</rdfs:comment>
-        <rdfs:label>total root + microbial PO4 uptake non-band</rdfs:label>
-        <ecosim:ECOSIM_has_unit rdf:resource="g d-2 h-1"/>
-    </Class>
-    
-
-
     <!-- https://w3id.org/ecosim/ECOSIM_0000419 -->
 
     <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0000419">
         <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000006"/>
         <oboInOwl:hasRelatedSynonym>RN2OEcoUptkSoil_vr</oboInOwl:hasRelatedSynonym>
-        <rdfs:comment>PlantDataRateType.txt</rdfs:comment>
-        <rdfs:label>total root + microbial N2O uptake</rdfs:label>
-        <ecosim:ECOSIM_has_unit rdf:resource="g d-2 h-1"/>
-    </Class>
-    
-
-
-    <!-- https://w3id.org/ecosim/ECOSIM_0000420 -->
-
-    <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0000420">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000006"/>
-        <oboInOwl:hasRelatedSynonym>RN2OEcoUptkSoilPrev_vr</oboInOwl:hasRelatedSynonym>
         <rdfs:comment>PlantDataRateType.txt</rdfs:comment>
         <rdfs:label>total root + microbial N2O uptake</rdfs:label>
         <ecosim:ECOSIM_has_unit rdf:resource="g d-2 h-1"/>
@@ -5274,35 +5108,11 @@
     
 
 
-    <!-- https://w3id.org/ecosim/ECOSIM_0000422 -->
-
-    <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0000422">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000006"/>
-        <oboInOwl:hasRelatedSynonym>RNH4EcoDmndBandPrev_vr</oboInOwl:hasRelatedSynonym>
-        <rdfs:comment>PlantDataRateType.txt</rdfs:comment>
-        <rdfs:label>total root + microbial NH4 uptake band</rdfs:label>
-        <ecosim:ECOSIM_has_unit rdf:resource="g d-2 h-1"/>
-    </Class>
-    
-
-
     <!-- https://w3id.org/ecosim/ECOSIM_0000423 -->
 
     <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0000423">
         <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000006"/>
         <oboInOwl:hasRelatedSynonym>REcoNO3DmndBand_vr</oboInOwl:hasRelatedSynonym>
-        <rdfs:comment>PlantDataRateType.txt</rdfs:comment>
-        <rdfs:label>total root + microbial NO3 uptake band</rdfs:label>
-        <ecosim:ECOSIM_has_unit rdf:resource="g d-2 h-1"/>
-    </Class>
-    
-
-
-    <!-- https://w3id.org/ecosim/ECOSIM_0000424 -->
-
-    <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0000424">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000006"/>
-        <oboInOwl:hasRelatedSynonym>RNO3EcoDmndBandPrev_vr</oboInOwl:hasRelatedSynonym>
         <rdfs:comment>PlantDataRateType.txt</rdfs:comment>
         <rdfs:label>total root + microbial NO3 uptake band</rdfs:label>
         <ecosim:ECOSIM_has_unit rdf:resource="g d-2 h-1"/>
@@ -5322,35 +5132,11 @@
     
 
 
-    <!-- https://w3id.org/ecosim/ECOSIM_0000426 -->
-
-    <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0000426">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000006"/>
-        <oboInOwl:hasRelatedSynonym>RNO2EcoUptkBandPrev_vr</oboInOwl:hasRelatedSynonym>
-        <rdfs:comment>PlantDataRateType.txt</rdfs:comment>
-        <rdfs:label>total root + microbial NO2 uptake band</rdfs:label>
-        <ecosim:ECOSIM_has_unit rdf:resource="g d-2 h-1"/>
-    </Class>
-    
-
-
     <!-- https://w3id.org/ecosim/ECOSIM_0000427 -->
 
     <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0000427">
         <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000006"/>
         <oboInOwl:hasRelatedSynonym>REcoH2PO4DmndBand_vr</oboInOwl:hasRelatedSynonym>
-        <rdfs:comment>PlantDataRateType.txt</rdfs:comment>
-        <rdfs:label>total root + microbial PO4 uptake band</rdfs:label>
-        <ecosim:ECOSIM_has_unit rdf:resource="g d-2 h-1"/>
-    </Class>
-    
-
-
-    <!-- https://w3id.org/ecosim/ECOSIM_0000428 -->
-
-    <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0000428">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000006"/>
-        <oboInOwl:hasRelatedSynonym>RH2PO4EcoDmndBandPrev_vr</oboInOwl:hasRelatedSynonym>
         <rdfs:comment>PlantDataRateType.txt</rdfs:comment>
         <rdfs:label>total root + microbial PO4 uptake band</rdfs:label>
         <ecosim:ECOSIM_has_unit rdf:resource="g d-2 h-1"/>
@@ -5370,35 +5156,11 @@
     
 
 
-    <!-- https://w3id.org/ecosim/ECOSIM_0000430 -->
-
-    <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0000430">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000006"/>
-        <oboInOwl:hasRelatedSynonym>RDOMEcoDmndPrev_vr</oboInOwl:hasRelatedSynonym>
-        <rdfs:comment>PlantDataRateType.txt</rdfs:comment>
-        <rdfs:label>total root + microbial DOC uptake</rdfs:label>
-        <ecosim:ECOSIM_has_unit rdf:resource="g d-2 h-1"/>
-    </Class>
-    
-
-
     <!-- https://w3id.org/ecosim/ECOSIM_0000431 -->
 
     <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0000431">
         <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000006"/>
         <oboInOwl:hasRelatedSynonym>RAcetateEcoDmndK_vr</oboInOwl:hasRelatedSynonym>
-        <rdfs:comment>PlantDataRateType.txt</rdfs:comment>
-        <rdfs:label>total root + microbial acetate uptake</rdfs:label>
-        <ecosim:ECOSIM_has_unit rdf:resource="g d-2 h-1"/>
-    </Class>
-    
-
-
-    <!-- https://w3id.org/ecosim/ECOSIM_0000432 -->
-
-    <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0000432">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000006"/>
-        <oboInOwl:hasRelatedSynonym>RAcetateEcoDmndPrev_vr</oboInOwl:hasRelatedSynonym>
         <rdfs:comment>PlantDataRateType.txt</rdfs:comment>
         <rdfs:label>total root + microbial acetate uptake</rdfs:label>
         <ecosim:ECOSIM_has_unit rdf:resource="g d-2 h-1"/>
@@ -6325,22 +6087,6 @@
     
 
 
-    <!-- https://w3id.org/ecosim/ECOSIM_0000495 -->
-
-    <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0000495">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000007"/>
-        <obo:IAO_0000115>Surface irrigation K concentration refers to the concentration of potassium (K) in water used for surface irrigation of agricultural fields. It is a parameter that affects the availability of potassium in the soil, which in turn influences plant growth and nutrient uptake. The surface irrigation K concentration is typically measured in units of mass per volume (e.g., milligrams per liter) and can vary depending on factors such as soil type, crop requirements, and water quality. Proper management of surface irrigation K concentration is important for maintaining optimal nutrient levels in the soil and maximizing crop productivity.</obo:IAO_0000115>
-        <oboInOwl:hasRelatedSynonym>CKASQ</oboInOwl:hasRelatedSynonym>
-        <rdfs:comment>IrrigationDataType.txt</rdfs:comment>
-        <rdfs:label>surface irrigation K concentration</rdfs:label>
-        <ecosim:ECOSIM_Attribute rdf:resource="Concentration"/>
-        <ecosim:ECOSIM_has_unit rdf:resource="g m-3"/>
-        <ecosim:ECOSIM_measured_in rdf:resource="SurfaceIrrigation"/>
-        <ecosim:ECOSIM_measurement_of rdf:resource="Potassium"/>
-    </Class>
-    
-
-
     <!-- https://w3id.org/ecosim/ECOSIM_0000496 -->
 
     <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0000496">
@@ -6509,22 +6255,6 @@
     
 
 
-    <!-- https://w3id.org/ecosim/ECOSIM_0000506 -->
-
-    <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0000506">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000007"/>
-        <obo:IAO_0000115>Surface irrigation ion strength refers to the strength or concentration of ions in the irrigation water used for surface irrigation. It can impact the nutrient content and pH level of the soil. Monitoring and controlling the ion strength in surface irrigation can help optimize plant growth and ensure proper soil health.</obo:IAO_0000115>
-        <oboInOwl:hasRelatedSynonym>SurfIrrig_IonStrenth_col</oboInOwl:hasRelatedSynonym>
-        <rdfs:comment>IrrigationDataType.txt</rdfs:comment>
-        <rdfs:label>surface irrigation ion strength</rdfs:label>
-        <ecosim:ECOSIM_Context rdf:resource="Irrigation"/>
-        <ecosim:ECOSIM_has_unit rdf:resource="g m-3"/>
-        <ecosim:ECOSIM_measured_in rdf:resource="Surface"/>
-        <ecosim:ECOSIM_measurement_of rdf:resource="Water"/>
-    </Class>
-    
-
-
     <!-- https://w3id.org/ecosim/ECOSIM_0000507 -->
 
     <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0000507">
@@ -6572,7 +6302,7 @@
         <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000007"/>
         <oboInOwl:hasRelatedSynonym>FWatIrrigate2MicP_vr</oboInOwl:hasRelatedSynonym>
         <rdfs:comment>IrrigationDataType.txt</rdfs:comment>
-        <rdfs:label>underground irrigation</rdfs:label>
+        <rdfs:label>underground irrigation to micropores</rdfs:label>
         <ecosim:ECOSIM_has_unit rdf:resource="m3 d-2 h-1"/>
     </Class>
     
@@ -6714,6 +6444,7 @@
         <rdfs:comment>CanopyDataType.txt</rdfs:comment>
         <rdfs:label>maximum stomatal resistance to vapor</rdfs:label>
         <ecosim:ECOSIM_Qualifier rdf:resource="Vapor"/>
+        <ecosim:ECOSIM_has_unit rdf:resource="s h-1"/>
         <ecosim:ECOSIM_has_unit rdf:resource="s m-1"/>
         <ecosim:ECOSIM_measured_in rdf:resource="Canopy"/>
         <ecosim:ECOSIM_measurement_of rdf:resource="Stoma"/>
@@ -6732,21 +6463,6 @@
         <ecosim:ECOSIM_has_unit rdf:resource="s h-1"/>
         <ecosim:ECOSIM_measured_in rdf:resource="Stoma"/>
         <ecosim:ECOSIM_measurement_of rdf:resource="CO2"/>
-    </Class>
-    
-
-
-    <!-- https://w3id.org/ecosim/ECOSIM_0000523 -->
-
-    <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0000523">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000008"/>
-        <oboInOwl:hasRelatedSynonym>H2OCuticleResist_pft</oboInOwl:hasRelatedSynonym>
-        <rdfs:comment>CanopyDataType.txt</rdfs:comment>
-        <rdfs:label>maximum stomatal resistance to vapor</rdfs:label>
-        <ecosim:ECOSIM_Qualifier rdf:resource="Vapor"/>
-        <ecosim:ECOSIM_has_unit rdf:resource="s h-1"/>
-        <ecosim:ECOSIM_measured_in rdf:resource="Canopy"/>
-        <ecosim:ECOSIM_measurement_of rdf:resource="Stoma"/>
     </Class>
     
 
@@ -6801,6 +6517,7 @@
         <oboInOwl:hasRelatedSynonym>CanopyBndlResist_col</oboInOwl:hasRelatedSynonym>
         <rdfs:comment>CanopyDataType.txt</rdfs:comment>
         <rdfs:label>canopy boundary layer resistance</rdfs:label>
+        <ecosim:ECOSIM_has_unit rdf:resource="h m-1"/>
         <ecosim:ECOSIM_has_unit rdf:resource="m h-1"/>
         <ecosim:ECOSIM_measured_in rdf:resource="Canopy"/>
         <ecosim:ECOSIM_measurement_of rdf:resource="BoundaryLayer"/>
@@ -7156,22 +6873,6 @@
     
 
 
-    <!-- https://w3id.org/ecosim/ECOSIM_0000551 -->
-
-    <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0000551">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000008"/>
-        <obo:IAO_0000115>The bundle sheath nonstructural C3 content in C4 photosynthesis refers to the amount of non-structural carbon compounds in the bundle sheath cells of C4 plants during photosynthesis. Non-structural carbon compounds are essential for plant growth and survival, and play a crucial role in C4 photosynthesis which is a specialized form of photosynthesis that optimizes carbon uptake and water use efficiency.</obo:IAO_0000115>
-        <oboInOwl:hasRelatedSynonym>CMassHCO3BundleSheath_node</oboInOwl:hasRelatedSynonym>
-        <rdfs:comment>CanopyDataType.txt</rdfs:comment>
-        <rdfs:label>bundle sheath nonstructural C3 content in C4 photosynthesis</rdfs:label>
-        <ecosim:ECOSIM_Context rdf:resource="C4Photosynthesis"/>
-        <ecosim:ECOSIM_has_unit rdf:resource="g d-2"/>
-        <ecosim:ECOSIM_measured_in rdf:resource="BundleSheathCell"/>
-        <ecosim:ECOSIM_measurement_of rdf:resource="NonstructuralC3Content"/>
-    </Class>
-    
-
-
     <!-- https://w3id.org/ecosim/ECOSIM_0000552 -->
 
     <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0000552">
@@ -7192,20 +6893,6 @@
         <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000008"/>
         <obo:IAO_0000115>Negative regulation of the carbon fixation pathway, known as C4 photosynthesis, where the reaction is shut down or slowed down.</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym>NutrientCtrlonC4Carboxy_node</oboInOwl:hasRelatedSynonym>
-        <rdfs:comment>CanopyDataType.txt</rdfs:comment>
-        <rdfs:label>down-regulation of C4 photosynthesis</rdfs:label>
-        <ecosim:ECOSIM_measured_in rdf:resource="Leaf"/>
-        <ecosim:ECOSIM_measurement_of rdf:resource="C4Photosynthesis"/>
-    </Class>
-    
-
-
-    <!-- https://w3id.org/ecosim/ECOSIM_0000554 -->
-
-    <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0000554">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000008"/>
-        <obo:IAO_0000115>Negative regulation of the carbon fixation pathway, known as C4 photosynthesis, where the reaction is shut down or slowed down.</obo:IAO_0000115>
-        <oboInOwl:hasRelatedSynonym>C4PhotosynDowreg_brch</oboInOwl:hasRelatedSynonym>
         <rdfs:comment>CanopyDataType.txt</rdfs:comment>
         <rdfs:label>down-regulation of C4 photosynthesis</rdfs:label>
         <ecosim:ECOSIM_measured_in rdf:resource="Leaf"/>
@@ -7700,21 +7387,6 @@
     
 
 
-    <!-- https://w3id.org/ecosim/ECOSIM_0000590 -->
-
-    <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0000590">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000008"/>
-        <obo:IAO_0000115>Canopy boundary layer resistance refers to the hindrance or resistance encountered by the exchange of heat, moisture, and gas between the surface of the Earth and the vegetation canopy. It represents the resistance to the transfer of these variables caused by the layer of still air that exists in the immediate vicinity of the canopy. Canopy boundary layer resistance is an important parameter in earth systems modeling as it influences the exchange rates of energy, water, and gases, such as carbon dioxide and oxygen, between the land and the atmosphere.</obo:IAO_0000115>
-        <oboInOwl:hasRelatedSynonym>CanopyBndlResist_pft</oboInOwl:hasRelatedSynonym>
-        <rdfs:comment>CanopyDataType.txt</rdfs:comment>
-        <rdfs:label>canopy boundary layer resistance</rdfs:label>
-        <ecosim:ECOSIM_has_unit rdf:resource="h m-1"/>
-        <ecosim:ECOSIM_measured_in rdf:resource="Canopy"/>
-        <ecosim:ECOSIM_measurement_of rdf:resource="BoundaryLayer"/>
-    </Class>
-    
-
-
     <!-- https://w3id.org/ecosim/ECOSIM_0000591 -->
 
     <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0000591">
@@ -7917,22 +7589,6 @@
         <rdfs:comment>CanopyDataType.txt</rdfs:comment>
         <rdfs:label>water flux into plant canopy</rdfs:label>
         <ecosim:ECOSIM_has_unit rdf:resource="m3 d-2 h-1"/>
-    </Class>
-    
-
-
-    <!-- https://w3id.org/ecosim/ECOSIM_0000607 -->
-
-    <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0000607">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000008"/>
-        <obo:IAO_0000115>Canopy held water content refers to the amount of water that is intercepted by the canopy of trees and plants. This water is typically held on the surface of leaves, branches, and other plant structures. Canopy held water content is a key component of the hydrological cycle because it has direct impacts on processes such as evaporation, transpiration, and runoff.</obo:IAO_0000115>
-        <oboInOwl:hasRelatedSynonym>WatHeldOnCanopy_pft</oboInOwl:hasRelatedSynonym>
-        <rdfs:comment>CanopyDataType.txt</rdfs:comment>
-        <rdfs:label>canopy held water content</rdfs:label>
-        <ecosim:ECOSIM_Attribute rdf:resource="Content"/>
-        <ecosim:ECOSIM_has_unit rdf:resource="m3 d-2"/>
-        <ecosim:ECOSIM_measured_in rdf:resource="Canopy"/>
-        <ecosim:ECOSIM_measurement_of rdf:resource="Water"/>
     </Class>
     
 
@@ -8746,7 +8402,7 @@
         <oboInOwl:hasRelatedSynonym>ALTIG</oboInOwl:hasRelatedSynonym>
         <rdfs:comment>LandSurfDataType.txt</rdfs:comment>
         <rdfs:label>Altitude of landscape</rdfs:label>
-        <ecosim:ECOSIM_Attribute rdf:resource="https://w3id.org/ecosim/ECOSIM_0000683"/>
+        <ecosim:ECOSIM_Attribute rdf:resource="Altitude"/>
         <ecosim:ECOSIM_has_unit rdf:resource="m"/>
         <ecosim:ECOSIM_measured_in rdf:resource="Landscape"/>
     </Class>
@@ -8821,10 +8477,10 @@
         <oboInOwl:hasRelatedSynonym>ALT_col</oboInOwl:hasRelatedSynonym>
         <rdfs:comment>LandSurfDataType.txt</rdfs:comment>
         <rdfs:label>Altitude of grid cell</rdfs:label>
-        <ecosim:ECOSIM_Attribute rdf:resource="https://w3id.org/ecosim/ECOSIM_0000683"/>
+        <ecosim:ECOSIM_Attribute rdf:resource="Altitude"/>
         <ecosim:ECOSIM_has_unit rdf:resource="m"/>
         <ecosim:ECOSIM_measured_in rdf:resource="GridCell"/>
-        <ecosim:ECOSIM_measurement_of rdf:resource="https://w3id.org/ecosim/ECOSIM_0000683"/>
+        <ecosim:ECOSIM_measurement_of rdf:resource="Altitude"/>
     </Class>
     
 
@@ -8853,21 +8509,6 @@
     
 
 
-    <!-- https://w3id.org/ecosim/ECOSIM_0000679 -->
-
-    <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0000679">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000009"/>
-        <obo:IAO_0000115>The altitude of a landscape refers to the vertical distance between a specific point on the Earth&apos;s surface and a reference point, usually sea level. It is an important parameter in Earth system modeling as it influences a wide range of physical and biological processes, including temperature, precipitation patterns, atmospheric circulation, and distribution of plant and animal species. Altitude is typically measured in meters or feet and is essential for accurately simulating and analyzing the behavior and interactions of Earth&apos;s systems.</obo:IAO_0000115>
-        <oboInOwl:hasRelatedSynonym>ALTI_col</oboInOwl:hasRelatedSynonym>
-        <rdfs:comment>LandSurfDataType.txt</rdfs:comment>
-        <rdfs:label>Altitude of landscape</rdfs:label>
-        <ecosim:ECOSIM_Attribute rdf:resource="https://w3id.org/ecosim/ECOSIM_0000683"/>
-        <ecosim:ECOSIM_has_unit rdf:resource="m"/>
-        <ecosim:ECOSIM_measured_in rdf:resource="Landscape"/>
-    </Class>
-    
-
-
     <!-- https://w3id.org/ecosim/ECOSIM_0000680 -->
 
     <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0000680">
@@ -8875,7 +8516,7 @@
         <obo:IAO_0000115>The value obtained from the mathematical function of sine applied to the gradient or slope. It is often used in various calculations in earth system sciences, such as those related to hill slopes, flow directions, and solar radiation.</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym>SineGrndSlope_col</oboInOwl:hasRelatedSynonym>
         <rdfs:comment>LandSurfDataType.txt</rdfs:comment>
-        <rdfs:label>Sine of slope</rdfs:label>
+        <rdfs:label>sine of slope</rdfs:label>
     </Class>
     
 
@@ -8886,7 +8527,7 @@
         <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000009"/>
         <oboInOwl:hasRelatedSynonym>CosineGrndSlope_col</oboInOwl:hasRelatedSynonym>
         <rdfs:comment>LandSurfDataType.txt</rdfs:comment>
-        <rdfs:label>Cosine of slope</rdfs:label>
+        <rdfs:label>cosine of slope</rdfs:label>
     </Class>
     
 
@@ -8897,8 +8538,8 @@
         <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000009"/>
         <oboInOwl:hasRelatedSynonym>GroundSurfAzimuth_col</oboInOwl:hasRelatedSynonym>
         <rdfs:comment>LandSurfDataType.txt</rdfs:comment>
-        <rdfs:label>Azimuth of slope</rdfs:label>
-        <ecosim:ECOSIM_measured_in rdf:resource="https://w3id.org/ecosim/ECOSIM_0000684"/>
+        <rdfs:label>azimuth of slope</rdfs:label>
+        <ecosim:ECOSIM_measured_in rdf:resource="Slope"/>
     </Class>
     
 
@@ -8909,7 +8550,7 @@
         <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000009"/>
         <oboInOwl:hasRelatedSynonym>ALTZ_col</oboInOwl:hasRelatedSynonym>
         <rdfs:comment>LandSurfDataType.txt</rdfs:comment>
-        <rdfs:label>Altitude</rdfs:label>
+        <rdfs:label>altitude</rdfs:label>
         <ecosim:ECOSIM_has_unit rdf:resource="m"/>
     </Class>
     
@@ -8921,7 +8562,7 @@
         <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000009"/>
         <oboInOwl:hasRelatedSynonym>SL_col</oboInOwl:hasRelatedSynonym>
         <rdfs:comment>LandSurfDataType.txt</rdfs:comment>
-        <rdfs:label>Slope</rdfs:label>
+        <rdfs:label>slope</rdfs:label>
         <ecosim:ECOSIM_has_unit rdf:resource="degree"/>
     </Class>
     
@@ -9293,35 +8934,6 @@
     
 
 
-    <!-- https://w3id.org/ecosim/ECOSIM_0000712 -->
-
-    <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0000712">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000010"/>
-        <obo:IAO_0000115>Branching angle refers to the angle between the main stem and a branch in a hierarchical tree structure. It is a parameter used in earth systems modeling to describe the architectural characteristics of vegetation, particularly in forest ecosystems. The branching angle affects the distribution of light within the canopy, which in turn influences the photosynthetic capacity and resource allocation of individual plants, as well as the overall structure and function of the ecosystem. Different values of branching angle can result in variations in light interception, crown architecture, and competitive interactions among plants, ultimately influencing ecosystem productivity and carbon cycling.</obo:IAO_0000115>
-        <oboInOwl:hasRelatedSynonym>SineBranchAngle_pft</oboInOwl:hasRelatedSynonym>
-        <rdfs:comment>PlantTraitDataType.txt</rdfs:comment>
-        <rdfs:label>branching angle</rdfs:label>
-        <ecosim:ECOSIM_has_unit rdf:resource="degree from horizontal"/>
-        <ecosim:ECOSIM_measured_in rdf:resource="Plant"/>
-    </Class>
-    
-
-
-    <!-- https://w3id.org/ecosim/ECOSIM_0000713 -->
-
-    <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0000713">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000010"/>
-        <obo:IAO_0000115>The sheath angle refers to the angle between the stem or branch and the leaf sheath in plants. It is an important parameter in earth systems modeling as it affects the canopy structure and influences various processes such as light interception, transpiration, and carbon assimilation. The sheath angle can vary between different plant species and can be influenced by environmental factors such as light availability and competition for resources.</obo:IAO_0000115>
-        <oboInOwl:hasRelatedSynonym>SinePetioleAngle_pft</oboInOwl:hasRelatedSynonym>
-        <rdfs:comment>PlantTraitDataType.txt</rdfs:comment>
-        <rdfs:label>sheath angle</rdfs:label>
-        <ecosim:ECOSIM_has_unit rdf:resource="degree from horizontal"/>
-        <ecosim:ECOSIM_measured_in rdf:resource="Plant"/>
-        <ecosim:ECOSIM_measurement_of rdf:resource="Sheath"/>
-    </Class>
-    
-
-
     <!-- https://w3id.org/ecosim/ECOSIM_0000714 -->
 
     <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0000714">
@@ -9387,7 +8999,7 @@
         <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000010"/>
         <oboInOwl:hasRelatedSynonym>LiveInterNodeHight_brch</oboInOwl:hasRelatedSynonym>
         <rdfs:comment>PlantTraitDataType.txt</rdfs:comment>
-        <rdfs:label>Live internode height</rdfs:label>
+        <rdfs:label>live internode height</rdfs:label>
         <ecosim:ECOSIM_has_unit rdf:resource="m"/>
     </Class>
     
@@ -9399,23 +9011,6 @@
         <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000010"/>
         <obo:IAO_0000115>The &apos;branch leaf area&apos; refers to the total surface area of leaves present on the branches of a plant within a specific Plant Functional Type (PFT) in a given ecosystem. It is an important parameter in Earth Systems Models (ESMs) as it is used to estimate the primary productivity, energy exchange, and water fluxes associated with plant growth and photosynthesis. The branch leaf area can vary between different PFTs and is influenced by factors such as vegetation type, climate conditions, and nutrient availability.</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym>LeafAreaLive_brch</oboInOwl:hasRelatedSynonym>
-        <rdfs:comment>PlantTraitDataType.txt</rdfs:comment>
-        <rdfs:label>branch leaf area</rdfs:label>
-        <ecosim:ECOSIM_Attribute rdf:resource="Area"/>
-        <ecosim:ECOSIM_Context rdf:resource="Canopy"/>
-        <ecosim:ECOSIM_has_unit rdf:resource="m2 d-2"/>
-        <ecosim:ECOSIM_measured_in rdf:resource="Branch"/>
-        <ecosim:ECOSIM_measurement_of rdf:resource="Leaf"/>
-    </Class>
-    
-
-
-    <!-- https://w3id.org/ecosim/ECOSIM_0000720 -->
-
-    <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0000720">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000010"/>
-        <obo:IAO_0000115>The &apos;branch leaf area&apos; refers to the total surface area of leaves present on the branches of a plant within a specific Plant Functional Type (PFT) in a given ecosystem. It is an important parameter in Earth Systems Models (ESMs) as it is used to estimate the primary productivity, energy exchange, and water fluxes associated with plant growth and photosynthesis. The branch leaf area can vary between different PFTs and is influenced by factors such as vegetation type, climate conditions, and nutrient availability.</obo:IAO_0000115>
-        <oboInOwl:hasRelatedSynonym>LeafAreaDying_brch</oboInOwl:hasRelatedSynonym>
         <rdfs:comment>PlantTraitDataType.txt</rdfs:comment>
         <rdfs:label>branch leaf area</rdfs:label>
         <ecosim:ECOSIM_Attribute rdf:resource="Area"/>
@@ -9506,7 +9101,7 @@
         <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000010"/>
         <oboInOwl:hasRelatedSynonym>InternodeHeightDead_brch</oboInOwl:hasRelatedSynonym>
         <rdfs:comment>PlantTraitDataType.txt</rdfs:comment>
-        <rdfs:label>Dead internode height</rdfs:label>
+        <rdfs:label>dead internode height</rdfs:label>
         <ecosim:ECOSIM_has_unit rdf:resource="m"/>
     </Class>
     
@@ -9895,19 +9490,6 @@
     
 
 
-    <!-- https://w3id.org/ecosim/ECOSIM_0000754 -->
-
-    <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0000754">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000010"/>
-        <obo:IAO_0000115>Refers to the total number of individual plants in a particular area or population.</obo:IAO_0000115>
-        <oboInOwl:hasRelatedSynonym>PPX_pft</oboInOwl:hasRelatedSynonym>
-        <rdfs:comment>PlantTraitDataType.txt</rdfs:comment>
-        <rdfs:label>plant population</rdfs:label>
-        <ecosim:ECOSIM_has_unit rdf:resource="m-2"/>
-    </Class>
-    
-
-
     <!-- https://w3id.org/ecosim/ECOSIM_0000755 -->
 
     <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0000755">
@@ -9999,24 +9581,8 @@
         <rdfs:label>canopy growth temperature</rdfs:label>
         <ecosim:ECOSIM_Attribute rdf:resource="Growth"/>
         <ecosim:ECOSIM_Context rdf:resource="Growth"/>
-        <ecosim:ECOSIM_has_unit rdf:resource="oC"/>
-        <ecosim:ECOSIM_measured_in rdf:resource="Canopy"/>
-        <ecosim:ECOSIM_measurement_of rdf:resource="Temperature"/>
-    </Class>
-    
-
-
-    <!-- https://w3id.org/ecosim/ECOSIM_0000762 -->
-
-    <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0000762">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000010"/>
-        <obo:IAO_0000115>Canopy growth temperature refers to the temperature conditions under which plant canopy grows. It can refer to both the actual temperature experienced by the plants and the optimal temperature for the growth of the canopy. Canopy growth temperature influences photosynthesis, respiration, and several other physiological processes. It is crucial for modeling and predicting plant growth and development in response to changing climate conditions.|Canopy growth temperature refers to the temperature within the vegetation canopy that is beneficial for its development and productivity. Canopy growth temperature is an important parameter in plant physiology and earth system modeling, as it helps modulate plant growth dynamics, bioenergy production, and carbon sequestration potential.</obo:IAO_0000115>
-        <oboInOwl:hasRelatedSynonym>TKGroth_pft</oboInOwl:hasRelatedSynonym>
-        <rdfs:comment>PlantTraitDataType.txt</rdfs:comment>
-        <rdfs:label>canopy growth temperature</rdfs:label>
-        <ecosim:ECOSIM_Attribute rdf:resource="Growth"/>
-        <ecosim:ECOSIM_Context rdf:resource="Growth"/>
         <ecosim:ECOSIM_has_unit rdf:resource="K"/>
+        <ecosim:ECOSIM_has_unit rdf:resource="oC"/>
         <ecosim:ECOSIM_measured_in rdf:resource="Canopy"/>
         <ecosim:ECOSIM_measurement_of rdf:resource="Temperature"/>
     </Class>
@@ -10232,21 +9798,6 @@
     
 
 
-    <!-- https://w3id.org/ecosim/ECOSIM_0000777 -->
-
-    <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0000777">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000010"/>
-        <obo:IAO_0000115>Refer to the number of leaves in a plant or crop, which is a useful measurement for crop growth and development analysis.</obo:IAO_0000115>
-        <oboInOwl:hasRelatedSynonym>KLeafNumber_brch</oboInOwl:hasRelatedSynonym>
-        <rdfs:comment>PlantTraitDataType.txt</rdfs:comment>
-        <rdfs:label>leaf number</rdfs:label>
-        <ecosim:ECOSIM_Attribute rdf:resource="Number"/>
-        <ecosim:ECOSIM_measured_in rdf:resource="Plant"/>
-        <ecosim:ECOSIM_measurement_of rdf:resource="LeafNumber"/>
-    </Class>
-    
-
-
     <!-- https://w3id.org/ecosim/ECOSIM_0000778 -->
 
     <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0000778">
@@ -10264,18 +9815,7 @@
         <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000010"/>
         <oboInOwl:hasRelatedSynonym>KMinNumLeaf4GroAlloc_brch</oboInOwl:hasRelatedSynonym>
         <rdfs:comment>PlantTraitDataType.txt</rdfs:comment>
-        <rdfs:label>NUMBER OF MINIMUM LEAFED NODE USED IN GROWTH ALLOCATION</rdfs:label>
-    </Class>
-    
-
-
-    <!-- https://w3id.org/ecosim/ECOSIM_0000780 -->
-
-    <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0000780">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000010"/>
-        <oboInOwl:hasRelatedSynonym>KHiestGroLeafNode_brch</oboInOwl:hasRelatedSynonym>
-        <rdfs:comment>PlantTraitDataType.txt</rdfs:comment>
-        <rdfs:label>leaf growth stage counter</rdfs:label>
+        <rdfs:label>Number of minimum leafed nodes used in growth allocation</rdfs:label>
     </Class>
     
 
@@ -10609,34 +10149,6 @@
         <rdfs:label>node number at anthesis</rdfs:label>
         <ecosim:ECOSIM_measured_in rdf:resource="Plant"/>
         <ecosim:ECOSIM_measurement_of rdf:resource="Node"/>
-    </Class>
-    
-
-
-    <!-- https://w3id.org/ecosim/ECOSIM_0000807 -->
-
-    <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0000807">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000010"/>
-        <obo:IAO_0000115>Normalized node number during vegetative growth stages refers to the number of nodes (joints or points of attachment) on a plant that appear during its vegetative growth period, normalized to account for differences in growth conditions or plant varieties. This measurement is often used in plant physiology and growth modeling to track developmental progression, as the number of nodes can serve as an indicator of a plant&apos;s stage in its life cycle.</obo:IAO_0000115>
-        <oboInOwl:hasRelatedSynonym>TotalNodeNumNormByMatgrp_brch</oboInOwl:hasRelatedSynonym>
-        <rdfs:comment>PlantTraitDataType.txt</rdfs:comment>
-        <rdfs:label>normalized node number during vegetative growth stages</rdfs:label>
-        <ecosim:ECOSIM_Attribute rdf:resource="Number"/>
-        <ecosim:ECOSIM_measured_in rdf:resource="Node"/>
-    </Class>
-    
-
-
-    <!-- https://w3id.org/ecosim/ECOSIM_0000808 -->
-
-    <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0000808">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000010"/>
-        <obo:IAO_0000115>Normalized node number during reproductive growth stages refers to the standardization of the node number, which is an important aspect of plant structure, during the reproductive phase of plant growth. This helps in shedding light on the varying developmental processes across different phases of a plant&apos;s life cycle.</obo:IAO_0000115>
-        <oboInOwl:hasRelatedSynonym>TotReproNodeNumNormByMatrgrp_brch</oboInOwl:hasRelatedSynonym>
-        <rdfs:comment>PlantTraitDataType.txt</rdfs:comment>
-        <rdfs:label>normalized node number during reproductive growth stages</rdfs:label>
-        <ecosim:ECOSIM_measured_in rdf:resource="Plant"/>
-        <ecosim:ECOSIM_measurement_of rdf:resource="NodeNumber"/>
     </Class>
     
 
@@ -11062,18 +10574,6 @@
         <oboInOwl:hasRelatedSynonym>SoluteDifusvty_vr</oboInOwl:hasRelatedSynonym>
         <rdfs:comment>ChemTranspDataType.txt</rdfs:comment>
         <rdfs:label>solute diffusivity</rdfs:label>
-        <ecosim:ECOSIM_has_unit rdf:resource="m2 h-1"/>
-    </Class>
-    
-
-
-    <!-- https://w3id.org/ecosim/ECOSIM_0000842 -->
-
-    <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0000842">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000011"/>
-        <oboInOwl:hasRelatedSynonym>O2AquaDiffusvity</oboInOwl:hasRelatedSynonym>
-        <rdfs:comment>ChemTranspDataType.txt</rdfs:comment>
-        <rdfs:label>aqueous CO2 diffusivity</rdfs:label>
         <ecosim:ECOSIM_has_unit rdf:resource="m2 h-1"/>
     </Class>
     
@@ -11888,22 +11388,6 @@
     
 
 
-    <!-- https://w3id.org/ecosim/ECOSIM_0000906 -->
-
-    <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0000906">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000012"/>
-        <obo:IAO_0000115>Total sediment subsurface flux refers to the total amount of sediment that is transported below the surface level due to natural processes such as soil erosion, landslide, and others. It is an important measure in the study of land degradation, soil conservation, and sediment transport.</obo:IAO_0000115>
-        <oboInOwl:hasRelatedSynonym>SedmErossLoss_CumYr_col</oboInOwl:hasRelatedSynonym>
-        <rdfs:comment>SoilBGCDataType.txt</rdfs:comment>
-        <rdfs:label>total sediment subsurface flux</rdfs:label>
-        <ecosim:ECOSIM_Attribute rdf:resource="Flux"/>
-        <ecosim:ECOSIM_has_unit rdf:resource="Mg d-2"/>
-        <ecosim:ECOSIM_measured_in rdf:resource="Subsurface"/>
-        <ecosim:ECOSIM_measurement_of rdf:resource="Sediment"/>
-    </Class>
-    
-
-
     <!-- https://w3id.org/ecosim/ECOSIM_0000907 -->
 
     <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0000907">
@@ -12041,10 +11525,9 @@
 
     <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0000916">
         <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000012"/>
-        <obo:IAO_0000115>Total soil ion content refers to the sum of all the ion concentrations in a soil sample. It is an aggregate measure of the total quantity of ions present, which could include essential plant nutrients like nitrogen (N), phosphorous (P), and potassium (K), as well as other elements. This measurement is useful in determining soil fertility and nutrient availability for plant growth.</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym>UION_col</oboInOwl:hasRelatedSynonym>
         <rdfs:comment>SoilBGCDataType.txt</rdfs:comment>
-        <rdfs:label>total soil ion content</rdfs:label>
+        <rdfs:label>soil electrical conductivity</rdfs:label>
         <ecosim:ECOSIM_Attribute rdf:resource="Content"/>
         <ecosim:ECOSIM_has_unit rdf:resource="mol d-2"/>
         <ecosim:ECOSIM_measured_in rdf:resource="Soil"/>
@@ -12057,10 +11540,9 @@
 
     <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0000917">
         <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000012"/>
-        <obo:IAO_0000115>Total subsurface ion flux refers to the total movement of ions, or charged particles, within the subsurface or subsurface waters. This includes both the downward movement of ions through the soil profile (leaching) and the upward movement of ions from the subsurface to the surface (capillary rise or upward diffusion). It is a crucial factor in nutrient cycling, soil chemistry, and water quality.</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym>HydroIonFlx_CumYr_col</oboInOwl:hasRelatedSynonym>
         <rdfs:comment>SoilBGCDataType.txt</rdfs:comment>
-        <rdfs:label>total subsurface ion flux</rdfs:label>
+        <rdfs:label>total water subsurface ion flux</rdfs:label>
         <ecosim:ECOSIM_has_unit rdf:resource="mol d-2"/>
         <ecosim:ECOSIM_measured_in rdf:resource="Subsurface"/>
         <ecosim:ECOSIM_measurement_of rdf:resource="Ion"/>
@@ -12180,18 +11662,6 @@
         <ecosim:ECOSIM_Attribute rdf:resource="Constraint"/>
         <ecosim:ECOSIM_Attribute rdf:resource="Temperature"/>
         <ecosim:ECOSIM_measurement_of rdf:resource="Constraint"/>
-    </Class>
-    
-
-
-    <!-- https://w3id.org/ecosim/ECOSIM_0000927 -->
-
-    <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0000927">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000012"/>
-        <oboInOwl:hasRelatedSynonym>LitrfalStrutElms_vr</oboInOwl:hasRelatedSynonym>
-        <rdfs:comment>SoilBGCDataType.txt</rdfs:comment>
-        <rdfs:label>total LitrFall C</rdfs:label>
-        <ecosim:ECOSIM_has_unit rdf:resource="g d-2 h-1"/>
     </Class>
     
 
@@ -12669,7 +12139,7 @@
         <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000012"/>
         <oboInOwl:hasRelatedSynonym>RFerment_vr</oboInOwl:hasRelatedSynonym>
         <rdfs:comment>SoilBGCDataType.txt</rdfs:comment>
-        <rdfs:label>Fermentation rate</rdfs:label>
+        <rdfs:label>fermentation rate</rdfs:label>
         <ecosim:ECOSIM_has_unit rdf:resource="gC d-2 h-1"/>
     </Class>
     
@@ -12705,7 +12175,7 @@
         <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000012"/>
         <oboInOwl:hasRelatedSynonym>RN2ONitProd_vr</oboInOwl:hasRelatedSynonym>
         <rdfs:comment>SoilBGCDataType.txt</rdfs:comment>
-        <rdfs:label>Nitrification N2O produciton rate</rdfs:label>
+        <rdfs:label>nitrification N2O produciton rate</rdfs:label>
         <ecosim:ECOSIM_has_unit rdf:resource="gN d-2 h-1"/>
     </Class>
     
@@ -12998,7 +12468,7 @@
         <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000013"/>
         <oboInOwl:hasRelatedSynonym>DH_col</oboInOwl:hasRelatedSynonym>
         <rdfs:comment>GridDataType.txt</rdfs:comment>
-        <rdfs:label>Eeast-West width of the grid cells</rdfs:label>
+        <rdfs:label>East-West width of the grid cells</rdfs:label>
         <ecosim:ECOSIM_has_unit rdf:resource="m"/>
     </Class>
     
@@ -13855,17 +13325,6 @@
     <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0001063">
         <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000016"/>
         <oboInOwl:hasRelatedSynonym>NIXBotRootLayer_pft</oboInOwl:hasRelatedSynonym>
-        <rdfs:comment>RootDataType.txt</rdfs:comment>
-        <rdfs:label>maximum soil layer number for all root axes</rdfs:label>
-    </Class>
-    
-
-
-    <!-- https://w3id.org/ecosim/ECOSIM_0001064 -->
-
-    <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0001064">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000016"/>
-        <oboInOwl:hasRelatedSynonym>MaxSoiL4Root_pft</oboInOwl:hasRelatedSynonym>
         <rdfs:comment>RootDataType.txt</rdfs:comment>
         <rdfs:label>maximum soil layer number for all root axes</rdfs:label>
     </Class>
@@ -14804,20 +14263,6 @@
     
 
 
-    <!-- https://w3id.org/ecosim/ECOSIM_0001133 -->
-
-    <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0001133">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000016"/>
-        <obo:IAO_0000115>Root layer non-structural element refers to aspects of a plant&apos;s root layer that do not contribute to its structural integrity. These may include biomolecules, enzymes, or other compounds that play vital roles in the plant&apos;s basic physiological processes. In earth system modeling, these non-structural elements help in understanding the health and function of plant roots and can impact parameters like nutrient uptake, soil interaction, and overall plant vitality.</obo:IAO_0000115>
-        <oboInOwl:hasRelatedSynonym>RootMycoNonstElms_rpvr</oboInOwl:hasRelatedSynonym>
-        <rdfs:comment>RootDataType.txt</rdfs:comment>
-        <rdfs:label>root layer nonstructural element</rdfs:label>
-        <ecosim:ECOSIM_has_unit rdf:resource="g d-2"/>
-        <ecosim:ECOSIM_measured_in rdf:resource="RootLayer"/>
-    </Class>
-    
-
-
     <!-- https://w3id.org/ecosim/ECOSIM_0001134 -->
 
     <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0001134">
@@ -15150,7 +14595,7 @@
         <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000017"/>
         <oboInOwl:hasRelatedSynonym>LitWatMassEnd_col</oboInOwl:hasRelatedSynonym>
         <rdfs:comment>SurfLitterDataType.txt</rdfs:comment>
-        <rdfs:label>total inital water mass in litter layer</rdfs:label>
+        <rdfs:label>total final water mass in litter layer</rdfs:label>
         <ecosim:ECOSIM_has_unit rdf:resource="m3 H2O d-2"/>
     </Class>
     
@@ -15234,17 +14679,6 @@
         <oboInOwl:hasRelatedSynonym>RCCQ</oboInOwl:hasRelatedSynonym>
         <rdfs:comment>NitroPars.txt</rdfs:comment>
         <rdfs:label>maximum P recycling fractions</rdfs:label>
-    </Class>
-    
-
-
-    <!-- https://w3id.org/ecosim/ECOSIM_0001167 -->
-
-    <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0001167">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000018"/>
-        <oboInOwl:hasRelatedSynonym>RCCZ</oboInOwl:hasRelatedSynonym>
-        <rdfs:comment>NitroPars.txt</rdfs:comment>
-        <rdfs:label>minimum fractions for bacteria C recycling</rdfs:label>
     </Class>
     
 
@@ -15406,18 +14840,6 @@
     <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0001181">
         <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000018"/>
         <oboInOwl:hasRelatedSynonym>DCKM0</oboInOwl:hasRelatedSynonym>
-        <rdfs:comment>NitroPars.txt</rdfs:comment>
-        <rdfs:label>Km for SOC decomposition</rdfs:label>
-        <ecosim:ECOSIM_has_unit rdf:resource="g C g-1 soil"/>
-    </Class>
-    
-
-
-    <!-- https://w3id.org/ecosim/ECOSIM_0001182 -->
-
-    <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0001182">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000018"/>
-        <oboInOwl:hasRelatedSynonym>DCKML</oboInOwl:hasRelatedSynonym>
         <rdfs:comment>NitroPars.txt</rdfs:comment>
         <rdfs:label>Km for SOC decomposition</rdfs:label>
         <ecosim:ECOSIM_has_unit rdf:resource="g C g-1 soil"/>
@@ -16018,18 +15440,6 @@
     
 
 
-    <!-- https://w3id.org/ecosim/ECOSIM_0001233 -->
-
-    <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0001233">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000018"/>
-        <oboInOwl:hasRelatedSynonym>GCOX</oboInOwl:hasRelatedSynonym>
-        <rdfs:comment>NitroPars.txt</rdfs:comment>
-        <rdfs:label>free energy yields of redox reactions for CO2-CH4</rdfs:label>
-        <ecosim:ECOSIM_has_unit rdf:resource="kJ g-1 C"/>
-    </Class>
-    
-
-
     <!-- https://w3id.org/ecosim/ECOSIM_0001234 -->
 
     <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0001234">
@@ -16232,18 +15642,6 @@
         <rdfs:comment>NitroPars.txt</rdfs:comment>
         <rdfs:label>specific decomposition rate constant microbial biomass</rdfs:label>
         <ecosim:ECOSIM_has_unit rdf:resource="g C g-1 N h-1"/>
-    </Class>
-    
-
-
-    <!-- https://w3id.org/ecosim/ECOSIM_0001252 -->
-
-    <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0001252">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000018"/>
-        <oboInOwl:hasRelatedSynonym>EN2F</oboInOwl:hasRelatedSynonym>
-        <rdfs:comment>NitroPars.txt</rdfs:comment>
-        <rdfs:label>N fixation yield from C oxidation</rdfs:label>
-        <ecosim:ECOSIM_has_unit rdf:resource="g N g-1 C"/>
     </Class>
     
 
@@ -17110,131 +16508,11 @@
     
 
 
-    <!-- https://w3id.org/ecosim/ECOSIM_0001322 -->
-
-    <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0001322">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000021"/>
-        <oboInOwl:hasRelatedSynonym>TAVG2</oboInOwl:hasRelatedSynonym>
-        <rdfs:comment>ClimForcDataType.txt</rdfs:comment>
-        <rdfs:label>parameter to calculate hourly air temperature from daily value</rdfs:label>
-        <ecosim:ECOSIM_has_unit rdf:resource="oC"/>
-    </Class>
-    
-
-
-    <!-- https://w3id.org/ecosim/ECOSIM_0001323 -->
-
-    <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0001323">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000021"/>
-        <oboInOwl:hasRelatedSynonym>TAVG3</oboInOwl:hasRelatedSynonym>
-        <rdfs:comment>ClimForcDataType.txt</rdfs:comment>
-        <rdfs:label>parameter to calculate hourly air temperature from daily value</rdfs:label>
-        <ecosim:ECOSIM_has_unit rdf:resource="oC"/>
-    </Class>
-    
-
-
-    <!-- https://w3id.org/ecosim/ECOSIM_0001324 -->
-
-    <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0001324">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000021"/>
-        <oboInOwl:hasRelatedSynonym>AMP1</oboInOwl:hasRelatedSynonym>
-        <rdfs:comment>ClimForcDataType.txt</rdfs:comment>
-        <rdfs:label>parameter to calculate hourly air temperature from daily value</rdfs:label>
-        <ecosim:ECOSIM_has_unit rdf:resource="oC"/>
-    </Class>
-    
-
-
-    <!-- https://w3id.org/ecosim/ECOSIM_0001325 -->
-
-    <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0001325">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000021"/>
-        <oboInOwl:hasRelatedSynonym>AMP2</oboInOwl:hasRelatedSynonym>
-        <rdfs:comment>ClimForcDataType.txt</rdfs:comment>
-        <rdfs:label>parameter to calculate hourly air temperature from daily value</rdfs:label>
-        <ecosim:ECOSIM_has_unit rdf:resource="oC"/>
-    </Class>
-    
-
-
-    <!-- https://w3id.org/ecosim/ECOSIM_0001326 -->
-
-    <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0001326">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000021"/>
-        <oboInOwl:hasRelatedSynonym>AMP3</oboInOwl:hasRelatedSynonym>
-        <rdfs:comment>ClimForcDataType.txt</rdfs:comment>
-        <rdfs:label>parameter to calculate hourly air temperature from daily value</rdfs:label>
-        <ecosim:ECOSIM_has_unit rdf:resource="oC"/>
-    </Class>
-    
-
-
     <!-- https://w3id.org/ecosim/ECOSIM_0001327 -->
 
     <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0001327">
         <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000021"/>
         <oboInOwl:hasRelatedSynonym>VAVG1</oboInOwl:hasRelatedSynonym>
-        <rdfs:comment>ClimForcDataType.txt</rdfs:comment>
-        <rdfs:label>parameter to calculate hourly vapor pressure from daily value</rdfs:label>
-        <ecosim:ECOSIM_has_unit rdf:resource="kPa"/>
-    </Class>
-    
-
-
-    <!-- https://w3id.org/ecosim/ECOSIM_0001328 -->
-
-    <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0001328">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000021"/>
-        <oboInOwl:hasRelatedSynonym>VAVG2</oboInOwl:hasRelatedSynonym>
-        <rdfs:comment>ClimForcDataType.txt</rdfs:comment>
-        <rdfs:label>parameter to calculate hourly vapor pressure from daily value</rdfs:label>
-        <ecosim:ECOSIM_has_unit rdf:resource="kPa"/>
-    </Class>
-    
-
-
-    <!-- https://w3id.org/ecosim/ECOSIM_0001329 -->
-
-    <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0001329">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000021"/>
-        <oboInOwl:hasRelatedSynonym>VAVG3</oboInOwl:hasRelatedSynonym>
-        <rdfs:comment>ClimForcDataType.txt</rdfs:comment>
-        <rdfs:label>parameter to calculate hourly vapor pressure from daily value</rdfs:label>
-        <ecosim:ECOSIM_has_unit rdf:resource="kPa"/>
-    </Class>
-    
-
-
-    <!-- https://w3id.org/ecosim/ECOSIM_0001330 -->
-
-    <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0001330">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000021"/>
-        <oboInOwl:hasRelatedSynonym>VMP1</oboInOwl:hasRelatedSynonym>
-        <rdfs:comment>ClimForcDataType.txt</rdfs:comment>
-        <rdfs:label>parameter to calculate hourly vapor pressure from daily value</rdfs:label>
-        <ecosim:ECOSIM_has_unit rdf:resource="kPa"/>
-    </Class>
-    
-
-
-    <!-- https://w3id.org/ecosim/ECOSIM_0001331 -->
-
-    <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0001331">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000021"/>
-        <oboInOwl:hasRelatedSynonym>VMP2</oboInOwl:hasRelatedSynonym>
-        <rdfs:comment>ClimForcDataType.txt</rdfs:comment>
-        <rdfs:label>parameter to calculate hourly vapor pressure from daily value</rdfs:label>
-        <ecosim:ECOSIM_has_unit rdf:resource="kPa"/>
-    </Class>
-    
-
-
-    <!-- https://w3id.org/ecosim/ECOSIM_0001332 -->
-
-    <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0001332">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000021"/>
-        <oboInOwl:hasRelatedSynonym>VMP3</oboInOwl:hasRelatedSynonym>
         <rdfs:comment>ClimForcDataType.txt</rdfs:comment>
         <rdfs:label>parameter to calculate hourly vapor pressure from daily value</rdfs:label>
         <ecosim:ECOSIM_has_unit rdf:resource="kPa"/>
@@ -17674,19 +16952,8 @@
         <oboInOwl:hasRelatedSynonym>TCA_col</oboInOwl:hasRelatedSynonym>
         <rdfs:comment>ClimForcDataType.txt</rdfs:comment>
         <rdfs:label>air temperature</rdfs:label>
-        <ecosim:ECOSIM_has_unit rdf:resource="oC"/>
-    </Class>
-    
-
-
-    <!-- https://w3id.org/ecosim/ECOSIM_0001371 -->
-
-    <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0001371">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000021"/>
-        <oboInOwl:hasRelatedSynonym>TairK_col</oboInOwl:hasRelatedSynonym>
-        <rdfs:comment>ClimForcDataType.txt</rdfs:comment>
-        <rdfs:label>air temperature</rdfs:label>
         <ecosim:ECOSIM_has_unit rdf:resource="K"/>
+        <ecosim:ECOSIM_has_unit rdf:resource="oC"/>
     </Class>
     
 
@@ -17804,6 +17071,7 @@
         <rdfs:comment>ClimForcDataType.txt</rdfs:comment>
         <rdfs:label>sky longwave radiation</rdfs:label>
         <ecosim:ECOSIM_Attribute rdf:resource="Radiation"/>
+        <ecosim:ECOSIM_has_unit rdf:resource="MJ m-2 h-1"/>
         <ecosim:ECOSIM_has_unit rdf:resource="MJ/h"/>
     </Class>
     
@@ -17865,20 +17133,6 @@
     
 
 
-    <!-- https://w3id.org/ecosim/ECOSIM_0001385 -->
-
-    <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0001385">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000021"/>
-        <obo:IAO_0000115>Sky longwave radiation refers to the part of the electromagnetic spectrum that is radiated from the sky in the form of thermal radiation, or heat. This is a key component of the earth&apos;s energy balance, affecting both climatic and biological processes.</obo:IAO_0000115>
-        <oboInOwl:hasRelatedSynonym>SkyLonwRad_col</oboInOwl:hasRelatedSynonym>
-        <rdfs:comment>ClimForcDataType.txt</rdfs:comment>
-        <rdfs:label>sky longwave radiation</rdfs:label>
-        <ecosim:ECOSIM_Attribute rdf:resource="Radiation"/>
-        <ecosim:ECOSIM_has_unit rdf:resource="MJ m-2 h-1"/>
-    </Class>
-    
-
-
     <!-- https://w3id.org/ecosim/ECOSIM_0001386 -->
 
     <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0001386">
@@ -17924,23 +17178,8 @@
         <rdfs:comment>ClimForcDataType.txt</rdfs:comment>
         <rdfs:label>initial atmospheric CO2 concentration</rdfs:label>
         <ecosim:ECOSIM_Attribute rdf:resource="Concentration"/>
-        <ecosim:ECOSIM_has_unit rdf:resource="umol mol-1"/>
-        <ecosim:ECOSIM_measured_in rdf:resource="Atmosphere"/>
-        <ecosim:ECOSIM_measurement_of rdf:resource="CO2"/>
-    </Class>
-    
-
-
-    <!-- https://w3id.org/ecosim/ECOSIM_0001390 -->
-
-    <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0001390">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000021"/>
-        <obo:IAO_0000115>The initial atmospheric CO2 concentration refers to the starting concentration of carbon dioxide (CO2) in the Earth&apos;s atmosphere at the beginning of a simulation or modeling experiment. It represents the baseline level of CO2 before any external factors (such as human activities) influence its concentration. The initial atmospheric CO2 concentration is an important parameter in earth systems modeling as it affects several processes, including climate change, air quality, and carbon cycle dynamics.</obo:IAO_0000115>
-        <oboInOwl:hasRelatedSynonym>CCO2EI_col</oboInOwl:hasRelatedSynonym>
-        <rdfs:comment>ClimForcDataType.txt</rdfs:comment>
-        <rdfs:label>initial atmospheric CO2 concentration</rdfs:label>
-        <ecosim:ECOSIM_Attribute rdf:resource="Concentration"/>
         <ecosim:ECOSIM_has_unit rdf:resource="gC m-3"/>
+        <ecosim:ECOSIM_has_unit rdf:resource="umol mol-1"/>
         <ecosim:ECOSIM_measured_in rdf:resource="Atmosphere"/>
         <ecosim:ECOSIM_measurement_of rdf:resource="CO2"/>
     </Class>
@@ -17954,19 +17193,10 @@
         <oboInOwl:hasRelatedSynonym>AtmGasCgperm3_col</oboInOwl:hasRelatedSynonym>
         <rdfs:comment>ClimForcDataType.txt</rdfs:comment>
         <rdfs:label>atmospheric gas concentration</rdfs:label>
+        <ecosim:ECOSIM_Attribute rdf:resource="Concentration"/>
         <ecosim:ECOSIM_has_unit rdf:resource="g m-3"/>
-    </Class>
-    
-
-
-    <!-- https://w3id.org/ecosim/ECOSIM_0001392 -->
-
-    <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0001392">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000021"/>
-        <oboInOwl:hasRelatedSynonym>AtmGmms_col</oboInOwl:hasRelatedSynonym>
-        <rdfs:comment>ClimForcDataType.txt</rdfs:comment>
-        <rdfs:label>atmospheric gas concentration</rdfs:label>
         <ecosim:ECOSIM_has_unit rdf:resource="umol mol-1"/>
+        <ecosim:ECOSIM_measured_in rdf:resource="Atmosphere"/>
     </Class>
     
 
@@ -17978,7 +17208,9 @@
         <oboInOwl:hasRelatedSynonym>OXYE_col</oboInOwl:hasRelatedSynonym>
         <rdfs:comment>ClimForcDataType.txt</rdfs:comment>
         <rdfs:label>atmospheric O2 concentration</rdfs:label>
+        <ecosim:ECOSIM_Attribute rdf:resource="Concentration"/>
         <ecosim:ECOSIM_has_unit rdf:resource="umol mol-1"/>
+        <ecosim:ECOSIM_measured_in rdf:resource="Atmosphere"/>
     </Class>
     
 
@@ -17994,6 +17226,7 @@
         <ecosim:ECOSIM_Attribute rdf:resource="Concentration"/>
         <ecosim:ECOSIM_Context rdf:resource="Atmosphere"/>
         <ecosim:ECOSIM_has_unit rdf:resource="umol mol-1"/>
+        <ecosim:ECOSIM_measured_in rdf:resource="Atmosphere"/>
         <ecosim:ECOSIM_measurement_of rdf:resource="N2O"/>
     </Class>
     
@@ -18009,6 +17242,7 @@
         <ecosim:ECOSIM_Attribute rdf:resource="Concentration"/>
         <ecosim:ECOSIM_Context rdf:resource="Atmosphere"/>
         <ecosim:ECOSIM_has_unit rdf:resource="umol mol-1"/>
+        <ecosim:ECOSIM_measured_in rdf:resource="Atmosphere"/>
         <ecosim:ECOSIM_measurement_of rdf:resource="N2"/>
     </Class>
     
@@ -18084,6 +17318,7 @@
         <oboInOwl:hasRelatedSynonym>ARGE_col</oboInOwl:hasRelatedSynonym>
         <rdfs:comment>ClimForcDataType.txt</rdfs:comment>
         <rdfs:label>atmospheric AR concentration</rdfs:label>
+        <ecosim:ECOSIM_Attribute rdf:resource="Concentration"/>
         <ecosim:ECOSIM_has_unit rdf:resource="umol mol-1"/>
     </Class>
     
@@ -18197,30 +17432,6 @@
     
 
 
-    <!-- https://w3id.org/ecosim/ECOSIM_0001410 -->
-
-    <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0001410">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000021"/>
-        <oboInOwl:hasRelatedSynonym>Air_Heat_Latent_store_col</oboInOwl:hasRelatedSynonym>
-        <rdfs:comment>ClimForcDataType.txt</rdfs:comment>
-        <rdfs:label>total latent heat flux x boundary layer resistance</rdfs:label>
-        <ecosim:ECOSIM_has_unit rdf:resource="MJ m-1"/>
-    </Class>
-    
-
-
-    <!-- https://w3id.org/ecosim/ECOSIM_0001411 -->
-
-    <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0001411">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000021"/>
-        <oboInOwl:hasRelatedSynonym>Air_Heat_Sens_store_col</oboInOwl:hasRelatedSynonym>
-        <rdfs:comment>ClimForcDataType.txt</rdfs:comment>
-        <rdfs:label>total sensible heat flux x boundary layer resistance</rdfs:label>
-        <ecosim:ECOSIM_has_unit rdf:resource="MJ m-1"/>
-    </Class>
-    
-
-
     <!-- https://w3id.org/ecosim/ECOSIM_0001412 -->
 
     <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0001412">
@@ -18292,6 +17503,7 @@
         <rdfs:comment>ClimForcDataType.txt</rdfs:comment>
         <rdfs:label>mean annual air temperature</rdfs:label>
         <ecosim:ECOSIM_Attribute rdf:resource="Temperature"/>
+        <ecosim:ECOSIM_has_unit rdf:resource="K"/>
         <ecosim:ECOSIM_has_unit rdf:resource="oC"/>
         <ecosim:ECOSIM_measured_in rdf:resource="Atmosphere"/>
     </Class>
@@ -18307,37 +17519,8 @@
         <rdfs:comment>ClimForcDataType.txt</rdfs:comment>
         <rdfs:label>mean annual soil temperature</rdfs:label>
         <ecosim:ECOSIM_Attribute rdf:resource="Temperature"/>
+        <ecosim:ECOSIM_has_unit rdf:resource="K"/>
         <ecosim:ECOSIM_has_unit rdf:resource="oC"/>
-        <ecosim:ECOSIM_measured_in rdf:resource="Soil"/>
-    </Class>
-    
-
-
-    <!-- https://w3id.org/ecosim/ECOSIM_0001419 -->
-
-    <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0001419">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000021"/>
-        <obo:IAO_0000115>The mean annual air temperature refers to the average temperature of the atmosphere over a year, calculated by summing the daily temperatures and dividing by the number of days. It is an essential parameter for Earth systems modeling and provides important information about the climate conditions of a region. The mean annual air temperature is influenced by various factors, including solar radiation, land surface characteristics, and atmospheric conditions. It is used in various Earth systems models to understand and predict the behavior of the climate system, such as temperature variations, weather patterns, and climate change.</obo:IAO_0000115>
-        <oboInOwl:hasRelatedSynonym>TairKClimMean_col</oboInOwl:hasRelatedSynonym>
-        <rdfs:comment>ClimForcDataType.txt</rdfs:comment>
-        <rdfs:label>mean annual air temperature</rdfs:label>
-        <ecosim:ECOSIM_Attribute rdf:resource="Temperature"/>
-        <ecosim:ECOSIM_has_unit rdf:resource="K"/>
-        <ecosim:ECOSIM_measured_in rdf:resource="Atmosphere"/>
-    </Class>
-    
-
-
-    <!-- https://w3id.org/ecosim/ECOSIM_0001420 -->
-
-    <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0001420">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000021"/>
-        <obo:IAO_0000115>Mean annual soil temperature refers to the average temperature of the soil throughout the year. It is a parameter used in earth systems modeling to understand and simulate the thermal conditions of the soil. The mean annual soil temperature is an important factor that influences various soil processes and dynamics, including nutrient availability, microbial activity, and plant growth. It is typically measured at a certain depth below the surface and is influenced by factors such as climate, vegetation cover, and soil properties.</obo:IAO_0000115>
-        <oboInOwl:hasRelatedSynonym>ATKS_col</oboInOwl:hasRelatedSynonym>
-        <rdfs:comment>ClimForcDataType.txt</rdfs:comment>
-        <rdfs:label>mean annual soil temperature</rdfs:label>
-        <ecosim:ECOSIM_Attribute rdf:resource="Temperature"/>
-        <ecosim:ECOSIM_has_unit rdf:resource="K"/>
         <ecosim:ECOSIM_measured_in rdf:resource="Soil"/>
     </Class>
     
@@ -18817,30 +18000,6 @@
     
 
 
-    <!-- https://w3id.org/ecosim/ECOSIM_0001456 -->
-
-    <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0001456">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000022"/>
-        <oboInOwl:hasRelatedSynonym>LakeSurfFlowMicPX_col</oboInOwl:hasRelatedSynonym>
-        <rdfs:comment>SurfSoilDataType.txt</rdfs:comment>
-        <rdfs:label>lake surface water flux</rdfs:label>
-        <ecosim:ECOSIM_has_unit rdf:resource="m3 d-2 h-1"/>
-    </Class>
-    
-
-
-    <!-- https://w3id.org/ecosim/ECOSIM_0001457 -->
-
-    <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0001457">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000022"/>
-        <oboInOwl:hasRelatedSynonym>LakeSurfFlowMacP_col</oboInOwl:hasRelatedSynonym>
-        <rdfs:comment>SurfSoilDataType.txt</rdfs:comment>
-        <rdfs:label>lake surface water flux</rdfs:label>
-        <ecosim:ECOSIM_has_unit rdf:resource="m3 d-2 h-1"/>
-    </Class>
-    
-
-
     <!-- https://w3id.org/ecosim/ECOSIM_0001458 -->
 
     <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0001458">
@@ -18940,30 +18099,6 @@
     <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0001466">
         <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000023"/>
         <oboInOwl:hasRelatedSynonym>rPCOMC_ave</oboInOwl:hasRelatedSynonym>
-        <rdfs:comment>MicBGCPars.txt</rdfs:comment>
-        <rdfs:label>group average maximum/minimum mass based microbial P:C</rdfs:label>
-        <ecosim:ECOSIM_has_unit rdf:resource="gP gC-1"/>
-    </Class>
-    
-
-
-    <!-- https://w3id.org/ecosim/ECOSIM_0001467 -->
-
-    <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0001467">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000023"/>
-        <oboInOwl:hasRelatedSynonym>rNCOMCAutor_ave</oboInOwl:hasRelatedSynonym>
-        <rdfs:comment>MicBGCPars.txt</rdfs:comment>
-        <rdfs:label>group average maximum/minimum mass based microbial N:C</rdfs:label>
-        <ecosim:ECOSIM_has_unit rdf:resource="gN gC-1"/>
-    </Class>
-    
-
-
-    <!-- https://w3id.org/ecosim/ECOSIM_0001468 -->
-
-    <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0001468">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000023"/>
-        <oboInOwl:hasRelatedSynonym>rPCOMCAutora_ave</oboInOwl:hasRelatedSynonym>
         <rdfs:comment>MicBGCPars.txt</rdfs:comment>
         <rdfs:label>group average maximum/minimum mass based microbial P:C</rdfs:label>
         <ecosim:ECOSIM_has_unit rdf:resource="gP gC-1"/>
@@ -19133,18 +18268,6 @@
         <rdfs:comment>SoilHeatDataType.txt</rdfs:comment>
         <rdfs:label>soil heat capacity</rdfs:label>
         <ecosim:ECOSIM_has_unit rdf:resource="MJ m-3 K-1"/>
-    </Class>
-    
-
-
-    <!-- https://w3id.org/ecosim/ECOSIM_0001483 -->
-
-    <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0001483">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000024"/>
-        <oboInOwl:hasRelatedSynonym>TCS_vr</oboInOwl:hasRelatedSynonym>
-        <rdfs:comment>SoilHeatDataType.txt</rdfs:comment>
-        <rdfs:label>soil temperature</rdfs:label>
-        <ecosim:ECOSIM_has_unit rdf:resource="oC"/>
     </Class>
     
 
@@ -19431,7 +18554,7 @@
         <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000025"/>
         <oboInOwl:hasRelatedSynonym>SurfAlbedo_col</oboInOwl:hasRelatedSynonym>
         <rdfs:comment>SoilPhysDataType.txt</rdfs:comment>
-        <rdfs:label>Surface albedo</rdfs:label>
+        <rdfs:label>surface albedo</rdfs:label>
     </Class>
     
 
@@ -19476,17 +18599,6 @@
         <oboInOwl:hasRelatedSynonym>PSD_vr</oboInOwl:hasRelatedSynonym>
         <rdfs:comment>SoilPhysDataType.txt</rdfs:comment>
         <rdfs:label>log (soil porosity /water content at field capacity)</rdfs:label>
-    </Class>
-    
-
-
-    <!-- https://w3id.org/ecosim/ECOSIM_0001512 -->
-
-    <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0001512">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000025"/>
-        <oboInOwl:hasRelatedSynonym>FCD_vr</oboInOwl:hasRelatedSynonym>
-        <rdfs:comment>SoilPhysDataType.txt</rdfs:comment>
-        <rdfs:label>log water content at field capacity</rdfs:label>
     </Class>
     
 
@@ -19555,17 +18667,6 @@
         <oboInOwl:hasRelatedSynonym>LOGPSIMN_col</oboInOwl:hasRelatedSynonym>
         <rdfs:comment>SoilPhysDataType.txt</rdfs:comment>
         <rdfs:label>log water potential at wilting point</rdfs:label>
-    </Class>
-    
-
-
-    <!-- https://w3id.org/ecosim/ECOSIM_0001519 -->
-
-    <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0001519">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000025"/>
-        <oboInOwl:hasRelatedSynonym>LOGPSIMXD_col</oboInOwl:hasRelatedSynonym>
-        <rdfs:comment>SoilPhysDataType.txt</rdfs:comment>
-        <rdfs:label>log water potential at field capacity</rdfs:label>
     </Class>
     
 
@@ -19772,18 +18873,6 @@
     
 
 
-    <!-- https://w3id.org/ecosim/ECOSIM_0001537 -->
-
-    <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0001537">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000026"/>
-        <oboInOwl:hasRelatedSynonym>POROS_vr</oboInOwl:hasRelatedSynonym>
-        <rdfs:comment>SoilPropertyDataType.txt</rdfs:comment>
-        <rdfs:label>soil porosity</rdfs:label>
-        <ecosim:ECOSIM_has_unit rdf:resource="m3 m-3"/>
-    </Class>
-    
-
-
     <!-- https://w3id.org/ecosim/ECOSIM_0001538 -->
 
     <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0001538">
@@ -19839,42 +18928,6 @@
         <oboInOwl:hasRelatedSynonym>SoilMicPMassLayerMX</oboInOwl:hasRelatedSynonym>
         <rdfs:comment>SoilPropertyDataType.txt</rdfs:comment>
         <rdfs:label>maximum soil layer mass</rdfs:label>
-        <ecosim:ECOSIM_has_unit rdf:resource="Mg d-2"/>
-    </Class>
-    
-
-
-    <!-- https://w3id.org/ecosim/ECOSIM_0001543 -->
-
-    <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0001543">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000026"/>
-        <oboInOwl:hasRelatedSynonym>SAND_vr</oboInOwl:hasRelatedSynonym>
-        <rdfs:comment>SoilPropertyDataType.txt</rdfs:comment>
-        <rdfs:label>soil sand content</rdfs:label>
-        <ecosim:ECOSIM_has_unit rdf:resource="Mg d-2"/>
-    </Class>
-    
-
-
-    <!-- https://w3id.org/ecosim/ECOSIM_0001544 -->
-
-    <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0001544">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000026"/>
-        <oboInOwl:hasRelatedSynonym>SILT_vr</oboInOwl:hasRelatedSynonym>
-        <rdfs:comment>SoilPropertyDataType.txt</rdfs:comment>
-        <rdfs:label>soil silt content</rdfs:label>
-        <ecosim:ECOSIM_has_unit rdf:resource="Mg d-2"/>
-    </Class>
-    
-
-
-    <!-- https://w3id.org/ecosim/ECOSIM_0001545 -->
-
-    <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0001545">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000026"/>
-        <oboInOwl:hasRelatedSynonym>CLAY_vr</oboInOwl:hasRelatedSynonym>
-        <rdfs:comment>SoilPropertyDataType.txt</rdfs:comment>
-        <rdfs:label>soil clay content</rdfs:label>
         <ecosim:ECOSIM_has_unit rdf:resource="Mg d-2"/>
     </Class>
     
@@ -20008,22 +19061,8 @@
         <rdfs:comment>SnowDataType.txt</rdfs:comment>
         <rdfs:label>snow temperature</rdfs:label>
         <ecosim:ECOSIM_Attribute rdf:resource="Temperature"/>
-        <ecosim:ECOSIM_has_unit rdf:resource="oC"/>
-        <ecosim:ECOSIM_measured_in rdf:resource="Snow"/>
-    </Class>
-    
-
-
-    <!-- https://w3id.org/ecosim/ECOSIM_0001557 -->
-
-    <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0001557">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000027"/>
-        <obo:IAO_0000115>Snow temperature (TCSnow) refers to the temperature of the snowpack. This parameter is typically expressed in degrees Celsius and can vary significantly within the snowpack, affecting various processes such as snow melting, sublimation, compaction, and metamorphosis. Snow temperature is crucial for understanding and predicting various snow-related phenomena and has important implications for ecosystem dynamics, climate change studies, and water resource management.|Snow temperature refers to the measurement of the thermal state of the snow on the ground. It is an important factor affecting a variety of hydrological, climatological and environmental processes including snow metamorphism, snow melt, ice formation, gas exchange, and microbial activity in snow-covered ecosystems.</obo:IAO_0000115>
-        <oboInOwl:hasRelatedSynonym>TKSnow_snvr</oboInOwl:hasRelatedSynonym>
-        <rdfs:comment>SnowDataType.txt</rdfs:comment>
-        <rdfs:label>snow temperature</rdfs:label>
-        <ecosim:ECOSIM_Attribute rdf:resource="Temperature"/>
         <ecosim:ECOSIM_has_unit rdf:resource="K"/>
+        <ecosim:ECOSIM_has_unit rdf:resource="oC"/>
         <ecosim:ECOSIM_measured_in rdf:resource="Snow"/>
     </Class>
     
@@ -21129,7 +20168,7 @@
         <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000030"/>
         <oboInOwl:hasRelatedSynonym>CNOSC_vr</oboInOwl:hasRelatedSynonym>
         <rdfs:comment>SOMDataType.txt</rdfs:comment>
-        <rdfs:label>N:C,ratios of SOC kinetic components</rdfs:label>
+        <rdfs:label>N:C ratios of SOC kinetic components</rdfs:label>
     </Class>
     
 
@@ -21491,10 +20530,9 @@
 
     <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0001675">
         <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000030"/>
-        <obo:IAO_0000115>Total soil PO4 content refers to the collective amount of phosphate (PO4) ions held within the soil. Phosphate is a form of phosphorus which is considered an essential nutrient for plant life. It is necessary for various biological processes including energy metabolism and the synthesis of nucleic acids. The total soil PO4 content can influence nutrient availability and uptake by plants, as well as overall soil fertility. Assessing the total soil PO4 content is important for agricultural practices and soil management strategies.</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym>tHxPO4_col</oboInOwl:hasRelatedSynonym>
         <rdfs:comment>SOMDataType.txt</rdfs:comment>
-        <rdfs:label>total soil PO4 content</rdfs:label>
+        <rdfs:label>total soil PO3 content</rdfs:label>
         <ecosim:ECOSIM_has_unit rdf:resource="g d-2"/>
         <ecosim:ECOSIM_measured_in rdf:resource="Soil"/>
         <ecosim:ECOSIM_measurement_of rdf:resource="PO4"/>
@@ -22517,7 +21555,6 @@
 
     <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0001749">
         <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000032"/>
-        <obo:IAO_0000115>Macropore water flux refers to the rate at which water moves through the large pores within the soil structure. Macropores, typically greater than 0.05mm in diameter, play a crucial role in soil hydrology, influencing water infiltration, storage, and redistribution within the soil. The macropore water flux can be influenced by factors such as soil type, texture, structure, and organic matter content, as well as external conditions such as precipitation, temperature, and evaporation rates.</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym>VLWatMacP_vr</oboInOwl:hasRelatedSynonym>
         <rdfs:comment>SoilWaterDataType.txt</rdfs:comment>
         <rdfs:label>soil macropore water content</rdfs:label>
@@ -22592,21 +21629,6 @@
     
 
 
-    <!-- https://w3id.org/ecosim/ECOSIM_0001755 -->
-
-    <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0001755">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000032"/>
-        <obo:IAO_0000115>The micropore water flux is the volume of water moving through the micropores in the soil per unit time. This can be influenced by various factors, including soil type, texture, precipitation, and evaporation rates among others.</obo:IAO_0000115>
-        <oboInOwl:hasRelatedSynonym>VLWatMicPM_vr</oboInOwl:hasRelatedSynonym>
-        <rdfs:comment>SoilWaterDataType.txt</rdfs:comment>
-        <rdfs:label>soil micropore water content</rdfs:label>
-        <ecosim:ECOSIM_has_unit rdf:resource="m3 d-2"/>
-        <ecosim:ECOSIM_measured_in rdf:resource="SoilMicropore"/>
-        <ecosim:ECOSIM_measurement_of rdf:resource="Water"/>
-    </Class>
-    
-
-
     <!-- https://w3id.org/ecosim/ECOSIM_0001756 -->
 
     <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0001756">
@@ -22614,25 +21636,11 @@
         <obo:IAO_0000115>Macropore water flux refers to the rate at which water moves through the large pores within the soil structure. Macropores, typically greater than 0.05mm in diameter, play a crucial role in soil hydrology, influencing water infiltration, storage, and redistribution within the soil. The macropore water flux can be influenced by factors such as soil type, texture, structure, and organic matter content, as well as external conditions such as precipitation, temperature, and evaporation rates.</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym>VLWatMacPM_vr</oboInOwl:hasRelatedSynonym>
         <rdfs:comment>SoilWaterDataType.txt</rdfs:comment>
-        <rdfs:label>soil macropore water content</rdfs:label>
+        <rdfs:label>soil macropore water flux</rdfs:label>
         <ecosim:ECOSIM_Attribute rdf:resource="Flux"/>
         <ecosim:ECOSIM_has_unit rdf:resource="m3 d-2"/>
         <ecosim:ECOSIM_measured_in rdf:resource="SoilMacropore"/>
         <ecosim:ECOSIM_measurement_of rdf:resource="Water"/>
-    </Class>
-    
-
-
-    <!-- https://w3id.org/ecosim/ECOSIM_0001757 -->
-
-    <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0001757">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000032"/>
-        <obo:IAO_0000115>Soil air content refers to the volume or percentage of air space in a soil sample. It determines the amount of oxygen available to roots and soil organisms. Proper soil aeration is essential for the health of soil ecosystems, as it affects root growth, nutrient uptake by plants, and the activity of soil microorganisms. It is considered a key factor in soil health, productivity, and sustainability. Typically, a soil with an air content of about 50% is considered ideal for plant growth. More compacted soils have less air space and can become waterlogged, while lighter, sandy soils may have higher air space but less water and nutrient retention.</obo:IAO_0000115>
-        <oboInOwl:hasRelatedSynonym>VLsoiAirPM_vr</oboInOwl:hasRelatedSynonym>
-        <rdfs:comment>SoilWaterDataType.txt</rdfs:comment>
-        <rdfs:label>soil air content</rdfs:label>
-        <ecosim:ECOSIM_has_unit rdf:resource="m3 d-2"/>
-        <ecosim:ECOSIM_measured_in rdf:resource="Soil"/>
     </Class>
     
 
@@ -22659,7 +21667,7 @@
         <oboInOwl:hasRelatedSynonym>WaterTBLSlope_col</oboInOwl:hasRelatedSynonym>
         <rdfs:comment>SoilWaterDataType.txt</rdfs:comment>
         <rdfs:label>slope of water table relative to surface slope</rdfs:label>
-        <ecosim:ECOSIM_Attribute rdf:resource="https://w3id.org/ecosim/ECOSIM_0000684"/>
+        <ecosim:ECOSIM_Attribute rdf:resource="Slope"/>
         <ecosim:ECOSIM_Context rdf:resource="Surface"/>
         <ecosim:ECOSIM_measured_in rdf:resource="WaterTable"/>
     </Class>
@@ -23068,21 +22076,6 @@
     
 
 
-    <!-- https://w3id.org/ecosim/ECOSIM_0001794 -->
-
-    <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0001794">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000032"/>
-        <obo:IAO_0000115>Soil macropore - micropore water transfer refers to the process of movement of water within the soil between the larger pores or cavities (macropores) and the smaller ones (micropores). This is an important aspect of the soil&apos;s hydrological behavior, affecting the soil&apos;s water-holding capacity, water availability for plant uptake, and the leaching of nutrients and contaminants. The rate of this transfer can be influenced by factors such as soil texture, structure, organic matter content, and external conditions such as precipitation and evaporation.</obo:IAO_0000115>
-        <oboInOwl:hasRelatedSynonym>FWatExMacP2MicPM_vr</oboInOwl:hasRelatedSynonym>
-        <rdfs:comment>SoilWaterDataType.txt</rdfs:comment>
-        <rdfs:label>soil macropore - micropore water transfer</rdfs:label>
-        <ecosim:ECOSIM_has_unit rdf:resource="g d-2 t-1"/>
-        <ecosim:ECOSIM_measured_in rdf:resource="SoilMacropore"/>
-        <ecosim:ECOSIM_measured_in rdf:resource="SoilMicropore"/>
-    </Class>
-    
-
-
     <!-- https://w3id.org/ecosim/ECOSIM_0001795 -->
 
     <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0001795">
@@ -23268,44 +22261,13 @@
     
 
 
-    <!-- https://w3id.org/ecosim/ECOSIM_0001810 -->
-
-    <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0001810">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000032"/>
-        <obo:IAO_0000115>Total evaporation, or evapotranspiration, is the sum of evaporation and plant transpiration from the Earth&apos;s land and ocean surface to the atmosphere. It is an important part of the water cycle, and affects micro and macro climate.</obo:IAO_0000115>
-        <oboInOwl:hasRelatedSynonym>QEvap_CumYr_col</oboInOwl:hasRelatedSynonym>
-        <rdfs:comment>SoilWaterDataType.txt</rdfs:comment>
-        <rdfs:label>total evaporation</rdfs:label>
-        <ecosim:ECOSIM_Attribute rdf:resource="Evaporation"/>
-        <ecosim:ECOSIM_has_unit rdf:resource="m3 d-2"/>
-        <ecosim:ECOSIM_measurement_of rdf:resource="Water"/>
-    </Class>
-    
-
-
-    <!-- https://w3id.org/ecosim/ECOSIM_0001811 -->
-
-    <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0001811">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000032"/>
-        <obo:IAO_0000115>Total precipitation refers to the sum of all forms of precipitation, including rain, snow, sleet, and hail, over a certain period. It is a crucial element of the Earth’s water cycle, and its measurement is critical for meteorology, hydrology, and climatology. Notably, total precipitation enables the quantification of water resources and facilitates the understanding of weather patterns and climate change.</obo:IAO_0000115>
-        <oboInOwl:hasRelatedSynonym>QRain_CumYr_col</oboInOwl:hasRelatedSynonym>
-        <rdfs:comment>SoilWaterDataType.txt</rdfs:comment>
-        <rdfs:label>total precipitation</rdfs:label>
-        <ecosim:ECOSIM_has_unit rdf:resource="m3 d-2"/>
-        <ecosim:ECOSIM_measured_in rdf:resource="Atmosphere"/>
-        <ecosim:ECOSIM_measurement_of rdf:resource="Water"/>
-    </Class>
-    
-
-
     <!-- https://w3id.org/ecosim/ECOSIM_0001812 -->
 
     <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0001812">
         <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000032"/>
-        <obo:IAO_0000115>Total surface runoff, commonly referred to as &apos;runoff&apos;, is the part of the water cycle that flows over land as surface water instead of being absorbed into the ground or evaporating into the air. It is a major component of the water cycle, and it is responsible for transporting water from the land to the ocean. Runoff can originate from rain, snowmelt, and other forms of precipitation, and it is major source of water pollution, carrying surface pollutants through the environment. In Earth systems modeling, total surface runoff is a key variable which helps us understand and simulate the water flow within a catchment area.</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym>Qrunoff_CumYr_col</oboInOwl:hasRelatedSynonym>
         <rdfs:comment>SoilWaterDataType.txt</rdfs:comment>
-        <rdfs:label>total surface runoff</rdfs:label>
+        <rdfs:label>cumulative total surface runoff</rdfs:label>
         <ecosim:ECOSIM_has_unit rdf:resource="m3 d-2"/>
         <ecosim:ECOSIM_measured_in rdf:resource="Runoff"/>
         <ecosim:ECOSIM_measurement_of rdf:resource="Water"/>
@@ -23317,10 +22279,9 @@
 
     <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0001813">
         <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000032"/>
-        <obo:IAO_0000115>Total soil water content refers to the volume of water contained within a soil sample, usually expressed as a percentage of the total volume of the soil. It is an important parameter in the study of soil and environmental sciences because it affects various physical, chemical, and biological properties of the soil such as its permeability, nutrient cycling, and microbial activity. Soil water content is also a critical factor for plant growth as it affects the availability of water for plant uptake.</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym>WatMass_col</oboInOwl:hasRelatedSynonym>
         <rdfs:comment>SoilWaterDataType.txt</rdfs:comment>
-        <rdfs:label>total soil water content</rdfs:label>
+        <rdfs:label>total soil hygroscopic water content</rdfs:label>
         <ecosim:ECOSIM_Attribute rdf:resource="WaterContent"/>
         <ecosim:ECOSIM_has_unit rdf:resource="m3 d-2"/>
         <ecosim:ECOSIM_measured_in rdf:resource="Soil"/>
@@ -23332,10 +22293,9 @@
 
     <Class rdf:about="https://w3id.org/ecosim/ECOSIM_0001814">
         <rdfs:subClassOf rdf:resource="https://w3id.org/ecosim/ECOSIM_9000032"/>
-        <obo:IAO_0000115>Total subsurface water flux refers to the collective movement of water below the surface of the Earth, including through soil, substrates, and aquifers. It represents the sum of various flux-related processes such as infiltration, percolation, groundwater flow, and capillary rise. This parameter plays a crucial role in hydrology and Earth system modeling, influencing various processes like nutrient cycling, crop production, and ecosystem functioning, as well as human activities such as water supply and irrigation practices.</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym>H2OLoss_CumYr_col</oboInOwl:hasRelatedSynonym>
         <rdfs:comment>SoilWaterDataType.txt</rdfs:comment>
-        <rdfs:label>total subsurface water flux</rdfs:label>
+        <rdfs:label>total subsurface water loss</rdfs:label>
         <ecosim:ECOSIM_Attribute rdf:resource="WaterFlux"/>
         <ecosim:ECOSIM_has_unit rdf:resource="m3 d-2"/>
         <ecosim:ECOSIM_measured_in rdf:resource="Subsurface"/>
