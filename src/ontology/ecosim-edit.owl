@@ -10,7 +10,6 @@ Prefix(dcterms:=<http://purl.org/dc/terms/>)
 
 Ontology(<http://purl.obolibrary.org/obo/ecosim.owl>
 Import(<http://purl.obolibrary.org/obo/ecosim/components/ecosim-src.owl>)
-Import(<http://purl.obolibrary.org/obo/ecosim/imports/ecosim_import.owl>)
 Annotation(dcterms:description "None")
 Annotation(dcterms:license <https://creativecommons.org/licenses/unspecified>)
 Annotation(dcterms:title "EcoSIM Ontology")

@@ -10,7 +10,7 @@
 # More information: https://github.com/INCATools/ontology-development-kit/
 
 # Fingerprint of the configuration file when this Makefile was last generated
-CONFIG_HASH=                bdec3ac88a0565b7b89c9f5e943db47578a1724fc952d7005656b7a68f916822
+CONFIG_HASH=                c0ad7fd3f2d3abdd000bdaea64567597593375d276dd03c1fb63c12ec57e5bb9
 
 
 # ----------------------------------------
@@ -188,7 +188,7 @@ all_main: $(MAIN_FILES)
 # ----------------------------------------
 
 
-IMPORTS =  ecosim
+IMPORTS = 
 
 IMPORT_ROOTS = $(patsubst %, $(IMPORTDIR)/%_import, $(IMPORTS))
 IMPORT_OWL_FILES = $(foreach n,$(IMPORT_ROOTS), $(n).owl)
@@ -483,14 +483,6 @@ endif # COMP=true
 # ----------------------------------------
 
 ifeq ($(MIR),true)
-
-
-## ONTOLOGY: ecosim
-.PHONY: mirror-ecosim
-.PRECIOUS: $(MIRRORDIR)/ecosim.owl
-mirror-ecosim: | $(TMPDIR)
-	curl -L $(OBOBASE)/ecosim.owl --create-dirs -o $(TMPDIR)/ecosim-download.owl --retry 4 --max-time 200 && \
-	$(ROBOT) convert -i $(TMPDIR)/ecosim-download.owl -o $(TMPDIR)/$@.owl
 
 
 $(MIRRORDIR)/%.owl: mirror-% | $(MIRRORDIR)

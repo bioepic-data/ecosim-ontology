@@ -15,15 +15,14 @@ components:
   products:
     - filename: ecosim-src.owl
 robot_java_args: "-Xmx8G"
-import_group:
-  products:
-    - id: ecosim
 robot_report:
   use_labels: TRUE
   fail_on: none # ERROR
   custom_profile: TRUE
   report_on:
     - edit
+import_group:
+  products:
 
 documentation:
   documentation_system: mkdocs
