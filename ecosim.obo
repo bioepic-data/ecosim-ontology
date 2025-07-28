@@ -7,7 +7,7 @@ idspace: oboInOwl http://www.geneontology.org/formats/oboInOwl#
 ontology: ecosim
 property_value: dcterms:description "None" xsd:string
 property_value: dcterms:license https://creativecommons.org/licenses/unspecified
-property_value: dcterms:title "EcoSIM Ontology" xsd:string
+property_value: dcterms:title "BERVO" xsd:string
 property_value: owl:versionInfo "2025-07-16" xsd:string
 
 [Term]

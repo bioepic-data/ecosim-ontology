@@ -15,7 +15,7 @@
         <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/ecosim/releases/2025-07-16/ecosim-full.owl"/>
         <dcterms:description>None</dcterms:description>
         <dcterms:license rdf:resource="https://creativecommons.org/licenses/unspecified"/>
-        <dcterms:title>EcoSIM Ontology</dcterms:title>
+        <dcterms:title>BERVO</dcterms:title>
         <owl:versionInfo>2025-07-16</owl:versionInfo>
     </owl:Ontology>
     

@@ -12,7 +12,7 @@
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <Ontology>
         <terms:description>An ontology of variables for earth system simulation, derived from the EcoSIM framework.</terms:description>
-        <terms:title>EcoSIM Ontology</terms:title>
+        <terms:title>BERVO</terms:title>
     </Ontology>
     
 

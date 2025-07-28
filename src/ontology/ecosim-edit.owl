@@ -12,7 +12,7 @@ Ontology(<http://purl.obolibrary.org/obo/ecosim.owl>
 Import(<http://purl.obolibrary.org/obo/ecosim/components/ecosim-src.owl>)
 Annotation(dcterms:description "None")
 Annotation(dcterms:license <https://creativecommons.org/licenses/unspecified>)
-Annotation(dcterms:title "EcoSIM Ontology")
+Annotation(dcterms:title "BERVO")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOSIM_0000000>))
 Declaration(AnnotationProperty(dcterms:description))

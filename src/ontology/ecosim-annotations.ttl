@@ -5,5 +5,5 @@
 
 <https://w3id.org/ecosim/ecosim.owl>
   rdf:type owl:Ontology ;
-  dcterms:title "EcoSIM Ontology" ;
+  dcterms:title "BERVO" ;
   dcterms:description "An ontology of variables for earth system simulation, derived from the EcoSIM framework." .

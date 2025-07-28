@@ -10,7 +10,7 @@
         "val" : "https://creativecommons.org/licenses/unspecified"
       }, {
         "pred" : "http://purl.org/dc/terms/title",
-        "val" : "EcoSIM Ontology"
+        "val" : "BERVO"
       }, {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
         "val" : "2025-07-16"
