@@ -1,4 +1,4 @@
-id: ecosim
+id: bervo
 title: "BERVO"
 git_main_branch: main
 github_org: bioepic-data
@@ -13,7 +13,7 @@ export_formats:
 allow_equivalents: all
 components:
   products:
-    - filename: ecosim-src.owl
+    - filename: bervo-src.owl
 robot_java_args: "-Xmx8G"
 robot_report:
   use_labels: TRUE

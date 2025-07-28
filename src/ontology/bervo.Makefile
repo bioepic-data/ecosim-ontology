@@ -1,11 +1,31 @@
-# Custom Makefile settings for ECOSIM
+# Custom Makefile settings for BERVO
 
 # Note these commands require ROBOT:
 # https://robot.obolibrary.org/
 
-# Source of truth for EcoSIM.
+# Source of truth for BERVO.
 # This is a ROBOT template in a Google Sheet.
 SRC_URL = 'https://docs.google.com/spreadsheets/d/1mS8VVtr-m24vZ7nQUtUbQrN8r-UBy3AwRzTfQsmwVL8/export?exportFormat=csv'
+
+# This will retrieve the latest version of the ontology
+# from the Google Sheet
+bervo-src.csv:
+	curl -L -s $(SRC_URL) > $@
+
+# Make a merge-ready OWL file from the CSV
+components/bervo-src.owl: bervo-src.csv
+	robot template \
+	  --add-prefix 'BERVO: https://w3id.org/bervo/BERVO_' \
+	  --add-prefix 'oio: http://www.geneontology.org/formats/oboInOwl#' \
+	  -t $< \
+	  annotate --annotation-file bervo-annotations.ttl \
+	  -o $@
+
+remove-old-input:
+	rm -rf bervo-src.csv
+	rm -rf components/bervo-src.owl
+
+### LEGACY TARGETS FOR BUILDING ROBOT TEMPLATE ###
 
 # Former source of truth for ecosim.owl.
 # This is the BioPortal version of the ontology.
@@ -41,21 +61,3 @@ ecosim_for_sheet.csv: ecosim_temp.owl
 	tail -n +2 $@ > $@.data && cat header.csv $@.data > $@.temp && mv $@.temp $@ && rm $@.data
     # Clean up
 	rm header.csv classes.csv sc.csv
-
-# This will retrieve the latest version of the ontology
-# from the Google Sheet
-ecosim-src.csv:
-	curl -L -s $(SRC_URL) > $@
-
-# Make a merge-ready OWL file from the CSV
-components/ecosim-src.owl: ecosim-src.csv
-	robot template \
-	  --add-prefix 'ECOSIM: https://w3id.org/ecosim/ECOSIM_' \
-	  --add-prefix 'oio: http://www.geneontology.org/formats/oboInOwl#' \
-	  -t $< \
-	  annotate --annotation-file ecosim-annotations.ttl \
-	  -o $@
-
-remove-old-input:
-	rm -rf ecosim-src.csv
-	rm -rf components/ecosim-src.owl
