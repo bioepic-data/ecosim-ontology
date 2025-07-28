@@ -1,5 +1,5 @@
 """
-Convert ecosim fortran code to parameters.
+Convert bervo fortran code to parameters.
 
 This code was authored by ChatGPT: https://chat.openai.com/share/e6e723ec-ea87-44ac-b728-c919a568325a
 

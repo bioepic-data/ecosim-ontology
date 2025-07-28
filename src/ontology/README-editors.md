@@ -1,4 +1,4 @@
-These notes are for the EDITORS of ecosim
+These notes are for the EDITORS of bervo
 
 This project was created using the [ontology development kit](https://github.com/INCATools/ontology-development-kit). See the site for details.
 

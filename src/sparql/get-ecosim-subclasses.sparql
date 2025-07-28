@@ -36,7 +36,7 @@ WHERE {
                     CONCAT("ECOSIMCONCEPT:", REPLACE(STR(?has_unit), "^.*ECOSIMCONCEPT_", "")),
                     IF(
                         STRSTARTS(STR(?has_unit), "http://purl.obolibrary.org/obo/ECOSIM_"),
-                        CONCAT("ECOSIM:", REPLACE(STR(?has_unit), "^.*ECOSIM_", "")),
+                        CONCAT("BERVO:", REPLACE(STR(?has_unit), "^.*ECOSIM_", "")),
                         ?raw_has_unit_label
                     )
                 ) AS ?has_unit_label
@@ -56,7 +56,7 @@ WHERE {
                     CONCAT("ECOSIMCONCEPT:", REPLACE(STR(?qualifier), "^.*ECOSIMCONCEPT_", "")),
                     IF(
                         STRSTARTS(STR(?qualifier), "http://purl.obolibrary.org/obo/ECOSIM_"),
-                        CONCAT("ECOSIM:", REPLACE(STR(?qualifier), "^.*ECOSIM_", "")),
+                        CONCAT("BERVO:", REPLACE(STR(?qualifier), "^.*ECOSIM_", "")),
                         ?raw_qualifier_label
                     )
                 ) AS ?qualifier_label
@@ -76,7 +76,7 @@ WHERE {
                     CONCAT("ECOSIMCONCEPT:", REPLACE(STR(?attribute), "^.*ECOSIMCONCEPT_", "")),
                     IF(
                         STRSTARTS(STR(?attribute), "http://purl.obolibrary.org/obo/ECOSIM_"),
-                        CONCAT("ECOSIM:", REPLACE(STR(?attribute), "^.*ECOSIM_", "")),
+                        CONCAT("BERVO:", REPLACE(STR(?attribute), "^.*ECOSIM_", "")),
                         ?raw_attribute_label
                     )
                 ) AS ?attribute_label
@@ -96,7 +96,7 @@ WHERE {
                     CONCAT("ECOSIMCONCEPT:", REPLACE(STR(?measured_in), "^.*ECOSIMCONCEPT_", "")),
                     IF(
                         STRSTARTS(STR(?measured_in), "http://purl.obolibrary.org/obo/ECOSIM_"),
-                        CONCAT("ECOSIM:", REPLACE(STR(?measured_in), "^.*ECOSIM_", "")),
+                        CONCAT("BERVO:", REPLACE(STR(?measured_in), "^.*ECOSIM_", "")),
                         ?raw_measured_in_label
                     )
                 ) AS ?measured_in_label
@@ -116,7 +116,7 @@ WHERE {
                     CONCAT("ECOSIMCONCEPT:", REPLACE(STR(?measurement_of), "^.*ECOSIMCONCEPT_", "")),
                     IF(
                         STRSTARTS(STR(?measurement_of), "http://purl.obolibrary.org/obo/ECOSIM_"),
-                        CONCAT("ECOSIM:", REPLACE(STR(?measurement_of), "^.*ECOSIM_", "")),
+                        CONCAT("BERVO:", REPLACE(STR(?measurement_of), "^.*ECOSIM_", "")),
                         ?raw_measurement_of_label
                     )
                 ) AS ?measurement_of_label
@@ -136,7 +136,7 @@ WHERE {
                     CONCAT("ECOSIMCONCEPT:", REPLACE(STR(?context), "^.*ECOSIMCONCEPT_", "")),
                     IF(
                         STRSTARTS(STR(?context), "http://purl.obolibrary.org/obo/ECOSIM_"),
-                        CONCAT("ECOSIM:", REPLACE(STR(?context), "^.*ECOSIM_", "")),
+                        CONCAT("BERVO:", REPLACE(STR(?context), "^.*ECOSIM_", "")),
                         ?raw_context_label
                     )
                 ) AS ?context_label
@@ -154,7 +154,7 @@ WHERE {
                 CONCAT("ECOSIMCONCEPT:", REPLACE(STR(?parent), "^.*ECOSIMCONCEPT_", "")),
                 IF(
                     STRSTARTS(STR(?parent), "http://purl.obolibrary.org/obo/ECOSIM_"),
-                    CONCAT("ECOSIM:", REPLACE(STR(?parent), "^.*ECOSIM_", "")),
+                    CONCAT("BERVO:", REPLACE(STR(?parent), "^.*ECOSIM_", "")),
                     STR(?parent)
                 )
             ) AS ?parent_label

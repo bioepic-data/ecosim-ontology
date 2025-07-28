@@ -30,7 +30,6 @@ products:
   - id: bervo/bervo-base.json
     name: "BERVO additional release in OBOJSon format"
 dependencies:
-
 tracker: https://github.com/bioepic-data/bervo/issues
 license:
   url: http://creativecommons.org/licenses/by/3.0/

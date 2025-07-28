@@ -16,9 +16,9 @@ See also [this slide deck](https://docs.google.com/presentation/d/1W6FHsfv1p4Ko_
 
 ### Seeding of initial parameter list
 
-chatgpt ADA was used to create a program to iterate through the ecosim fortran codebase and generate an obo format file of all parameter codes plus their names.
+chatgpt ADA was used to create a program to iterate through the bervo fortran codebase and generate an obo format file of all parameter codes plus their names.
 
-IDs of the form `ECOSIM:<CODE>` were created
+IDs of the form `BERVO:<CODE>` were created
 
 Note: in future these may be translated to numeric IDs but for now the codes are convenient
 
