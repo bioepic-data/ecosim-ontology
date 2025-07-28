@@ -1,18 +1,14 @@
-# EcoSIM Ontology
+# BERVO - Biological and Environmental Research Variable Ontology
+
+(Formerly the EcoSIM Ontology)
 
 **EXPERIMENTAL**
 
-## Editing EcoSIM
+## Editing BERVO
 
-The source of truth for EcoSIM terms is here: https://docs.google.com/spreadsheets/d/1mS8VVtr-m24vZ7nQUtUbQrN8r-UBy3AwRzTfQsmwVL8/edit?usp=sharing
+The source of truth for BERVO terms is here: https://docs.google.com/spreadsheets/d/1mS8VVtr-m24vZ7nQUtUbQrN8r-UBy3AwRzTfQsmwVL8/edit?usp=sharing
 
-All terms are preceded by the ECOSIM: prefix.
-
-The EcoSIM ontology also includes high-level concept classes, preceded by the ECOSIMCONCEPT: prefix.
-
-These are referenced in the table linked above but not included among the terms.
-
-The full set of ECOSIMCONCEPT classes may be found in OWL format here: https://github.com/bioepic-data/ecosim-ontology/blob/main/src/ontology/ecosim_concepts.owl
+All terms are preceded by the BERVO: prefix.
 
 ## Methods
 
