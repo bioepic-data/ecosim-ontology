@@ -1,6 +1,6 @@
 # Updating the Documentation
 
-The documentation for ECOSIM is managed in two places (relative to the repository root):
+The documentation for BERVO is managed in two places (relative to the repository root):
 
 1. The `docs` directory contains all the files that pertain to the content of the documentation (more below)
 2. the `mkdocs.yaml` file contains the documentation config, in particular its navigation bar and theme.
@@ -24,7 +24,7 @@ The documentation is _not_ automatically updated from the Markdown, and needs to
 
 1. In your terminal, navigate to the edit directory of your ontology, e.g.:
    ```
-   cd ecosim/src/ontology
+   cd bervo/src/ontology
    ```
 2. Now you are ready to build the docs as follows:
    ```
@@ -38,8 +38,8 @@ The documentation is _not_ automatically updated from the Markdown, and needs to
    If everything was successful, you will see a message similar to this one:
 
    ```
-   INFO    -  Your documentation should shortly be available at: https://bioepic-data.github.io/ecosim-ontology/ 
+   INFO    -  Your documentation should shortly be available at: https://bioepic-data.github.io/bervo/ 
    ```
-3. Just to double check, you can now navigate to your documentation pages (usually https://bioepic-data.github.io/ecosim-ontology/). 
+3. Just to double check, you can now navigate to your documentation pages (usually https://bioepic-data.github.io/bervo/). 
    Just make sure you give GitHub 2-5 minutes to build the pages!
 

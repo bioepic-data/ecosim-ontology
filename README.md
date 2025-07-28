@@ -1,18 +1,14 @@
-# EcoSIM Ontology
+# BERVO - Biological and Environmental Research Variable Ontology
+
+(Formerly the EcoSIM Ontology)
 
 **EXPERIMENTAL**
 
-## Editing EcoSIM
+## Editing BERVO
 
-The source of truth for EcoSIM terms is here: https://docs.google.com/spreadsheets/d/1mS8VVtr-m24vZ7nQUtUbQrN8r-UBy3AwRzTfQsmwVL8/edit?usp=sharing
+The source of truth for BERVO terms is here: https://docs.google.com/spreadsheets/d/1mS8VVtr-m24vZ7nQUtUbQrN8r-UBy3AwRzTfQsmwVL8/edit?usp=sharing
 
-All terms are preceded by the ECOSIM: prefix.
-
-The EcoSIM ontology also includes high-level concept classes, preceded by the ECOSIMCONCEPT: prefix.
-
-These are referenced in the table linked above but not included among the terms.
-
-The full set of ECOSIMCONCEPT classes may be found in OWL format here: https://github.com/bioepic-data/ecosim-ontology/blob/main/src/ontology/ecosim_concepts.owl
+All terms are preceded by the BERVO: prefix.
 
 ## Methods
 
@@ -20,9 +16,9 @@ See also [this slide deck](https://docs.google.com/presentation/d/1W6FHsfv1p4Ko_
 
 ### Seeding of initial parameter list
 
-chatgpt ADA was used to create a program to iterate through the ecosim fortran codebase and generate an obo format file of all parameter codes plus their names.
+chatgpt ADA was used to create a program to iterate through the bervo fortran codebase and generate an obo format file of all parameter codes plus their names.
 
-IDs of the form `ECOSIM:<CODE>` were created
+IDs of the form `BERVO:<CODE>` were created
 
 Note: in future these may be translated to numeric IDs but for now the codes are convenient
 

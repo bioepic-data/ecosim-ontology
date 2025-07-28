@@ -3,7 +3,7 @@
 @prefix owl:     <http://www.w3.org/2002/07/owl#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 
-<https://w3id.org/ecosim/ecosim.owl>
+<https://w3id.org/bervo/bervo.owl>
   rdf:type owl:Ontology ;
-  dcterms:title "EcoSIM Ontology" ;
-  dcterms:description "An ontology of variables for earth system simulation, derived from the EcoSIM framework." .
+  dcterms:title "BERVO" ;
+  dcterms:description "An ontology of variables for earth system simulation, partially derived from the EcoSIM framework." .

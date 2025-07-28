@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="public">
   <group id="odk-managed-catalog" prefer="public">
-    <uri name="http://purl.obolibrary.org/obo/ecosim/components/ecosim-src.owl" uri="components/ecosim-src.owl" />
+    <uri name="http://purl.obolibrary.org/obo/bervo/components/bervo-src.owl" uri="components/bervo-src.owl" />
   </group>
   <group id="Folder Repository, directory=, recursive=false, Auto-Update=false, version=2" prefer="public">
 

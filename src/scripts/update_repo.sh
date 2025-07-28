@@ -4,7 +4,7 @@ echo "(2) and add missing files, if any."
 
 set -e
 
-OID=ecosim
+OID=bervo
 ROOTDIR=../..
 SRCDIR=..
 CONFIG=$OID"-odk.yaml"

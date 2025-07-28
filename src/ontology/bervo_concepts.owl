@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://purl.obolibrary.org/obo/ecosim.owl#"
-     xml:base="http://purl.obolibrary.org/obo/ecosim.owl"
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/bervo.owl#"
+     xml:base="http://purl.obolibrary.org/obo/bervo.owl"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -8,7 +8,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
-    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/ecosim.owl"/>
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/bervo.owl"/>
     
 
 
@@ -299,7 +299,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Attribute">
         <oboInOwl:id>ECOSIMCONCEPT:Attribute</oboInOwl:id>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ecosim#upper_level"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/bervo#upper_level"/>
         <rdfs:label>attribute</rdfs:label>
     </owl:Class>
     
@@ -898,7 +898,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_ChemicalEntity">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_MaterialEntity"/>
         <oboInOwl:id>ECOSIMCONCEPT:ChemicalEntity</oboInOwl:id>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ecosim#upper_level"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/bervo#upper_level"/>
         <rdfs:label>chemical entity</rdfs:label>
     </owl:Class>
     
@@ -1014,7 +1014,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Context">
         <oboInOwl:id>ECOSIMCONCEPT:Context</oboInOwl:id>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ecosim#upper_level"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/bervo#upper_level"/>
         <rdfs:label>context</rdfs:label>
     </owl:Class>
     
@@ -1346,7 +1346,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_EnvironmentalEntity">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_MaterialEntity"/>
         <oboInOwl:id>ECOSIMCONCEPT:EnvironmentalEntity</oboInOwl:id>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ecosim#upper_level"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/bervo#upper_level"/>
         <rdfs:label>environmental entity</rdfs:label>
     </owl:Class>
     
@@ -2299,7 +2299,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_MaterialEntity">
         <oboInOwl:id>ECOSIMCONCEPT:MaterialEntity</oboInOwl:id>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ecosim#upper_level"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/bervo#upper_level"/>
         <rdfs:label>material entity</rdfs:label>
     </owl:Class>
     
@@ -2891,7 +2891,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Organismal">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_MaterialEntity"/>
         <oboInOwl:id>ECOSIMCONCEPT:Organismal</oboInOwl:id>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ecosim#upper_level"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/bervo#upper_level"/>
         <rdfs:label>organismal</rdfs:label>
     </owl:Class>
     
@@ -3113,7 +3113,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PhysicalEntity">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_MaterialEntity"/>
         <oboInOwl:id>ECOSIMCONCEPT:PhysicalEntity</oboInOwl:id>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ecosim#upper_level"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/bervo#upper_level"/>
         <rdfs:label>physical entity</rdfs:label>
     </owl:Class>
     
@@ -3185,7 +3185,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_PlantPart">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Organismal"/>
         <oboInOwl:id>ECOSIMCONCEPT:PlantPart</oboInOwl:id>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ecosim#upper_level"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/bervo#upper_level"/>
         <rdfs:label>plant part</rdfs:label>
     </owl:Class>
     
@@ -3258,7 +3258,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Process">
         <oboInOwl:id>ECOSIMCONCEPT:Process</oboInOwl:id>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ecosim#upper_level"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/bervo#upper_level"/>
         <rdfs:label>process</rdfs:label>
     </owl:Class>
     
@@ -3278,7 +3278,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Qualifier">
         <oboInOwl:id>ECOSIMCONCEPT:Qualifier</oboInOwl:id>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ecosim#upper_level"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/bervo#upper_level"/>
         <rdfs:label>qualifier</rdfs:label>
     </owl:Class>
     
@@ -4098,7 +4098,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Unit">
         <oboInOwl:id>ECOSIMCONCEPT:Unit</oboInOwl:id>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ecosim#upper_level"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/bervo#upper_level"/>
         <rdfs:label>unit</rdfs:label>
     </owl:Class>
     
@@ -4216,7 +4216,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOSIMCONCEPT_Variable">
         <oboInOwl:id>ECOSIMCONCEPT:Variable</oboInOwl:id>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ecosim#upper_level"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/bervo#upper_level"/>
         <rdfs:label>variable</rdfs:label>
     </owl:Class>
     

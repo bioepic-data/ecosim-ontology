@@ -1,4 +1,4 @@
-site_name: EcoSIM Ontology
+site_name: BERVO
 theme:
   name: material
   features:
@@ -18,8 +18,8 @@ markdown_extensions:
   - pymdownx.mark
   - pymdownx.tilde
 
-site_url: https://bioepic-data.github.io/ecosim-ontology/
-repo_url: https://github.com/bioepic-data/ecosim-ontology/
+site_url: https://bioepic-data.github.io/bervo/
+repo_url: https://github.com/bioepic-data/bervo/
 
 nav:
   - Getting started: index.md

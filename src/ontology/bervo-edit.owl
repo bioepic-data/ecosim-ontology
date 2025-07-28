@@ -1,4 +1,4 @@
-Prefix(:=<http://purl.obolibrary.org/obo/ecosim.owl#>)
+Prefix(:=<http://purl.obolibrary.org/obo/bervo.owl#>)
 Prefix(dce:=<http://purl.org/dc/elements/1.1/>)
 Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
 Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
@@ -8,13 +8,13 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 Prefix(dcterms:=<http://purl.org/dc/terms/>)
 
 
-Ontology(<http://purl.obolibrary.org/obo/ecosim.owl>
-Import(<http://purl.obolibrary.org/obo/ecosim/components/ecosim-src.owl>)
+Ontology(<http://purl.obolibrary.org/obo/bervo.owl>
+Import(<http://purl.obolibrary.org/obo/bervo/components/bervo-src.owl>)
 Annotation(dcterms:description "None")
 Annotation(dcterms:license <https://creativecommons.org/licenses/unspecified>)
-Annotation(dcterms:title "EcoSIM Ontology")
+Annotation(dcterms:title "BERVO")
 
-Declaration(Class(<http://purl.obolibrary.org/obo/ECOSIM_0000000>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BERVO_0000000>))
 Declaration(AnnotationProperty(dcterms:description))
 Declaration(AnnotationProperty(dcterms:license))
 Declaration(AnnotationProperty(dcterms:title))
@@ -40,9 +40,9 @@ AnnotationAssertion(rdfs:label dcterms:title "title")
 #   Classes
 ############################
 
-# Class: <http://purl.obolibrary.org/obo/ECOSIM_0000000> (root node)
+# Class: <http://purl.obolibrary.org/obo/BERVO_0000000> (root node)
 
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOSIM_0000000> "root node"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BERVO_0000000> "root node"@en)
 
 
 )

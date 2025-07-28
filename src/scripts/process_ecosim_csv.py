@@ -1,7 +1,7 @@
 """
-Script to process the ecosim_for_sheet.csv file:
+Script to process the bervo_for_sheet.csv file:
 1. Fix malformed entries using a full IRI for their ID
-2. Remove ECOSIM: or ECOSIMCONCEPT: prefix from:
+2. Remove BERVO: or ECOSIMCONCEPT: prefix from:
    - The second and third columns (EcoSIM Variable Name, EcoSIM Other Names)
    - Additional columns: has_units, qualifiers, attributes, measured_ins, measurement_ofs, contexts, and Parents
 3. Replace text IDs with unique numerical identifiers using the ECOSIM prefix
@@ -26,8 +26,8 @@ def fix_malformed_ids(df: pd.DataFrame, id_col: str) -> pd.DataFrame:
         DataFrame with fixed IDs
     """
     # Regular expression to match full IRIs for ECOSIM and ECOSIMCONCEPT
-    ecosim_iri_pattern = r'http://purl\.obolibrary\.org/obo/ECOSIM_(.+)'
-    ecosimconcept_iri_pattern = r'http://purl\.obolibrary\.org/obo/ECOSIMCONCEPT_(.+)'
+    bervo_iri_pattern = r'http://purl\.obolibrary\.org/obo/ECOSIM_(.+)'
+    bervoconcept_iri_pattern = r'http://purl\.obolibrary\.org/obo/ECOSIMCONCEPT_(.+)'
 
     # Also get the other id columns - handle different possible naming patterns
     id_col2 = None
@@ -60,29 +60,29 @@ def fix_malformed_ids(df: pd.DataFrame, id_col: str) -> pd.DataFrame:
 
     # Fix IDs in the ID column
     df[id_col] = df[id_col].apply(
-        lambda x: re.sub(ecosim_iri_pattern, r'ECOSIM:\1', str(x))
+        lambda x: re.sub(bervo_iri_pattern, r'BERVO:\1', str(x))
     )
     df[id_col] = df[id_col].apply(
-        lambda x: re.sub(ecosimconcept_iri_pattern,
+        lambda x: re.sub(bervoconcept_iri_pattern,
                          r'ECOSIMCONCEPT:\1', str(x))
     )
 
     # Also fix in the other ID columns
     if id_col2 in df.columns:
         df[id_col2] = df[id_col2].apply(
-            lambda x: re.sub(ecosim_iri_pattern, r'ECOSIM:\1', str(x))
+            lambda x: re.sub(bervo_iri_pattern, r'BERVO:\1', str(x))
         )
         df[id_col2] = df[id_col2].apply(
-            lambda x: re.sub(ecosimconcept_iri_pattern,
+            lambda x: re.sub(bervoconcept_iri_pattern,
                             r'ECOSIMCONCEPT:\1', str(x))
         )
 
     if id_col3 in df.columns:
         df[id_col3] = df[id_col3].apply(
-            lambda x: re.sub(ecosim_iri_pattern, r'ECOSIM:\1', str(x))
+            lambda x: re.sub(bervo_iri_pattern, r'BERVO:\1', str(x))
         )
         df[id_col3] = df[id_col3].apply(
-            lambda x: re.sub(ecosimconcept_iri_pattern,
+            lambda x: re.sub(bervoconcept_iri_pattern,
                             r'ECOSIMCONCEPT:\1', str(x))
         )
 
@@ -91,7 +91,7 @@ def fix_malformed_ids(df: pd.DataFrame, id_col: str) -> pd.DataFrame:
 
 def remove_prefixes_from_columns(df: pd.DataFrame) -> pd.DataFrame:
     """
-    Remove ECOSIM: and ECOSIMCONCEPT: prefixes from the specified columns:
+    Remove BERVO: and ECOSIMCONCEPT: prefixes from the specified columns:
     - oboInOwl:id.1 and oboInOwl:id.2 (EcoSIM Variable Name, EcoSIM Other Names)
     - Additional columns: has_units, qualifiers, attributes, measured_ins, measurement_ofs, contexts, and Parents
 
@@ -124,7 +124,7 @@ def remove_prefixes_from_columns(df: pd.DataFrame) -> pd.DataFrame:
 
         # Remove prefixes from second column
         df[id_col2] = df[id_col2].apply(
-            lambda x: re.sub(r'^ECOSIM:', '', str(x))
+            lambda x: re.sub(r'^BERVO:', '', str(x))
         )
         df[id_col2] = df[id_col2].apply(
             lambda x: re.sub(r'^ECOSIMCONCEPT:', '', str(x))
@@ -139,7 +139,7 @@ def remove_prefixes_from_columns(df: pd.DataFrame) -> pd.DataFrame:
         # This column might contain multiple values separated by |
         df[id_col3] = df[id_col3].apply(
             lambda x: '|'.join([
-                re.sub(r'^ECOSIM:', '', term.strip()) for term in str(x).split('|')
+                re.sub(r'^BERVO:', '', term.strip()) for term in str(x).split('|')
             ])
         )
         df[id_col3] = df[id_col3].apply(
@@ -159,7 +159,7 @@ def remove_prefixes_from_columns(df: pd.DataFrame) -> pd.DataFrame:
             # Each column may contain multiple values separated by |
             df[col_name] = df[col_name].apply(
                 lambda x: '|'.join([
-                    re.sub(r'^ECOSIM:', '', term.strip()) for term in str(x).split('|')
+                    re.sub(r'^BERVO:', '', term.strip()) for term in str(x).split('|')
                 ])
             )
             df[col_name] = df[col_name].apply(
@@ -184,7 +184,7 @@ def replace_ids_with_numeric(df: pd.DataFrame) -> pd.DataFrame:
     All identifiers will use the ECOSIM prefix with a five-digit pattern.
     
     Special handling for:
-    - Object properties: Use label with ECOSIM prefix (e.g., ECOSIM:has_unit)
+    - Object properties: Use label with ECOSIM prefix (e.g., BERVO:has_unit)
     - Annotation properties: Use IRI from first column
     - If no label is available, use the original identifier
 
@@ -224,17 +224,17 @@ def replace_ids_with_numeric(df: pd.DataFrame) -> pd.DataFrame:
                 # Clean the label for object properties
                 cleaned_label = str(row[label_col]).strip().lower()
                 cleaned_label = re.sub(r'[^a-z0-9_]', '_', cleaned_label)
-                new_id = f"ECOSIM:{cleaned_label}"
+                new_id = f"BERVO:{cleaned_label}"
             # If no appropriate value found but we have a non-empty ID, keep the original ID
             elif pd.notna(old_id) and str(old_id).strip() != '' and str(old_id).lower() != 'nan':
                 new_id = str(old_id)
             else:
                 # Last resort - generate a numeric ID
-                new_id = f"ECOSIM:{counter:05d}"
+                new_id = f"BERVO:{counter:05d}"
                 counter += 1
         else:
             # For regular classes, create new numeric ID with ECOSIM prefix
-            new_id = f"ECOSIM:{counter:05d}"
+            new_id = f"BERVO:{counter:05d}"
             counter += 1
 
         id_mapping[old_id] = new_id
@@ -260,7 +260,7 @@ def replace_ids_with_numeric(df: pd.DataFrame) -> pd.DataFrame:
 
 def process_csv_file(input_file: str, output_file: str) -> None:
     """
-    Process the ecosim_for_sheet.csv file according to requirements.
+    Process the bervo_for_sheet.csv file according to requirements.
 
     Args:
         input_file: Path to the input CSV file
@@ -371,12 +371,12 @@ def main() -> None:
     Main function to handle command-line arguments and execute the processing.
     """
     parser = argparse.ArgumentParser(
-        description='Process the ecosim_for_sheet.csv file to fix IDs and apply transformations.'
+        description='Process the bervo_for_sheet.csv file to fix IDs and apply transformations.'
     )
-    parser.add_argument('--input', default='../ontology/ecosim_for_sheet.csv',
-                        help='Path to the input CSV file (default: ../ontology/ecosim_for_sheet.csv)')
-    parser.add_argument('--output', default='../ontology/ecosim_for_sheet_processed.csv',
-                        help='Path for the output processed CSV file (default: ../ontology/ecosim_for_sheet_processed.csv)')
+    parser.add_argument('--input', default='../ontology/bervo_for_sheet.csv',
+                        help='Path to the input CSV file (default: ../ontology/bervo_for_sheet.csv)')
+    parser.add_argument('--output', default='../ontology/bervo_for_sheet_processed.csv',
+                        help='Path for the output processed CSV file (default: ../ontology/bervo_for_sheet_processed.csv)')
     parser.add_argument('--verbose', action='store_true',
                         help='Enable verbose output')
 
