@@ -3,10 +3,10 @@ layout: ontology_detail
 id: ecosim
 title: EcoSIM Ontology
 jobs:
-  - id: https://travis-ci.org/bioepic-data/ecosim-ontology
+  - id: https://travis-ci.org/bioepic-data/bervo
     type: travis-ci
 build:
-  checkout: git clone https://github.com/bioepic-data/ecosim-ontology.git
+  checkout: git clone https://github.com/bioepic-data/bervo.git
   system: git
   path: "."
 contact:
@@ -15,7 +15,7 @@ contact:
   github: 
 description: EcoSIM Ontology is an ontology...
 domain: stuff
-homepage: https://github.com/bioepic-data/ecosim-ontology
+homepage: https://github.com/bioepic-data/bervo
 products:
   - id: ecosim.owl
     name: "EcoSIM Ontology main release in OWL format"
@@ -31,7 +31,7 @@ products:
     name: "EcoSIM Ontology additional release in OBOJSon format"
 dependencies:
 
-tracker: https://github.com/bioepic-data/ecosim-ontology/issues
+tracker: https://github.com/bioepic-data/bervo/issues
 license:
   url: http://creativecommons.org/licenses/by/3.0/
   label: CC-BY

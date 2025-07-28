@@ -2,7 +2,7 @@ id: ecosim
 title: "EcoSIM Ontology"
 git_main_branch: main
 github_org: bioepic-data
-repo: ecosim-ontology
+repo: bervo
 release_artefacts:
   - full
 primary_release: full

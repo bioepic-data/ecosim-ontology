@@ -4,8 +4,8 @@ idspace: ECOSIM
 base_url: /obo/ecosim
 
 products:
-- ecosim.owl: https://raw.githubusercontent.com/bioepic-data/ecosim-ontology/main/ecosim.owl
-- ecosim.obo: https://raw.githubusercontent.com/bioepic-data/ecosim-ontology/main/ecosim.obo
+- ecosim.owl: https://raw.githubusercontent.com/bioepic-data/bervo/main/ecosim.owl
+- ecosim.obo: https://raw.githubusercontent.com/bioepic-data/bervo/main/ecosim.obo
 
 term_browser: ontobee
 example_terms:
@@ -14,15 +14,15 @@ example_terms:
 entries:
 
 - prefix: /releases/
-  replacement: https://raw.githubusercontent.com/bioepic-data/ecosim-ontology/v
+  replacement: https://raw.githubusercontent.com/bioepic-data/bervo/v
 
 - prefix: /tracker/
-  replacement: https://github.com/bioepic-data/ecosim-ontology/issues
+  replacement: https://github.com/bioepic-data/bervo/issues
 
 - prefix: /about/
   replacement: http://www.ontobee.org/ontology/ECOSIM?iri=http://purl.obolibrary.org/obo/
 
 ## generic fall-through, serve direct from github by default
 - prefix: /
-  replacement: https://raw.githubusercontent.com/bioepic-data/ecosim-ontology/main/
+  replacement: https://raw.githubusercontent.com/bioepic-data/bervo/main/
 
