@@ -1,1 +1,3 @@
-# How to cite ECOSIM
+# How to cite BERVO
+
+TBA
