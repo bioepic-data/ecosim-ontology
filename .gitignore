@@ -14,15 +14,15 @@ bin/
 
 .github/token.txt
 
-/ecosim.owl
-/ecosim.obo
-/ecosim.json
-/ecosim.db
-/ecosim-base.*
-/ecosim-basic.*
-/ecosim-full.*
-/ecosim-simple.*
-/ecosim-simple-non-classified.*
+/bervo.owl
+/bervo.obo
+/bervo.json
+/bervo.db
+/bervo-base.*
+/bervo-basic.*
+/bervo-full.*
+/bervo-simple.*
+/bervo-simple-non-classified.*
 /mappings/
 /patterns/
 /reports/
@@ -32,15 +32,15 @@ src/ontology/mirror
 src/ontology/mirror/*
 src/ontology/reports/*
 !src/ontology/reports/release-diff.md
-src/ontology/ecosim.owl
-src/ontology/ecosim.obo
-src/ontology/ecosim.json
-src/ontology/ecosim.db
-src/ontology/ecosim-base.*
-src/ontology/ecosim-basic.*
-src/ontology/ecosim-full.*
-src/ontology/ecosim-simple.*
-src/ontology/ecosim-simple-non-classified.*
+src/ontology/bervo.owl
+src/ontology/bervo.obo
+src/ontology/bervo.json
+src/ontology/bervo.db
+src/ontology/bervo-base.*
+src/ontology/bervo-basic.*
+src/ontology/bervo-full.*
+src/ontology/bervo-simple.*
+src/ontology/bervo-simple-non-classified.*
 
 src/ontology/seed.txt
 src/ontology/dosdp-tools.log
@@ -48,8 +48,8 @@ src/ontology/ed_definitions_merged.owl
 src/ontology/ontologyterms.txt
 src/ontology/simple_seed.txt
 src/ontology/patterns
-src/ontology/merged-ecosim-edit.owl
-src/ontology/ecosim-edit.properties
+src/ontology/merged-bervo-edit.owl
+src/ontology/bervo-edit.properties
 
 src/ontology/target/
 src/ontology/tmp/*
