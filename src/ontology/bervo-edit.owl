@@ -14,7 +14,7 @@ Annotation(dcterms:description "None")
 Annotation(dcterms:license <https://creativecommons.org/licenses/unspecified>)
 Annotation(dcterms:title "BERVO")
 
-Declaration(Class(<http://purl.obolibrary.org/obo/ECOSIM_0000000>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BERVO_0000000>))
 Declaration(AnnotationProperty(dcterms:description))
 Declaration(AnnotationProperty(dcterms:license))
 Declaration(AnnotationProperty(dcterms:title))
@@ -40,9 +40,9 @@ AnnotationAssertion(rdfs:label dcterms:title "title")
 #   Classes
 ############################
 
-# Class: <http://purl.obolibrary.org/obo/ECOSIM_0000000> (root node)
+# Class: <http://purl.obolibrary.org/obo/BERVO_0000000> (root node)
 
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOSIM_0000000> "root node"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BERVO_0000000> "root node"@en)
 
 
 )
