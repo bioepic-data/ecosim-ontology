@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: releases/2025-07-28
+data-version: releases/2025-08-01
 idspace: bervo https://w3id.org/bervo/ 
 idspace: dce http://purl.org/dc/elements/1.1/ 
 idspace: dcterms http://purl.org/dc/terms/ 
@@ -8,11 +8,7 @@ ontology: bervo
 property_value: dcterms:description "None" xsd:string
 property_value: dcterms:license https://creativecommons.org/licenses/unspecified
 property_value: dcterms:title "BERVO" xsd:string
-property_value: owl:versionInfo "2025-07-28" xsd:string
-
-[Term]
-id: BERVO:0000000
-name: root node
+property_value: owl:versionInfo "2025-08-01" xsd:string
 
 [Term]
 id: bervo:BERVO_0000000
@@ -25,7 +21,7 @@ name: ecosystem net radiation
 def: "Total incoming shorwave radiation and sky longwave radiation minus the reflected short wave radiation and outgoing longwave radiation from the land surface and vegetation" []
 comment: EcosimBGCFluxType.txt
 synonym: "Eco_NetRad_col" RELATED []
-is_a: bervo:BERVO_9000000 ! ecosim biogeochemical flux type
+is_a: bervo:BERVO_9000000 ! biogeochemical flux type
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/MJ%20d-2%20h-1
 
 [Term]
@@ -34,7 +30,7 @@ name: ecosystem latent heat flux
 def: "Heat associated the ecosystem evapotranspiration." []
 comment: EcosimBGCFluxType.txt
 synonym: "Eco_Heat_Latent_col" RELATED []
-is_a: bervo:BERVO_9000000 ! ecosim biogeochemical flux type
+is_a: bervo:BERVO_9000000 ! biogeochemical flux type
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/MJ%20d-2%20h-1
 
 [Term]
@@ -43,7 +39,7 @@ name: ecosystem sensible heat flux
 def: "Sensible heat flux between the atmosphere and land surface enties made up by groud surface and vegetation" []
 comment: EcosimBGCFluxType.txt
 synonym: "Eco_Heat_Sens_col" RELATED []
-is_a: bervo:BERVO_9000000 ! ecosim biogeochemical flux type
+is_a: bervo:BERVO_9000000 ! biogeochemical flux type
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/MJ%20d-2%20h-1
 
 [Term]
@@ -52,7 +48,7 @@ name: ecosystem storage heat flux
 def: "The residual heat flux into ground computed by subtracting the ecosystem latent heat flux and sensible heat flux from the net ecossytem radiation. This heat flux drives the temperature change of soil." []
 comment: EcosimBGCFluxType.txt
 synonym: "Eco_Heat_GrndSurf_col" RELATED []
-is_a: bervo:BERVO_9000000 ! ecosim biogeochemical flux type
+is_a: bervo:BERVO_9000000 ! biogeochemical flux type
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/MJ%20d-2%20h-1
 
 [Term]
@@ -61,7 +57,7 @@ name: cumulative ecosystem GPP
 def: "Cumulative gross primary productiivty from the begging of the year to the current day of year." []
 comment: EcosimBGCFluxType.txt
 synonym: "Eco_GPP_CumYr_col" RELATED []
-is_a: bervo:BERVO_9000000 ! ecosim biogeochemical flux type
+is_a: bervo:BERVO_9000000 ! biogeochemical flux type
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/g%20d-2
 
 [Term]
@@ -70,7 +66,7 @@ name: cumulative ecosystem autotrophic respiration
 def: "Cumulative plant autotrophic respiration, including contirbutions from maintenance and growth." []
 comment: EcosimBGCFluxType.txt
 synonym: "Eco_AutoR_CumYr_col" RELATED []
-is_a: bervo:BERVO_9000000 ! ecosim biogeochemical flux type
+is_a: bervo:BERVO_9000000 ! biogeochemical flux type
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/gC%20d-2
 
 [Term]
@@ -79,7 +75,7 @@ name: cumulative ecosystem NPP
 def: "Cumulative net primary productiivyt computed by subtracting from autotrophic respiration from gross primary productivity." []
 comment: EcosimBGCFluxType.txt
 synonym: "Eco_NPP_CumYr_col" RELATED []
-is_a: bervo:BERVO_9000000 ! ecosim biogeochemical flux type
+is_a: bervo:BERVO_9000000 ! biogeochemical flux type
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/gC%20d-2
 
 [Term]
@@ -88,7 +84,7 @@ name: cumulative ecosystem heterotrophic respiration
 def: "Cumulative hetetrophic respiration due to microbial and abiotic decomposition of soil organic matter, counted based on both CO2 and CH4" []
 comment: EcosimBGCFluxType.txt
 synonym: "Eco_HR_CumYr_col" RELATED []
-is_a: bervo:BERVO_9000000 ! ecosim biogeochemical flux type
+is_a: bervo:BERVO_9000000 ! biogeochemical flux type
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/gC%20d-2
 
 [Term]
@@ -97,7 +93,7 @@ name: heterotrophic respiration as CO2
 def: "Ecosystem hetetrophic respiration counted based CO2" []
 comment: EcosimBGCFluxType.txt
 synonym: "ECO_HR_CO2_col" RELATED []
-is_a: bervo:BERVO_9000000 ! ecosim biogeochemical flux type
+is_a: bervo:BERVO_9000000 ! biogeochemical flux type
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/gC%20d-2%20hr-1
 
 [Term]
@@ -106,7 +102,7 @@ name: vertically resolved heterotrophic respiraiton as CO2
 def: "Ecosystem hetetrophic respiration counted based CO2 for different depths in the soil" []
 comment: EcosimBGCFluxType.txt
 synonym: "ECO_HR_CO2_vr" RELATED []
-is_a: bervo:BERVO_9000000 ! ecosim biogeochemical flux type
+is_a: bervo:BERVO_9000000 ! biogeochemical flux type
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/gC/d2/hr
 
 [Term]
@@ -115,7 +111,7 @@ name: heterotrophic respiration as CH4
 def: "Ecosystem hetetrophic respiration counted based CH4 for different depths in the soil" []
 comment: EcosimBGCFluxType.txt
 synonym: "ECO_HR_CH4_vr" RELATED []
-is_a: bervo:BERVO_9000000 ! ecosim biogeochemical flux type
+is_a: bervo:BERVO_9000000 ! biogeochemical flux type
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/gC%20d-2
 
 [Term]
@@ -124,7 +120,7 @@ name: ecosystem harvest
 def: "Ecosystem harvest refers to the removal of biological products (like timber, fodder, firewood, biofuels, and non-timber forest products) from an ecosystem. It is a form of ecosystem service and is critical to many human livelihoods and economies worldwide. In the context of an earth system model, ecosystem harvest is important to consider as it can significantly impact biodiversity, vegetation structure, and biogeochemical cycles." []
 comment: EcosimBGCFluxType.txt
 synonym: "EcoHavstElmnt_CumYr_col" RELATED []
-is_a: bervo:BERVO_9000000 ! ecosim biogeochemical flux type
+is_a: bervo:BERVO_9000000 ! biogeochemical flux type
 property_value: bervo:BERVO_Attribute http://www.w3.org/2002/07/Harvest
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/gC%20d-2
 
@@ -134,7 +130,7 @@ name: total NH4 net mineraln (-ve) or immobiln (+ve)
 def: "Cumulative nitrogen release in the form of NH4 during microibal decomposition of soil organic matter, net mineralization is defined as the difference between gross NH4 release from organic matter and uptake for microbial biomass synthesis " []
 comment: EcosimBGCFluxType.txt
 synonym: "NetNH4Mineralize_CumYr_col" RELATED []
-is_a: bervo:BERVO_9000000 ! ecosim biogeochemical flux type
+is_a: bervo:BERVO_9000000 ! biogeochemical flux type
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/gN%20d-2
 
 [Term]
@@ -143,7 +139,7 @@ name: total H2PO4 net mineraln (-ve) or immobiln (+ve)
 def: "Cumulative mineral phosphorus release in the form of PO43 during microbial decomposition of soil organic matter, net mineralization is defined as the difference between gross release from organic matter and microbial uptake for biomass synthesis " []
 comment: EcosimBGCFluxType.txt
 synonym: "NetPO4Mineralize_CumYr_col" RELATED []
-is_a: bervo:BERVO_9000000 ! ecosim biogeochemical flux type
+is_a: bervo:BERVO_9000000 ! biogeochemical flux type
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/gP%20d-2
 
 [Term]
@@ -152,7 +148,7 @@ name: total net CO2 fixation
 def: "WIthin canopy net carbon excahnge defined as the difference between carbon fixation by photosynthesis and CO2 reelase due to autotrophic respiration and disturbances, such as fire, grazing and harvest." []
 comment: EcosimBGCFluxType.txt
 synonym: "Canopy_NEE_col" RELATED []
-is_a: bervo:BERVO_9000000 ! ecosim biogeochemical flux type
+is_a: bervo:BERVO_9000000 ! biogeochemical flux type
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/gC%20d-2%20h-1
 
 [Term]
@@ -161,7 +157,7 @@ name: total LitrFall chemical elements
 def: "This refers to the chemical elements (C, N, P) that are taken away from the plants through litterfall." []
 comment: EcosimBGCFluxType.txt
 synonym: "LitrFallStrutElms_col" RELATED []
-is_a: bervo:BERVO_9000000 ! ecosim biogeochemical flux type
+is_a: bervo:BERVO_9000000 ! biogeochemical flux type
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/g%20d-2%20h-1
 
 [Term]
@@ -170,7 +166,7 @@ name: ecosystem respiration
 def: "Ecosystem respiration refers to the release of CO2 and CH4 due to both below and above ground microbial metabolism and plant autotrophic respiration. In EcoSIM, the belowground flux is computed as the land surface release of CO2 through diffusion, ebullition, plant-aided transport, and wet depostion through precipitation and irrigation " []
 comment: EcosimBGCFluxType.txt
 synonym: "ECO_ER_col" RELATED []
-is_a: bervo:BERVO_9000000 ! ecosim biogeochemical flux type
+is_a: bervo:BERVO_9000000 ! biogeochemical flux type
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/gC%20d-2%20h-1
 
 [Term]
@@ -179,7 +175,7 @@ name: cumulative NBP
 def: "cumualtive Net biome production refers to the accumulated net carbon fixation by the ecossystem computed as the difference between carbon fixation through photosynthesis and carbon loss through plant and microibal respiration and any kind of disturbances" []
 comment: EcosimBGCFluxType.txt
 synonym: "Eco_NBP_CumYr_col" RELATED []
-is_a: bervo:BERVO_9000000 ! ecosim biogeochemical flux type
+is_a: bervo:BERVO_9000000 ! biogeochemical flux type
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/gC%20d-2
 
 [Term]
@@ -188,7 +184,7 @@ name: Current HPO4 demand in non-band by all microbial,root,myco populations
 def: "This refers to the vertically resolved inorganic P demand to support plant roots and microbial uptake from non-banded soil" []
 comment: EcosimBGCFluxType.txt
 synonym: "REcoH1PO4DmndSoil_vr" RELATED []
-is_a: bervo:BERVO_9000000 ! ecosim biogeochemical flux type
+is_a: bervo:BERVO_9000000 ! biogeochemical flux type
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/gN%20d-2%20h-1
 
 [Term]
@@ -197,7 +193,7 @@ name: previous time step HPO4 demand in non-band by all microbial,root,myco popu
 def: "This refers to the previous time step vertically resolved inorganic P demand to support plant roots and microbial uptake from non-banded soil" []
 comment: EcosimBGCFluxType.txt
 synonym: "RH1PO4EcoDmndSoilPrev_vr" RELATED []
-is_a: bervo:BERVO_9000000 ! ecosim biogeochemical flux type
+is_a: bervo:BERVO_9000000 ! biogeochemical flux type
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/gN%20d-2%20h-1
 
 [Term]
@@ -206,7 +202,7 @@ name: Current HPO4 demand in band by all microbial,root,myco populations
 def: "This refers to the vertically resolved inorganic P demand to support plant roots and microbial uptake from soil bands. Soil bands are defined according to fertilizer application in the form of sidedressing" []
 comment: EcosimBGCFluxType.txt
 synonym: "REcoH1PO4DmndBand_vr" RELATED []
-is_a: bervo:BERVO_9000000 ! ecosim biogeochemical flux type
+is_a: bervo:BERVO_9000000 ! biogeochemical flux type
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/gN%20d-2%20h-1
 
 [Term]
@@ -215,7 +211,7 @@ name: Previous time step HPO4 demand in band by all microbial,root,myco populati
 def: "This refers to the previous time step vertically resolved inorganic P demand to support plant roots and microbial uptake from soil bands. Soil bands are defined according to fertilizer application in the form of sidedressing" []
 comment: EcosimBGCFluxType.txt
 synonym: "RH1PO4EcoDmndBandPrev_vr" RELATED []
-is_a: bervo:BERVO_9000000 ! ecosim biogeochemical flux type
+is_a: bervo:BERVO_9000000 ! biogeochemical flux type
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/gN%20d-2%20h-1
 
 [Term]
@@ -1569,6 +1565,7 @@ property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/uM
 [Term]
 id: bervo:BERVO_0000176
 name: leaf water content, (g H2O g-1 C)
+def: "Water associated with leaf biomass" []
 comment: GrosubPars.txt
 synonym: "FDML" RELATED []
 is_a: bervo:BERVO_9000002 ! plant growth parameters
@@ -1576,6 +1573,7 @@ is_a: bervo:BERVO_9000002 ! plant growth parameters
 [Term]
 id: bervo:BERVO_0000177
 name: leaf water content in bundle sheath, in C4 CO2 fixn
+def: "Leaf biomass water in bundle sheath cells" []
 comment: GrosubPars.txt
 synonym: "FBS" RELATED []
 is_a: bervo:BERVO_9000002 ! plant growth parameters
@@ -1584,6 +1582,7 @@ property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/m3%20H2O%20(gC)-1
 [Term]
 id: bervo:BERVO_0000178
 name: leaf water content in mesophyll in C4 CO2 fixn
+def: "Leaf biomass water in mesophyll cells" []
 comment: GrosubPars.txt
 synonym: "FMP" RELATED []
 is_a: bervo:BERVO_9000002 ! plant growth parameters
@@ -1592,6 +1591,7 @@ property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/m3%20H2O%20(gC)-1
 [Term]
 id: bervo:BERVO_0000179
 name: min N:C,P:C in leaves relative to max values from PFT file
+def: "Ratio of the minimum NC or PC ratio with respect to the maximum NC or PC ratio of leaf. The NC or PC ratios are computed based on leaf stoichiometry. " []
 comment: GrosubPars.txt
 synonym: "ZPLFM" RELATED []
 is_a: bervo:BERVO_9000002 ! plant growth parameters
@@ -1599,6 +1599,7 @@ is_a: bervo:BERVO_9000002 ! plant growth parameters
 [Term]
 id: bervo:BERVO_0000180
 name: min N:C,P:C in grain relative to max values from PFT file
+def: "Ratio of the minimum NC or PC ratio with respect to the maximum NC or PC ratio of grains. The NC or PC ratios are computed based on leaf stoichiometry. " []
 comment: GrosubPars.txt
 synonym: "ZPGRM" RELATED []
 is_a: bervo:BERVO_9000002 ! plant growth parameters
@@ -1606,6 +1607,7 @@ is_a: bervo:BERVO_9000002 ! plant growth parameters
 [Term]
 id: bervo:BERVO_0000181
 name: fraction of stalk area contributing to water,heat flow
+def: "Fraction of stalk area that holds the xylem and phloem tubes for water and metabolite transport between plant organs" []
 comment: GrosubPars.txt
 synonym: "FSTK" RELATED []
 is_a: bervo:BERVO_9000002 ! plant growth parameters
@@ -1613,6 +1615,7 @@ is_a: bervo:BERVO_9000002 ! plant growth parameters
 [Term]
 id: bervo:BERVO_0000182
 name: maximum stalk inner radius for tranpsiration
+def: "Maxium allowed tube radius to do xylem and phloem transport, located at the out surface of stalk." []
 comment: GrosubPars.txt
 synonym: "ZSTX" RELATED []
 is_a: bervo:BERVO_9000002 ! plant growth parameters
@@ -1621,6 +1624,7 @@ property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/m
 [Term]
 id: bervo:BERVO_0000183
 name: stalk density
+def: "Carbn-based stalk mass denisty used to copmute stalk volume" []
 comment: GrosubPars.txt
 synonym: "StalkMassDensity" RELATED []
 is_a: bervo:BERVO_9000002 ! plant growth parameters
@@ -1629,6 +1633,7 @@ property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/MgC%20m-3
 [Term]
 id: bervo:BERVO_0000184
 name: specific volume (m3 gC-1)
+def: "Stalk volume per g carbon biomass" []
 comment: GrosubPars.txt
 synonym: "SpecStalkVolume" RELATED []
 is_a: bervo:BERVO_9000002 ! plant growth parameters
@@ -1636,6 +1641,7 @@ is_a: bervo:BERVO_9000002 ! plant growth parameters
 [Term]
 id: bervo:BERVO_0000185
 name: Fraction used to calculate woody faction of stalk,root
+def: "It is a model-specific scaling parameter for computing biomass allocation to canopy foliage" []
 comment: GrosubPars.txt
 synonym: "FRTX" RELATED []
 is_a: bervo:BERVO_9000002 ! plant growth parameters
@@ -1643,6 +1649,7 @@ is_a: bervo:BERVO_9000002 ! plant growth parameters
 [Term]
 id: bervo:BERVO_0000186
 name: Km for nonstructural C concn on seed set
+def: "Half saturation parameter for modeling carbon biomass flow during seed setting using the Michaelis-Menten kinetics" []
 comment: GrosubPars.txt
 synonym: "SETC" RELATED []
 is_a: bervo:BERVO_9000002 ! plant growth parameters
@@ -1651,6 +1658,7 @@ property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/g%20g-1
 [Term]
 id: bervo:BERVO_0000187
 name: Km for nonstructural N concn on seed set
+def: "Half saturation parameter for modeling nitrogen biomass flow during seed setting using the Michaelis-Menten kinetics" []
 comment: GrosubPars.txt
 synonym: "SETN" RELATED []
 is_a: bervo:BERVO_9000002 ! plant growth parameters
@@ -1659,6 +1667,7 @@ property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/g%20g-1
 [Term]
 id: bervo:BERVO_0000188
 name: Km for nonstructural P concn on seed set
+def: "Half saturation parameter for modeling phosphorus biomass flow during seed setting using the Michaelis-Menten kinetics" []
 comment: GrosubPars.txt
 synonym: "SETP" RELATED []
 is_a: bervo:BERVO_9000002 ! plant growth parameters
@@ -1667,6 +1676,7 @@ property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/g%20g-1
 [Term]
 id: bervo:BERVO_0000189
 name: parameter for calculating leaf area expansion
+def: "An exponent parameter to compute leaf area expansion in the model" []
 comment: GrosubPars.txt
 synonym: "SLA2" RELATED []
 is_a: bervo:BERVO_9000002 ! plant growth parameters
@@ -1674,6 +1684,7 @@ is_a: bervo:BERVO_9000002 ! plant growth parameters
 [Term]
 id: bervo:BERVO_0000190
 name: parameter for calculating petiole extension
+def: "An exponent parameter to compute petiole length expansion in the model" []
 comment: GrosubPars.txt
 synonym: "SSL2" RELATED []
 is_a: bervo:BERVO_9000002 ! plant growth parameters
@@ -1681,6 +1692,7 @@ is_a: bervo:BERVO_9000002 ! plant growth parameters
 [Term]
 id: bervo:BERVO_0000191
 name: parameter for calculating stalk extension
+def: "an exponent parameter to compuate stalk volume expasion in the model" []
 comment: GrosubPars.txt
 synonym: "SNL2" RELATED []
 is_a: bervo:BERVO_9000002 ! plant growth parameters
@@ -1688,6 +1700,7 @@ is_a: bervo:BERVO_9000002 ! plant growth parameters
 [Term]
 id: bervo:BERVO_0000192
 name: maximum C:N ratio for nonstructural N transfer
+def: "A stoichiometry ratio to compute the minimum nitrogen flow associated with a transfer flux of nonstructual carbon between different storage pools of the plants." []
 comment: GrosubPars.txt
 synonym: "CNMX" RELATED []
 is_a: bervo:BERVO_9000002 ! plant growth parameters
@@ -1695,6 +1708,7 @@ is_a: bervo:BERVO_9000002 ! plant growth parameters
 [Term]
 id: bervo:BERVO_0000193
 name: maximum C:P ratio for nonstructural P transfer
+def: "A stoichiometry ratio to compute the minimum phosphorus flow associated with a transfer flux of nonstructual carbon between different storage pools of the plants." []
 comment: GrosubPars.txt
 synonym: "CPMX" RELATED []
 is_a: bervo:BERVO_9000002 ! plant growth parameters
@@ -1702,6 +1716,7 @@ is_a: bervo:BERVO_9000002 ! plant growth parameters
 [Term]
 id: bervo:BERVO_0000194
 name: minimum C:N ratio for nonstructural N transfer
+def: "A stoichiometry ratio to compute the maximum nitrogen flow associated with a transfer flux of nonstructual carbon between different storage pools of the plants." []
 comment: GrosubPars.txt
 synonym: "CNMN" RELATED []
 is_a: bervo:BERVO_9000002 ! plant growth parameters
@@ -1709,6 +1724,7 @@ is_a: bervo:BERVO_9000002 ! plant growth parameters
 [Term]
 id: bervo:BERVO_0000195
 name: minimum C:P ratio for nonstructural P transfer
+def: "A stoichiometry ratio to compute the maximum phosphorus flow associated with a transfer flux of nonstructual carbon between different storage pools of the plants." []
 comment: GrosubPars.txt
 synonym: "CPMN" RELATED []
 is_a: bervo:BERVO_9000002 ! plant growth parameters
@@ -1716,6 +1732,7 @@ is_a: bervo:BERVO_9000002 ! plant growth parameters
 [Term]
 id: bervo:BERVO_0000196
 name: N fixation yield from C oxidation
+def: "It quantifies how much nitrogen can be fixed from N2 in the form NH3 when one mass unit of carbon is oxidized " []
 comment: GrosubPars.txt
 synonym: "EN2F" RELATED []
 is_a: bervo:BERVO_9000002 ! plant growth parameters
@@ -1724,6 +1741,7 @@ property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/g%20N%20g-1%20C
 [Term]
 id: bervo:BERVO_0000197
 name: specific respiration rate by bacterial N2 fixers
+def: "It quantifies how fast nitrogen fixing bacteria can oxidize its nonstructural biomass carbon to support its metabolism." []
 comment: GrosubPars.txt
 synonym: "VMXO" RELATED []
 is_a: bervo:BERVO_9000002 ! plant growth parameters
@@ -1732,6 +1750,7 @@ property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/g%20g-1%20h-1
 [Term]
 id: bervo:BERVO_0000198
 name: half saturation parameter for nodule maintenance respiration
+def: "The half saturation parameter when the effect of nodule C biomass on its maintenance is modeled using Michaelis-Menten kinetics" []
 comment: GrosubPars.txt
 synonym: "SPNDLK" RELATED []
 is_a: bervo:BERVO_9000002 ! plant growth parameters
@@ -1740,6 +1759,7 @@ property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/gC
 [Term]
 id: bervo:BERVO_0000199
 name: specific decomposition rate by bacterial N2 fixers
+def: "It quantifies how fast the N-fixing bacteria lose activity when mortality is modeled using the linear kinetics." []
 comment: GrosubPars.txt
 synonym: "SPNDL" RELATED []
 is_a: bervo:BERVO_9000002 ! plant growth parameters
@@ -1748,6 +1768,7 @@ property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/h-1
 [Term]
 id: bervo:BERVO_0000200
 name: parameter to calculate nonstructural C,N,P exchange
+def: "A model-specifc parameter to compute carbon, nitrogen and phosphorus exchange between nodule bacteria and their hosting plants." []
 comment: GrosubPars.txt
 synonym: "CCNGR" RELATED []
 is_a: bervo:BERVO_9000002 ! plant growth parameters
@@ -1755,6 +1776,7 @@ is_a: bervo:BERVO_9000002 ! plant growth parameters
 [Term]
 id: bervo:BERVO_0000202
 name: initial bacterial mass at infection
+def: "Initial noduble carbon biomass C at the time of infection of the hosting plant. The infection is applied when noduble biomass of the hosting plant is zero." []
 comment: GrosubPars.txt
 synonym: "NodulBiomCAtInfection" RELATED []
 is_a: bervo:BERVO_9000002 ! plant growth parameters
@@ -1763,6 +1785,7 @@ property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/gC
 [Term]
 id: bervo:BERVO_0000203
 name: Km for nonstructural Nuptake by bacteria
+def: "Half saturation parameter for modeling bacterial use of nonstructural nitrogen using the Michaelis-Menten kinetics" []
 comment: GrosubPars.txt
 synonym: "CZKM" RELATED []
 is_a: bervo:BERVO_9000002 ! plant growth parameters
@@ -1771,6 +1794,7 @@ property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/gN
 [Term]
 id: bervo:BERVO_0000204
 name: Km for nonstructural P uptake by bacteria
+def: "Half saturation parameter for modeling bacterial use of nonstructural phosphorus using the Michaelis-Menten kinetics" []
 comment: GrosubPars.txt
 synonym: "CPKM" RELATED []
 is_a: bervo:BERVO_9000002 ! plant growth parameters
@@ -1779,6 +1803,7 @@ property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/gP
 [Term]
 id: bervo:BERVO_0000205
 name: minimum fractions for root C recycling
+def: "Minimum fraction of root C can be recyled during root death" []
 comment: GrosubPars.txt
 synonym: "RCCZR" RELATED []
 is_a: bervo:BERVO_9000002 ! plant growth parameters
@@ -1786,6 +1811,7 @@ is_a: bervo:BERVO_9000002 ! plant growth parameters
 [Term]
 id: bervo:BERVO_0000206
 name: maximum fractions for root C recycling
+def: "Maximum fraction of root C can be recyled during root death" []
 comment: GrosubPars.txt
 synonym: "RCCYR" RELATED []
 is_a: bervo:BERVO_9000002 ! plant growth parameters
@@ -1793,6 +1819,7 @@ is_a: bervo:BERVO_9000002 ! plant growth parameters
 [Term]
 id: bervo:BERVO_0000207
 name: maximum fractions for root N recycling
+def: "Maximum fraction of root nitrogen can be recyled during root death" []
 comment: GrosubPars.txt
 synonym: "RCCXR" RELATED []
 is_a: bervo:BERVO_9000002 ! plant growth parameters
@@ -1800,6 +1827,7 @@ is_a: bervo:BERVO_9000002 ! plant growth parameters
 [Term]
 id: bervo:BERVO_0000208
 name: maximum fractions for root P recycling
+def: "Maximum fraction of root phosphorus can be recyled during root death" []
 comment: GrosubPars.txt
 synonym: "RCCQR" RELATED []
 is_a: bervo:BERVO_9000002 ! plant growth parameters
@@ -1807,6 +1835,7 @@ is_a: bervo:BERVO_9000002 ! plant growth parameters
 [Term]
 id: bervo:BERVO_0000209
 name: minimum fractions for bacteria C recycling
+def: "Minimum fraction of nodule bacteria C can be recyled during root death" []
 comment: GrosubPars.txt
 synonym: "RCCZN" RELATED []
 is_a: bervo:BERVO_9000002 ! plant growth parameters
@@ -1814,6 +1843,7 @@ is_a: bervo:BERVO_9000002 ! plant growth parameters
 [Term]
 id: bervo:BERVO_0000210
 name: maximum fractions for bacteria C recycling
+def: "Maximum fraction of nodule bacteria C can be recyled during root death" []
 comment: GrosubPars.txt
 synonym: "RCCYN" RELATED []
 is_a: bervo:BERVO_9000002 ! plant growth parameters
@@ -1821,6 +1851,7 @@ is_a: bervo:BERVO_9000002 ! plant growth parameters
 [Term]
 id: bervo:BERVO_0000211
 name: maximum fractions for bacteria N recycling
+def: "Maximum fraction of nodule bacteria nitrogen can be recyled during root death" []
 comment: GrosubPars.txt
 synonym: "RCCXN" RELATED []
 is_a: bervo:BERVO_9000002 ! plant growth parameters
@@ -1828,6 +1859,7 @@ is_a: bervo:BERVO_9000002 ! plant growth parameters
 [Term]
 id: bervo:BERVO_0000212
 name: maximum fractions for bacteria P recycling
+def: "Maximum fraction of nodule bacteria phosphorus can be recyled during root death" []
 comment: GrosubPars.txt
 synonym: "RCCQN" RELATED []
 is_a: bervo:BERVO_9000002 ! plant growth parameters
@@ -1835,6 +1867,7 @@ is_a: bervo:BERVO_9000002 ! plant growth parameters
 [Term]
 id: bervo:BERVO_0000213
 name: required hours after physl maturity until start of LitrFall
+def: "Number of hours need to accumulate to trigger litterfall after leaf maturity " []
 comment: GrosubPars.txt
 synonym: "HoursReq4LiterfalAftMature" RELATED []
 is_a: bervo:BERVO_9000002 ! plant growth parameters
@@ -1843,6 +1876,7 @@ property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/h
 [Term]
 id: bervo:BERVO_0000214
 name: rate constant for remobiln of storage chemical element during leafout
+def: "Rate parameter to compute the gradient driven carbon and nutrient exchange between seasonal storage and nonstructural pools" []
 comment: GrosubPars.txt
 synonym: "FRSV" RELATED []
 is_a: bervo:BERVO_9000002 ! plant growth parameters
@@ -1851,6 +1885,7 @@ property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/h-1
 [Term]
 id: bervo:BERVO_0000215
 name: rate constant for leaf-reserve nonstructural C exchange
+def: "Rate parameter to compute the gradient driven carbon exchange between stalk and leaf reserve pools" []
 comment: GrosubPars.txt
 synonym: "FXFY" RELATED []
 is_a: bervo:BERVO_9000002 ! plant growth parameters
@@ -1859,6 +1894,7 @@ property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/h-1
 [Term]
 id: bervo:BERVO_0000216
 name: rate constant for leaf-reserve nonstructural N,P exchange
+def: "Rate parameter to compute the gradient driven nitrogen and phosphorus  exchange between stalk and leaf reserve pools" []
 comment: GrosubPars.txt
 synonym: "FXFZ" RELATED []
 is_a: bervo:BERVO_9000002 ! plant growth parameters
@@ -1867,6 +1903,7 @@ property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/h-1
 [Term]
 id: bervo:BERVO_0000217
 name: rate constant for leaf-storage nonstructural chemical element exchange
+def: "Rate parameter for gradient-driven nonstructural carbon and nutrient exchange between shoot and seasonal storage pools" []
 comment: GrosubPars.txt
 synonym: "RateK4ShootSeaStoreNonstEXfer" RELATED []
 is_a: bervo:BERVO_9000002 ! plant growth parameters
@@ -1875,6 +1912,7 @@ property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/h-1
 [Term]
 id: bervo:BERVO_0000218
 name: rate constant for root-storage nonstructural chemical element exchange
+def: "Rate parameter for gradient driven nonstructural carbon and nutrient exchange between root and seasonal storage pools" []
 comment: GrosubPars.txt
 synonym: "RateK4RootSeaStorNonstEXfer" RELATED []
 is_a: bervo:BERVO_9000002 ! plant growth parameters
@@ -1883,6 +1921,7 @@ property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/h-1
 [Term]
 id: bervo:BERVO_0000219
 name: root partitioning of storage C during leafout
+def: "Fraction of mobilized seasonal storage allocated to roots upon leaf out" []
 comment: GrosubPars.txt
 synonym: "FXRT" RELATED []
 is_a: bervo:BERVO_9000002 ! plant growth parameters
@@ -1890,6 +1929,7 @@ is_a: bervo:BERVO_9000002 ! plant growth parameters
 [Term]
 id: bervo:BERVO_0000220
 name: shoot partitioning of storage C during leafout
+def: "Fraction of mobilized seasonal storage allocated to shoots upon leaf out" []
 comment: GrosubPars.txt
 synonym: "FXSH" RELATED []
 is_a: bervo:BERVO_9000002 ! plant growth parameters
@@ -1897,6 +1937,7 @@ is_a: bervo:BERVO_9000002 ! plant growth parameters
 [Term]
 id: bervo:BERVO_0000221
 name: rate constant for plant-bacteria nonstructl C,N,P exchange
+def: "Rate constant for modeling nonstructural C,N and P exchange between hosting plants and nodule bacteria" []
 comment: GrosubPars.txt
 synonym: "FXRN" RELATED []
 is_a: bervo:BERVO_9000002 ! plant growth parameters
@@ -1905,6 +1946,7 @@ property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/h-1
 [Term]
 id: bervo:BERVO_0000222
 name: maximum fractions for shoot N recycling
+def: "This parameters specifies the maximum fraction of nitrogen can be recycled upon senescence of plant canopy organs" []
 comment: GrosubPars.txt
 synonym: "RCCX" RELATED []
 is_a: bervo:BERVO_9000002 ! plant growth parameters
@@ -1912,6 +1954,7 @@ is_a: bervo:BERVO_9000002 ! plant growth parameters
 [Term]
 id: bervo:BERVO_0000223
 name: maximum fractions for shoot P recycling
+def: "This parameters specifies the maximum fraction of phosphorus can be recycled upon senescence of plant canopy organs" []
 comment: GrosubPars.txt
 synonym: "RCCQ" RELATED []
 is_a: bervo:BERVO_9000002 ! plant growth parameters
@@ -1919,6 +1962,7 @@ is_a: bervo:BERVO_9000002 ! plant growth parameters
 [Term]
 id: bervo:BERVO_0000224
 name: minimum fractions for shoot C recycling
+def: "This parameters specifies the minimum fraction of carbon can be recycled upon senescence of plant canopy organs" []
 comment: GrosubPars.txt
 synonym: "RCCZ" RELATED []
 is_a: bervo:BERVO_9000002 ! plant growth parameters
@@ -1926,6 +1970,7 @@ is_a: bervo:BERVO_9000002 ! plant growth parameters
 [Term]
 id: bervo:BERVO_0000225
 name: maximum fractions for shoot C recycling
+def: "This parameters specifies the maximum fraction of carbon can be recycled upon senescence of plant canopy organs" []
 comment: GrosubPars.txt
 synonym: "RCCY" RELATED []
 is_a: bervo:BERVO_9000002 ! plant growth parameters
@@ -1933,6 +1978,7 @@ is_a: bervo:BERVO_9000002 ! plant growth parameters
 [Term]
 id: bervo:BERVO_0000226
 name: number of hours after physiol maturity required for senescence
+def: "This parameters specifies the number of hours required for plant to initiate senescence after maturity" []
 comment: GrosubPars.txt
 synonym: "Hours4SenesAftMature" RELATED []
 is_a: bervo:BERVO_9000002 ! plant growth parameters
@@ -1941,6 +1987,7 @@ property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/h
 [Term]
 id: bervo:BERVO_0000227
 name: number of hours required to initiate remobilization of storage C for leafout
+def: "This parameters specifies the number of hours required for plant to initiate storage carbon remobilization after leafout" []
 comment: GrosubPars.txt
 synonym: "HourReq2InitSStor4LeafOut" RELATED []
 is_a: bervo:BERVO_9000002 ! plant growth parameters
@@ -1949,6 +1996,7 @@ property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/h
 [Term]
 id: bervo:BERVO_0000228
 name: specific oxidation rate of nonstructural C during leafout at 25 C
+def: "This parameters specifies how much seasonal storage C is oxidized to support canopy and root development" []
 comment: GrosubPars.txt
 synonym: "GVMX" RELATED []
 is_a: bervo:BERVO_9000002 ! plant growth parameters
@@ -1957,6 +2005,7 @@ property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/h
 [Term]
 id: bervo:BERVO_0000229
 name: relative primary root sink strength 0.25=shallow,4.0=deep root profile
+def: "This parameter scales the relative sink strength for non-structural carbon and nutrient for growing primary and secondary roots" []
 comment: GrosubPars.txt
 synonym: "RTSK" RELATED []
 is_a: bervo:BERVO_9000002 ! plant growth parameters
@@ -1964,6 +2013,7 @@ is_a: bervo:BERVO_9000002 ! plant growth parameters
 [Term]
 id: bervo:BERVO_0000230
 name: changes to weather data (0=none,1=step,2=transient)
+def: "This parameter is obsolete, and was EcoSIM specific." []
 comment: FlagDataType.txt
 synonym: "ICLM" RELATED []
 is_a: bervo:BERVO_9000003 ! flag data type
@@ -1971,6 +2021,7 @@ is_a: bervo:BERVO_9000003 ! flag data type
 [Term]
 id: bervo:BERVO_0000231
 name: flag for land management
+def: "This parameter is obsolete, and was EcoSIM specific." []
 comment: FlagDataType.txt
 synonym: "IMNG" RELATED []
 is_a: bervo:BERVO_9000003 ! flag data type
@@ -1978,6 +2029,7 @@ is_a: bervo:BERVO_9000003 ! flag data type
 [Term]
 id: bervo:BERVO_0000232
 name: weather data type:1=daily,2=hourly for first(L=1) or second(L=2) scene
+def: "This EcoSIM specific flag parameter is used for internal forcing data processing" []
 comment: FlagDataType.txt
 synonym: "IWTHR" RELATED []
 is_a: bervo:BERVO_9000003 ! flag data type
@@ -1985,6 +2037,7 @@ is_a: bervo:BERVO_9000003 ! flag data type
 [Term]
 id: bervo:BERVO_0000233
 name: fertilizer release type from fertilizer input file
+def: "This specifies what kind of fertilizer is applied in the model, which could be mineral fertilizer, plant residue, or animal maure." []
 comment: FlagDataType.txt
 synonym: "IYTYP" RELATED []
 is_a: bervo:BERVO_9000003 ! flag data type
@@ -1992,6 +2045,7 @@ is_a: bervo:BERVO_9000003 ! flag data type
 [Term]
 id: bervo:BERVO_0000234
 name: soil disturbance type
+def: "This EcoSIM flag parameters specifies what type of disturbances are applied to soil, including tillage, fire, litter removal or drainge." []
 comment: FlagDataType.txt
 synonym: "iSoilDisturbType_col" RELATED []
 is_a: bervo:BERVO_9000003 ! flag data type
@@ -1999,6 +2053,7 @@ is_a: bervo:BERVO_9000003 ! flag data type
 [Term]
 id: bervo:BERVO_0000235
 name: Koppen climate zone
+def: "The Köppen climate zone refers to a region defined by the Köppen climate classification system. " []
 comment: FlagDataType.txt
 synonym: "KoppenClimZone_col" RELATED []
 is_a: bervo:BERVO_9000003 ! flag data type
@@ -2006,6 +2061,7 @@ is_a: bervo:BERVO_9000003 ! flag data type
 [Term]
 id: bervo:BERVO_0000236
 name: flag for irrigation criterion,0=SWC,1=canopy water potential
+def: "This EcoSIM parameter species how irrigation is triggered, which could be based on soil moisture content or canopy water potential" []
 comment: FlagDataType.txt
 synonym: "IFLGV_col" RELATED []
 is_a: bervo:BERVO_9000003 ! flag data type
@@ -2013,6 +2069,7 @@ is_a: bervo:BERVO_9000003 ! flag data type
 [Term]
 id: bervo:BERVO_0000237
 name: disturbance flag
+def: "This EcoSIM parameter species whether to reset soil profile after some triggering events, like erosion or tillage." []
 comment: FlagDataType.txt
 synonym: "iResetSoilProf_col" RELATED []
 is_a: bervo:BERVO_9000003 ! flag data type
@@ -2020,6 +2077,7 @@ is_a: bervo:BERVO_9000003 ! flag data type
 [Term]
 id: bervo:BERVO_0000238
 name: banded NH4 fertilizer flag
+def: "This flag indicates wheter NH4 is applied with broadcast." []
 comment: FlagDataType.txt
 synonym: "IFNHB_col" RELATED []
 is_a: bervo:BERVO_9000003 ! flag data type
@@ -2027,6 +2085,7 @@ is_a: bervo:BERVO_9000003 ! flag data type
 [Term]
 id: bervo:BERVO_0000239
 name: banded NO3 fertilizer flag
+def: "This flag indicates wheter NO3 is applied with broadcast." []
 comment: FlagDataType.txt
 synonym: "IFNOB_col" RELATED []
 is_a: bervo:BERVO_9000003 ! flag data type
@@ -2034,6 +2093,7 @@ is_a: bervo:BERVO_9000003 ! flag data type
 [Term]
 id: bervo:BERVO_0000240
 name: banded H2PO4 fertilizer flag
+def: "This flag indicates whether H2PO4 is applied with broadcast" []
 comment: FlagDataType.txt
 synonym: "IFPOB_col" RELATED []
 is_a: bervo:BERVO_9000003 ! flag data type
@@ -2041,6 +2101,7 @@ is_a: bervo:BERVO_9000003 ! flag data type
 [Term]
 id: bervo:BERVO_0000241
 name: flag for calculating FC(1),WP(2),SCNV(3),SCNH(4)
+def: "This indicates whether the model has input soil properties or has to compute based on soil texture and soil organic matter." []
 comment: FlagDataType.txt
 synonym: "ISOIL_vr" RELATED []
 is_a: bervo:BERVO_9000003 ! flag data type
@@ -2048,6 +2109,7 @@ is_a: bervo:BERVO_9000003 ! flag data type
 [Term]
 id: bervo:BERVO_0000242
 name: natural(0),reconstructed(1) soil profile
+def: "This indicates the soil input type, whether is natural or reconstruction " []
 comment: FlagDataType.txt
 synonym: "ISOILR_col" RELATED []
 is_a: bervo:BERVO_9000003 ! flag data type
@@ -2517,7 +2579,7 @@ id: bervo:BERVO_0000292
 name: total soil H2
 comment: EcoSimSumDataType.txt
 synonym: "TSoilH2G_lnd" RELATED []
-is_a: bervo:BERVO_9000005 ! ecosim sum data type
+is_a: bervo:BERVO_9000005 ! sum data type
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/g%20d-2
 
 [Term]
@@ -2525,7 +2587,7 @@ id: bervo:BERVO_0000293
 name: total soil gas
 comment: EcoSimSumDataType.txt
 synonym: "SurfGas_lnd" RELATED []
-is_a: bervo:BERVO_9000005 ! ecosim sum data type
+is_a: bervo:BERVO_9000005 ! sum data type
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/g%20d-2
 
 [Term]
@@ -2533,7 +2595,7 @@ id: bervo:BERVO_0000294
 name: total plant element (C,N,P, etc) balance
 comment: EcoSimSumDataType.txt
 synonym: "PlantElemntStoreLandscape" RELATED []
-is_a: bervo:BERVO_9000005 ! ecosim sum data type
+is_a: bervo:BERVO_9000005 ! sum data type
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/g%20d-2
 
 [Term]
@@ -2541,7 +2603,7 @@ id: bervo:BERVO_0000295
 name: cumulative H2 loss through lateral and lower boundaries
 comment: EcoSimSumDataType.txt
 synonym: "H2GOU" RELATED []
-is_a: bervo:BERVO_9000005 ! ecosim sum data type
+is_a: bervo:BERVO_9000005 ! sum data type
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/g%20d-2
 
 [Term]
@@ -2550,7 +2612,7 @@ name: total soil ion content
 def: "Total soil ion content refers to the sum of all the ion concentrations in a soil sample. It is an aggregate measure of the total quantity of ions present, which could include essential plant nutrients like nitrogen (N), phosphorous (P), and potassium (K), as well as other elements. This measurement is useful in determining soil fertility and nutrient availability for plant growth." []
 comment: EcoSimSumDataType.txt
 synonym: "TION" RELATED []
-is_a: bervo:BERVO_9000005 ! ecosim sum data type
+is_a: bervo:BERVO_9000005 ! sum data type
 property_value: bervo:BERVO_Attribute http://www.w3.org/2002/07/Content
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/mol%20d-2
 property_value: bervo:BERVO_measured_in http://www.w3.org/2002/07/Soil
@@ -2561,7 +2623,7 @@ id: bervo:BERVO_0000297
 name: total surface ion flux
 comment: EcoSimSumDataType.txt
 synonym: "TIONIN" RELATED []
-is_a: bervo:BERVO_9000005 ! ecosim sum data type
+is_a: bervo:BERVO_9000005 ! sum data type
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/mol%20d-2
 
 [Term]
@@ -2570,7 +2632,7 @@ name: total subsurface ion flux
 def: "Total subsurface ion flux refers to the total movement of ions, or charged particles, within the subsurface or subsurface waters. This includes both the downward movement of ions through the soil profile (leaching) and the upward movement of ions from the subsurface to the surface (capillary rise or upward diffusion). It is a crucial factor in nutrient cycling, soil chemistry, and water quality." []
 comment: EcoSimSumDataType.txt
 synonym: "TIONOU" RELATED []
-is_a: bervo:BERVO_9000005 ! ecosim sum data type
+is_a: bervo:BERVO_9000005 ! sum data type
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/mol%20d-2
 property_value: bervo:BERVO_measured_in http://www.w3.org/2002/07/Subsurface
 property_value: bervo:BERVO_measurement_of http://www.w3.org/2002/07/Ion
@@ -2580,7 +2642,7 @@ id: bervo:BERVO_0000299
 name: total soil sediment
 comment: EcoSimSumDataType.txt
 synonym: "TSEDSO" RELATED []
-is_a: bervo:BERVO_9000005 ! ecosim sum data type
+is_a: bervo:BERVO_9000005 ! sum data type
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/Mg%20d-2
 
 [Term]
@@ -2589,7 +2651,7 @@ name: total sediment subsurface flux
 def: "Total sediment subsurface flux refers to the total amount of sediment that is transported below the surface level due to natural processes such as soil erosion, landslide, and others. It is an important measure in the study of land degradation, soil conservation, and sediment transport." []
 comment: EcoSimSumDataType.txt
 synonym: "TSedmErossLoss_lnds" RELATED []
-is_a: bervo:BERVO_9000005 ! ecosim sum data type
+is_a: bervo:BERVO_9000005 ! sum data type
 property_value: bervo:BERVO_Attribute http://www.w3.org/2002/07/Flux
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/Mg%20d-2
 property_value: bervo:BERVO_measured_in http://www.w3.org/2002/07/Subsurface
@@ -2601,7 +2663,7 @@ name: total soil water content
 def: "Total soil water content refers to the volume of water contained within a soil sample, usually expressed as a percentage of the total volume of the soil. It is an important parameter in the study of soil and environmental sciences because it affects various physical, chemical, and biological properties of the soil such as its permeability, nutrient cycling, and microbial activity. Soil water content is also a critical factor for plant growth as it affects the availability of water for plant uptake." []
 comment: EcoSimSumDataType.txt
 synonym: "WatMassStore_lnd" RELATED []
-is_a: bervo:BERVO_9000005 ! ecosim sum data type
+is_a: bervo:BERVO_9000005 ! sum data type
 property_value: bervo:BERVO_Attribute http://www.w3.org/2002/07/WaterContent
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/m3%20d-2
 property_value: bervo:BERVO_measured_in http://www.w3.org/2002/07/Soil
@@ -2611,7 +2673,7 @@ id: bervo:BERVO_0000302
 name: total soil heat content
 comment: EcoSimSumDataType.txt
 synonym: "HeatStore_lnd" RELATED []
-is_a: bervo:BERVO_9000005 ! ecosim sum data type
+is_a: bervo:BERVO_9000005 ! sum data type
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/MJ%20d-2
 
 [Term]
@@ -2619,7 +2681,7 @@ id: bervo:BERVO_0000303
 name: total soil O2 content
 comment: EcoSimSumDataType.txt
 synonym: "TSoilO2G_lnd" RELATED []
-is_a: bervo:BERVO_9000005 ! ecosim sum data type
+is_a: bervo:BERVO_9000005 ! sum data type
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/g%20d-2
 
 [Term]
@@ -2627,7 +2689,7 @@ id: bervo:BERVO_0000304
 name: total soil litter OM content
 comment: EcoSimSumDataType.txt
 synonym: "LitRMStoreLndscap" RELATED []
-is_a: bervo:BERVO_9000005 ! ecosim sum data type
+is_a: bervo:BERVO_9000005 ! sum data type
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/g%20d-2
 
 [Term]
@@ -2635,7 +2697,7 @@ id: bervo:BERVO_0000305
 name: total soil POM + humus C content
 comment: EcoSimSumDataType.txt
 synonym: "POMHumStoreLndscap" RELATED []
-is_a: bervo:BERVO_9000005 ! ecosim sum data type
+is_a: bervo:BERVO_9000005 ! sum data type
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/g%20d-2
 
 [Term]
@@ -2643,7 +2705,7 @@ id: bervo:BERVO_0000306
 name: total soil NH4 content
 comment: EcoSimSumDataType.txt
 synonym: "TDisolNH4_lnd" RELATED []
-is_a: bervo:BERVO_9000005 ! ecosim sum data type
+is_a: bervo:BERVO_9000005 ! sum data type
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/g%20d-2
 
 [Term]
@@ -2651,7 +2713,7 @@ id: bervo:BERVO_0000307
 name: total soil NO3 content
 comment: EcoSimSumDataType.txt
 synonym: "tNO3_lnd" RELATED []
-is_a: bervo:BERVO_9000005 ! ecosim sum data type
+is_a: bervo:BERVO_9000005 ! sum data type
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/g%20d-2
 
 [Term]
@@ -2660,7 +2722,7 @@ name: total soil PO4 content
 def: "Total soil PO4 content refers to the collective amount of phosphate (PO4) ions held within the soil. Phosphate is a form of phosphorus which is considered an essential nutrient for plant life. It is necessary for various biological processes including energy metabolism and the synthesis of nucleic acids. The total soil PO4 content can influence nutrient availability and uptake by plants, as well as overall soil fertility. Assessing the total soil PO4 content is important for agricultural practices and soil management strategies." []
 comment: EcoSimSumDataType.txt
 synonym: "TDisolPi_lnd" RELATED []
-is_a: bervo:BERVO_9000005 ! ecosim sum data type
+is_a: bervo:BERVO_9000005 ! sum data type
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/g%20d-2
 property_value: bervo:BERVO_measured_in http://www.w3.org/2002/07/Soil
 property_value: bervo:BERVO_measurement_of http://www.w3.org/2002/07/PO4
@@ -2671,7 +2733,7 @@ name: total precipitation
 def: "Total precipitation refers to the sum of all forms of precipitation, including rain, snow, sleet, and hail, over a certain period. It is a crucial element of the Earth’s water cycle, and its measurement is critical for meteorology, hydrology, and climatology. Notably, total precipitation enables the quantification of water resources and facilitates the understanding of weather patterns and climate change." []
 comment: EcoSimSumDataType.txt
 synonym: "CRAIN_lnd" RELATED []
-is_a: bervo:BERVO_9000005 ! ecosim sum data type
+is_a: bervo:BERVO_9000005 ! sum data type
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/m3%20d-2
 property_value: bervo:BERVO_measured_in http://www.w3.org/2002/07/Atmosphere
 property_value: bervo:BERVO_measurement_of http://www.w3.org/2002/07/Water
@@ -2681,7 +2743,7 @@ id: bervo:BERVO_0000310
 name: total surface heat flux
 comment: EcoSimSumDataType.txt
 synonym: "HEATIN_lnd" RELATED []
-is_a: bervo:BERVO_9000005 ! ecosim sum data type
+is_a: bervo:BERVO_9000005 ! sum data type
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/MJ%20d-2
 
 [Term]
@@ -2689,7 +2751,7 @@ id: bervo:BERVO_0000311
 name: total organic C amendment
 comment: EcoSimSumDataType.txt
 synonym: "tAmendOrgC_lnd" RELATED []
-is_a: bervo:BERVO_9000005 ! ecosim sum data type
+is_a: bervo:BERVO_9000005 ! sum data type
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/g%20d-2
 
 [Term]
@@ -2697,7 +2759,7 @@ id: bervo:BERVO_0000312
 name: total organic N amendment
 comment: EcoSimSumDataType.txt
 synonym: "TORGN" RELATED []
-is_a: bervo:BERVO_9000005 ! ecosim sum data type
+is_a: bervo:BERVO_9000005 ! sum data type
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/g%20d-2
 
 [Term]
@@ -2705,7 +2767,7 @@ id: bervo:BERVO_0000313
 name: total organic P amendment
 comment: EcoSimSumDataType.txt
 synonym: "TORGP" RELATED []
-is_a: bervo:BERVO_9000005 ! ecosim sum data type
+is_a: bervo:BERVO_9000005 ! sum data type
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/g%20d-2
 
 [Term]
@@ -2714,7 +2776,7 @@ name: total subsurface water flux
 def: "Total subsurface water flux refers to the collective movement of water below the surface of the Earth, including through soil, substrates, and aquifers. It represents the sum of various flux-related processes such as infiltration, percolation, groundwater flow, and capillary rise. This parameter plays a crucial role in hydrology and Earth system modeling, influencing various processes like nutrient cycling, crop production, and ecosystem functioning, as well as human activities such as water supply and irrigation practices." []
 comment: EcoSimSumDataType.txt
 synonym: "QH2OLoss_lnds" RELATED []
-is_a: bervo:BERVO_9000005 ! ecosim sum data type
+is_a: bervo:BERVO_9000005 ! sum data type
 property_value: bervo:BERVO_Attribute http://www.w3.org/2002/07/WaterFlux
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/m3%20d-2
 property_value: bervo:BERVO_measured_in http://www.w3.org/2002/07/Subsurface
@@ -2725,7 +2787,7 @@ name: total evaporation
 def: "Total evaporation, or evapotranspiration, is the sum of evaporation and plant transpiration from the Earth's land and ocean surface to the atmosphere. It is an important part of the water cycle, and affects micro and macro climate." []
 comment: EcoSimSumDataType.txt
 synonym: "CEVAP" RELATED []
-is_a: bervo:BERVO_9000005 ! ecosim sum data type
+is_a: bervo:BERVO_9000005 ! sum data type
 property_value: bervo:BERVO_Attribute http://www.w3.org/2002/07/Evaporation
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/m3%20d-2
 property_value: bervo:BERVO_measurement_of http://www.w3.org/2002/07/Water
@@ -2736,7 +2798,7 @@ name: total surface runoff
 def: "Total surface runoff, commonly referred to as 'runoff', is the part of the water cycle that flows over land as surface water instead of being absorbed into the ground or evaporating into the air. It is a major component of the water cycle, and it is responsible for transporting water from the land to the ocean. Runoff can originate from rain, snowmelt, and other forms of precipitation, and it is major source of water pollution, carrying surface pollutants through the environment. In Earth systems modeling, total surface runoff is a key variable which helps us understand and simulate the water flow within a catchment area." []
 comment: EcoSimSumDataType.txt
 synonym: "CRUN" RELATED []
-is_a: bervo:BERVO_9000005 ! ecosim sum data type
+is_a: bervo:BERVO_9000005 ! sum data type
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/m3%20d-2
 property_value: bervo:BERVO_measured_in http://www.w3.org/2002/07/Runoff
 property_value: bervo:BERVO_measurement_of http://www.w3.org/2002/07/Water
@@ -2746,7 +2808,7 @@ id: bervo:BERVO_0000317
 name: total subsurface heat flux
 comment: EcoSimSumDataType.txt
 synonym: "HeatOut_lnds" RELATED []
-is_a: bervo:BERVO_9000005 ! ecosim sum data type
+is_a: bervo:BERVO_9000005 ! sum data type
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/MJ%20d-2
 
 [Term]
@@ -2754,7 +2816,7 @@ id: bervo:BERVO_0000318
 name: total subsurface O2 flux
 comment: EcoSimSumDataType.txt
 synonym: "OXYGOU" RELATED []
-is_a: bervo:BERVO_9000005 ! ecosim sum data type
+is_a: bervo:BERVO_9000005 ! sum data type
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/g%20d-2
 
 [Term]
@@ -2762,7 +2824,7 @@ id: bervo:BERVO_0000319
 name: total subsurface C flux
 comment: EcoSimSumDataType.txt
 synonym: "TOMOU_lnds" RELATED []
-is_a: bervo:BERVO_9000005 ! ecosim sum data type
+is_a: bervo:BERVO_9000005 ! sum data type
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/g%20d-2
 
 [Term]
@@ -2770,7 +2832,7 @@ id: bervo:BERVO_0000320
 name: total surface N flux
 comment: EcoSimSumDataType.txt
 synonym: "TZIN" RELATED []
-is_a: bervo:BERVO_9000005 ! ecosim sum data type
+is_a: bervo:BERVO_9000005 ! sum data type
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/g%20d-2
 
 [Term]
@@ -2778,7 +2840,7 @@ id: bervo:BERVO_0000321
 name: total surface P flux
 comment: EcoSimSumDataType.txt
 synonym: "TPIN" RELATED []
-is_a: bervo:BERVO_9000005 ! ecosim sum data type
+is_a: bervo:BERVO_9000005 ! sum data type
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/g%20d-2
 
 [Term]
@@ -2786,7 +2848,7 @@ id: bervo:BERVO_0000323
 name: total soil CO2
 comment: EcoSimSumDataType.txt
 synonym: "TGasC_lnd" RELATED []
-is_a: bervo:BERVO_9000005 ! ecosim sum data type
+is_a: bervo:BERVO_9000005 ! sum data type
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/g%20d-2
 
 [Term]
@@ -2794,7 +2856,7 @@ id: bervo:BERVO_0000324
 name: total soil N2
 comment: EcoSimSumDataType.txt
 synonym: "TGasN_lnd" RELATED []
-is_a: bervo:BERVO_9000005 ! ecosim sum data type
+is_a: bervo:BERVO_9000005 ! sum data type
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/g%20d-2
 
 [Term]
@@ -5916,7 +5978,7 @@ name: Altitude of landscape
 def: "The altitude of a landscape refers to the vertical distance between a specific point on the Earth's surface and a reference point, usually sea level. It is an important parameter in Earth system modeling as it influences a wide range of physical and biological processes, including temperature, precipitation patterns, atmospheric circulation, and distribution of plant and animal species. Altitude is typically measured in meters or feet and is essential for accurately simulating and analyzing the behavior and interactions of Earth's systems." []
 comment: LandSurfDataType.txt
 synonym: "ALTIG" RELATED []
-is_a: bervo:BERVO_9000009 ! land surf data type
+is_a: bervo:BERVO_9000009 ! land surface data type
 property_value: bervo:BERVO_Attribute http://www.w3.org/2002/07/Altitude
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/m
 property_value: bervo:BERVO_measured_in http://www.w3.org/2002/07/Landscape
@@ -5926,7 +5988,7 @@ id: bervo:BERVO_0000671
 name: Initial soil surface roughness height
 comment: LandSurfDataType.txt
 synonym: "SoilSurfRoughnesst0_col" RELATED []
-is_a: bervo:BERVO_9000009 ! land surf data type
+is_a: bervo:BERVO_9000009 ! land surface data type
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/m
 
 [Term]
@@ -5934,7 +5996,7 @@ id: bervo:BERVO_0000672
 name: Zero plane displacement height
 comment: LandSurfDataType.txt
 synonym: "ZERO4PlantDisplace_col" RELATED []
-is_a: bervo:BERVO_9000009 ! land surf data type
+is_a: bervo:BERVO_9000009 ! land surface data type
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/m
 
 [Term]
@@ -5942,7 +6004,7 @@ id: bervo:BERVO_0000673
 name: Canopy surface roughness height
 comment: LandSurfDataType.txt
 synonym: "RoughHeight_col" RELATED []
-is_a: bervo:BERVO_9000009 ! land surf data type
+is_a: bervo:BERVO_9000009 ! land surface data type
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/m
 
 [Term]
@@ -5950,7 +6012,7 @@ id: bervo:BERVO_0000674
 name: Soil surface roughness height for calculating runoff velocity
 comment: LandSurfDataType.txt
 synonym: "SoiSurfRoughness" RELATED []
-is_a: bervo:BERVO_9000009 ! land surf data type
+is_a: bervo:BERVO_9000009 ! land surface data type
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/m
 
 [Term]
@@ -5958,7 +6020,7 @@ id: bervo:BERVO_0000675
 name: Wind speed measurement height
 comment: LandSurfDataType.txt
 synonym: "WindMesureHeight_col" RELATED []
-is_a: bervo:BERVO_9000009 ! land surf data type
+is_a: bervo:BERVO_9000009 ! land surface data type
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/m
 
 [Term]
@@ -5967,7 +6029,7 @@ name: Altitude of grid cell
 def: "The altitude of a grid cell refers to the vertical distance between the surface of the Earth and a specific point within the grid cell. It is a parameter used in earth systems modeling to account for the variation in elevation across different regions. Altitude plays a crucial role in determining temperature, precipitation patterns, atmospheric pressure, and other important climate variables within a grid cell." []
 comment: LandSurfDataType.txt
 synonym: "ALT_col" RELATED []
-is_a: bervo:BERVO_9000009 ! land surf data type
+is_a: bervo:BERVO_9000009 ! land surface data type
 property_value: bervo:BERVO_Attribute http://www.w3.org/2002/07/Altitude
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/m
 property_value: bervo:BERVO_measured_in http://www.w3.org/2002/07/GridCell
@@ -5979,7 +6041,7 @@ name: Isothermal boundary layer resistance
 def: "Isothermal boundary layer resistance refers to the measure of resistance that a uniform and constant temperature boundary layer imposes on the exchange of heat and moisture between the surface and the atmosphere in Earth system models. It quantifies the hindrance that the boundary layer presents to the transport and mixing of energy and water vapor, which can significantly influence the surface energy balance and atmospheric processes. This parameter is particularly relevant for simulating and understanding the interactions between the land surface and the lower atmosphere within Earth system models." []
 comment: LandSurfDataType.txt
 synonym: "AbvCanopyBndlResist_col" RELATED []
-is_a: bervo:BERVO_9000009 ! land surf data type
+is_a: bervo:BERVO_9000009 ! land surface data type
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/h%20m-1
 
 [Term]
@@ -5987,7 +6049,7 @@ id: bervo:BERVO_0000678
 name: Richardson number for calculating boundary layer resistance
 comment: LandSurfDataType.txt
 synonym: "RIB_col" RELATED []
-is_a: bervo:BERVO_9000009 ! land surf data type
+is_a: bervo:BERVO_9000009 ! land surface data type
 
 [Term]
 id: bervo:BERVO_0000680
@@ -5995,21 +6057,21 @@ name: sine of slope
 def: "The value obtained from the mathematical function of sine applied to the gradient or slope. It is often used in various calculations in earth system sciences, such as those related to hill slopes, flow directions, and solar radiation." []
 comment: LandSurfDataType.txt
 synonym: "SineGrndSlope_col" RELATED []
-is_a: bervo:BERVO_9000009 ! land surf data type
+is_a: bervo:BERVO_9000009 ! land surface data type
 
 [Term]
 id: bervo:BERVO_0000681
 name: cosine of slope
 comment: LandSurfDataType.txt
 synonym: "CosineGrndSlope_col" RELATED []
-is_a: bervo:BERVO_9000009 ! land surf data type
+is_a: bervo:BERVO_9000009 ! land surface data type
 
 [Term]
 id: bervo:BERVO_0000682
 name: azimuth of slope
 comment: LandSurfDataType.txt
 synonym: "GroundSurfAzimuth_col" RELATED []
-is_a: bervo:BERVO_9000009 ! land surf data type
+is_a: bervo:BERVO_9000009 ! land surface data type
 property_value: bervo:BERVO_measured_in http://www.w3.org/2002/07/Slope
 
 [Term]
@@ -6017,7 +6079,7 @@ id: bervo:BERVO_0000683
 name: altitude
 comment: LandSurfDataType.txt
 synonym: "ALTZ_col" RELATED []
-is_a: bervo:BERVO_9000009 ! land surf data type
+is_a: bervo:BERVO_9000009 ! land surface data type
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/m
 
 [Term]
@@ -6025,7 +6087,7 @@ id: bervo:BERVO_0000684
 name: slope
 comment: LandSurfDataType.txt
 synonym: "SL_col" RELATED []
-is_a: bervo:BERVO_9000009 ! land surf data type
+is_a: bervo:BERVO_9000009 ! land surface data type
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/degree
 
 [Term]
@@ -6034,7 +6096,7 @@ name: aspect
 def: "Aspect refers to the spatial orientation or direction in which a land surface or geographical feature faces. It is typically expressed in terms of compass directions, such as north, south, east, or west. Aspect plays a significant role in various earth system processes, such as solar radiation patterns, temperature distribution, and vegetation growth. It is an important parameter in earth systems modeling as it affects the spatial distribution of climate variables and influences ecosystem dynamics at local and regional scales." []
 comment: LandSurfDataType.txt
 synonym: "ASP_col" RELATED []
-is_a: bervo:BERVO_9000009 ! land surf data type
+is_a: bervo:BERVO_9000009 ! land surface data type
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/degree
 property_value: bervo:BERVO_measurement_of http://www.w3.org/2002/07/LandSurface
 
@@ -10030,7 +10092,7 @@ id: bervo:BERVO_0001139
 name: surface litter bulk density
 comment: SurfLitterDataType.txt
 synonym: "BulkDensLitR" RELATED []
-is_a: bervo:BERVO_9000017 ! surf litter data type
+is_a: bervo:BERVO_9000017 ! surface litter data type
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/Mg%20m-3
 
 [Term]
@@ -10039,7 +10101,7 @@ name: surface litter boundary layer conductance
 def: "Surface litter boundary layer conductance refers to the rate of energy or mass transfer from the litter layer on the surface of the soil to the atmosphere. This is largely dependent on factors such as litter type, structure, and moisture content, along with atmospheric conditions such as wind speed, temperature, and humidity." []
 comment: SurfLitterDataType.txt
 synonym: "PARR_col" RELATED []
-is_a: bervo:BERVO_9000017 ! surf litter data type
+is_a: bervo:BERVO_9000017 ! surface litter data type
 property_value: bervo:BERVO_Context http://www.w3.org/2002/07/BoundaryLayer
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/m%20t-1
 property_value: bervo:BERVO_measured_in http://www.w3.org/2002/07/GroundSurface
@@ -10049,14 +10111,14 @@ id: bervo:BERVO_0001141
 name: surface litter type:1 = plant, 2 = manure
 comment: SurfLitterDataType.txt
 synonym: "iLitrType_col" RELATED []
-is_a: bervo:BERVO_9000017 ! surf litter data type
+is_a: bervo:BERVO_9000017 ! surface litter data type
 
 [Term]
 id: bervo:BERVO_0001142
 name: factor for surface litter incorporation and soil mixing
 comment: SurfLitterDataType.txt
 synonym: "XTillCorp_col" RELATED []
-is_a: bervo:BERVO_9000017 ! surf litter data type
+is_a: bervo:BERVO_9000017 ! surface litter data type
 
 [Term]
 id: bervo:BERVO_0001143
@@ -10064,7 +10126,7 @@ name: water transfer between soil surface and surface litter
 def: "Water transfer between soil surface and surface litter this variable represents the movement of water between the soil surface and the surface litter, or organic material, that covers the soil. This exchange of water can occur through various processes, including direct contact, capillary action, and gravitational movement. The amount and rate of water transfer can vary depending on factors such as soil properties, litter characteristics, and environmental conditions. Understanding this water exchange is important for modeling and simulating soil hydrology, soil moisture dynamics, and overall ecosystem functioning." []
 comment: SurfLitterDataType.txt
 synonym: "WatFLoLitr2SoilM_col" RELATED []
-is_a: bervo:BERVO_9000017 ! surf litter data type
+is_a: bervo:BERVO_9000017 ! surface litter data type
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/g%20d-2%20t-1
 property_value: bervo:BERVO_measured_in http://www.w3.org/2002/07/SoilSurface
 property_value: bervo:BERVO_measured_in http://www.w3.org/2002/07/SurfaceLitter
@@ -10075,7 +10137,7 @@ id: bervo:BERVO_0001144
 name: meltwater flux into surface litter
 comment: SurfLitterDataType.txt
 synonym: "WatFlowSno2LitRM_col" RELATED []
-is_a: bervo:BERVO_9000017 ! surf litter data type
+is_a: bervo:BERVO_9000017 ! surface litter data type
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/m3%20d-2%20h-1
 
 [Term]
@@ -10084,7 +10146,7 @@ name: fraction of soil surface covered by surface litter
 def: "FracSurfByLitR refers to the proportion of the soil surface that is covered by surface litter. Surface litter refers to the layer of fallen leaves, twigs, bark, and other organic material that covers the soil surface. It plays a crucial role in the nutrient cycling processes in ecosystems, providing a source of nutrients and organic matter to the soil below and offering protection against soil erosion." []
 comment: SurfLitterDataType.txt
 synonym: "FracSurfByLitR_col" RELATED []
-is_a: bervo:BERVO_9000017 ! surf litter data type
+is_a: bervo:BERVO_9000017 ! surface litter data type
 property_value: bervo:BERVO_Context http://www.w3.org/2002/07/SurfaceLitter
 property_value: bervo:BERVO_measured_in http://www.w3.org/2002/07/SoilSurface
 
@@ -10093,7 +10155,7 @@ id: bervo:BERVO_0001146
 name: net heat transfer to surface litter
 comment: SurfLitterDataType.txt
 synonym: "HeatFLoByWat2LitR_col" RELATED []
-is_a: bervo:BERVO_9000017 ! surf litter data type
+is_a: bervo:BERVO_9000017 ! surface litter data type
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/MJ%20d-2%20t-1
 
 [Term]
@@ -10101,7 +10163,7 @@ id: bervo:BERVO_0001147
 name: surface litter volume
 comment: SurfLitterDataType.txt
 synonym: "VLitR_col" RELATED []
-is_a: bervo:BERVO_9000017 ! surf litter data type
+is_a: bervo:BERVO_9000017 ! surface litter data type
 property_value: bervo:BERVO_Attribute http://www.w3.org/2002/07/Volume
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/m3%20d-2
 property_value: bervo:BERVO_measured_in http://www.w3.org/2002/07/SurfaceLitter
@@ -10112,7 +10174,7 @@ name: threshold surface litter heat capacity
 def: "Threshold surface litter heat capacity refers to the minimum amount of heat energy required to change the temperature of a given amount of surface litter by a certain degree. It is an important parameter in the modelling of fire dynamics and the effects of wildfires on ecosystems, as it helps to determine the susceptiblity of surface litter to ignition and combustion." []
 comment: SurfLitterDataType.txt
 synonym: "VHeatCapLitRMin_col" RELATED []
-is_a: bervo:BERVO_9000017 ! surf litter data type
+is_a: bervo:BERVO_9000017 ! surface litter data type
 property_value: bervo:BERVO_Attribute http://www.w3.org/2002/07/HeatCapacity
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/MJ%20d-2%20K-1
 property_value: bervo:BERVO_measured_in http://www.w3.org/2002/07/SurfaceLitter
@@ -10122,7 +10184,7 @@ id: bervo:BERVO_0001149
 name: surface litter water holding capacity
 comment: SurfLitterDataType.txt
 synonym: "VWatLitRHoldCapcity_col" RELATED []
-is_a: bervo:BERVO_9000017 ! surf litter data type
+is_a: bervo:BERVO_9000017 ! surface litter data type
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/m3%20d-2
 
 [Term]
@@ -10131,7 +10193,7 @@ name: net water transfer to surface litter
 def: "Net water transfer to surface litter refers to the total amount of water that is transferred to the surface litter layer of an ecosystem from other parts of the ecosystem, over a given period of time. The surface litter layer, which is made up of decomposing organic matter such as dead leaves, grasses, and other plant materials, plays a crucial role in the hydrological cycle of the ecosystem. This process is an essential aspect of water cycle in ecosystems, influencing soil moisture levels, nutrient cycling, and the overall health and functioning of the ecosystem." []
 comment: SurfLitterDataType.txt
 synonym: "WatFLo2LitR_col" RELATED []
-is_a: bervo:BERVO_9000017 ! surf litter data type
+is_a: bervo:BERVO_9000017 ! surface litter data type
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/MJ%20d-2%20t-1
 property_value: bervo:BERVO_measured_in http://www.w3.org/2002/07/Litter
 property_value: bervo:BERVO_measurement_of http://www.w3.org/2002/07/Water
@@ -10142,7 +10204,7 @@ id: bervo:BERVO_0001151
 name: water from ice thaw in surface litter
 comment: SurfLitterDataType.txt
 synonym: "TLitrIceFlxThaw_col" RELATED []
-is_a: bervo:BERVO_9000017 ! surf litter data type
+is_a: bervo:BERVO_9000017 ! surface litter data type
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/m3%20d-2%20h-1
 
 [Term]
@@ -10150,7 +10212,7 @@ id: bervo:BERVO_0001152
 name: latent heat released from water freeze in surface litter
 comment: SurfLitterDataType.txt
 synonym: "TLitrIceHeatFlxFrez_col" RELATED []
-is_a: bervo:BERVO_9000017 ! surf litter data type
+is_a: bervo:BERVO_9000017 ! surface litter data type
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/MJ%20d-2%20h-1
 
 [Term]
@@ -10159,7 +10221,7 @@ name: precipitation flux into surface litter
 def: "Precipitation flux into surface litter refers to the flow rate of precipitation, such as rain, snowfall, or dew, into the surface litter layer of an ecosystem. Surface litter, which consists of dead plant material such as leaves and twigs, plays a critical role in nutrient cycling and soil formation. Measurement of this precipitation flux is important for understanding the hydrological dynamics of an ecosystem, particularly the processes of infiltration and percolation." []
 comment: SurfLitterDataType.txt
 synonym: "Rain2LitRSurf_col" RELATED []
-is_a: bervo:BERVO_9000017 ! surf litter data type
+is_a: bervo:BERVO_9000017 ! surface litter data type
 property_value: bervo:BERVO_Attribute http://www.w3.org/2002/07/Flux
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/m3%20d-2%20h-1
 property_value: bervo:BERVO_measured_in http://www.w3.org/2002/07/SurfaceLitter
@@ -10171,7 +10233,7 @@ name: irrigation flux into surface litter
 def: "Irrigation flux into surface litter quantifies the amount of water added to the surface litter layer of the soil through irrigation. Surface litter refers to the organic material, such as dead leaves, twigs, and other plant residues, that covers the soil surface. This process can affect the moisture content and decomposition rates of the surface litter, affecting nutrient cycling and soil fertility." []
 comment: SurfLitterDataType.txt
 synonym: "Irrig2LitRSurf_col" RELATED []
-is_a: bervo:BERVO_9000017 ! surf litter data type
+is_a: bervo:BERVO_9000017 ! surface litter data type
 property_value: bervo:BERVO_Attribute http://www.w3.org/2002/07/Flux
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/m3%20d-2%20h-1
 property_value: bervo:BERVO_measured_in http://www.w3.org/2002/07/SurfaceLitter
@@ -10182,7 +10244,7 @@ id: bervo:BERVO_0001155
 name: litter porosity
 comment: SurfLitterDataType.txt
 synonym: "POROS0_col" RELATED []
-is_a: bervo:BERVO_9000017 ! surf litter data type
+is_a: bervo:BERVO_9000017 ! surface litter data type
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/m3%20pore%20m-3%20litr
 
 [Term]
@@ -10190,7 +10252,7 @@ id: bervo:BERVO_0001156
 name: surface litter OM in each complex
 comment: SurfLitterDataType.txt
 synonym: "RC0_col" RELATED []
-is_a: bervo:BERVO_9000017 ! surf litter data type
+is_a: bervo:BERVO_9000017 ! surface litter data type
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/g%20d-2
 
 [Term]
@@ -10198,7 +10260,7 @@ id: bervo:BERVO_0001157
 name: surface litter OM in the autotrophic complex
 comment: SurfLitterDataType.txt
 synonym: "RC0ff_col" RELATED []
-is_a: bervo:BERVO_9000017 ! surf litter data type
+is_a: bervo:BERVO_9000017 ! surface litter data type
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/g%20d-2
 
 [Term]
@@ -10206,7 +10268,7 @@ id: bervo:BERVO_0001158
 name: total inital water mass in litter layer
 comment: SurfLitterDataType.txt
 synonym: "LitWatMassBeg_col" RELATED []
-is_a: bervo:BERVO_9000017 ! surf litter data type
+is_a: bervo:BERVO_9000017 ! surface litter data type
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/m3%20H2O%20d-2
 
 [Term]
@@ -10214,7 +10276,7 @@ id: bervo:BERVO_0001159
 name: total final water mass in litter layer
 comment: SurfLitterDataType.txt
 synonym: "LitWatMassEnd_col" RELATED []
-is_a: bervo:BERVO_9000017 ! surf litter data type
+is_a: bervo:BERVO_9000017 ! surface litter data type
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/m3%20H2O%20d-2
 
 [Term]
@@ -10222,7 +10284,7 @@ id: bervo:BERVO_0001160
 name: total precipiation reaches the litter layer
 comment: SurfLitterDataType.txt
 synonym: "Rain2LitR_col" RELATED []
-is_a: bervo:BERVO_9000017 ! surf litter data type
+is_a: bervo:BERVO_9000017 ! surface litter data type
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/m3%20H3O%20d-2%20h-1
 
 [Term]
@@ -11168,7 +11230,7 @@ id: bervo:BERVO_0001280
 name: seconds per hour
 comment: EcoSimConst.txt
 synonym: "secsphour" RELATED []
-is_a: bervo:BERVO_9000020 ! ecosim constant
+is_a: bervo:BERVO_9000020 ! constant
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/s/hour
 
 [Term]
@@ -11176,7 +11238,7 @@ id: bervo:BERVO_0001281
 name: seconds per day
 comment: EcoSimConst.txt
 synonym: "secspday" RELATED []
-is_a: bervo:BERVO_9000020 ! ecosim constant
+is_a: bervo:BERVO_9000020 ! constant
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/s/day
 
 [Term]
@@ -11184,14 +11246,14 @@ id: bervo:BERVO_0001282
 name: seconds in a normal year
 comment: EcoSimConst.txt
 synonym: "secspyear" RELATED []
-is_a: bervo:BERVO_9000020 ! ecosim constant
+is_a: bervo:BERVO_9000020 ! constant
 
 [Term]
 id: bervo:BERVO_0001283
 name: volumetric heat capacity for water
 comment: EcoSimConst.txt
 synonym: "cpw" RELATED []
-is_a: bervo:BERVO_9000020 ! ecosim constant
+is_a: bervo:BERVO_9000020 ! constant
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/J/g/K~MJ/m3/K
 
 [Term]
@@ -11199,7 +11261,7 @@ id: bervo:BERVO_0001284
 name: volumetric heat capacity for ice
 comment: EcoSimConst.txt
 synonym: "cpi" RELATED []
-is_a: bervo:BERVO_9000020 ! ecosim constant
+is_a: bervo:BERVO_9000020 ! constant
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/MJ/m3/K
 
 [Term]
@@ -11207,7 +11269,7 @@ id: bervo:BERVO_0001285
 name: heat capacity for organic matter
 comment: EcoSimConst.txt
 synonym: "cpo" RELATED []
-is_a: bervo:BERVO_9000020 ! ecosim constant
+is_a: bervo:BERVO_9000020 ! constant
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/MJ/K/gC
 
 [Term]
@@ -11215,7 +11277,7 @@ id: bervo:BERVO_0001286
 name: volumetric heat capacity for fresh snow
 comment: EcoSimConst.txt
 synonym: "cps" RELATED []
-is_a: bervo:BERVO_9000020 ! ecosim constant
+is_a: bervo:BERVO_9000020 ! constant
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/MJ/m3/K
 
 [Term]
@@ -11223,7 +11285,7 @@ id: bervo:BERVO_0001287
 name: frozen temperature
 comment: EcoSimConst.txt
 synonym: "TFice" RELATED []
-is_a: bervo:BERVO_9000020 ! ecosim constant
+is_a: bervo:BERVO_9000020 ! constant
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/K
 
 [Term]
@@ -11231,7 +11293,7 @@ id: bervo:BERVO_0001288
 name: temperature for converting celcius to Kelvin
 comment: EcoSimConst.txt
 synonym: "TC2K" RELATED []
-is_a: bervo:BERVO_9000020 ! ecosim constant
+is_a: bervo:BERVO_9000020 ! constant
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/K
 
 [Term]
@@ -11239,7 +11301,7 @@ id: bervo:BERVO_0001289
 name: reference temperature for atmospheric variables
 comment: EcoSimConst.txt
 synonym: "Tref" RELATED []
-is_a: bervo:BERVO_9000020 ! ecosim constant
+is_a: bervo:BERVO_9000020 ! constant
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/K
 
 [Term]
@@ -11247,7 +11309,7 @@ id: bervo:BERVO_0001290
 name: minimum heat capacities for solving snowpack layered water and heat fluxes
 comment: EcoSimConst.txt
 synonym: "VLHeatCapSnoMin" RELATED []
-is_a: bervo:BERVO_9000020 ! ecosim constant
+is_a: bervo:BERVO_9000020 ! constant
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/MJ/K
 
 [Term]
@@ -11255,7 +11317,7 @@ id: bervo:BERVO_0001291
 name: minimum heat capacities for solving surface litter water and heat fluxes
 comment: EcoSimConst.txt
 synonym: "VLHeatCapLitRMin" RELATED []
-is_a: bervo:BERVO_9000020 ! ecosim constant
+is_a: bervo:BERVO_9000020 ! constant
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/MJ/K
 
 [Term]
@@ -11263,7 +11325,7 @@ id: bervo:BERVO_0001292
 name: minimum heat capacities for solving soil water and heat fluxes
 comment: EcoSimConst.txt
 synonym: "VLHeatCapSoiMin" RELATED []
-is_a: bervo:BERVO_9000020 ! ecosim constant
+is_a: bervo:BERVO_9000020 ! constant
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/MJ/K
 
 [Term]
@@ -11271,28 +11333,28 @@ id: bervo:BERVO_0001293
 name: Pi
 comment: EcoSimConst.txt
 synonym: "PICON" RELATED []
-is_a: bervo:BERVO_9000020 ! ecosim constant
+is_a: bervo:BERVO_9000020 ! constant
 
 [Term]
 id: bervo:BERVO_0001294
 name: Pi/2
 comment: EcoSimConst.txt
 synonym: "PICON2h" RELATED []
-is_a: bervo:BERVO_9000020 ! ecosim constant
+is_a: bervo:BERVO_9000020 ! constant
 
 [Term]
 id: bervo:BERVO_0001295
 name: 2Pi
 comment: EcoSimConst.txt
 synonym: "TwoPiCON" RELATED []
-is_a: bervo:BERVO_9000020 ! ecosim constant
+is_a: bervo:BERVO_9000020 ! constant
 
 [Term]
 id: bervo:BERVO_0001296
 name: saturated water pressure
 comment: EcoSimConst.txt
 synonym: "PSIPS" RELATED []
-is_a: bervo:BERVO_9000020 ! ecosim constant
+is_a: bervo:BERVO_9000020 ! constant
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/Mpa
 
 [Term]
@@ -11300,7 +11362,7 @@ id: bervo:BERVO_0001297
 name: pi/180
 comment: EcoSimConst.txt
 synonym: "RadianPerDegree" RELATED []
-is_a: bervo:BERVO_9000020 ! ecosim constant
+is_a: bervo:BERVO_9000020 ! constant
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/rad/degree
 
 [Term]
@@ -11308,7 +11370,7 @@ id: bervo:BERVO_0001298
 name: latent heat of fusion release from water to ice
 comment: EcoSimConst.txt
 synonym: "LtHeatIceMelt" RELATED []
-is_a: bervo:BERVO_9000020 ! ecosim constant
+is_a: bervo:BERVO_9000020 ! constant
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/kJ/kg
 
 [Term]
@@ -11316,7 +11378,7 @@ id: bervo:BERVO_0001299
 name: latent heat of vaporization of water
 comment: EcoSimConst.txt
 synonym: "EvapLHTC" RELATED []
-is_a: bervo:BERVO_9000020 ! ecosim constant
+is_a: bervo:BERVO_9000020 ! constant
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/kJ/kg
 
 [Term]
@@ -11324,7 +11386,7 @@ id: bervo:BERVO_0001300
 name: sublimation of ice
 comment: EcoSimConst.txt
 synonym: "SublmHTC" RELATED []
-is_a: bervo:BERVO_9000020 ! ecosim constant
+is_a: bervo:BERVO_9000020 ! constant
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/kJ/kg
 
 [Term]
@@ -11332,7 +11394,7 @@ id: bervo:BERVO_0001301
 name: assumed thermal conductivity below lower soil boundary
 comment: EcoSimConst.txt
 synonym: "TCNDG" RELATED []
-is_a: bervo:BERVO_9000020 ! ecosim constant
+is_a: bervo:BERVO_9000020 ! constant
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/MJ%20m-1%20h-1%20K-1
 
 [Term]
@@ -11340,7 +11402,7 @@ id: bervo:BERVO_0001302
 name: universal gas constant
 comment: EcoSimConst.txt
 synonym: "RGASC" RELATED []
-is_a: bervo:BERVO_9000020 ! ecosim constant
+is_a: bervo:BERVO_9000020 ! constant
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/J%20(mole%20K)%5E-1
 
 [Term]
@@ -11348,7 +11410,7 @@ id: bervo:BERVO_0001303
 name: density of organic carbon
 comment: EcoSimConst.txt
 synonym: "orgcden" RELATED []
-is_a: bervo:BERVO_9000020 ! ecosim constant
+is_a: bervo:BERVO_9000020 ! constant
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/gC%20m-3
 
 [Term]
@@ -11356,7 +11418,7 @@ id: bervo:BERVO_0001304
 name: elapsing height for atmospheric pressure
 comment: EcoSimConst.txt
 synonym: "hpresc" RELATED []
-is_a: bervo:BERVO_9000020 ! ecosim constant
+is_a: bervo:BERVO_9000020 ! constant
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/m
 
 [Term]
@@ -11364,14 +11426,14 @@ id: bervo:BERVO_0001305
 name: soil porosity ^ 2/3
 comment: EcoSimConst.txt
 synonym: "POROQ" RELATED []
-is_a: bervo:BERVO_9000020 ! ecosim constant
+is_a: bervo:BERVO_9000020 ! constant
 
 [Term]
 id: bervo:BERVO_0001306
 name: minimum SOC for combustion
 comment: EcoSimConst.txt
 synonym: "FORGC" RELATED []
-is_a: bervo:BERVO_9000020 ! ecosim constant
+is_a: bervo:BERVO_9000020 ! constant
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/g%20Mg-1
 
 [Term]
@@ -11379,7 +11441,7 @@ id: bervo:BERVO_0001307
 name: maximum soil water content for combustion
 comment: EcoSimConst.txt
 synonym: "VolMaxSoilMoist4Fire" RELATED []
-is_a: bervo:BERVO_9000020 ! ecosim constant
+is_a: bervo:BERVO_9000020 ! constant
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/m3%20m-3
 
 [Term]
@@ -11387,14 +11449,14 @@ id: bervo:BERVO_0001308
 name: fraction of combusted C released as CH4
 comment: EcoSimConst.txt
 synonym: "FrcAsCH4byFire" RELATED []
-is_a: bervo:BERVO_9000020 ! ecosim constant
+is_a: bervo:BERVO_9000020 ! constant
 
 [Term]
 id: bervo:BERVO_0001309
 name: hygroscopic water potential, very dry (but not air dry)
 comment: EcoSimConst.txt
 synonym: "PSIHY" RELATED []
-is_a: bervo:BERVO_9000020 ! ecosim constant
+is_a: bervo:BERVO_9000020 ! constant
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/MPa
 
 [Term]
@@ -11402,7 +11464,7 @@ id: bervo:BERVO_0001310
 name: Km for heterotrophic O2 uptake
 comment: EcoSimConst.txt
 synonym: "OXKM" RELATED []
-is_a: bervo:BERVO_9000020 ! ecosim constant
+is_a: bervo:BERVO_9000020 ! constant
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/gO%20m-3
 
 [Term]
@@ -11410,7 +11472,7 @@ id: bervo:BERVO_0001311
 name: minimum air-filled porosity for gas transfer
 comment: EcoSimConst.txt
 synonym: "AirFillPore_Min" RELATED []
-is_a: bervo:BERVO_9000020 ! ecosim constant
+is_a: bervo:BERVO_9000020 ! constant
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/m3%20m-3
 
 [Term]
@@ -11418,7 +11480,7 @@ id: bervo:BERVO_0001312
 name: air content of ice
 comment: EcoSimConst.txt
 synonym: "THETPI" RELATED []
-is_a: bervo:BERVO_9000020 ! ecosim constant
+is_a: bervo:BERVO_9000020 ! constant
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/m3%20m-3
 
 [Term]
@@ -11426,7 +11488,7 @@ id: bervo:BERVO_0001313
 name: ice density
 comment: EcoSimConst.txt
 synonym: "DENSICE" RELATED []
-is_a: bervo:BERVO_9000020 ! ecosim constant
+is_a: bervo:BERVO_9000020 ! constant
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/g/cm3~ton/m3
 
 [Term]
@@ -11434,7 +11496,7 @@ id: bervo:BERVO_0001314
 name: snowpack surface roughness
 comment: EcoSimConst.txt
 synonym: "ZW" RELATED []
-is_a: bervo:BERVO_9000020 ! ecosim constant
+is_a: bervo:BERVO_9000020 ! constant
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/m
 
 [Term]
@@ -11442,7 +11504,7 @@ id: bervo:BERVO_0001315
 name: C-12 molar mass
 comment: EcoSimConst.txt
 synonym: "Catomw" RELATED []
-is_a: bervo:BERVO_9000020 ! ecosim constant
+is_a: bervo:BERVO_9000020 ! constant
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/g/mol
 
 [Term]
@@ -11450,7 +11512,7 @@ id: bervo:BERVO_0001316
 name: N-14 molar mass
 comment: EcoSimConst.txt
 synonym: "Natomw" RELATED []
-is_a: bervo:BERVO_9000020 ! ecosim constant
+is_a: bervo:BERVO_9000020 ! constant
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/g/mol
 
 [Term]
@@ -11458,7 +11520,7 @@ id: bervo:BERVO_0001317
 name: P-31 molar mass
 comment: EcoSimConst.txt
 synonym: "Patomw" RELATED []
-is_a: bervo:BERVO_9000020 ! ecosim constant
+is_a: bervo:BERVO_9000020 ! constant
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/g/mol
 
 [Term]
@@ -11466,14 +11528,14 @@ id: bervo:BERVO_0001318
 name: sine of solar inclination angle at twilight
 comment: EcoSimConst.txt
 synonym: "TWILGT" RELATED []
-is_a: bervo:BERVO_9000020 ! ecosim constant
+is_a: bervo:BERVO_9000020 ! constant
 
 [Term]
 id: bervo:BERVO_0001319
 name: multiplier to convert organic carbon (g C/d2) to soil mass (Mg/d2)
 comment: EcoSimConst.txt
 synonym: "MWC2Soil" RELATED []
-is_a: bervo:BERVO_9000020 ! ecosim constant
+is_a: bervo:BERVO_9000020 ! constant
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/Mg%20soil/gC
 
 [Term]
@@ -12367,28 +12429,28 @@ id: bervo:BERVO_0001439
 name: fraction of snow cover
 comment: SurfSoilDataType.txt
 synonym: "FracSurfAsSnow_col" RELATED []
-is_a: bervo:BERVO_9000022 ! surf and soil data type
+is_a: bervo:BERVO_9000022 ! surface and soil data type
 
 [Term]
 id: bervo:BERVO_0001440
 name: fraction of snow-free cover
 comment: SurfSoilDataType.txt
 synonym: "FracSurfSnoFree_col" RELATED []
-is_a: bervo:BERVO_9000022 ! surf and soil data type
+is_a: bervo:BERVO_9000022 ! surface and soil data type
 
 [Term]
 id: bervo:BERVO_0001441
 name: fraction of exposed soil surface
 comment: SurfSoilDataType.txt
 synonym: "FracSurfBareSoil_col" RELATED []
-is_a: bervo:BERVO_9000022 ! surf and soil data type
+is_a: bervo:BERVO_9000022 ! surface and soil data type
 
 [Term]
 id: bervo:BERVO_0001442
 name: longwave radiation emitted from ground surface
 comment: SurfSoilDataType.txt
 synonym: "LWRadBySurf_col" RELATED []
-is_a: bervo:BERVO_9000022 ! surf and soil data type
+is_a: bervo:BERVO_9000022 ! surface and soil data type
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/MJ%20d-2%20t-1
 
 [Term]
@@ -12396,7 +12458,7 @@ id: bervo:BERVO_0001443
 name: total net radiation at ground surface
 comment: SurfSoilDataType.txt
 synonym: "HeatByRad2Surf_col" RELATED []
-is_a: bervo:BERVO_9000022 ! surf and soil data type
+is_a: bervo:BERVO_9000022 ! surface and soil data type
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/MJ%20d-2%20t-1
 
 [Term]
@@ -12404,7 +12466,7 @@ id: bervo:BERVO_0001444
 name: total latent heat flux at ground surface
 comment: SurfSoilDataType.txt
 synonym: "HeatEvapAir2Surf_col" RELATED []
-is_a: bervo:BERVO_9000022 ! surf and soil data type
+is_a: bervo:BERVO_9000022 ! surface and soil data type
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/MJ%20d-2%20t-1
 
 [Term]
@@ -12413,7 +12475,7 @@ name: total sensible heat flux at ground surface
 def: "Total sensible heat flux at ground surface refers to the total amount of energy, in Joules (J), transferred from the ground surface to the atmosphere as a result of differences in temperature. This process is one of the main ways energy is exchanged between the surface and the atmosphere, impacting climate and weather patterns." []
 comment: SurfSoilDataType.txt
 synonym: "HeatSensAir2Surf_col" RELATED []
-is_a: bervo:BERVO_9000022 ! surf and soil data type
+is_a: bervo:BERVO_9000022 ! surface and soil data type
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/MJ%20d-2%20t-1
 property_value: bervo:BERVO_measured_in http://www.w3.org/2002/07/GroundSurface
 property_value: bervo:BERVO_measurement_of http://www.w3.org/2002/07/Energy
@@ -12424,7 +12486,7 @@ name: total convective heat flux at ground surface
 def: "Total convective heat flux at ground surface refers to the total amount of heat transferred by convection from the air to the ground surface. This parameter is important in meteorology and climate science as it influences local air temperatures, weather patterns, and the overall energy balance of the Earth's surface. It is usually expressed in watts per square meter (W/m²)." []
 comment: SurfSoilDataType.txt
 synonym: "HeatSensVapAir2Surf_col" RELATED []
-is_a: bervo:BERVO_9000022 ! surf and soil data type
+is_a: bervo:BERVO_9000022 ! surface and soil data type
 property_value: bervo:BERVO_Attribute http://www.w3.org/2002/07/Flux
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/MJ%20d-2%20t-1
 property_value: bervo:BERVO_measured_in http://www.w3.org/2002/07/Air
@@ -12437,7 +12499,7 @@ name: total ground heat flux at ground surface
 def: "Total ground heat flux at ground surface, often expressed in watts per square meter (W/m²), refers to the rate at which heat energy is transferred to the ground surface. It is an important component of the Earth's surface energy balance and can have significant impacts on climate, weather patterns, and physical processes in the Earth's surface and subsurface." []
 comment: SurfSoilDataType.txt
 synonym: "HeatNet2Surf_col" RELATED []
-is_a: bervo:BERVO_9000022 ! surf and soil data type
+is_a: bervo:BERVO_9000022 ! surface and soil data type
 property_value: bervo:BERVO_Attribute http://www.w3.org/2002/07/Flux
 property_value: bervo:BERVO_Context http://www.w3.org/2002/07/GroundSurface
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/MJ%20d-2%20t-1
@@ -12450,7 +12512,7 @@ name: negative of total evaporation at ground surface
 def: "Negative of total evaporation at ground surface refers to the negative amount of the total water evaporated from the ground surface, including water bodies, soil surface and plant surfaces. This value indicates the rate or speed at which water changes from a liquid to a gas or vapor state. This evaporation can occur due to solar radiation, wind, temperature, air pressure, and other environmental conditions." []
 comment: SurfSoilDataType.txt
 synonym: "VapXAir2GSurf_col" RELATED []
-is_a: bervo:BERVO_9000022 ! surf and soil data type
+is_a: bervo:BERVO_9000022 ! surface and soil data type
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/m3%20d-2%20t-1
 property_value: bervo:BERVO_measured_in http://www.w3.org/2002/07/GroundSurface
 property_value: bervo:BERVO_measurement_of http://www.w3.org/2002/07/TotalEvaporation
@@ -12460,7 +12522,7 @@ id: bervo:BERVO_0001449
 name: surface water storage capacity
 comment: SurfSoilDataType.txt
 synonym: "VWatStoreCapSurf_col" RELATED []
-is_a: bervo:BERVO_9000022 ! surf and soil data type
+is_a: bervo:BERVO_9000022 ! surface and soil data type
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/m3%20d-2
 
 [Term]
@@ -12468,7 +12530,7 @@ id: bervo:BERVO_0001450
 name: soil surface water retention capacity
 comment: SurfSoilDataType.txt
 synonym: "VLWatHeldCapSurf_col" RELATED []
-is_a: bervo:BERVO_9000022 ! surf and soil data type
+is_a: bervo:BERVO_9000022 ! surface and soil data type
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/m3%20d-2
 
 [Term]
@@ -12476,7 +12538,7 @@ id: bervo:BERVO_0001451
 name: minimum heat capacities
 comment: SurfSoilDataType.txt
 synonym: "VHCPNX_col" RELATED []
-is_a: bervo:BERVO_9000022 ! surf and soil data type
+is_a: bervo:BERVO_9000022 ! surface and soil data type
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/MJ%20k-1%20d-2
 
 [Term]
@@ -12484,7 +12546,7 @@ id: bervo:BERVO_0001452
 name: area upscaled soil surface boundary layer conductance
 comment: SurfSoilDataType.txt
 synonym: "CondGasXSnowM_col" RELATED []
-is_a: bervo:BERVO_9000022 ! surf and soil data type
+is_a: bervo:BERVO_9000022 ! surface and soil data type
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/m%20d-2
 
 [Term]
@@ -12493,7 +12555,7 @@ name: precipitation flux into soil surface
 def: "Precipitation flux into soil surface refers to the rate at which water (from rainfall, snow melt, etc.) enters the soil surface per unit area. This parameter is crucial in hydrological studies and modeling, as it impacts soil moisture levels, groundwater recharge, runoff generation and erosion." []
 comment: SurfSoilDataType.txt
 synonym: "Rain2SoilSurf_col" RELATED []
-is_a: bervo:BERVO_9000022 ! surf and soil data type
+is_a: bervo:BERVO_9000022 ! surface and soil data type
 property_value: bervo:BERVO_Attribute http://www.w3.org/2002/07/Flux
 property_value: bervo:BERVO_Context http://www.w3.org/2002/07/Precipitation
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/m3%20d-2%20h-1
@@ -12506,7 +12568,7 @@ name: irrifation flux into soil surface
 def: "Irrigation flux into soil surface refers to the rate at which water from irrigation enters the soil surface. This is an important factor in agricultural management and water resource planning as it directly influences the amount of water available to crops and its effectiveness in promoting plant growth. Measurements of this parameter can help optimize irrigation strategies and conserve water resources." []
 comment: SurfSoilDataType.txt
 synonym: "Irrig2SoilSurf_col" RELATED []
-is_a: bervo:BERVO_9000022 ! surf and soil data type
+is_a: bervo:BERVO_9000022 ! surface and soil data type
 property_value: bervo:BERVO_Attribute http://www.w3.org/2002/07/Flux
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/m3%20d-2%20h-1
 property_value: bervo:BERVO_measured_in http://www.w3.org/2002/07/SoilSurface
@@ -12517,7 +12579,7 @@ id: bervo:BERVO_0001455
 name: lake surface water flux
 comment: SurfSoilDataType.txt
 synonym: "LakeSurfFlowMicP_col" RELATED []
-is_a: bervo:BERVO_9000022 ! surf and soil data type
+is_a: bervo:BERVO_9000022 ! surface and soil data type
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/m3%20d-2%20h-1
 
 [Term]
@@ -12525,7 +12587,7 @@ id: bervo:BERVO_0001458
 name: lake surface heat flux, outgoing positive
 comment: SurfSoilDataType.txt
 synonym: "LakeSurfHeatFlux_col" RELATED []
-is_a: bervo:BERVO_9000022 ! surf and soil data type
+is_a: bervo:BERVO_9000022 ! surface and soil data type
 property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/m3%20d-2%20h-1
 
 [Term]
@@ -15183,28 +15245,28 @@ is_a: bervo:BERVO_9000032 ! soil and water data type
 
 [Term]
 id: bervo:BERVO_0001778
-name: sclar for northern subsurface boundary water flux
+name: scalar for northern subsurface boundary water flux
 comment: SoilWaterDataType.txt
 synonym: "RechrgDistNorthSubSurf_col" RELATED []
 is_a: bervo:BERVO_9000032 ! soil and water data type
 
 [Term]
 id: bervo:BERVO_0001779
-name: sclar for eastern subsurface boundary water flux
+name: scalar for eastern subsurface boundary water flux
 comment: SoilWaterDataType.txt
 synonym: "RechrgDistEastSubSurf_col" RELATED []
 is_a: bervo:BERVO_9000032 ! soil and water data type
 
 [Term]
 id: bervo:BERVO_0001780
-name: sclar for southern subsurface boundary water flux
+name: scalar for southern subsurface boundary water flux
 comment: SoilWaterDataType.txt
 synonym: "RechrgDistSouthSubSurf_col" RELATED []
 is_a: bervo:BERVO_9000032 ! soil and water data type
 
 [Term]
 id: bervo:BERVO_0001781
-name: sclar for western subsurface boundary water flux
+name: scalar for western subsurface boundary water flux
 comment: SoilWaterDataType.txt
 synonym: "RechrgDistWestSubSurf_col" RELATED []
 is_a: bervo:BERVO_9000032 ! soil and water data type
@@ -15243,35 +15305,35 @@ property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/h-1
 
 [Term]
 id: bervo:BERVO_0001786
-name: sclar for northern surface boundary water flux
+name: scalar for northern surface boundary water flux
 comment: SoilWaterDataType.txt
 synonym: "RechargNorthSurf_col" RELATED []
 is_a: bervo:BERVO_9000032 ! soil and water data type
 
 [Term]
 id: bervo:BERVO_0001787
-name: sclar for eastern surface boundary water flux
+name: scalar for eastern surface boundary water flux
 comment: SoilWaterDataType.txt
 synonym: "RechargEastSurf_col" RELATED []
 is_a: bervo:BERVO_9000032 ! soil and water data type
 
 [Term]
 id: bervo:BERVO_0001788
-name: sclar for southern surface boundary water flux
+name: scalar for southern surface boundary water flux
 comment: SoilWaterDataType.txt
 synonym: "RechargSouthSurf_col" RELATED []
 is_a: bervo:BERVO_9000032 ! soil and water data type
 
 [Term]
 id: bervo:BERVO_0001789
-name: sclar for western surface boundary water flux
+name: scalar for western surface boundary water flux
 comment: SoilWaterDataType.txt
 synonym: "RechargWestSurf_col" RELATED []
 is_a: bervo:BERVO_9000032 ! soil and water data type
 
 [Term]
 id: bervo:BERVO_0001790
-name: sclar for lower subsurface boundary water flux
+name: scalar for lower subsurface boundary water flux
 comment: SoilWaterDataType.txt
 synonym: "RechargBottom_col" RELATED []
 is_a: bervo:BERVO_9000032 ! soil and water data type
@@ -15605,7 +15667,7 @@ property_value: bervo:BERVO_has_unit http://www.w3.org/2002/07/m3%20H2O%20d-2%20
 
 [Term]
 id: bervo:BERVO_9000000
-name: ecosim biogeochemical flux type
+name: biogeochemical flux type
 comment: EcosimBGCFluxType.txt
 synonym: "EcosimBGCFluxType" RELATED []
 is_a: bervo:BERVO_0000000 ! variable
@@ -15640,7 +15702,7 @@ is_a: bervo:BERVO_0000000 ! variable
 
 [Term]
 id: bervo:BERVO_9000005
-name: ecosim sum data type
+name: sum data type
 comment: EcoSimSumDataType.txt
 synonym: "EcoSimSumDataType" RELATED []
 is_a: bervo:BERVO_0000000 ! variable
@@ -15668,7 +15730,7 @@ is_a: bervo:BERVO_0000000 ! variable
 
 [Term]
 id: bervo:BERVO_9000009
-name: land surf data type
+name: land surface data type
 comment: LandSurfDataType.txt
 synonym: "LandSurfDataType" RELATED []
 is_a: bervo:BERVO_0000000 ! variable
@@ -15724,7 +15786,7 @@ is_a: bervo:BERVO_0000000 ! variable
 
 [Term]
 id: bervo:BERVO_9000017
-name: surf litter data type
+name: surface litter data type
 comment: SurfLitterDataType.txt
 synonym: "SurfLitterDataType" RELATED []
 is_a: bervo:BERVO_0000000 ! variable
@@ -15745,7 +15807,7 @@ is_a: bervo:BERVO_0000000 ! variable
 
 [Term]
 id: bervo:BERVO_9000020
-name: ecosim constant
+name: constant
 comment: EcoSimConst.txt
 synonym: "EcoSimConst" RELATED []
 is_a: bervo:BERVO_0000000 ! variable
@@ -15759,7 +15821,7 @@ is_a: bervo:BERVO_0000000 ! variable
 
 [Term]
 id: bervo:BERVO_9000022
-name: surf and soil data type
+name: surface and soil data type
 comment: SurfSoilDataType.txt
 synonym: "SurfSoilDataType" RELATED []
 is_a: bervo:BERVO_0000000 ! variable
