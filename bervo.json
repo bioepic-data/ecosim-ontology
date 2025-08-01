@@ -13,15 +13,11 @@
         "val" : "BERVO"
       }, {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
-        "val" : "2025-07-28"
+        "val" : "2025-08-01"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/bervo/releases/2025-07-28/bervo.json"
+      "version" : "http://purl.obolibrary.org/obo/bervo/releases/2025-08-01/bervo.json"
     },
     "nodes" : [ {
-      "id" : "http://purl.obolibrary.org/obo/BERVO_0000000",
-      "lbl" : "root node",
-      "type" : "CLASS"
-    }, {
       "id" : "https://w3id.org/bervo/BERVO_0000000",
       "lbl" : "variable",
       "type" : "CLASS",
@@ -3088,6 +3084,9 @@
       "lbl" : "leaf water content, (g H2O g-1 C)",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "Water associated with leaf biomass"
+        },
         "comments" : [ "GrosubPars.txt" ],
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
@@ -3099,6 +3098,9 @@
       "lbl" : "leaf water content in bundle sheath, in C4 CO2 fixn",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "Leaf biomass water in bundle sheath cells"
+        },
         "comments" : [ "GrosubPars.txt" ],
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
@@ -3114,6 +3116,9 @@
       "lbl" : "leaf water content in mesophyll in C4 CO2 fixn",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "Leaf biomass water in mesophyll cells"
+        },
         "comments" : [ "GrosubPars.txt" ],
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
@@ -3129,6 +3134,9 @@
       "lbl" : "min N:C,P:C in leaves relative to max values from PFT file",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "Ratio of the minimum NC or PC ratio with respect to the maximum NC or PC ratio of leaf. The NC or PC ratios are computed based on leaf stoichiometry. "
+        },
         "comments" : [ "GrosubPars.txt" ],
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
@@ -3140,6 +3148,9 @@
       "lbl" : "min N:C,P:C in grain relative to max values from PFT file",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "Ratio of the minimum NC or PC ratio with respect to the maximum NC or PC ratio of grains. The NC or PC ratios are computed based on leaf stoichiometry. "
+        },
         "comments" : [ "GrosubPars.txt" ],
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
@@ -3151,6 +3162,9 @@
       "lbl" : "fraction of stalk area contributing to water,heat flow",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "Fraction of stalk area that holds the xylem and phloem tubes for water and metabolite transport between plant organs"
+        },
         "comments" : [ "GrosubPars.txt" ],
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
@@ -3162,6 +3176,9 @@
       "lbl" : "maximum stalk inner radius for tranpsiration",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "Maxium allowed tube radius to do xylem and phloem transport, located at the out surface of stalk."
+        },
         "comments" : [ "GrosubPars.txt" ],
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
@@ -3177,6 +3194,9 @@
       "lbl" : "stalk density",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "Carbn-based stalk mass denisty used to copmute stalk volume"
+        },
         "comments" : [ "GrosubPars.txt" ],
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
@@ -3192,6 +3212,9 @@
       "lbl" : "specific volume (m3 gC-1)",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "Stalk volume per g carbon biomass"
+        },
         "comments" : [ "GrosubPars.txt" ],
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
@@ -3203,6 +3226,9 @@
       "lbl" : "Fraction used to calculate woody faction of stalk,root",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "It is a model-specific scaling parameter for computing biomass allocation to canopy foliage"
+        },
         "comments" : [ "GrosubPars.txt" ],
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
@@ -3214,6 +3240,9 @@
       "lbl" : "Km for nonstructural C concn on seed set",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "Half saturation parameter for modeling carbon biomass flow during seed setting using the Michaelis-Menten kinetics"
+        },
         "comments" : [ "GrosubPars.txt" ],
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
@@ -3229,6 +3258,9 @@
       "lbl" : "Km for nonstructural N concn on seed set",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "Half saturation parameter for modeling nitrogen biomass flow during seed setting using the Michaelis-Menten kinetics"
+        },
         "comments" : [ "GrosubPars.txt" ],
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
@@ -3244,6 +3276,9 @@
       "lbl" : "Km for nonstructural P concn on seed set",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "Half saturation parameter for modeling phosphorus biomass flow during seed setting using the Michaelis-Menten kinetics"
+        },
         "comments" : [ "GrosubPars.txt" ],
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
@@ -3259,6 +3294,9 @@
       "lbl" : "parameter for calculating leaf area expansion",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "An exponent parameter to compute leaf area expansion in the model"
+        },
         "comments" : [ "GrosubPars.txt" ],
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
@@ -3270,6 +3308,9 @@
       "lbl" : "parameter for calculating petiole extension",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "An exponent parameter to compute petiole length expansion in the model"
+        },
         "comments" : [ "GrosubPars.txt" ],
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
@@ -3281,6 +3322,9 @@
       "lbl" : "parameter for calculating stalk extension",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "an exponent parameter to compuate stalk volume expasion in the model"
+        },
         "comments" : [ "GrosubPars.txt" ],
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
@@ -3292,6 +3336,9 @@
       "lbl" : "maximum C:N ratio for nonstructural N transfer",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "A stoichiometry ratio to compute the minimum nitrogen flow associated with a transfer flux of nonstructual carbon between different storage pools of the plants."
+        },
         "comments" : [ "GrosubPars.txt" ],
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
@@ -3303,6 +3350,9 @@
       "lbl" : "maximum C:P ratio for nonstructural P transfer",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "A stoichiometry ratio to compute the minimum phosphorus flow associated with a transfer flux of nonstructual carbon between different storage pools of the plants."
+        },
         "comments" : [ "GrosubPars.txt" ],
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
@@ -3314,6 +3364,9 @@
       "lbl" : "minimum C:N ratio for nonstructural N transfer",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "A stoichiometry ratio to compute the maximum nitrogen flow associated with a transfer flux of nonstructual carbon between different storage pools of the plants."
+        },
         "comments" : [ "GrosubPars.txt" ],
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
@@ -3325,6 +3378,9 @@
       "lbl" : "minimum C:P ratio for nonstructural P transfer",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "A stoichiometry ratio to compute the maximum phosphorus flow associated with a transfer flux of nonstructual carbon between different storage pools of the plants."
+        },
         "comments" : [ "GrosubPars.txt" ],
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
@@ -3336,6 +3392,9 @@
       "lbl" : "N fixation yield from C oxidation",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "It quantifies how much nitrogen can be fixed from N2 in the form NH3 when one mass unit of carbon is oxidized "
+        },
         "comments" : [ "GrosubPars.txt" ],
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
@@ -3351,6 +3410,9 @@
       "lbl" : "specific respiration rate by bacterial N2 fixers",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "It quantifies how fast nitrogen fixing bacteria can oxidize its nonstructural biomass carbon to support its metabolism."
+        },
         "comments" : [ "GrosubPars.txt" ],
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
@@ -3366,6 +3428,9 @@
       "lbl" : "half saturation parameter for nodule maintenance respiration",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "The half saturation parameter when the effect of nodule C biomass on its maintenance is modeled using Michaelis-Menten kinetics"
+        },
         "comments" : [ "GrosubPars.txt" ],
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
@@ -3381,6 +3446,9 @@
       "lbl" : "specific decomposition rate by bacterial N2 fixers",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "It quantifies how fast the N-fixing bacteria lose activity when mortality is modeled using the linear kinetics."
+        },
         "comments" : [ "GrosubPars.txt" ],
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
@@ -3396,6 +3464,9 @@
       "lbl" : "parameter to calculate nonstructural C,N,P exchange",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "A model-specifc parameter to compute carbon, nitrogen and phosphorus exchange between nodule bacteria and their hosting plants."
+        },
         "comments" : [ "GrosubPars.txt" ],
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
@@ -3407,6 +3478,9 @@
       "lbl" : "initial bacterial mass at infection",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "Initial noduble carbon biomass C at the time of infection of the hosting plant. The infection is applied when noduble biomass of the hosting plant is zero."
+        },
         "comments" : [ "GrosubPars.txt" ],
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
@@ -3422,6 +3496,9 @@
       "lbl" : "Km for nonstructural Nuptake by bacteria",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "Half saturation parameter for modeling bacterial use of nonstructural nitrogen using the Michaelis-Menten kinetics"
+        },
         "comments" : [ "GrosubPars.txt" ],
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
@@ -3437,6 +3514,9 @@
       "lbl" : "Km for nonstructural P uptake by bacteria",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "Half saturation parameter for modeling bacterial use of nonstructural phosphorus using the Michaelis-Menten kinetics"
+        },
         "comments" : [ "GrosubPars.txt" ],
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
@@ -3452,6 +3532,9 @@
       "lbl" : "minimum fractions for root C recycling",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "Minimum fraction of root C can be recyled during root death"
+        },
         "comments" : [ "GrosubPars.txt" ],
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
@@ -3463,6 +3546,9 @@
       "lbl" : "maximum fractions for root C recycling",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "Maximum fraction of root C can be recyled during root death"
+        },
         "comments" : [ "GrosubPars.txt" ],
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
@@ -3474,6 +3560,9 @@
       "lbl" : "maximum fractions for root N recycling",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "Maximum fraction of root nitrogen can be recyled during root death"
+        },
         "comments" : [ "GrosubPars.txt" ],
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
@@ -3485,6 +3574,9 @@
       "lbl" : "maximum fractions for root P recycling",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "Maximum fraction of root phosphorus can be recyled during root death"
+        },
         "comments" : [ "GrosubPars.txt" ],
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
@@ -3496,6 +3588,9 @@
       "lbl" : "minimum fractions for bacteria C recycling",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "Minimum fraction of nodule bacteria C can be recyled during root death"
+        },
         "comments" : [ "GrosubPars.txt" ],
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
@@ -3507,6 +3602,9 @@
       "lbl" : "maximum fractions for bacteria C recycling",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "Maximum fraction of nodule bacteria C can be recyled during root death"
+        },
         "comments" : [ "GrosubPars.txt" ],
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
@@ -3518,6 +3616,9 @@
       "lbl" : "maximum fractions for bacteria N recycling",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "Maximum fraction of nodule bacteria nitrogen can be recyled during root death"
+        },
         "comments" : [ "GrosubPars.txt" ],
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
@@ -3529,6 +3630,9 @@
       "lbl" : "maximum fractions for bacteria P recycling",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "Maximum fraction of nodule bacteria phosphorus can be recyled during root death"
+        },
         "comments" : [ "GrosubPars.txt" ],
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
@@ -3540,6 +3644,9 @@
       "lbl" : "required hours after physl maturity until start of LitrFall",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "Number of hours need to accumulate to trigger litterfall after leaf maturity "
+        },
         "comments" : [ "GrosubPars.txt" ],
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
@@ -3555,6 +3662,9 @@
       "lbl" : "rate constant for remobiln of storage chemical element during leafout",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "Rate parameter to compute the gradient driven carbon and nutrient exchange between seasonal storage and nonstructural pools"
+        },
         "comments" : [ "GrosubPars.txt" ],
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
@@ -3570,6 +3680,9 @@
       "lbl" : "rate constant for leaf-reserve nonstructural C exchange",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "Rate parameter to compute the gradient driven carbon exchange between stalk and leaf reserve pools"
+        },
         "comments" : [ "GrosubPars.txt" ],
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
@@ -3585,6 +3698,9 @@
       "lbl" : "rate constant for leaf-reserve nonstructural N,P exchange",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "Rate parameter to compute the gradient driven nitrogen and phosphorus  exchange between stalk and leaf reserve pools"
+        },
         "comments" : [ "GrosubPars.txt" ],
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
@@ -3600,6 +3716,9 @@
       "lbl" : "rate constant for leaf-storage nonstructural chemical element exchange",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "Rate parameter for gradient-driven nonstructural carbon and nutrient exchange between shoot and seasonal storage pools"
+        },
         "comments" : [ "GrosubPars.txt" ],
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
@@ -3615,6 +3734,9 @@
       "lbl" : "rate constant for root-storage nonstructural chemical element exchange",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "Rate parameter for gradient driven nonstructural carbon and nutrient exchange between root and seasonal storage pools"
+        },
         "comments" : [ "GrosubPars.txt" ],
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
@@ -3630,6 +3752,9 @@
       "lbl" : "root partitioning of storage C during leafout",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "Fraction of mobilized seasonal storage allocated to roots upon leaf out"
+        },
         "comments" : [ "GrosubPars.txt" ],
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
@@ -3641,6 +3766,9 @@
       "lbl" : "shoot partitioning of storage C during leafout",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "Fraction of mobilized seasonal storage allocated to shoots upon leaf out"
+        },
         "comments" : [ "GrosubPars.txt" ],
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
@@ -3652,6 +3780,9 @@
       "lbl" : "rate constant for plant-bacteria nonstructl C,N,P exchange",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "Rate constant for modeling nonstructural C,N and P exchange between hosting plants and nodule bacteria"
+        },
         "comments" : [ "GrosubPars.txt" ],
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
@@ -3667,6 +3798,9 @@
       "lbl" : "maximum fractions for shoot N recycling",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "This parameters specifies the maximum fraction of nitrogen can be recycled upon senescence of plant canopy organs"
+        },
         "comments" : [ "GrosubPars.txt" ],
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
@@ -3678,6 +3812,9 @@
       "lbl" : "maximum fractions for shoot P recycling",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "This parameters specifies the maximum fraction of phosphorus can be recycled upon senescence of plant canopy organs"
+        },
         "comments" : [ "GrosubPars.txt" ],
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
@@ -3689,6 +3826,9 @@
       "lbl" : "minimum fractions for shoot C recycling",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "This parameters specifies the minimum fraction of carbon can be recycled upon senescence of plant canopy organs"
+        },
         "comments" : [ "GrosubPars.txt" ],
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
@@ -3700,6 +3840,9 @@
       "lbl" : "maximum fractions for shoot C recycling",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "This parameters specifies the maximum fraction of carbon can be recycled upon senescence of plant canopy organs"
+        },
         "comments" : [ "GrosubPars.txt" ],
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
@@ -3711,6 +3854,9 @@
       "lbl" : "number of hours after physiol maturity required for senescence",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "This parameters specifies the number of hours required for plant to initiate senescence after maturity"
+        },
         "comments" : [ "GrosubPars.txt" ],
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
@@ -3726,6 +3872,9 @@
       "lbl" : "number of hours required to initiate remobilization of storage C for leafout",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "This parameters specifies the number of hours required for plant to initiate storage carbon remobilization after leafout"
+        },
         "comments" : [ "GrosubPars.txt" ],
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
@@ -3741,6 +3890,9 @@
       "lbl" : "specific oxidation rate of nonstructural C during leafout at 25 C",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "This parameters specifies how much seasonal storage C is oxidized to support canopy and root development"
+        },
         "comments" : [ "GrosubPars.txt" ],
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
@@ -3756,6 +3908,9 @@
       "lbl" : "relative primary root sink strength 0.25=shallow,4.0=deep root profile",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "This parameter scales the relative sink strength for non-structural carbon and nutrient for growing primary and secondary roots"
+        },
         "comments" : [ "GrosubPars.txt" ],
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
@@ -3767,6 +3922,9 @@
       "lbl" : "changes to weather data (0=none,1=step,2=transient)",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "This parameter is obsolete, and was EcoSIM specific."
+        },
         "comments" : [ "FlagDataType.txt" ],
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
@@ -3778,6 +3936,9 @@
       "lbl" : "flag for land management",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "This parameter is obsolete, and was EcoSIM specific."
+        },
         "comments" : [ "FlagDataType.txt" ],
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
@@ -3789,6 +3950,9 @@
       "lbl" : "weather data type:1=daily,2=hourly for first(L=1) or second(L=2) scene",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "This EcoSIM specific flag parameter is used for internal forcing data processing"
+        },
         "comments" : [ "FlagDataType.txt" ],
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
@@ -3800,6 +3964,9 @@
       "lbl" : "fertilizer release type from fertilizer input file",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "This specifies what kind of fertilizer is applied in the model, which could be mineral fertilizer, plant residue, or animal maure."
+        },
         "comments" : [ "FlagDataType.txt" ],
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
@@ -3811,6 +3978,9 @@
       "lbl" : "soil disturbance type",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "This EcoSIM flag parameters specifies what type of disturbances are applied to soil, including tillage, fire, litter removal or drainge."
+        },
         "comments" : [ "FlagDataType.txt" ],
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
@@ -3822,6 +3992,9 @@
       "lbl" : "Koppen climate zone",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "The Köppen climate zone refers to a region defined by the Köppen climate classification system. "
+        },
         "comments" : [ "FlagDataType.txt" ],
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
@@ -3833,6 +4006,9 @@
       "lbl" : "flag for irrigation criterion,0=SWC,1=canopy water potential",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "This EcoSIM parameter species how irrigation is triggered, which could be based on soil moisture content or canopy water potential"
+        },
         "comments" : [ "FlagDataType.txt" ],
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
@@ -3844,6 +4020,9 @@
       "lbl" : "disturbance flag",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "This EcoSIM parameter species whether to reset soil profile after some triggering events, like erosion or tillage."
+        },
         "comments" : [ "FlagDataType.txt" ],
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
@@ -3855,6 +4034,9 @@
       "lbl" : "banded NH4 fertilizer flag",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "This flag indicates wheter NH4 is applied with broadcast."
+        },
         "comments" : [ "FlagDataType.txt" ],
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
@@ -3866,6 +4048,9 @@
       "lbl" : "banded NO3 fertilizer flag",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "This flag indicates wheter NO3 is applied with broadcast."
+        },
         "comments" : [ "FlagDataType.txt" ],
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
@@ -3877,6 +4062,9 @@
       "lbl" : "banded H2PO4 fertilizer flag",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "This flag indicates whether H2PO4 is applied with broadcast"
+        },
         "comments" : [ "FlagDataType.txt" ],
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
@@ -3888,6 +4076,9 @@
       "lbl" : "flag for calculating FC(1),WP(2),SCNV(3),SCNH(4)",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "This indicates whether the model has input soil properties or has to compute based on soil texture and soil organic matter."
+        },
         "comments" : [ "FlagDataType.txt" ],
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
@@ -3899,6 +4090,9 @@
       "lbl" : "natural(0),reconstructed(1) soil profile",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "This indicates the soil input type, whether is natural or reconstruction "
+        },
         "comments" : [ "FlagDataType.txt" ],
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
@@ -29968,7 +30162,7 @@
       }
     }, {
       "id" : "https://w3id.org/bervo/BERVO_0001778",
-      "lbl" : "sclar for northern subsurface boundary water flux",
+      "lbl" : "scalar for northern subsurface boundary water flux",
       "type" : "CLASS",
       "meta" : {
         "comments" : [ "SoilWaterDataType.txt" ],
@@ -29979,7 +30173,7 @@
       }
     }, {
       "id" : "https://w3id.org/bervo/BERVO_0001779",
-      "lbl" : "sclar for eastern subsurface boundary water flux",
+      "lbl" : "scalar for eastern subsurface boundary water flux",
       "type" : "CLASS",
       "meta" : {
         "comments" : [ "SoilWaterDataType.txt" ],
@@ -29990,7 +30184,7 @@
       }
     }, {
       "id" : "https://w3id.org/bervo/BERVO_0001780",
-      "lbl" : "sclar for southern subsurface boundary water flux",
+      "lbl" : "scalar for southern subsurface boundary water flux",
       "type" : "CLASS",
       "meta" : {
         "comments" : [ "SoilWaterDataType.txt" ],
@@ -30001,7 +30195,7 @@
       }
     }, {
       "id" : "https://w3id.org/bervo/BERVO_0001781",
-      "lbl" : "sclar for western subsurface boundary water flux",
+      "lbl" : "scalar for western subsurface boundary water flux",
       "type" : "CLASS",
       "meta" : {
         "comments" : [ "SoilWaterDataType.txt" ],
@@ -30072,7 +30266,7 @@
       }
     }, {
       "id" : "https://w3id.org/bervo/BERVO_0001786",
-      "lbl" : "sclar for northern surface boundary water flux",
+      "lbl" : "scalar for northern surface boundary water flux",
       "type" : "CLASS",
       "meta" : {
         "comments" : [ "SoilWaterDataType.txt" ],
@@ -30083,7 +30277,7 @@
       }
     }, {
       "id" : "https://w3id.org/bervo/BERVO_0001787",
-      "lbl" : "sclar for eastern surface boundary water flux",
+      "lbl" : "scalar for eastern surface boundary water flux",
       "type" : "CLASS",
       "meta" : {
         "comments" : [ "SoilWaterDataType.txt" ],
@@ -30094,7 +30288,7 @@
       }
     }, {
       "id" : "https://w3id.org/bervo/BERVO_0001788",
-      "lbl" : "sclar for southern surface boundary water flux",
+      "lbl" : "scalar for southern surface boundary water flux",
       "type" : "CLASS",
       "meta" : {
         "comments" : [ "SoilWaterDataType.txt" ],
@@ -30105,7 +30299,7 @@
       }
     }, {
       "id" : "https://w3id.org/bervo/BERVO_0001789",
-      "lbl" : "sclar for western surface boundary water flux",
+      "lbl" : "scalar for western surface boundary water flux",
       "type" : "CLASS",
       "meta" : {
         "comments" : [ "SoilWaterDataType.txt" ],
@@ -30116,7 +30310,7 @@
       }
     }, {
       "id" : "https://w3id.org/bervo/BERVO_0001790",
-      "lbl" : "sclar for lower subsurface boundary water flux",
+      "lbl" : "scalar for lower subsurface boundary water flux",
       "type" : "CLASS",
       "meta" : {
         "comments" : [ "SoilWaterDataType.txt" ],
@@ -30753,7 +30947,7 @@
       }
     }, {
       "id" : "https://w3id.org/bervo/BERVO_9000000",
-      "lbl" : "ecosim biogeochemical flux type",
+      "lbl" : "biogeochemical flux type",
       "type" : "CLASS",
       "meta" : {
         "comments" : [ "EcosimBGCFluxType.txt" ],
@@ -30808,7 +31002,7 @@
       }
     }, {
       "id" : "https://w3id.org/bervo/BERVO_9000005",
-      "lbl" : "ecosim sum data type",
+      "lbl" : "sum data type",
       "type" : "CLASS",
       "meta" : {
         "comments" : [ "EcoSimSumDataType.txt" ],
@@ -30852,7 +31046,7 @@
       }
     }, {
       "id" : "https://w3id.org/bervo/BERVO_9000009",
-      "lbl" : "land surf data type",
+      "lbl" : "land surface data type",
       "type" : "CLASS",
       "meta" : {
         "comments" : [ "LandSurfDataType.txt" ],
@@ -30940,7 +31134,7 @@
       }
     }, {
       "id" : "https://w3id.org/bervo/BERVO_9000017",
-      "lbl" : "surf litter data type",
+      "lbl" : "surface litter data type",
       "type" : "CLASS",
       "meta" : {
         "comments" : [ "SurfLitterDataType.txt" ],
@@ -30973,7 +31167,7 @@
       }
     }, {
       "id" : "https://w3id.org/bervo/BERVO_9000020",
-      "lbl" : "ecosim constant",
+      "lbl" : "constant",
       "type" : "CLASS",
       "meta" : {
         "comments" : [ "EcoSimConst.txt" ],
@@ -30995,7 +31189,7 @@
       }
     }, {
       "id" : "https://w3id.org/bervo/BERVO_9000022",
-      "lbl" : "surf and soil data type",
+      "lbl" : "surface and soil data type",
       "type" : "CLASS",
       "meta" : {
         "comments" : [ "SurfSoilDataType.txt" ],
